@@ -10,6 +10,8 @@ const About = () => {
     <p>teting</p>
     <p>btn1</p>
     <p>btn2</p>
+    <p>Img1</p>
+    <p>Img2</p>
     </div>
   )
 }

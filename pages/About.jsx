@@ -7,7 +7,7 @@ const About = () => {
   return (
     <div>
     <Insight/>
-    talha
+    <p>teting</p>
     </div>
   )
 }

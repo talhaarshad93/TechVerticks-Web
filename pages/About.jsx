@@ -7,6 +7,7 @@ const About = () => {
   return (
     <div>
     <Insight/>
+    <p>teting</p>
     </div>
   )
 }

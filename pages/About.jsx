@@ -7,13 +7,6 @@ const About = () => {
   return (
     <div>
     <Insight/>
-    <p>teting</p>
-    <p>btn1</p>
-    <p>btn2</p>
-    <p>btn3</p>
-
-    <p>Img1</p>
-    <p>Img2</p>
     </div>
   )
 }

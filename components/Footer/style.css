@@ -1,0 +1,157 @@
+.listStyle {
+  list-style-type: disc;
+}
+/* Example of setting responsive font sizes using media queries */
+.text {
+  font-size: 22px; /* Default font size */
+  /* overflow-wrap: break-word; */
+  /* word-wrap: break-word;  */
+  /* style={{
+    fontWeight: "900",
+    // fontSize: "20px",
+    lineHeight: "30px",
+    letterSpacing: "0px",
+  }} */
+  font-weight: 900;
+  line-height: 20px;
+  letter-spacing: -1px;
+  
+
+  /* background-color: blue; */
+}
+.footerItem {
+  font-size: 12px;
+}
+.footerCopy {
+  font-size: 10px;
+}
+.titleCss{
+    font-weight: 900;
+    /* font-size: 9px; */
+}
+.inpText{
+    font-size: 20px;
+    outline: none;
+    background-color:#f8f9fa ;
+    width: 80%;
+    /* style={{
+        width: "80%",
+        outline: "none",
+        fontSize: "18px",
+        backgroundColor: "#f8f9fa ",
+      }} */
+}
+
+
+
+
+@media (min-width: 992px) {
+  .text {
+    font-size: 26px; /* Font size for large screens */
+    /* width: 80%; */
+  }
+  .footerCopy {
+    /* font-size: 8px; */
+  }
+}
+@media (max-width: 992px) {
+  .footerCopy {
+    font-size: 8px;
+  }
+  .font-weight{
+    /* font-family: 'TT Interphases Pro'; */
+    font-weight: 500;
+    font-size: 16px;
+    
+}
+
+}
+
+@media (max-width: 768px) {
+    .text {
+      font-size: 22px;
+      /* background-color: green; */
+  
+      /* width: 300px; Font size for medium screens */
+      /* text-align: center; */
+      /* width: 100%; */
+    }
+    .inpText{
+        font-size: 16px;
+    }
+    .footerItem {
+      font-size: 12px;
+    }
+    .footerCopy {
+      font-size: 7px;
+    }
+    .d-flex {
+      flex-direction: column;
+    }
+    .font-weight{
+        /* font-family: 'TT Interphases Pro'; */
+        font-weight: 500;
+        font-size: 12px;
+        
+    }
+  }
+  @media (max-width: 535px) {
+    .text {
+      font-size: 19px;
+      /* background-color: blue; */
+      /* Font size for medium screens */
+      /* width: 100%; */
+      line-height: 20px;
+     
+    }
+    .titleCss{
+        font-weight: 900;
+        font-size: 11px;
+    }
+    .footerItem{
+        font-size: 9px;
+
+    }
+  }
+  @media (max-width: 347px) {
+    .text {
+      font-size: 13px;
+      /* background-color: blue; */
+      /* Font size for medium screens */
+      /* width: 100%; */
+      line-height: 16px;
+     
+    }
+    .titleCss{
+        font-weight: 900;
+        font-size: 9px;
+    }
+    .footerItem{
+        font-size: 7px;
+
+    }
+    .inpText{
+        font-size: 12px;
+    }
+  }
+  @media (max-width: 251px) {
+    .text {
+      font-size: 9px;
+      /* background-color: blue; */
+      /* Font size for medium screens */
+      /* width: 100%; */
+      line-height: 10px;
+     
+    }
+    .titleCss{
+        font-weight: 900;
+        font-size: 7px;
+    }
+    .footerItem{
+        font-size: 5px;
+
+    }
+    .footerCopy{
+        font-size: 5px;
+    }
+  }

@@ -1,0 +1,49 @@
+.mainDiv {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  padding-top: 7vw;
+  padding-left: 5vw;
+}
+.titleText {
+  color: #b332d4;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.6vw;
+  font-variant-caps: all-petite-caps;
+}
+.heading {
+  margin-top: 1vw;
+  width: 44vw;
+  font-size: 4vw;
+  text-transform: capitalize;
+  font-weight: 900;
+  line-height: 110%;
+  background-color: aqua;
+}
+.mainImgDiv {
+  display: flex;
+  width: 89vw;
+  margin-top: 3vw;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* background-color: blue; */
+  margin-bottom: 10px;
+
+
+
+}
+.lable {
+  width: 22vw;
+  height: 20vw;
+  border: 1px solid #dfdfdf;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: red; */
+  
+}
+.lableImg {
+  width: 35%;
+  height: 20%;
+  object-fit: contain;
+}

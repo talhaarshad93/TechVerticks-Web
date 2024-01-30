@@ -1,0 +1,20 @@
+.main{
+    /* background-color: aquamarine; */
+    margin-left: 4.3vw;
+}
+.h1{
+    font-size: 8.6vw;
+    color: black;
+    font-family: Arial,;
+    font-weight: 900;
+    margin-top: 7vw;
+    padding-bottom: 2vw;
+}
+.hr{
+    /* margin-top: 3vw; */
+    /* margin-bottom: 3.5vw; */
+    width: 90vw;
+    /* border: 0.1px solid rgb(205, 205, 205); */
+    /* background-color: antiquewhite; */
+    margin-right: 5vw;
+}

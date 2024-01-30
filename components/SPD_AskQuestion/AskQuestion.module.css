@@ -1,0 +1,100 @@
+
+.mainDiv {
+  display: flex;
+  /* background-color: aquamarine; */
+  /* margin-top: 6vw;
+  margin-left: 5vw; */
+  flex-direction: column;
+}
+.Heading {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 800;
+  font-size: 4.3vw;
+  color: black;
+  /* background-color: aqua; */
+  width: 49vw;
+}
+.ParaDiv {
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 300;
+  font-size: 1.4vw;
+  color: black;
+  width: 47vw;
+  color: rgb(107, 107, 107);
+  margin-top: 1.8vw;
+  margin-bottom: 3vw;
+}
+/* ------>>>>>>> */
+.main{
+  display: flex;
+  /* padding: 5vw; */
+  padding-top: 2vw;
+  /* background-color: blue; */
+  justify-content: space-between;
+  
+}
+.subMainDiv {
+  width: 49%;
+  /* margin-top: 2vw; */
+  height: 37vw;
+
+  /* background-color: aquamarine; */
+  /* margin-left: 4vw; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* flex-wrap:wrap; */
+}
+.container {
+  display: flex;
+  width: 43vw;
+  /* height: 3vw; */
+  /* margin-bottom: 2vw; */
+  padding-top: 2vw;
+  padding-bottom: 2vw;
+  /* background-color: antiquewhite; */
+  border-top: 1px solid rgb(212, 212, 212);
+  /* justify-content: space-between; */
+  /* text-align: center; */
+
+}
+.subDiv {
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 500;
+  font-size: 1.3vw;
+  text-transform: capitalize;
+  width: 33vw;
+  height: 2vw;
+  /* background-color: aquamarine; */
+}
+.btn {
+  width: 2vw;
+  height: 2vw;
+  border: none;
+  background-color: white;
+  margin-left: 7.8vw;
+
+}
+.btn_img {
+  border-radius: 18px 18px 18px 18px;
+  cursor: pointer;
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
+}
+.SubPara {
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 200;
+  font-size: 1.2vw;
+  width: 42.5vw;
+  /* height: 7vw; */
+  /* padding-top: 1vw; */
+  /* background-color: rgb(179, 136, 72); */
+  color: #666666;
+  padding-bottom: 1vw;
+  /* border-bottom: 1px solid rgb(212, 212, 212); */
+
+
+  /* border-bottom: 1px solid gray; */
+}
+

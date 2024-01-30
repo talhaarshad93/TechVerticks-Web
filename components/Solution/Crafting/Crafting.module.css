@@ -1,0 +1,24 @@
+.main{
+    padding: 8vw;
+}
+.top{
+    width: 90%;
+}
+.text{
+    display: flex;
+    flex-wrap: wrap;
+    /* align-items: center; */
+    justify-content: space-between;
+    /* padding: 2vw; */
+    margin-top: 2vw;
+    width: 100%;
+    padding-right: 7vw;
+
+    /* background-color: yellow; */
+}
+.talha{
+    /* background-color: green; */
+    width: 43%;
+    display: flex;
+
+}

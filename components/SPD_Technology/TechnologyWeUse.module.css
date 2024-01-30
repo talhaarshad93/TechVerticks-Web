@@ -1,0 +1,40 @@
+.topHeadingDiv{
+    margin-top: 6vw;
+    margin-left: 5vw;
+    /* background-color: aquamarine; */
+}
+.mainImgDiv {
+    display: flex;
+    width: 89vw;
+    margin-top: 3vw;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* background-color: aqua; */
+    margin-bottom: 4vw;
+    
+  
+  }
+  .lable {
+    width: 280px;
+    height: 11.2vw;
+    border: 1px solid #e7e7e7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: aquamarine;    */
+    display: flex;
+    flex-direction: column;
+    
+  }
+  .lableImg {
+    width: 44%;
+    height: 35%;
+    object-fit: contain;
+    margin-top: 0.9vw;
+  }
+  .iconHeading{
+    margin-top: 1vw;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    font-size: 1.3vw;
+  }

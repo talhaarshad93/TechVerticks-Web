@@ -1,0 +1,23 @@
+.mainDiv{
+    display: flex;
+    padding: 5vw;
+}
+
+
+.hr {
+    height: 0px;
+    color: rgba(0, 0, 0, 1);
+    border-top-width: 4px;
+    width: 95%;
+    margin: auto;
+}
+.topheadDiv{
+    padding-left: 2vw;
+}
+.img{
+    padding-left: 3vw;
+    /* padding-right: -5vw; */
+    padding-top: 2vw;
+    width: 100%;
+    /* background-color: yellow; */
+}

@@ -1,0 +1,23 @@
+.main{
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    padding: 10vw;
+    padding-bottom: 0vw;
+    padding-top: 5vw;
+    padding-right: 7vw;
+    margin-bottom: -8vw;
+}
+.textDiv{
+    width: 55%;
+    margin-top: 2vw;
+
+}
+.imgDiv1{
+    width: 40%;
+}
+.imgDiv2{
+    width: 40%;
+    margin-top: -2vw;
+    margin-bottom: 5vw;
+}

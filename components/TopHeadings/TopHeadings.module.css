@@ -1,0 +1,105 @@
+.titleText{
+    color: #B332D4;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.6vw;
+    font-variant-caps: all-petite-caps;
+    font-weight: 500;
+    
+}
+.heading{
+    margin-top: 1vw;
+    width: 54%;
+    font-size: 4vw;
+    text-transform: capitalize;
+    font-weight: 900;
+    line-height: 110%;
+    /* background-color: red; */
+}
+.praContainer{
+    margin-top: 3.2vw;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    width: 98%;
+    font-size: 1.6vw;
+    line-height: 130%;
+    margin-bottom:4vw;
+
+}
+.customStyle{
+    margin-top: 1vw;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    width: 59%;
+    font-size: 1vw;
+    line-height: 130%;
+    margin-bottom:4vw;
+    color: #666666;
+    /* background-color: blue; */
+
+
+}
+.customStyle1{
+    margin-top: 1vw;
+    width: 120%;
+    font-size: 6vw;
+    text-transform: capitalize;
+    font-weight: 900;
+    line-height: 90%;
+}
+.ideaCustome{
+    font-weight: 800;
+    font-size: 8vw;
+    color: #B332D4;
+    margin-bottom: -4vw;
+    /* background-color: red; */
+    width: 80%;
+
+
+}
+.letsBuild{
+    /* margin-top: 1vw; */
+    width: 100%;
+    font-size: 7.5vw;
+    letter-spacing: -0.1vw;
+    text-transform: capitalize;
+    font-weight: 800;
+    /* background-color: blue; */
+
+}
+.sectionpara{
+    margin-top: 1.2vw;
+    /* font-family:Verdana, Geneva, Tahoma, sans-serif; */
+    width: 95%;
+    font-size: 1.4vw;
+    line-height: 1.7vw;
+    color: rgba(0, 0, 0, 0.6);
+    /* margin-bottom:4vw; */
+}
+.craftingpara{
+    margin-top: 1.5vw;
+    /* font-family:Verdana, Geneva, Tahoma, sans-serif; */
+    width: 100%;
+    font-size: 1.4vw;
+    line-height: 1.7vw;
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom:1.5vw;
+    /* background-color: blue; */
+}
+.sectionHeading{
+    margin-top: 1vw;
+    width: 60%;
+    font-size: 3.4vw;
+    /* text-transform: capitalize; */
+    font-weight: 800;
+    /* line-height: 110%; */
+    /* background-color: blue; */
+
+}
+@media(max-width:768px){
+    .customStyle{
+        width: 65%;
+        font-size: 1.6vw;
+    }
+    .titleText{
+        font-size: 2vw;
+        /* font-weight: 600; */
+    }
+}

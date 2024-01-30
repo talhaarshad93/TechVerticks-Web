@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'TT Interphases Pro';
+    src: url('/TT Interphases Pro/TTInterphasesPro-Regular.woff2') format('woff2'),
+         url('/TT Interphases Pro/TTInterphasesPro-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'TT Interphases Pro';
+    src: url('/TT Interphases Pro/TTInterphasesPro-Bold.woff2') format('woff2'),
+         url('/TT Interphases Pro/TTInterphasesPro-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+  }

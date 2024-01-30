@@ -1,0 +1,63 @@
+.mainDiv{
+    /* margin: 0;
+    padding: 0; */
+    width: 90vw;
+    height: 40vw;
+    margin-left: 4.5vw;
+    margin-top: 5vw;
+    /* display: flex;
+    flex-direction: row; */
+    /* box-sizing: border-box; */
+    display: flex;
+    flex-direction: column;
+}
+.SubDiv1{
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+}
+.SubDiv2{
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 1.5vw;
+}
+
+.box1{
+    width: 50%;
+    /* height: 100%; */
+    margin-right: 0.8vw;
+}
+.box2{
+    width: 25%;
+    /* height: 100%; */
+    margin-right: 0.8vw;
+
+}
+.box3{
+    width: 25%;
+    /* height: 100%; */
+    margin-right: 0.8vw;
+}
+.box4{
+    width: 24.3%;
+    /* height: 100%; */
+    margin-right: 0.8vw;
+}
+.box5{
+    width: 50%;
+    /* height: 100%; */
+    margin-right: 0.8vw;
+}
+.box6{
+    width: 25%;
+    /* height: 100%; */
+    margin-right: 0.8vw;
+}
+
+.img{
+    width: 100%;  
+    height: auto;   
+    border-radius: 1.5vw;
+    object-fit: contain;
+}

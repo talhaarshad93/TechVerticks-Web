@@ -1,0 +1,26 @@
+.seeBtn{
+    padding: 0.5vw;
+    font-size: 3vw;
+    font-weight: 800;
+    border: 1px solid black;
+    width: 40vw;
+    /* height: 5vw; */
+    text-align: center;
+    border-radius: 35px;
+    /* margin-top: 15px; */
+    /* margin-left: 55px; */
+    /* background-color: blue; */
+}
+.main{
+    padding: 7vw;
+    padding-top: 1vw;
+    padding-bottom: 5vw;
+    padding-right: 0vw;
+}
+.hr {
+    height: 0px;
+    color: rgba(0, 0, 0, 1);
+    border-top-width: 4px;
+    width: 92%;
+    margin: auto;
+}

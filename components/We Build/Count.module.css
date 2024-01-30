@@ -1,0 +1,249 @@
+.name{
+    font-size: 15px;
+    /* text-align: center; */
+    font-weight: 700;
+    margin-left: 4px;
+    /* background-color: red; */
+}
+.nameCount{
+    margin-top: 70px;
+   
+}
+.count{
+    font-size: 60px;
+    font-weight: 800;
+    margin-top: -15px;
+    text-align: left;
+    /* letter-spacing: 1px; */
+    /* background-color: yellow; */
+    width: 150px;
+}
+.weBuild{
+    font-size: 16px;
+    color:  rgba(179, 50, 212, 1);
+    /* margin-bottom: 500px; */
+    font-weight: 600;
+    /* margin-bottom: 30px; */
+    width:150px;
+    line-height: 20px;
+
+    /* height: 500px; */
+    /* background-color: blue; */
+}
+.aMotion{
+    font-size: 45px;
+    font-weight: 800;
+    width: 680px;
+    line-height: 48px;
+}
+.paragraph{
+    width: 550px;
+    margin-top: 40px;
+    color: rgba(0, 0, 0, .5);
+    height: 55%;
+    /* background-color: blue; */
+    font-size: 17px;
+    line-height: 23px;
+
+
+}
+.learnBtn{
+    padding: 15px;
+    font-size: 15px;
+    font-weight: 700;
+    border: 1px solid black;
+    width: 300px;
+    text-align: center;
+    border-radius: 45px;
+    margin-top: 10px;
+}
+
+
+@media only screen and (max-width: 1199px) {
+    .name{
+        font-size: 13px;
+        
+    }
+    .nameCount{
+        margin-top: 55px;
+       
+    }
+    .count{
+        font-size: 58px;
+      
+    }
+    .weBuild{
+        font-size: 14px;
+        width:150px;
+       
+    }
+    .aMotion{
+        font-size: 39px;
+        width: 600px;
+        line-height: 42px;
+
+    }
+    .paragraph{
+        width: 480px;
+        font-size: 15px;
+    
+    
+    }
+    .learnBtn{
+        padding: 13px;
+        font-size: 13px;
+      
+        width: 260px;
+       }
+   
+}
+
+
+
+@media only screen and (max-width: 991px) {
+    .name{
+        font-size: 12px;
+        
+    }
+    .nameCount{
+        margin-top: 35px;
+       
+    }
+    .count{
+        font-size: 53px;
+      
+    }
+    .weBuild{
+        font-size: 13px;
+        line-height: 17px;
+        width:120px;
+       
+    }
+    .aMotion{
+        font-size: 31px;
+        width: 480px;
+        line-height: 35px;
+
+    }
+    .paragraph{
+        width: 420px;
+        font-size: 13px;
+        line-height: 20px;
+        margin-top: 24px;
+
+    
+    
+    }
+    .learnBtn{
+        padding: 11px;
+        font-size: 11px;
+        margin-top: 16px;
+        width: 220px;
+       }
+   
+}
+
+@media only screen and (max-width: 767px) {
+    .name{
+        font-size: 8px;
+        
+    }
+    .nameCount{
+        margin-top: 18px;
+       
+    }
+    .count{
+        font-size: 43px;
+      
+    }
+    .weBuild{
+        font-size: 10px;
+        line-height: 12px;
+        width:100px;
+       
+    }
+    .aMotion{
+        font-size: 23px;
+        width: 360px;
+        line-height: 25px;
+
+    }
+    .paragraph{
+        width: 300px;
+        font-size: 9px;
+        line-height: 15px;
+        margin-top: 15px;
+
+    
+    
+    }
+    .learnBtn{
+        padding: 9px;
+        font-size: 9px;
+        margin-top: 15px;
+        width: 190px;
+       }
+   
+}
+
+@media only screen and (max-width: 575px) {
+    .name{
+        font-size: 1.3vw;
+        /* width: 20px; */
+        
+    }
+    .nameCount{
+        margin-top: 1vw;
+        margin-bottom: 3vw;
+        /* background-color: #fff; */
+        height: 20%;
+        
+       
+    }
+    .count{
+        font-size: 6vw;
+        margin-top: -2.5vw;
+      
+    }
+    .weBuild{
+        font-size: 1.5vw;
+        line-height: 2vw;
+        width:80%;
+       
+    }
+    .aMotion{
+        font-size: 3vw;
+        width: 80%;
+        line-height: 3.3vw;
+        padding-top: 5px;
+
+    }
+    .paragraph{
+        width: 70%;
+        font-size: 1.3vw;
+        line-height: 2vw;
+        margin-top: 2.5vw;
+
+    
+    
+    }
+    .learnBtn{
+        padding: 1.2vw;
+        font-size: 1vw;
+        margin-top: -1.5vw;
+        width: 37%;
+       }
+   
+}
+@media only screen and (max-width: 528px) {
+   
+   
+}
+@media only screen and (max-width: 457px) {
+   
+    
+}
+@media only screen and (max-width: 347px) {
+   
+   
+}

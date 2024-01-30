@@ -1,0 +1,33 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5vw;
+}
+.mainDiv1 {
+  width: 30vw;
+  display: flex;
+  flex-direction: row;
+  /* padding-top: 46px; */
+}
+.seril {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.8vw;
+  font-weight: 600;
+}
+.heading1 {
+  margin-left: 4.4vw;
+  width: 70%;
+  font-size: 1.8vw;
+  text-transform: capitalize;
+  line-height: 110%;
+  font-weight: 600;
+}
+.praContainer1 {
+  margin-left: 6.4vw;
+  margin-top: 1vw;
+  width: 33vw;
+  color: gray;
+  font-size: 1.3vw;
+  line-height: 130%;
+  font-weight: 200;
+}

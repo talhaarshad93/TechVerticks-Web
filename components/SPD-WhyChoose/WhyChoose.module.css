@@ -1,0 +1,122 @@
+.SPD_MainDiv {
+  /* margin-top: 6vw;
+  margin-left: 7vw; */
+  padding: 5vw;
+}
+
+.TopSubDiv1 {
+  font-size: 3.7vw;
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 800;
+  text-transform: capitalize;
+  width: 55%;
+}
+.TopSubDiv{
+  font-size: 3.7vw;
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 800;
+  text-transform: capitalize;
+  width: 69%;
+}
+.TopSubDiv2 {
+  margin-top: 2.5vw;
+  font-size: 1.9vw;
+  font-family: Arial;
+  font-weight: 500;
+  width: 81vw;
+}
+.MidDiv {
+  display: flex;
+  flex-direction: row;
+  margin-top: 4vw;
+}
+.SubMidDiv1 {
+  background-color: aqua;
+  font-size: 1.8vw;
+  font-family: Arial;
+  font-weight: 500;
+  width: 43vw;
+  text-transform: capitalize;
+  background-color: #fff;
+  margin-bottom: 3.5vw;
+}
+.SubMidDiv1 ul li {
+  margin-left: -2vw;
+  margin-top: 1.6vw;
+  text-indent: 1vw;
+  width: 38vw;
+  /* background-color: aqua; */
+  cursor: pointer;
+}
+.SubMidDiv1 ul {
+  margin-top: -1vw;
+}
+.SubMidDiv1 ul:hover {
+    color:blueviolet;
+  }
+.SubMidDiv1 ul li::marker {
+  font-size: 1.2vw;
+}
+.SubMidDiv2 {
+  font-size: 1.39vw;
+  font-family: sans-serif;
+  width: 40vw;
+  line-height: 1.2;
+  font-weight: 100;
+  color: rgb(107, 107, 107);
+}
+.FoterDiv {
+  display: flex;
+  flex-direction: row;
+}
+.SubFoterDiv1_img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.SubFoterDiv1 {
+  width: 39.6vw;
+  height: 44vw;
+  margin-top: 3vw;
+  margin-bottom: 3vw;
+}
+.SubFoterDiv2 {
+  width: 39.6vw;
+  height: 44vw;
+  margin-top: 3vw;
+  margin-bottom: 3vw;
+  margin-left: 5vw;
+  padding-top: 4vw;
+}
+.SubFoterLink ul {
+  margin-top: 2vw;
+}
+.SubFoterLink ul li {
+  margin-left: -2vw;
+  margin-top: 1vw;
+  text-indent: 1vw;
+  width: 43vw;
+  font-size: 1.8vw;
+  font-family: Arial;
+  font-weight: 500;
+  width: 43vw;
+  text-transform: capitalize;
+}
+
+.SubFoterLink ul a {
+  text-decoration: none;
+  color: black;
+}
+
+.SubFoterLink ul li::marker {
+  font-size: 1.2vw;
+}
+.paraDiv {
+  width: 40vw;
+  font-family: Arial;
+  font-weight: 300;
+  margin-top: 2vw;
+  font-size: 1.3vw;
+  color: rgb(105, 105, 105);
+  line-height: 1.5;
+}

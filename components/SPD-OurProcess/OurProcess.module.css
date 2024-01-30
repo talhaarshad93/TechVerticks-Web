@@ -1,0 +1,60 @@
+.mainDiv{
+    display: flex;
+    margin-top: 4vw;
+}
+.leftDiv{
+    width: 44vw;
+    height: 30vw;
+    margin-top: 8vw;
+    margin-left: 8vw;
+}
+.rightDiv{
+    display: flex;
+    flex-direction: row;
+    width: 41vw;
+    height: 45vw;
+    flex-wrap: wrap;
+}
+.container1{
+    width: 20vw;
+    height: 15vw;
+    border: 1px solid rgb(230, 230, 230);
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    
+}
+.serail{
+    color: #B332D4;
+    font-family: Arial,;
+    padding-top: 1vw;
+    padding-left: 1.3vw;
+    font-weight: 300;
+}
+.img1{
+ display: flex;
+ width: 20vw;
+ height: 6vw;
+ justify-content: center;
+ align-items: center;
+}
+.SPD_OP_Img1{
+    width: 70%;
+    height: 80%;
+    object-fit: contain;
+    justify-content: center;
+    /* margin-left: 5vw; */
+    
+}
+.Img_heading{
+    color: #000000;
+    font-family: Arial,;
+    font-size: 1.3vw;
+    font-weight: 500;
+    width: 10.37vw;
+    text-align: center;
+    /* justify-content: center; */
+    margin-left: 5vw;   
+    margin-top: 1.5vw;
+    
+}

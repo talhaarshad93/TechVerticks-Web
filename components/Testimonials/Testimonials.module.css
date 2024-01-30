@@ -1,0 +1,57 @@
+.main{
+    display: flex;
+    padding: 3vw;
+    padding-left: 5vw;
+    /* align-items: center; */
+    /* justify-content: space-around; */
+
+
+}
+.text{
+    font-size: 1.8vw;
+    line-height: 2.3vw;
+    font-weight: 500;
+}
+.pgDiv{
+    display: flex;
+    padding: 5vw;
+    padding-left: 0vw;
+    /* justify-content: space-between; */
+    width: 70%;
+}
+.nameDiv{
+    margin-left: 1vw;
+    
+}
+.img{
+    width: 40%;
+    height: 10%;
+    /* background-color: blue; */
+}
+.name{
+    font-weight: 700;
+    font-size: 1.4vw;
+}
+.pg{
+    font-weight: 500;
+    font-size: 1.3vw ;
+}
+.btn{
+    width: 3vw; 
+    /* margin-right: 0.5vw; */
+}
+.btnDiv{
+    /* align-self: self-end; */
+    margin-left: 40vw;
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.hr {
+    height: 0px;
+    color: rgba(0, 0, 0, 1);
+    border-top-width: 2px;
+    width: 95%;
+    margin: auto;
+}

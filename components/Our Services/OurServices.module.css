@@ -1,0 +1,43 @@
+.headDiv {
+  padding: 5vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 75vw;
+}
+.working {
+  width: 50%;
+  font-size: 1.8vw;
+  line-height: 2.3vw;
+  color: rgba(0, 0, 0, 0.5);
+  font-weight: 600;
+  margin-top: 2.5vw;
+}
+.heading {
+  font-size: 5.5vw;
+  font-weight: 700;
+  line-height: 5vw;
+  padding: 2vw;
+  padding-top: 1.5vw;
+  color: rgba(0, 0, 0, 0.1);
+  /* color: gray; */
+
+  transition: color 0.7s;
+}
+/* .img1 {
+  display: none;
+  transition: display 0.3s;
+  border: 2px solid red;
+} */
+
+.heading:hover {
+  color: black;
+}
+
+  /* .img1Hovered {
+    display: flex;
+    border: 2px solid black;
+  } */
+
+
+   

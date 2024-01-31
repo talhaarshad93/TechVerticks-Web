@@ -43,6 +43,7 @@
 .btnDiv{
     /* align-self: self-end; */
     margin-left: 40vw;
+    margin-top: -3vw;
     /* background-color: blue; */
     display: flex;
     align-items: center;

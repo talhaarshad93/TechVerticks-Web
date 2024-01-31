@@ -44,9 +44,10 @@ export default function Home() {
       <Industries/>
     <GetInTouch/> */}
 
-    <OverPartner/>
+    {/* <OverPartner/>
 
-      <WhyChoose/>
+      <WhyChoose/> */}
+      <GetInTouch/>
       {/* <ValueComp/>
       <OverPartner/>
       <GetInTouch/>

@@ -1,0 +1,7 @@
+.verticalMainDiv{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    padding-left: 5vw;
+    padding-right: 3vw;
+}

@@ -1,14 +1,14 @@
 /* ImageSlider.module.css */
 .slider {
-    width: 80%;
+    width: 90%;
     /* height: 5vw; */
     margin: auto;
     /* background-color: yellow; */
   }
   
   .slide  {
-    width: 100%;
-    height: 100%;
+    /* width: 10%;
+    height: 100%; */
     /* margin-right: -20px; */
     padding: 3vw;
     /* background-color: blue; */
@@ -17,4 +17,8 @@
     width: 100%;
     height: 90%;
   }
+  .main{
+    width: 100%;
+  }
+ 
   

@@ -14,7 +14,7 @@ function FooterCard({title,items}) {
   `}</style>
        {items?.map((item, index) => (
         <div>
-        <li className='flex  p-md-1 text-left   footerItem'  key={index}>{item}</li></div>
+        <li className='flex  p-md-1 text-left footerItem'  key={index}>{item}</li></div>
       ))}
       </ul>
     </div>

@@ -102,6 +102,9 @@
 }
 .detail{
     margin-top: 1.8vw;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
     
 }
 .detail a{

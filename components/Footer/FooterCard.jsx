@@ -3,7 +3,7 @@ import React from 'react'
 
 function FooterCard({title,items}) {
   return (
-    <div className='ml-5 p-3 p-md-0'>
+    <div className='ml-5 p-3 p-md-0' >
       <h2 className='p-1 mb-2 titleCss' >{title}</h2>
       <ul className="list-unstyled">
   <style jsx>{`

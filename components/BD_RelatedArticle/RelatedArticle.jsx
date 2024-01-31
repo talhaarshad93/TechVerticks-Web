@@ -45,7 +45,9 @@ export default function RelatedArticle(){
                           
                           <div className={style.detail}>
                           <Image className={style.icon} src={item.icon}/>
-                             <Link href="/" >Read Complete Blog</Link> 
+                             <Link href="/" >Read Complete Blog
+                             
+                             </Link> 
                           </div>
                       </div>
                    

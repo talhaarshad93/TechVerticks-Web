@@ -3,21 +3,41 @@ import styles from './Heading.module.css'
 import classNames from 'classnames';
 import Image from 'next/image';
 import img from "../../assets/images/down arrow.png";
+import GetInTouch from '../GetinTouch/GetinTouch/GetinTouch';
+import Link from 'next/link';
 
-const Heading = () => {
+
+const Heading = ({SpanHeading,bigHeading,description,ServicePage_Css,BlogPage_Css,AboutPage_Css,CaseStudies_Css,Portfolio_Css,SolutionPage_Css,PortfolioPage_Css}) => {
   return (
-    <div className={classNames(styles.margin,'container-fuild   p-5 ')}>
+    <div className={classNames(styles.MainContainer)}>
       <div>
-        <span className={classNames(styles.spanHeading, '')}>GENERATE YOUR VISION</span>
-        <div className={classNames(styles.bigHeading,'mt-1', )}>Crafting your
-        fantasies with a
-       twist of creativity</div>
+        <span className={classNames(styles.spanHeading, )}>{SpanHeading}</span>
+        <div className={classNames( styles.bigHeading,'mt-1')}
+         style={{
+          ...(BlogPage_Css && {fontWeight:900,width:"55vw",fontSize:"8vw"}),
+        ...(AboutPage_Css && {fontWeight:900,width:"90vw",fontSize:"8vw", }), 
+        ...(Portfolio_Css && {fontWeight:800,width:"55vw",fontSize:"7.4vw",lineHeight:"7.4vw",letterSpacing:"-0.1vw",paddingRight:"12vw", }), 
+        ...(SolutionPage_Css && {fontWeight:900,width:"93vw",fontSize:"8vw",letterSpacing:"0vw",paddingRight:"12vw", }), 
+        
+      }}
+      >{bigHeading}</div>
       </div>
-      <div className='mt-sm-5 mt-4 pr-5  flex align-items-center justify-content-between'>
-        <button>
-      <Image className={styles.img} src={img}  />
-        </button>
-      <div className={classNames(styles.description, ' ')}>We are an award-winning agency that launches companies of all sizes into the next era of growth.</div></div>
+      <div className={classNames(styles.subDiv,)}>
+        <Link href="">
+      <Image className={styles.img} src={img}/>
+        </Link>
+      <div className={classNames(styles.description,)}
+      style={{
+        ...(ServicePage_Css && {fontWeight:400,width:"66vw",fontSize:"2.5vw",lineHeight:"3.1vw"}),
+        ...(BlogPage_Css && {fontWeight:400,width:"53vw",fontSize:"2.5vw",lineHeight:"3.1vw",letterSpacing:"-0.1vw" }), 
+        ...(AboutPage_Css && {fontWeight:400,width:"65vw",fontSize:"2.6vw",lineHeight:"3.1vw",letterSpacing:"-0.1vw",paddingRight:"12vw" }), 
+        ...(CaseStudies_Css && {fontWeight:400,width:"65vw",fontSize:"2.6vw",lineHeight:"3.1vw",letterSpacing:"-0.1vw",paddingRight:"12vw", }), 
+        ...(Portfolio_Css && {fontWeight:400,width:"65vw",fontSize:"2.6vw",lineHeight:"3.1vw",letterSpacing:"-0.1vw",paddingRight:"12vw", }), 
+        ...(SolutionPage_Css && {fontWeight:400,width:"65vw",fontSize:"2.6vw",lineHeight:"3.1vw",letterSpacing:"-0.1vw",paddingRight:"2vw", }), 
+        ...(PortfolioPage_Css && {fontWeight:400,width:"63vw",fontSize:"2.6vw",lineHeight:"3.1vw",letterSpacing:"-0.1vw",paddingRight:"8vw", }), 
+        
+      }}
+      >{description}</div></div>
     </div>
   )
 }

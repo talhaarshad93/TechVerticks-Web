@@ -21,9 +21,19 @@ import CS_Button from "@/components/CS_Buttons/CS_buttons";
 import OurProcess from "@/components/SPD-OurProcess/OurProcess";
 import Blog from "@/components/Blog/Blog";
 import Insight from "@/components/InsightComponent/InsightComponent";
+import ServicePage from "./ServicePage";
+import About from "./About";
+import CaseStudies from "./CaseStudies";
+import CaseStudiesDetails from "./CaseStudiesDetails";
+import Solutions from "./Solutions";
+import BlogDetails from "./BlogDetails";
+import BlogPage from "./BlogPage";
 
 const inter = Inter({ subsets: ["latin"] });
 
+const SpanHeading ="GENERATE YOUR VISION"
+const bigHeading ="Crafting your fantasies with a twist of creativity"
+const description ="We are an award-winning agency that launches companies of all sizes into the next era of growth."
 export default function Home() {
   return (
     <div>
@@ -44,9 +54,9 @@ export default function Home() {
       <Industries/>
     <GetInTouch/> */}
 
-    <OverPartner/>
+    {/* <OverPartner/> */}
 
-      <WhyChoose/>
+      {/* <WhyChoose/> */}
       {/* <ValueComp/>
       <OverPartner/>
       <GetInTouch/>
@@ -58,9 +68,11 @@ export default function Home() {
       <RelatedArticle/>
       <CS_Button/>
       <OurProcess/>
-      <Blog/>
       <Insight/> */}
+      <Heading SpanHeading={SpanHeading} bigHeading = {bigHeading} description={description} />  
+   
 
+     
     </div>
   );
 }

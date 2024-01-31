@@ -17,10 +17,10 @@ const Header = () => {
         <Nav className="ml-auto">
           <Nav.Link className="font-weight" href="/" style={{ marginLeft: 'auto' }}>Home</Nav.Link>
           <Nav.Link className="font-weight" href="/About" style={{ marginLeft: 'auto' }}>About Us</Nav.Link>
-          <Nav.Link className="font-weight" href="/Service" style={{ marginLeft: 'auto' }}>Services</Nav.Link>
+          <Nav.Link className="font-weight" href="/ServicePage" style={{ marginLeft: 'auto' }}>Services</Nav.Link>
           <Nav.Link className="font-weight" href="/Solutions" style={{ marginLeft: 'auto' }}>Solutions</Nav.Link>
           <Nav.Link className="font-weight" href="/Portfolio" style={{ marginLeft: 'auto' }}>Portfolio</Nav.Link>
-          <Nav.Link className="font-weight" href="/Blog" style={{ marginLeft: 'auto' }}>Blog</Nav.Link>
+          <Nav.Link className="font-weight" href="/BlogPage" style={{ marginLeft: 'auto' }}>Blog</Nav.Link>
         </Nav>
       </Navbar.Collapse></div>
     </div>

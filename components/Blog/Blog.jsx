@@ -9,6 +9,7 @@ import InsightImages4 from "../../assets/images/InsightImages4.png"
 import InsightImages5 from "../../assets/images/InsightImages5.png"
 import InsightImages6 from "../../assets/images/InsightImages6.png"
 import InsightBlogComp from "../InsightBlogComp/InsightBlogComp";
+import Heading from "../Heading Component/Heading";
 
 const data=[
     {   id: 1,
@@ -47,8 +48,11 @@ const data=[
         islarge:true,
     }
 ];
+
 export default function Blog(){
     return(
+        <div>
+
         <div className={style.main}>
             <div className={style.mainDiv}>
             <button className={style.btn1}style={{width:"5vw"}}>All</button>
@@ -68,7 +72,8 @@ export default function Blog(){
                 <hr className={style.hr}/>
                 </div>
             ))
-            }
+        }
+        </div>
         </div>
     )
 }

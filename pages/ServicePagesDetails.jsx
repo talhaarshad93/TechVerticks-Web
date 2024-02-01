@@ -3,6 +3,8 @@ import Topheadings from '@/components/TopHeadings/TopHeadings'
 import React from 'react'
 import sliderImg from "./../assets/images/sliderImage.png";
 import style from './allPages.module.css'
+import GetInTouch from '@/components/GetinTouch/GetinTouch/GetinTouch';
+import HaveIdea from '@/components/Have Idea/HaveIdea';
 
 
 const yAxis = {
@@ -40,6 +42,9 @@ const ServicePagesDetails = () => {
         paragraph='Tailored mobile app development that captivates your target audience, enhances customer acquisition, and transforms your business into a well-known brand'/>
         <ImageSlider images={images} settings={yAxis}/>
       </div>
+      <HaveIdea/>
+      <GetInTouch/>
+
     </div>
   )
 }

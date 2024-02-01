@@ -4,6 +4,8 @@ import React from 'react'
 import AppStoreAppleLogo from "../assets/images/AppStoreAppleLogo.png"
 import AppStoreGoogleLogo from "../assets/images/AppStoreGoogleLogo.png"
 import Image from 'next/image'
+import GetInTouch from '@/components/GetinTouch/GetinTouch/GetinTouch'
+import HaveIdea from '@/components/Have Idea/HaveIdea'
 
 
 const SpanHeading ="PORTFOLIO"
@@ -20,6 +22,8 @@ const CaseStudiesDetails = () => {
         <Image className={style.img} src={AppStoreAppleLogo}   
       alt="App Store Logo"/>
       </div>
+      <HaveIdea/>
+      <GetInTouch/>
     </div>
   )
 }

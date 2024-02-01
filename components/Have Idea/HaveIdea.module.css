@@ -1,27 +1,22 @@
 .seeBtn{
     padding: 1.5vw;
-
     font-size: 2vw;
     font-weight: 600;
-    border: 1px solid black;
+    border: 1px solid black;    
     width: 30vw;
     /* height: 5vw; */
     text-align: center;
     border-radius: 45px;
-    margin-top: -2vw
+    margin-top: -2vw;
     /* margin-left: 55px; */
-    /* background-color: blue; */
+    background-color: white;
 }
 .main{
-    padding: 5vw;
-    padding-top: 1vw;
+    margin-left: 5vw;   
+    margin-bottom: 5vw;   
     padding-bottom: 5vw;
     padding-right: 0vw;
-}
-.hr {
-    height: 0px;
-    color: rgba(0, 0, 0, 1);
-    border-top-width: 4px;
-    width: 92%;
-    margin: auto;
+    width: 90vw;
+    border-top: 4px solid black;
+    border-bottom: 4px solid black;
 }

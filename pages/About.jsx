@@ -1,4 +1,5 @@
 import ImageLayout from '@/components/AU_imagesLayout/ImageLayout'
+import GetInTouch from '@/components/GetinTouch/GetinTouch/GetinTouch'
 import Heading from '@/components/Heading Component/Heading'
 import ImageSlider from '@/components/ImageSlider/ImageSlider'
 import Insight from '@/components/InsightComponent/InsightComponent'
@@ -14,6 +15,7 @@ const About = () => {
     <div>
       <Heading SpanHeading={SpanHeading} bigHeading = {bigHeading} description={description} AboutPage_Css />  
      <ImageLayout/>
+     <GetInTouch/>
     </div>
   )
 }

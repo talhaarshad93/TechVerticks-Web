@@ -1,9 +1,9 @@
+import GetInTouch from '@/components/GetinTouch/GetinTouch/GetinTouch'
 import React from 'react'
 
 const ContactUs = () => {
   return (
     <div>
-      
     </div>
   )
 }

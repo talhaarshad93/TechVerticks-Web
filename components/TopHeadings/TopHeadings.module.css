@@ -26,10 +26,11 @@
 }
 .customStyle{
     margin-top: 1vw;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    width: 59%;
-    font-size: 1vw;
-    line-height: 130%;
+    /* font-family:Verdana, Geneva, Tahoma, sans-serif; */
+    width: 20vw;
+    font-size: 1.1vw;
+    line-height: 1.4vw;
+    font-weight: 300;
     margin-bottom:4vw;
     color: #666666;
     /* background-color: blue; */
@@ -39,14 +40,14 @@
 .customStyle1{
     margin-top: 1vw;
     width: 120%;
-    font-size: 6vw;
+    font-size: 6.3vw;
     text-transform: capitalize;
-    font-weight: 900;
-    line-height: 90%;
+    font-weight: 800;
+    line-height: 6.5vw;
 }
 .ideaCustome{
-    font-weight: 800;
-    font-size: 8vw;
+    font-weight: 900;
+    font-size: 8.3vw;
     color: #B332D4;
     margin-bottom: -4vw;
     /* background-color: red; */
@@ -57,9 +58,8 @@
 .letsBuild{
     /* margin-top: 1vw; */
     width: 100%;
-    font-size: 7.5vw;
+    font-size: 8.4vw;
     letter-spacing: -0.1vw;
-    text-transform: capitalize;
     font-weight: 800;
     /* background-color: blue; */
 

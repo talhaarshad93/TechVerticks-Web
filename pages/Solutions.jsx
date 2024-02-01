@@ -1,3 +1,5 @@
+import GetInTouch from '@/components/GetinTouch/GetinTouch/GetinTouch'
+import HaveIdea from '@/components/Have Idea/HaveIdea'
 import Heading from '@/components/Heading Component/Heading'
 import React from 'react'
 
@@ -10,6 +12,8 @@ const Solutions = () => {
   return (
     <div>
       <Heading SpanHeading={SpanHeading} bigHeading = {bigHeading} description={description}SolutionPage_Css/>   
+      <HaveIdea/>
+      <GetInTouch/>
     </div>
   )
 }

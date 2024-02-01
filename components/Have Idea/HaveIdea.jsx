@@ -7,11 +7,11 @@ const HaveIdea = () => {
     let text = "Let’s Connect with Us!"
   return (
     <>
-      <hr className={style.hr} />
+    
     <div className={style.main}>
 
       <Topheadings title = {"Have an idea?"}
-                  heading={"Let's Build & Scale It!"}
+                  heading={"let's build & scale it!"}
                   ideaCustome
                   haveIdea
                   letsBuild
@@ -20,7 +20,6 @@ const HaveIdea = () => {
 <button className={classNames(style.seeBtn, '')} >{text}</button>
 
     </div>
-<hr className={style.hr} />
 
     </>
   )

@@ -1,3 +1,4 @@
+import GetInTouch from '@/components/GetinTouch/GetinTouch/GetinTouch';
 import Heading from '@/components/Heading Component/Heading';
 import React from 'react';
 
@@ -9,7 +10,7 @@ const Portfolio = () => {
   return (
     <div>
       <Heading SpanHeading={SpanHeading} bigHeading = {bigHeading} description={description}PortfolioPage_Css/>  
-      
+      <GetInTouch/>
     </div>
   );
 }

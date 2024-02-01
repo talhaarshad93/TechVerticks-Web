@@ -57,8 +57,7 @@ export default function Home() {
     {/* <OverPartner/>
 
       <WhyChoose/> */}
-      <GetInTouch/>
-      {/* <ValueComp/>
+      <ValueComp/>
       <OverPartner/>
       <GetInTouch/>
       <OfficeComponent/>
@@ -69,9 +68,9 @@ export default function Home() {
       <RelatedArticle/>
       <CS_Button/>
       <OurProcess/>
-      <Insight/> */}
+      <Insight/>
       <Heading SpanHeading={SpanHeading} bigHeading = {bigHeading} description={description} />  
-   
+      <GetInTouch/>
 
      
     </div>

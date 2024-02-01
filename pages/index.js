@@ -47,11 +47,7 @@ export default function Home() {
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         allowfullscreen
       ></iframe>
-      <Webuild />
       <MainPage/>
-      <RecentWork />
-      <OurServices />
-      <Industries/>
     <GetInTouch/> */}
 
     {/* <OverPartner/>
@@ -59,9 +55,7 @@ export default function Home() {
       <WhyChoose/> */}
       <GetInTouch/>
       {/* <ValueComp/>
-      <OverPartner/>
       <GetInTouch/>
-      <OfficeComponent/>
       <AskQuestion/>
       <Intro/>
       <TechnologyWeUse/>
@@ -69,8 +63,29 @@ export default function Home() {
       <RelatedArticle/>
       <CS_Button/>
       <OurProcess/>
-      <Insight/> */}
+     */}
       <Heading SpanHeading={SpanHeading} bigHeading = {bigHeading} description={description} />  
+       <Image className="imgTv" src={img} />
+      <iframe
+        className="video1"
+        src="https://www.youtube.com/embed/2wI_SjklTYQ?si=mZFZDvCAotQo1GGU"
+        title="YouTube video player"
+        frameborder="3s"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+      ></iframe> 
+      <Webuild />
+      <RecentWork />
+      <OurServices />
+      <Industries/>
+      <Insight/> 
+      <OverPartner/>
+
+      <OfficeComponent/>
+
+      
+
+
    
 
      

@@ -3,6 +3,7 @@ import Heading from '@/components/Heading Component/Heading'
 import ImageSlider from '@/components/ImageSlider/ImageSlider'
 import Insight from '@/components/InsightComponent/InsightComponent'
 import Topheadings from '@/components/TopHeadings/TopHeadings'
+import Webuild from '@/components/We Build/Webuild'
 import React from 'react'
 
 const SpanHeading ="WHO WE ARE"
@@ -14,6 +15,7 @@ const About = () => {
     <div>
       <Heading SpanHeading={SpanHeading} bigHeading = {bigHeading} description={description} AboutPage_Css />  
      <ImageLayout/>
+     <Webuild/>
     </div>
   )
 }

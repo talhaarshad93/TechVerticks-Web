@@ -3,6 +3,8 @@ import Image from "next/image";
 import img from "../../assets/images/Logo.png";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Navbar, Nav, Container } from "react-bootstrap";
+import style from './Header.module.css'
+import classNames from "classnames";
 
 const Header = () => {
   return (
@@ -15,14 +17,13 @@ const Header = () => {
       <Navbar.Toggle  aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="ml-auto">
-          <Nav.Link className="font-weight" href="/ServicePagesDetails" style={{ marginLeft: 'auto' }}>Home</Nav.Link>
-          <Nav.Link className="font-weight" href="/About" style={{ marginLeft: 'auto' }}>About Us</Nav.Link>
-          <Nav.Link className="font-weight" href="/ServicePage" style={{ marginLeft: 'auto' }}>Services</Nav.Link>
-          <Nav.Link className="font-weight" href="/Solutions" style={{ marginLeft: 'auto' }}>Solutions</Nav.Link>
-          <Nav.Link className="font-weight" href="/Portfolio" style={{ marginLeft: 'auto' }}>Portfolio</Nav.Link>
-          <Nav.Link className="font-weight" href="/BlogPage" style={{ marginLeft: 'auto' }}>Blog</Nav.Link>
-          <Nav.Link className="font-weight" href="/Blog" style={{ marginLeft: 'auto' }}>Blog</Nav.Link>
-          <Nav.Link className="font-weight" href="/Blog" style={{ marginLeft: 'auto' }}>Contact Us</Nav.Link>
+          <Nav.Link className={classNames(style.fontWeight)} href="/ServicePagesDetails" style={{ marginLeft: 'auto' }}>Home</Nav.Link>
+          <Nav.Link className={classNames(style.fontWeight)} href="/About" style={{ marginLeft: 'auto' }}>About Us</Nav.Link>
+          <Nav.Link className={classNames(style.fontWeight)} href="/ServicePage" style={{ marginLeft: 'auto' }}>Services</Nav.Link>
+          <Nav.Link className={classNames(style.fontWeight)} href="/Solutions" style={{ marginLeft: 'auto' }}>Solutions</Nav.Link>
+          <Nav.Link className={classNames(style.fontWeight)} href="/Portfolio" style={{ marginLeft: 'auto' }}>Portfolio</Nav.Link>
+          <Nav.Link className={classNames(style.fontWeight)} href="/BlogPage" style={{ marginLeft: 'auto' }}>Blog</Nav.Link>
+          <Nav.Link className={classNames(style.fontWeight)} href="/Blog" style={{ marginLeft: 'auto' }}>Contact Us</Nav.Link>
         </Nav>
       </Navbar.Collapse></div>
     </div>

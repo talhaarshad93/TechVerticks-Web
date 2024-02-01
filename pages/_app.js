@@ -3,8 +3,8 @@ import '@/styles/globals.css'
 import '../assets/fonts/fonts.css';
 
 import { useEffect } from 'react';
-import '../components/Header/header.css';
-import '../components/Footer/style.css';
+// import '../components/Header/header.css';
+// import '../components/Footer/style.css';
 import FooterCardDiv from '@/components/Footer/FooterCardDiv';
 import Heading from '@/components/Heading Component/Heading';
 export default function App({ Component, pageProps }) {

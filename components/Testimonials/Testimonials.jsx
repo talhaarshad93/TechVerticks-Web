@@ -23,9 +23,8 @@ const Testimonials = () => {
             “The Tech Verticks“ team was nothing but highly professional when it came to our project. They were incredibly efficient, quick to respond, and organized.  We are ecstatic about the finished product & would definitely recommend them.
             </p>
             <div className={styles.pgDiv} >
-                <div className={styles.img}>
-                    <Image src={pg} alt="" />
-                </div>
+                <div className={styles.subMain}>
+                    <Image className={styles.img} src={pg} alt="" />
                 <div className={styles.nameDiv}>
                     <p className={styles.name}>
                     Anthony Williams
@@ -34,14 +33,15 @@ const Testimonials = () => {
                     P&G,  Director of Product
                     </p>
                 </div>
+                </div>
             </div>
             <div className={styles.btnDiv} >
-                <button className={styles.btn}>
-                <Image src={left} alt="" />
+                <button className={styles.btn} >
+                <Image className={styles.btnImg} src={left} alt="" />
                 
                 </button>
-                <button className={styles.btn}>
-                <Image src={right} alt="" />
+                <button className={styles.btn} >
+                <Image className={styles.btnImg} src={right} alt="" />
                 
                 </button>
             </div>

@@ -1,0 +1,24 @@
+.fontWeight{
+    /* font-family: 'TT Interphases Pro'; */
+    font-weight: 600;
+    font-size: 1vw;
+    
+}
+.navbar-toggler-icon {
+    width: 4vw; /* Apni requirement ke hisaab se adjust karein */
+    height: 4vw; /* Apni requirement ke hisaab se adjust karein */
+    /* align-self: center; */
+    /* margin-right: 5px; */
+    /* margin-top: 10px; */
+    /* padding: 5px; */
+  }
+  .navbar-toggler {
+    /* width: 30px; 
+    height: 30px; */
+    /* border: none; */
+     /* Apni requirement ke hisaab se adjust karein */
+     /* display: flex;
+    align-items: center;
+    justify-content: center; */
+  }
+  

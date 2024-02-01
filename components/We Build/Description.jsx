@@ -33,7 +33,7 @@ const Description = () => {
         their brand affinity, and drive their long-term growth.
       </p>
       <div className={classNames(styles.learnBtn, "")}>
-        <button>Learn More About Our Approach</button>
+        <button className={styles.btn}>Learn More About Our Approach</button>
       </div>
  {/* {data.map(item => (<ImgTextComponent src={item.image} />))     } */}
     </div>

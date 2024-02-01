@@ -31,7 +31,7 @@ const OurServices = () => {
       </div>
       <div >
       {data.map((item, index) => (
-        <div className="flex"
+        <div className="d-flex"
           key={index}
           onMouseEnter={() => setHoveredIndex(index)}
           onMouseLeave={() => setHoveredIndex(null)}
@@ -52,27 +52,6 @@ const OurServices = () => {
              </div>
         </div>
       ))}
-
-
-
-
-        {/* <div className="col-4 bg-primarys">
-
-        <div className={classNames(style.img1,"")}>
-          <ImgTextComponent />
-        </div>
-        <div className={classNames(style.img1,"")}>
-          <ImgTextComponent />
-        </div>
-
-        </div>
-        <div className="bg-success">
-            <p className={classNames(style.heading,"uppercase")}> Mobile </p>
-            <p className={classNames(style.heading,"uppercase")}> Website Development</p>
-            <p className={classNames(style.heading,"uppercase")}> Design And Creativity</p>
-            <p className={classNames(style.heading,"uppercase")}> Future Technology</p>
-            <p className={classNames(style.heading,"uppercase")}> Solutions</p>
-        </div> */}
       </div>
     </div>
   );

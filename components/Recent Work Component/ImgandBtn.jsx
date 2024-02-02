@@ -11,7 +11,7 @@ const ImgandBtn = ({ imageUrl, imageHeight, imageWidth, btnTxt, width }) => {
   };
 
   return (
-    <div style={{width:width}}>
+    <div  style={{width:width}}>
       <Image
         src={imageUrl}
         // layout="responsive"
@@ -21,13 +21,13 @@ const ImgandBtn = ({ imageUrl, imageHeight, imageWidth, btnTxt, width }) => {
         alt="Image"
         className={classNames(styles.img)}
       />
-      <button className={styles.btnDiv1}>
-        <div className={styles.btnDiv} style={imageStyles}>
-          <p className={classNames(styles.btnTxt)}>{btnTxt}</p>
+      <button className={styles.btnDiv1} style = {imageStyles}>
+        <div className={styles.btnDiv}  >
+          <div className={styles.btnTxt}>{btnTxt}</div>
           <Image
             src={rightArrow}
             alt=""
-            className={classNames(styles.rightArrow, "p-")}
+            className={styles.rightArrow}
           />
         </div>
       </button>

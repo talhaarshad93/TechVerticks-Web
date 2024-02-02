@@ -40,10 +40,27 @@
   align-items: center;
   justify-content: center;
   /* background-color: red; */
-  
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Optional: Add a smooth transition effect */
+
+  /* Initial background color */
+  background-color: transparent;
 }
+
 .lableImg {
-  width: 35%;
-  height: 20%;
+  width: 60%;
+  height: 60%;
   object-fit: contain;
+  /* background-color: yellow; */
+
 }
+   .lable:hover {
+  background-color:#db98e9 ;
+  border: 1px solid #a53ebe;
+  width: 23vw;
+  height: 21vw;
+
+}
+/* .lable:hover {
+  background-color: #b332d4; 
+} */

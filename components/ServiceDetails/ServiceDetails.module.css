@@ -12,12 +12,13 @@
     margin: auto;
 }
 .topheadDiv{
-    padding-left: 2vw;
+    /* padding-left: 2vw; */
 }
 .img{
     padding-left: 3vw;
     /* padding-right: -5vw; */
-    padding-top: 2vw;
+    padding-top: 5vw;
     width: 100%;
+    margin-left: 10vw;
     /* background-color: yellow; */
 }

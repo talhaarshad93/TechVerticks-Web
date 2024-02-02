@@ -3,20 +3,7 @@
 @tailwind utilities; */
 
 
-.imgTv{
-width: 80%;
-height: 80%;
-margin-left: 10vw;
 
-margin-top: -100px;
-}
-.video1{
-    width: 70vw;
-    height: 35vw;
-    margin-left: 15vw;
-    /* margin-right: auto; */
-    border-radius: 15px;
-}
 body{
     /* background-color: aqua; */
     margin: 0;

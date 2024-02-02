@@ -20,37 +20,39 @@
 .headingDiv{
   width: 35vw;
   display: flex;
-  /* background-color: red; */
   
 }
 
 .USADiv{
-    padding-top: 2.8vw;
-    padding-left: 4.2vw;
-    width: 44vw;
-    height: 34vw;
-    border: 1px solid rgb(231, 231, 231);
+  padding-top: 2.8vw;
+  padding-left: 4.2vw;
+  width: 44vw;
+  height: 34vw;
+  border: 1px solid rgb(231, 231, 231);
 }
 .Pakimg{
-    margin-top: 1.3vw;
-    width: 90%;
-  height: 45%;
-  object-fit: contain;
+  margin-top: 1.3vw;
+  width: 90%;
+height: 45%;
+object-fit: contain;
 }
 .USAimg{
   width: 90%;
   height: 40%;
   object-fit: contain;
+margin-top: 1vw;
+
+
 }
 .imgDiv{
   margin-top: 20px;
-  /* background-color: rgb(255, 145, 10); */
+  /* background-color: rgb(20, 20, 19); */
   width: 5vw;
   height: 5vw;
   
-  margin-left: -20vw;
+  margin-left: -2.5vw;
   margin-right: 11vw;
-  margin-top: 2.7vw;
+  margin-top: 4vw;
 
   
 }
@@ -58,10 +60,15 @@
   object-fit: contain;
   width: 5vw;
   height: 5vw;
+  /* background-color: red; */
+
 }
 .USAFlag{
   object-fit: contain;
   width: 5vw;
   height: 5vw;
   margin-left: -8vw;
+  margin-top: -0.5vw;
+  /* background-color: red; */
+
 }

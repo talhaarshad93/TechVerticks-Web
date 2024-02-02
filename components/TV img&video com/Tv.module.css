@@ -1,0 +1,18 @@
+.main{
+    margin-top: 5vw;
+}
+.imgTv{
+    width: 80%;
+    height: 80%;
+    margin-left: 10vw;
+    
+    margin-top: -100px;
+    }
+    .video1{
+        width: 85vw;
+        height: 38vw;
+        /* margin: auto; */
+        margin-left: 7vw;
+        /* margin-right: auto; */
+        border-radius: 15px;
+    }

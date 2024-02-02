@@ -25,7 +25,7 @@ const ServiceDetails = ({ newData }) => {
         <div className={styles.heading}>
           <div className={styles.topheadDiv}>
             {/* MOBILE APPLICATION DEVELOPMENT */}
-            <Topheadings heading={newData.heading} width="45vw" />
+            <Topheadings heading={newData.heading} width="35vw" />
           </div>
           {industryData.map((data, index) => (
             <>

@@ -4,14 +4,16 @@
     padding-left: 5vw;
     /* align-items: center; */
     /* justify-content: space-around; */
-
-
+    /* background-color: aquamarine; */
 }
 .text{
-    font-size: 1.7vw;
-    line-height: 2.3vw;
-    font-weight: 500;
+    font-size: 1.8vw;
+    line-height: 2.6vw;
+    font-weight: 400;
+    text-transform: capitalize;
     padding-right: 2vw;
+    width: 53vw;
+    /* background-color: aquamarine; */
 }
 .subMain{
     /* background-color: rgb(21, 146, 146); */

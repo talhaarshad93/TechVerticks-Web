@@ -5,6 +5,7 @@ export default function Topheadings({
   title,
   heading,
   VC_Css,
+  TESTIMONIALS,
   paragraph,
   customStyle,
   abcClass,
@@ -30,6 +31,7 @@ export default function Topheadings({
         ...{ width: width},...headingStyles,
         //mohsin Css
         ...(VC_Css && {fontWeight:900,width:"65vw",fontSize:"4.7vw",fontFamily:"system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif" }),
+        ...(TESTIMONIALS && {fontWeight:700,width:"38vw",fontSize:"3.8vw",lineHeight:"1.19" }),
         ...(SPD_OP && { fontSize:"4.1vw",width:"40vw", lineHeight:"1.2" }),
         ...(SPD_OP_WB && { fontSize:"4.1vw",width:"40vw", lineHeight:"1.2", fontWeight:800,fontFamily:"system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif" }),
         ...(SPD_TWU_heading &&{ fontSize:"4.2vw", width:"76vw",fontWeight:800, fontFamily:"system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif"} ),

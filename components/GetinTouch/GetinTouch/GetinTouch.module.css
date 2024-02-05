@@ -4,7 +4,20 @@
   margin-bottom: 5vw;
   /* border: 1px solid green; */
   padding: 7vw;
+  
+  
+}
+.mainContainer_CU_CSS {
+  display: flex;
+  justify-content: right;
   /* background-color: yellow; */
+  height: 48vw;
+  /* margin-left: 12vw; */
+  /* flex-direction: row; */
+  /* margin-bottom: 5vw; */
+  /* width: 90vw; */
+  /* border: 1px solid green; */
+  padding: 2vw 0vw 0vw 36vw;
 
   
 }

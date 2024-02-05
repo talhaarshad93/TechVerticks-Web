@@ -1,7 +1,6 @@
 import Topheadings from "../../TopHeadings/TopHeadings";
 import style from "./GetinTouch.module.css";
 
-
 const title = "Get In Touch";
 const heading = "Let’s get to work";
 const paragraph =
@@ -13,19 +12,21 @@ const inputs = [
   { id: "4", placeholder: "Phone", type: "number" },
 ];
 
-export default function GetInTouch() {
+export default function GetInTouch({hideComponent,mainContainer_CU_CSS}) {
   return (
-    <div className={style.mainContainer}>
-      <div className={style.mainDiv}>
-        <Topheadings
-          title={title}
-          heading={heading}
-          paragraph={paragraph}
-          customStyle
-          abcClass
-          width = {"30vw"}
-        />
-      </div>
+    <div className={mainContainer_CU_CSS ? style.mainContainer_CU_CSS :style.mainContainer}>
+      {hideComponent ? null : (
+        <div className={style.mainDiv}>
+          <Topheadings
+            title={title}
+            heading={heading}
+            paragraph={paragraph}
+            customStyle
+            abcClass
+            width={"30vw"}
+          />
+        </div>
+      )}
 
       <div className={style.inputDiv}>
         {inputs?.map((inp) => {
@@ -55,10 +56,13 @@ export default function GetInTouch() {
             display: "flex",
             // justifyContent: "center",
             alignItems: "center",
-          }} className={style.chckB}
+          }}
+          className={style.chckB}
         >
-          <input type="checkbox" className={style.checkbox}/>
-          <p className={style.parag}>I want to receive a monthly tech newsletter</p>
+          <input type="checkbox" className={style.checkbox} />
+          <p className={style.parag}>
+            I want to receive a monthly tech newsletter
+          </p>
         </div>
         <div>
           <button className={style.btn}>Submit Message</button>

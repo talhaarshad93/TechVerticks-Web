@@ -16,7 +16,7 @@ const Testimonials = () => {
         <Topheadings
       title={"TESTIMONIALS"}
       heading={"Forming lasting partnerships"}
-      width="40vw"/>
+      width="40vw" TESTIMONIALS/>
         </div>
         <div className={styles.right}>
             <p className={styles.text}>

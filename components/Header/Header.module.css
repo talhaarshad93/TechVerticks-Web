@@ -4,6 +4,70 @@
     font-size: 1vw;
     
 }
+
+/* 
+.nav-link-hover{
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 10%;
+  height: 4px;
+  background-color: purple;
+  transform: scaleX(0);
+
+}
+.nav-link-hover:hover::after{
+  transform: scaleX(1);
+
+} */
+/* .nav-link-a::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 4px;
+  background-color: purple;
+  transition: width 0.3s ease;
+}
+
+.nav-link-a:hover::after {
+  width: 100%;
+} */
+
+.nav-link-custom {
+  position: relative;
+  color: #000; /* Default text color */
+  transition: color 0.3s ease; /* Smooth transition for color change */
+}
+
+.nav-link-custom::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 4px;
+  background-color: purple; /* Default underline color */
+  transition: width 0.3s ease; /* Smooth transition for underline width change */
+}
+
+.nav-link-custom:hover {
+  color: purple; /* Change text color on hover */
+}
+
+.nav-link-custom:hover::after {
+  width: 100%; /* Change underline width on hover */
+}
+
+.nav-link-custom.active {
+  color: green; /* Change text color for the active link */
+}
+
+.nav-link-custom.active::after {
+  width: 100%; /* Set underline width for the active link */
+}
 .navbar-toggler-icon {
     width: 4vw; /* Apni requirement ke hisaab se adjust karein */
     height: 4vw; /* Apni requirement ke hisaab se adjust karein */

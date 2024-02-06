@@ -50,7 +50,7 @@ export default function Topheadings({
             ? style1.craftingpara : style1.praContainer
         }
             style={{
-              ...(VC_Css && { fontWeight:300,width:"70vw",fontSize:"1.8vw",fontFamily:"system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif" }),
+              ...(VC_Css && { fontWeight:300,width:"70vw",fontSize:"1.8vw",fontFamily:"TT Interphases Pro Trial Medium" }),
               ...(blackColor && { color: "#000000" }),
               ...(SPD_OP_para && { fontSize:"1.25vw",width:"36vw", color:"#666666", fontWeight:100,marginTop:"2vw" }),
               ...(SPD_TWU_Para && { fontSize:"1.25vw",width:"46vw", color:"#666", fontSize:"1.4vw", fontWeight:300,marginTop:"2vw",fontFamily:"system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif" }),

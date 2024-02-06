@@ -1,6 +1,6 @@
 import Header from '@/components/Header/Header'
 import '@/styles/globals.css'
-import '../assets/fonts/fonts.css';
+import '../styles/fonts.css';
 
 import { useEffect } from 'react';
 // import '../components/Header/header.css';

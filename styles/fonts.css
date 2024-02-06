@@ -1,0 +1,300 @@
+@font-face {
+    font-family: 'TT Interphases Pro Mono Trial Bold Italic';
+    src: url('/fonts/TT Interphases Pro Mono Trial Bold Italic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+  }
+  
+  @font-face {
+    font-family: 'TT Interphases Pro Mono Trial Bold';
+    src: url('/fonts/TT Interphases Pro Mono Trial Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'TT Interphases Pro Mono Trial Italic';
+    src: url('/fonts/TT Interphases Pro Mono Trial Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+  }
+  
+  @font-face {
+    font-family: 'TT Interphases Pro Mono Trial Regular';
+    src: url('/fonts/TT Interphases Pro Mono Trial Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'TT Interphases Pro Mono Trial Var Italic';
+    src: url('/fonts/TT Interphases Pro Mono Trial Var Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+  }
+  
+  @font-face {
+    font-family: 'TT Interphases Pro Mono Trial Var Roman';
+    src: url('/fonts/TT Interphases Pro Mono Trial Var Roman.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'TT Interphases Pro Trial Black Italic';
+    src: url('/fonts/TT Interphases Pro Trial Black Italic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+  }
+  
+  @font-face {
+    font-family: 'TT Interphases Pro Trial Black';
+    src: url('/fonts/TT Interphases Pro Trial Black.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'TT Interphases Pro Trial Bold Italic';
+    src: url('/fonts/TT Interphases Pro Trial Bold Italic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+  }
+  
+  @font-face {
+    font-family: 'TT Interphases Pro Trial Bold';
+    src: url('/fonts/TT Interphases Pro Trial Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'TT Interphases Pro Trial Condensed Black Italic';
+    src: url('/fonts/TT Interphases Pro Trial Condensed Black Italic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+  }
+  
+  @font-face {
+    font-family: 'TT Interphases Pro Trial Condensed Black';
+    src: url('/fonts/TT Interphases Pro Trial Condensed Black.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'TT Interphases Pro Trial Condensed Bold Italic';
+    src: url('/fonts/TT Interphases Pro Trial Condensed Bold Italic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+  }
+  
+  @font-face {
+    font-family: 'TT Interphases Pro Trial Condensed Bold';
+    src: url('/fonts/TT Interphases Pro Trial Condensed Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'TT Interphases Pro Trial Condensed DemiBold Italic';
+    src: url('/fonts/TT Interphases Pro Trial Condensed DemiBold Italic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+  }
+  
+  @font-face {
+    font-family: 'TT Interphases Pro Trial Condensed DemiBold';
+    src: url('/fonts/TT Interphases Pro Trial Condensed DemiBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'TT Interphases Pro Trial Condensed ExtraBold Italic';
+    src: url('/fonts/TT Interphases Pro Trial Condensed ExtraBold Italic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+  }
+  
+  @font-face {
+    font-family: 'TT Interphases Pro Trial Condensed ExtraBold';
+    src: url('/fonts/TT Interphases Pro Trial Condensed ExtraBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'TT Interphases Pro Trial Condensed ExtraLight Italic';
+    src: url('/fonts/TT Interphases Pro Trial Condensed ExtraLight Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+  }
+  
+  @font-face {
+    font-family: 'TT Interphases Pro Trial Condensed ExtraLight';
+    src: url('/fonts/TT Interphases Pro Trial Condensed ExtraLight.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'TT Interphases Pro Trial Condensed Italic';
+    src: url('/fonts/TT Interphases Pro Trial Condensed Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+  }
+  
+  @font-face {
+    font-family: 'TT Interphases Pro Trial Condensed Light Italic';
+    src: url('/fonts/TT Interphases Pro Trial Condensed Light Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+  }
+  
+  @font-face {
+    font-family: 'TT Interphases Pro Trial Condensed Light';
+    src: url('/fonts/TT Interphases Pro Trial Condensed Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'TT Interphases Pro Trial Condensed Medium Italic';
+    src: url('/fonts/TT Interphases Pro Trial Condensed Medium Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+  }
+  
+  @font-face {
+    font-family: 'TT Interphases Pro Trial Condensed Medium';
+    src: url('/fonts/TT Interphases Pro Trial Condensed Medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'TT Interphases Pro Trial Condensed Regular';
+    src: url('/fonts/TT Interphases Pro Trial Condensed Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'TT Interphases Pro Trial Condensed Thin Italic';
+    src: url('/fonts/TT Interphases Pro Trial Condensed Thin Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+  }
+  
+  @font-face {
+    font-family: 'TT Interphases Pro Trial Condensed Thin';
+    src: url('/fonts/TT Interphases Pro Trial Condensed Thin.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'TT Interphases Pro Trial DemiBold Italic';
+    src: url('/fonts/TT Interphases Pro Trial DemiBold Italic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+  }
+  
+  @font-face {
+    font-family: 'TT Interphases Pro Trial DemiBold';
+    src: url('/fonts/TT Interphases Pro Trial DemiBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'TT Interphases Pro Trial Extra Bold Italic';
+    src: url('/fonts/TT Interphases Pro Trial Extra Bold Italic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+  }
+  
+  @font-face {
+    font-family: 'TT Interphases Pro Trial ExtraBold';
+    src: url('/fonts/TT Interphases Pro Trial ExtraBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'TT Interphases Pro Trial ExtraLight Italic';
+    src: url('/fonts/TT Interphases Pro Trial ExtraLight Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+  }
+  
+  @font-face {
+    font-family: 'TT Interphases Pro Trial ExtraLight';
+    src: url('/fonts/TT Interphases Pro Trial ExtraLight.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'TT Interphases Pro Trial Italic';
+    src: url('/fonts/TT Interphases Pro Trial Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+  }
+  
+  @font-face {
+    font-family: 'TT Interphases Pro Trial Light Italic';
+    src: url('/fonts/TT Interphases Pro Trial Light Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+  }
+  
+  @font-face {
+    font-family: 'TT Interphases Pro Trial Light';
+    src: url('/fonts/TT Interphases Pro Trial Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'TT Interphases Pro Trial Medium Italic';
+    src: url('/fonts/TT Interphases Pro Trial Medium Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+  }
+  
+  @font-face {
+    font-family: 'TT Interphases Pro Trial Medium';
+    src: url('/fonts/TT Interphases Pro Trial Medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'TT Interphases Pro Trial Regular';
+    src: url('/fonts/TT Interphases Pro Trial Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'TT Interphases Pro Trial Thin Italic';
+    src: url('/fonts/TT Interphases Pro Trial Thin Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+  }
+  
+  @font-face {
+    font-family: 'TT Interphases Pro Trial Thin';
+    src: url('/fonts/TT Interphases Pro Trial Thin.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'TT Interphases Pro Trial Variable';
+    src: url('/fonts/TT Interphases Pro Trial Variable.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+    

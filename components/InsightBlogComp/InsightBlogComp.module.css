@@ -38,7 +38,8 @@
     align-items: center;
     color: white;
     border: none;
-    font-family: Arial,;
+    font-family:"TT Interphases Pro Trial Medium";
+
     border-radius: 1vw 1vw 1vw 1vw ;
     font-size: 1.2vw;
     margin-top: 2vw;
@@ -63,11 +64,14 @@
     font-weight: 800;
     font-size: 2.7vw;
     text-transform: capitalize;
+  font-family:"TT Interphases Pro Trial ExtraBold";
+
     line-height: 3vw;
     /* background-color: aqua; */
 }
 .detail{
     margin-top: 1.6vw;
+
     
 }
 .detail a{
@@ -76,6 +80,8 @@
     font-family: Arial,;
     font-weight: 500;
     color: black;
+  font-family:"TT Interphases Pro Trial DemiBold";
+
 
 }
 .btn{
@@ -134,6 +140,8 @@
     font-size: 3.4vw;
     text-transform: capitalize;
     line-height: 3.5vw;
+  font-family:"TT Interphases Pro Trial ExtraBold";
+
 
 }
 .blogPage{
@@ -149,10 +157,12 @@
     border-radius: 1vw 1vw 1vw 1vw ;
     font-size: 1.4vw;
     margin-top: 2vw;
+    font-family:"TT Interphases Pro Trial Medium";
+
 }
 .detailBlog{
     margin-top: 1.6vw;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
 }
 .detailBlog a{
     color: black;
@@ -160,6 +170,8 @@
     font-size: 1.5vw;   
     font-family: Arial,;
     font-weight: 500;
+  font-family:"TT Interphases Pro Trial DemiBold";
+
 }
 .btnBlog{
     width: 4vw;

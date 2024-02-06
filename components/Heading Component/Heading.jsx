@@ -5,6 +5,8 @@ import Image from 'next/image';
 import img from "../../assets/images/down arrow.png";
 import GetInTouch from '../GetinTouch/GetinTouch/GetinTouch';
 import Link from 'next/link';
+// import '../../assets/fonts/TT Interphases Pro';
+
 
 
 const Heading = ({SpanHeading,bigHeading,description,ServicePage_Css,BlogPage_Css,AboutPage_Css,CaseStudies_Css,Portfolio_Css,SolutionPage_Css,PortfolioPage_Css,ContentUs_Css}) => {

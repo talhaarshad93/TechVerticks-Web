@@ -1,8 +1,9 @@
 .name{
     font-size: 15px;
     /* text-align: center; */
-    font-weight: 700;
+    /* font-weight: 700; */
     margin-left: 4px;
+    font-family:"TT Interphases Pro Trial DemiBold"
     /* background-color: red; */
 }
 .nameCount{
@@ -11,18 +12,20 @@
 }
 .count{
     font-size: 60px;
-    font-weight: 800;
+    /* font-weight: 800; */
     margin-top: -15px;
     text-align: left;
     /* letter-spacing: 1px; */
     /* background-color: yellow; */
     width: 150px;
+    font-family:"TT Interphases Pro Trial ExtraBold";
+
 }
 .weBuild{
     font-size: 16px;
     color:  rgba(179, 50, 212, 1);
     /* margin-bottom: 500px; */
-    font-weight: 600;
+    font-family:"TT Interphases Pro Trial Medium";
     /* margin-bottom: 30px; */
     width:150px;
     line-height: 20px;
@@ -35,6 +38,7 @@
     font-weight: 800;
     width: 680px;
     line-height: 48px;
+    font-family:"TT Interphases Pro Trial ExtraBold";
 }
 .paragraph{
     width: 550px;
@@ -44,6 +48,8 @@
     /* background-color: blue; */
     font-size: 17px;
     line-height: 23px;
+    font-family:"TT Interphases Pro Trial Regular";
+
 
 
 }
@@ -59,8 +65,10 @@
 .btn{
     border: none;
     background-color: white;
-    font-weight: 700;
-
+    /* font-weight: 700; */
+    font-size: 17px;
+    
+    font-family:"TT Interphases Pro Trial DemiBold"
 }
 
 

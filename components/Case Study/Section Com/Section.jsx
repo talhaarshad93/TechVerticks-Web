@@ -19,13 +19,14 @@ const Section = () => {
       <Topheadings heading={heading} paragraph={para} sectionCss />
       </div>
       <div className={style.imgDiv1} >
-      <ImgandBtn imageUrl={project} />
+      <ImgandBtn imageUrl={project} imageWidth= {100} imageHeight= {100} />
       </div>
     </div>
     <div className={style.main }>
         
       <div className={style.imgDiv2} >
-      <ImgandBtn imageUrl={target} />
+      <ImgandBtn imageUrl={target} 
+      imageWidth= {100} imageHeight= {100} />
       </div>
       <div className={style.textDiv}>
       <Topheadings heading={heading} paragraph={para} sectionCss />

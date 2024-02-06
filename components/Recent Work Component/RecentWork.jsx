@@ -6,12 +6,25 @@ import ltopGif from '../../assets/images/web gif.gif'
 import styles from './../We Build/Count.module.css'
 import classNames from "classnames";
 import style from "./RecentWork.module.css";
-
+import { useRouter } from 'next/router';
 
 
 
 const RecentWork = () => {
     let num = 10;
+    const router = useRouter()
+
+    const seeAllProject = () => {
+      // Navigate to the contact page when the button is clicked
+      router.push('/Portfolio');
+    };
+     const handleButtonClick = () => {
+       
+        // console.log(`Button clicked for item with id: ${itemId}`);
+
+        // router.push(`/BlogDetails`);
+    
+      };
   return (
     <div className={style.main}>
       <div className={style.left}> 
@@ -26,7 +39,7 @@ const RecentWork = () => {
 
         </div>
       <ImgandBtn imageUrl ={mobGif}  imageHeight={90} imageWidth={100} btnTxt={'Meta Software Branding '}/>
-<button className={classNames(style.seeBtn, '')} >See all projects ({num})</button>
+<button className={classNames(style.seeBtn, '')} onClick={seeAllProject} >See all projects ({num})</button>
       </div>
     </div>
   )

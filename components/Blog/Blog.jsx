@@ -10,6 +10,7 @@ import InsightImages5 from "../../assets/images/InsightImages5.png"
 import InsightImages6 from "../../assets/images/InsightImages6.png"
 import InsightBlogComp from "../InsightBlogComp/InsightBlogComp";
 import Heading from "../Heading Component/Heading";
+import { useRouter } from 'next/router';
 
 const data=[
     {   id: 1,
@@ -50,6 +51,14 @@ const data=[
 ];
 
 export default function Blog(){
+    const router = useRouter();
+    const handleButtonClick = (itemId) => {
+        // Perform the desired action based on the itemId
+        console.log(`Button clicked for item with id: ${itemId}`);
+        // Example: Navigate to a specific blog page using Next.js router
+        router.push(`/BlogDetails`);
+        // router.push(`/BlogDetails/${itemId}`);
+      };
     return(
         <div>
 
@@ -68,7 +77,8 @@ export default function Blog(){
 
             {data?.map((item)=>(
                 <div key={item.id} >
-                <InsightBlogComp blogCss={item?.islarge} item={item}/>
+                <InsightBlogComp blogCss={item?.islarge} item={item}
+                 onButtonClick={() => handleButtonClick(item.id)}/>
                 <hr className={style.hr}/>
                 </div>
             ))

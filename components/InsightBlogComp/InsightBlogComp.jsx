@@ -3,7 +3,11 @@ import ArrowBtn from "../../assets/images/ArrowBtn.png";
 import Image from "next/image";
 import Link from "next/link";
 
-export default function InsightBlogComp({ item, blogCss }) {
+export default function InsightBlogComp({ item, blogCss, onButtonClick }) {
+  const handleButtonClick = () => {
+    // Invoke the callback function passed from the parent component
+    onButtonClick();
+  };
   return (
     <div>
       <div className={blogCss ? style.mainContainerBlog : style.mainContainer}>
@@ -24,7 +28,7 @@ export default function InsightBlogComp({ item, blogCss }) {
             <Link href="/">Read Complete Blog</Link>{" "}
           </div>
         </div>
-        <button className={blogCss ? style.btnBlog : style.btn}>
+        <button className={blogCss ? style.btnBlog : style.btn} onClick={handleButtonClick}>
           <Image className={style.img1} src={ArrowBtn} alt="arrowBtn" />
         </button>
       </div>

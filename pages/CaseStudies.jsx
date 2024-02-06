@@ -1,3 +1,5 @@
+import Section from '@/components/Case Study/Section Com/Section'
+import HaveIdea from '@/components/Have Idea/HaveIdea'
 import Heading from '@/components/Heading Component/Heading'
 import React from 'react'
 
@@ -10,7 +12,8 @@ const CaseStudies = () => {
   return (
     <div>
       <Heading SpanHeading={SpanHeading} bigHeading = {bigHeading} description={description}CaseStudies_Css/>  
-      
+      <Section/>
+      <HaveIdea/>
     </div>
   )
 }

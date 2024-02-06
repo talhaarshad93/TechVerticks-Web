@@ -13,6 +13,8 @@
     text-transform: capitalize;
     padding-right: 2vw;
     width: 53vw;
+    font-family:"TT Interphases Pro Trial Medium";
+
     /* background-color: aquamarine; */
 }
 .subMain{
@@ -47,6 +49,8 @@
     font-size: 1.4vw;
     /* background-color: blue; */
     margin-bottom: 0;
+    font-family:"TT Interphases Pro Trial Bold";
+
 
 }
 .pg{
@@ -54,6 +58,8 @@
     font-size: 1.3vw ;
     /* background-color: blue; */
     /* margin-top: -1.5vw; */
+    font-family:"TT Interphases Pro Trial Medium";
+
  
 }
 .btnImg{

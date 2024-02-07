@@ -26,7 +26,7 @@
   position: fixed; /* Fixed position to keep it at the right side */
   top: 1vw;
   right: 0;
-  height: 9vh;
+  height: 9vw;
   overflow-y: auto; /* Allow vertical scrolling if needed */
   z-index: 1000; /* Ensure it's above other content */
 }

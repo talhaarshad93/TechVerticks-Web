@@ -53,15 +53,15 @@ const data = [
     },
   ];
 
-const title = "Technologies We Use";
-const heading = (<>Mobile App Developers:{<br/>} Our Expertise in Mobile Technologies</>)
-const paragraph = 
-  `We're not just keeping up with the latest mobile technologies – we're pioneering them. Our commitment to innovation drives us to stay at the forefront of the mobile app development landscape. `;
+// const title = "Technologies We Use";
+// const heading = (<>Mobile App Developers:{<br/>} Our Expertise in Mobile Technologies</>)
+// const paragraph = 
+//   `We're not just keeping up with the latest mobile technologies – we're pioneering them. Our commitment to innovation drives us to stay at the forefront of the mobile app development landscape. `;
+// title={title} heading={heading} paragraph={paragraph}
 
-
-export default function TechnologyWeUse(){
+export default function TechnologyWeUse({heading}){
     return(
-        <div className={Style.topHeadingDiv}><Topheadings title={title} heading={heading} paragraph={paragraph} SPD_TWU_heading SPD_TWU_Para/>
+   <div className={Style.topHeadingDiv}><Topheadings heading = {heading}  SPD_TWU_heading SPD_TWU_Para/>
      
      <div className={Style.mainImgDiv}>
      {data?.map((img) => (

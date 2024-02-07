@@ -4,20 +4,28 @@
     justify-content: space-between;
     padding: 10vw;
     padding-bottom: 0vw;
+    padding-top: 3vw;
+    padding-right: 7vw;
+    /* margin-bottom: -8vw; */
+    /* flex-direction: row-reverse; */
+}
+.targetCss{
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    padding: 10vw;
+    padding-bottom: 5vw;
     padding-top: 5vw;
     padding-right: 7vw;
-    margin-bottom: -8vw;
+    flex-direction: row-reverse;
+    margin-top: -8vw;
+
 }
 .textDiv{
     width: 55%;
     margin-top: 5vw;
 
 }
-.imgDiv1{
+.imgDiv{
     width: 40%;
-}
-.imgDiv2{
-    width: 40%;
-    margin-top: -2vw;
-    margin-bottom: 15vw;
 }

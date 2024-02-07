@@ -5,7 +5,7 @@ import Pakistan from "../../assets/images/Pakistan.png";
 import USA from "../../assets/images/USA.png";
 import USAFlag from "../../assets/images/USAFlag.png";
 import PakFlag from "../../assets/images/PakFlag.png";
-
+import classNames from 'classnames'
 export default function OfficeComponent() {
   return (
     <div className={style.main}>
@@ -30,7 +30,7 @@ export default function OfficeComponent() {
       </div>
        
         
-      <div className={style.USADiv}>
+      {/* <div className={style.USADiv}>
         <div className={style.headingDiv}>
         <Topheadings
           title={"Office # 2"}
@@ -46,6 +46,29 @@ export default function OfficeComponent() {
         </div>
         </div>
         <Image className={style.USAimg} src={USA} alt="Pakistan" />
+        <div className={style.USAimg}>
+
+        </div>
+      </div> */}
+      <div className={style.USADiv}>
+        <div className={style.headingDiv}>
+        <Topheadings
+          title={"Office # 2"}
+          abcClass
+          heading={"USA"}
+          paragraph={
+            "8403 Pines Blvd, Ste 217, Pembroke Pnes, Fl 33024.+1 (312) - 500 4798"
+          }
+          blackColor
+        />
+        <div className={style.imgDiv}>
+           <Image className={style.USAFlag} src={USAFlag} alt="USAFlag" />
+        </div>
+        </div>
+        {/* <Image className={style.USAimg} src={USA} alt="Pakistan" /> */}
+        <div className={style.USAimg}>
+
+        </div>
       </div>
     </div>
   );

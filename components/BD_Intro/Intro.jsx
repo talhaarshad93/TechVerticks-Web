@@ -2,7 +2,7 @@ import Image from "next/image";
 import style from "./Intro.module.css";
 import IntroImage from "../../assets/images/IntroImage.png";
 import UserImage from "../../assets/images/UserImage.png";
-import FaceBook from "../../assets/images/Facebook.png";
+import FaceBook from "../../assets/images/facebook.png";
 import linkedin from "../../assets/images/linkedin.png";
 import twitter from "../../assets/images/twitter.png";
 import instagram from "../../assets/images/instagram.png";

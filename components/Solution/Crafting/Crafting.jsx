@@ -47,7 +47,7 @@ const Crafting = () => {
       </div>
       <div className={style.text}>
         {data?.map((item) => (
-          <div className={style.talha}>
+          <div className={style.talha} key={index}>
             <Topheadings
               craftingCss
               heading={item.heading}

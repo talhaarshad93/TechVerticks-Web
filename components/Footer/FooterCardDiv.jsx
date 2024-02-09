@@ -35,15 +35,15 @@ function FooterCardDiv() {
     { text: "Twitter", path: "/" },  
   ]
   return (
-    <div className="container-fluid " style={{ backgroundColor: "#f8f9fa " }}>
+    <div className="container-fluid" style={{ backgroundColor: "#f8f9fa " }}>
       <div className="container-fluid ml-md-5 justify-content-between  p-4">
         <div className="row pt-3">
           <div className="col-md-4 mb-4">
-            <div className="flex-md-column align-items-center  row">
+            <div className="flex-md-column align-items-center row">
               <div
-                className={classNames(style.text, " ml-md-2 col-6  col-md-12 ")}
+                className={classNames(style.text, " ml-md-2 col-6 col-md-12 ")}
               >
-                Tech Stories You Won't Read Anywhere Else.
+                Tech Stories You Wont Read Anywhere Else.
               </div>
               <div className="col-6 mt-3 col-md-12">
                 <div className=" align-items-center flex justify-content-between mb-2 ml-2 mt-md-3">
@@ -58,7 +58,7 @@ function FooterCardDiv() {
               className=" mr-sm-2"
             /> */}
                   <a href="">
-                    <Image className="" src={img} width={15} height={10} />
+                    <Image className="" src={img} width={15} height={10} alt="IMAGE" />
                   </a>
                 </div>
                 <hr />
@@ -86,7 +86,7 @@ function FooterCardDiv() {
         )}
       >
         <div className="pl-3 mb-3 mb-md-0 px-5">
-          <Image src={img1} width={170} height={40} className={style.img}/>
+          <Image src={img1} width={170} height={40} alt="IMAGE" className={style.img}/>
         </div>
         <div className={style.footerCopy}>
           &copy; Copyrights 2023 Tech Verticks. All rights reserved.

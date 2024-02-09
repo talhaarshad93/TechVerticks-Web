@@ -32,7 +32,7 @@ const Heading = ({SpanHeading,bigHeading,description,ServicePage_Css,BlogPage_Cs
       </div>
       <div className={classNames(styles.subDiv,)}>
         <Link href="">
-      <Image className={styles.img} src={img}/>
+      <Image className={styles.img} src={img} alt='img'/>
         </Link>
       <div className={classNames(styles.description,)}
       style={{

@@ -34,7 +34,7 @@ export default function RelatedArticle(){
             {data.map((item)=>(
                       <div className={style.mainContainer} key={item.id}>
                       <div className={style.ImgDiv}>
-                          <Image className={style.img} src={item.img} />
+                          <Image className={style.img} src={item.img} alt="img"/>
                       </div>
                       <div className={style.detailDiv}>
                           <div className={style.blog}>BLOG</div>
@@ -44,7 +44,7 @@ export default function RelatedArticle(){
                           </div>
                           
                           <div className={style.detail}>
-                          <Image className={style.icon} src={item.icon}/>
+                          <Image className={style.icon} src={item.icon} alt="img"/>
                              <Link href="/" >Read Complete Blog
                              
                              </Link> 

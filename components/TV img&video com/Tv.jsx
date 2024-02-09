@@ -5,7 +5,7 @@ import Image from "next/image";
 const Tv = ({img}) => {
   return (
     <div className={style.main}>
-     { img && <Image className={style.imgTv} src={img} />}
+     { img && <Image className={style.imgTv} src={img} alt='img' />}
       <iframe
         className={style.video1}
         src="https://www.youtube.com/embed/2wI_SjklTYQ?si=mZFZDvCAotQo1GGU"

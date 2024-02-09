@@ -18,7 +18,7 @@ export default function Intro() {
       <Image className={style.imgIntro} src={IntroImage} alt="IntroImage" />
       <div className={style.FooterDiv}>
         <div className={style.leftsubDiv}>
-          <Image className={style.UserImg} src={UserImage} />
+          <Image className={style.UserImg} src={UserImage} alt="img" />
           <div className={style.textDiv}>
             {
               <>
@@ -167,7 +167,7 @@ export default function Intro() {
             }
           </div>
           <div className={style.SubDiv}>
-            <Image className={style.UserImg} src={UserImage} />
+            <Image className={style.UserImg} src={UserImage} alt="img" />
             <div className={style.textDiv} style={{ marginTop: "1.5vw" }}>
               BY SINDYVUKOVIĆ COPYWRITER
             </div>

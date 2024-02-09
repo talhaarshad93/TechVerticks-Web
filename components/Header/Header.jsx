@@ -20,7 +20,7 @@ const Header = () => {
   return (
     <div className={style.mainContainer}>
       <div className={style.logo}>
-      <Image src={img} width={200} height={30} />
+      <Image src={img} width={200} height={30} alt="img" />
 
       </div>
       <div className={style.navbar}>

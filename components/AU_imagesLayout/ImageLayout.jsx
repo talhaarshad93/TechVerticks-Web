@@ -46,7 +46,7 @@ const imageListDivTwo = [
 const ImageComp = ({ imageArray }) => {
   return imageArray?.map((item) => (
     <div key={item?.id} className={item?.isLarge ? style.box1 : style.box2}>
-      <Image className={style.img} src={item?.img} />
+      <Image className={style.img} src={item?.img} alt="img" />
     </div>
   ));
 };

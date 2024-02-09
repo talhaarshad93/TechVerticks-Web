@@ -31,11 +31,11 @@ const Heading = ({SpanHeading,bigHeading,description,ServicePage_Css,BlogPage_Cs
       >{bigHeading}</div>
       </div>
       <div className={classNames(styles.subDiv,)}>
-      <div className={styles.img1}>
+      
           <Link href="">
       <Image className={styles.img} src={img} alt='img'/>
         </Link>
-        </div>
+      
       <div className={classNames(styles.description,)}
       style={{
         ...(ServicePage_Css && {fontWeight:400,width:"66vw",fontSize:"2.5vw",lineHeight:"3.1vw"}),

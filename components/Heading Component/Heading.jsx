@@ -31,7 +31,7 @@ const Heading = ({SpanHeading,bigHeading,description,ServicePage_Css,BlogPage_Cs
       >{bigHeading}</div>
       </div>
       <div className={classNames(styles.subDiv,)}>
-      <div className={styles.img}>
+      <div className={styles.img1}>
           <Link href="">
       <Image className={styles.img} src={img} alt='img'/>
         </Link>

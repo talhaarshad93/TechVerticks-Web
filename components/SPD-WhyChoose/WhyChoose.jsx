@@ -12,7 +12,7 @@ const data = [
     content: (
       <>
       We are a team of experienced iOS and Android app developers in who
-      leverage cutting-edge technologies to create mobile applications. Whether it's Android,
+      leverage cutting-edge technologies to create mobile applications. Whether it&apos;s Android,
       iOS, hybrid, or native app development, we handle all forms of mobile
       application development.
       <br />
@@ -30,7 +30,7 @@ const data = [
     content: (
       <>
       We are a team of experienced iOS and Android app developers in who
-      leverage cutting-edge technologies to create mobile applications. Whether it's Android,
+      leverage cutting-edge technologies to create mobile applications. Whether it&apos;s Android,
       iOS, hybrid, or native app development, we handle all forms of mobile
       application development.
       <br />
@@ -48,7 +48,7 @@ const data = [
     content: (
       <>
       We are a team of experienced iOS and Android app developers in who
-      leverage cutting-edge technologies to create mobile applications. Whether it's Android,
+      leverage cutting-edge technologies to create mobile applications. Whether it&apos;s Android,
       iOS, hybrid, or native app development, we handle all forms of mobile
       application development.
       <br />
@@ -66,7 +66,7 @@ const data = [
     content: (
       <>
       We are a team of experienced iOS and Android app developers in who
-      leverage cutting-edge technologies to create mobile applications. Whether it's Android,
+      leverage cutting-edge technologies to create mobile applications. Whether it&apos;s Android,
       iOS, hybrid, or native app development, we handle all forms of mobile
       application development.
       <br />
@@ -84,7 +84,7 @@ const data = [
     content: (
       <>
       We are a team of experienced iOS and Android app developers in who
-      leverage cutting-edge technologies to create mobile applications. Whether it's Android,
+      leverage cutting-edge technologies to create mobile applications. Whether it&apos;s Android,
       iOS, hybrid, or native app development, we handle all forms of mobile
       application development.
       <br />
@@ -102,7 +102,7 @@ const data = [
     content: (
       <>
       We are a team of experienced iOS and Android app developers in who
-      leverage cutting-edge technologies to create mobile applications. Whether it's Android,
+      leverage cutting-edge technologies to create mobile applications. Whether it&apos;s Android,
       iOS, hybrid, or native app development, we handle all forms of mobile
       application development.
       <br />
@@ -120,7 +120,7 @@ export default function WhyChoose() {
   let [active, setActive] = useState(
     <>
     We are a team of experienced iOS and Android app developers in who
-    leverage cutting-edge technologies to create mobile applications. Whether it's Android,
+    leverage cutting-edge technologies to create mobile applications. Whether it&apos;s Android,
     iOS, hybrid, or native app development, we handle all forms of mobile
     application development.
     <br />

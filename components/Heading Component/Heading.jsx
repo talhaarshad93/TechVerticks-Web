@@ -2,7 +2,7 @@ import React from 'react'
 import styles from './Heading.module.css'
 import classNames from 'classnames';
 import Image from 'next/image';
-import img from "../../assets/images/ArrowBtn.png";
+import img from "../../assets/images/down.png";
 import GetInTouch from '../GetinTouch/GetinTouch/GetinTouch';
 import Link from 'next/link';
 // import '../../assets/fonts/TT Interphases Pro';

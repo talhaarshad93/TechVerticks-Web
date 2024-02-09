@@ -1,15 +1,15 @@
-import GetInTouch from '@/components/GetinTouch/GetinTouch/GetinTouch'
-import HaveIdea from '@/components/Have Idea/HaveIdea'
-import Heading from '@/components/Heading Component/Heading'
-import ImageSlider from '@/components/ImageSlider/ImageSlider'
+import GetInTouch from "@/components/GetinTouch/GetinTouch/GetinTouch";
+import HaveIdea from "@/components/Have Idea/HaveIdea";
+import Heading from "@/components/Heading Component/Heading";
+import ImageSlider from "@/components/ImageSlider/ImageSlider";
 import sliderImg from "./../assets/images/IntroImage.png";
 
-import React from 'react'
-import Crafting from '@/components/Solution/Crafting/Crafting';
-import Industries from '@/components/Industries/Industries';
-import OverPartner from '@/components/OverPartnerComp/OverPartner';
-import Testimonials from '@/components/Testimonials/Testimonials';
-import RecentWork2 from '@/components/Recent Work Component/RecentWork2';
+import React from "react";
+import Crafting from "@/components/Solution/Crafting/Crafting";
+import Industries from "@/components/Industries/Industries";
+import OverPartner from "@/components/OverPartnerComp/OverPartner";
+import Testimonials from "@/components/Testimonials/Testimonials";
+import RecentWork2 from "@/components/Recent Work Component/RecentWork2";
 const xAxis = {
   dots: false, // Disable dots navigation
   infinite: true,
@@ -33,24 +33,30 @@ const images = [
   // Add more image paths as needed
 ];
 
-const SpanHeading ="Our Solutions"
-const bigHeading ="Innovative solutions that catalyze transformation"
-const description ="We are dedicated to delivering transformative software and app development solutions that evolve and adapt to meet the unique requirements of our clients, propelling their digital evolution and catalyzing profound transformations."
+const SpanHeading = "Our Solutions";
+const bigHeading = "Innovative solutions that catalyze transformation";
+const description =
+  "We are dedicated to delivering transformative software and app development solutions that evolve and adapt to meet the unique requirements of our clients, propelling their digital evolution and catalyzing profound transformations.";
 
 const Solutions = () => {
   return (
     <div>
-      <Heading SpanHeading={SpanHeading} bigHeading = {bigHeading} description={description}SolutionPage_Css/>   
+      <Heading
+        SpanHeading={SpanHeading}
+        bigHeading={bigHeading}
+        description={description}
+        SolutionPage_Css
+      />
       <ImageSlider images={images} settings={xAxis} />
-      <Crafting/>
-      <Industries/>
-      <OverPartner/>
-      <HaveIdea/>
-      <RecentWork2/> 
-      <Testimonials/>
-      <GetInTouch/>
+      <Crafting />
+      <Industries />
+      <OverPartner />
+      <HaveIdea />
+      <RecentWork2 />
+      <Testimonials />
+      <GetInTouch />
     </div>
-  )
-}
+  );
+};
 
-export default Solutions
+export default Solutions;

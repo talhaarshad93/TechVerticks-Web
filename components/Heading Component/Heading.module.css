@@ -39,8 +39,9 @@
     /* padding-left: 1vw; */
 }
 .img{
-    width: 4.6vw;
+    width: 100%;
     margin-left: 0.5vw;
-    height: 4.6vw;
+    height: 100%;
+    /* background-color: yellow; */
 
 };

@@ -62,7 +62,7 @@ export default function Intro() {
                 <br />
                 <br />
                 Adding more to this, the mobile app industry is on track to
-                generate a staggering <span style={{borderBottom:"1.5px solid grey"}}>$932 billion</span> in revenue in 2023. With the
+                generate a staggering <span style={{borderBottom:"0.1vw solid grey"}}>$932 billion</span> in revenue in 2023. With the
                 industry’s rapid growth and these astonishing statistics, it’s
                 no surprise that businesses and entrepreneurs are increasingly
                 drawn to app development, aiming to capitalize on its potential
@@ -119,7 +119,7 @@ export default function Intro() {
                 <br />
                 <br />
                 Adding more to this, the mobile app industry is on track to
-                generate a staggering <span style={{borderBottom:"1.5px solid grey"}}>$932 billion</span>  in revenue in 2023.
+                generate a staggering <span style={{borderBottom:"0.1vw solid grey"}}>$932 billion</span>  in revenue in 2023.
                 <br />
                 <br />
                 With the industry’s rapid growth and these astonishing
@@ -148,7 +148,7 @@ export default function Intro() {
                 <br />
                 <br />
                 Adding more to this, the mobile app industry is on track to
-                generate a staggering <span style={{borderBottom:"1.5px solid grey"}}>$932 billion</span> in revenue in 2023. With the
+                generate a staggering <span style={{borderBottom:"0.1vw solid grey"}}>$932 billion</span> in revenue in 2023. With the
                 industry’s rapid growth and these astonishing statistics, it’s
                 no surprise that businesses and entrepreneurs are increasingly
                 drawn to app development, aiming to capitalize on its potential

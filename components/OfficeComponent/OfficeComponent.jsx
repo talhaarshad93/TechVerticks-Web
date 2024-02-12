@@ -26,6 +26,7 @@ export default function OfficeComponent() {
         </div>
         </div>
         <Image className={style.Pakimg} src={Pakistan} alt="Pakistan" />
+    
 
       </div>
        

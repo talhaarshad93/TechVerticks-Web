@@ -25,6 +25,7 @@
   width: 35vw;
   height: 15vw;
   display: flex;
+  /* color: aqua; */
   
 }
 
@@ -36,7 +37,7 @@
   border: 1px solid rgb(231, 231, 231);
   /* background-color: aqua  ; */
 }
-.USADiv:hover {
+.USADiv:hover  {
 color: white;
   background-color: #B332D4;
 }

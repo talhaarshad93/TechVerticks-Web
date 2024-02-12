@@ -7,9 +7,8 @@ import InsightImages2 from "../../assets/images/InsightImages2.png"
 import InsightImages3 from "../../assets/images/InsightImages3.png"
 import InsightImages4 from "../../assets/images/InsightImages4.png"
 import InsightImages5 from "../../assets/images/InsightImages5.png"
-// import InsightImages6 from "../../assets/images/InsightImages6.png"
-// import InsightImages6 from "../../assets/images/Geelink1.gif"
-import InsightImages6 from "../../assets/images/Geelink1.gif";
+import InsightImages6 from "../../assets/images/InsightImages6.png"
+// import InsightImages6 from "../../assets/images/Geelink1.gif";
 import InsightBlogComp from "../InsightBlogComp/InsightBlogComp";
 
 import Heading from "../Heading Component/Heading";
@@ -43,7 +42,7 @@ const data=[
     },
     {   id: 6,
         heading:"How to Plan a Web Development Project Without Breaking the Budget",
-        img:InsightImages6,
+        img:InsightImages5,
         islarge:false,
     },
     {   id: 7,

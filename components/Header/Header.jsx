@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import Image from "next/image";
 import img from "../../assets/images/Logo.png";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { Navbar, Nav, Container, NavLink } from "react-bootstrap";
 import style from './Header.module.css'
 import classNames from "classnames";
 import Link from "next/link";
@@ -20,7 +19,7 @@ const Header = () => {
   return (
     <div className={style.mainContainer}>
       <div className={style.logo}>
-      <Image src={img} width={200} height={30} />
+      <Image src={img} className={style.logoImg}/>
 
       </div>
       <div className={style.navbar}>

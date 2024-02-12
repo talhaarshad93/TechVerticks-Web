@@ -34,8 +34,8 @@ import Insight from '@/components/InsightComponent/InsightComponent'
 const inter = Inter({ subsets: ["latin"] });
 
 const SpanHeading ="GENERATE YOUR VISION"
-const bigHeading ="Crafting your fantasies with a twist of creativity"
-const description ="We are an award-winning agency that launches companies of all sizes into the next era of growth."
+const bigHeading ="Empowering connections: Where technology unites people!"
+const description ="With extensive experience in digital product development, we know how to create user-friendly and memorable interfaces for leading international brands."
 export default function Home() {
   return (
     <div>

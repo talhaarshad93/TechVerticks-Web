@@ -13,11 +13,11 @@ import MB5 from '../../assets/images/TVimg.png'
 
 const OurServices = () => {
     const data = [
-        { heading: 'Mobile Application Development', image: MB1 },
-        { heading: 'Website Development', image:MB2 },
-        { heading: 'Design And Creativity', image: MB3},
-        { heading: 'Future technology', image:MB4 },
-        { heading: 'Solutions', image:MB5 },
+        { heading: 'Mobile Application Development', image: MB1 ,text: 'Grow your business with a full-fledged, scalable and stable mobile app and get MI development services (iOS, Android and Hybrid mobile ) under a single roof'},
+        { heading: 'UI/UX Design', image:MB2, text: 'Get visually appealing designs for your projects with our top-rated UI & UX design and development technologies to give an aesthetic user experience' },
+        { heading: 'Web Development', image: MB3, text: 'Delivering comprehensive web development services with broad-ranging expertise and technologies that encompasses every corner of the digital web'},
+        { heading: 'Digital Marketing', image:MB4, text: 'Comprehensive and business-focused solutions for search engine optimization and social media marketing strategies coupled with a decade worth of experience and expert insight.' },
+        // { heading: 'Solutions', image:MB5 },
       ];
     
       const [hoveredIndex, setHoveredIndex] = useState(null);
@@ -42,6 +42,7 @@ const OurServices = () => {
               <ImgTextComponent 
               src={item?.image}
               alt={`${item?.heading} Image`}
+              text = { item?.text}
               // style={{ maxWidth: '100%', height: 'auto' }}
               />
               )}

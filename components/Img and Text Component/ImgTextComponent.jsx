@@ -4,7 +4,7 @@ import classNames from "classnames";
 import service from "../../assets/images/serviceImg.png";
 import styles from "./ImgTextComponent.module.css";
 
-const ImgTextComponent = ({ src, alt, talha }) => {
+const ImgTextComponent = ({ src, alt, text }) => {
   return (
     <div className={styles.imgCountDiv}>
       <Image
@@ -15,8 +15,7 @@ const ImgTextComponent = ({ src, alt, talha }) => {
         // className={classNames(styles,"p-")}
       />
       <p className={classNames(styles.text)}>
-        We activate brands across global touchpoints, from campaigns to events
-        and beyond.
+       {text}
       </p>
     </div>
   );

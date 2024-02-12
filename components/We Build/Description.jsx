@@ -13,29 +13,31 @@ const Description = () => {
   // ];
   // const image = MB1
   return (
-    <div className="right ml- pl-5  offset- col-8  mt-1 ">
+    <div className="right ml-   offset- col-8  mt-1 ">
       <div className={classNames(styles.aMotion, "")}>
-        A Motion Partner Building Brand-Led Identities, Systems, And
-        Applications.
+        Maximize Your Success! Respond to the needs of the users through an
+        aesthetic User Design , User Experience & high-end create a product with
+        a striking effect
       </div>
       <p className={classNames(styles.paragraph, "")}>
-        We move with make a Creative Strategy for help your business goal, we
-        help to improve your income by a services we have. make your content
-        look interesting and make people look for your business.
+        Welcome to Tech Verticks — a top software development company
+        established by motivated doers and tech entrepreneurs with a great
+        mission in mind.
         <br />
-        <br /> The media landscape is changing in front of our eyes, and brands
-        need to adapt how they communicate in order to thrive. Motion is the
-        connective tissue between a brand and its audience. It is a vital
-        component of a brand’s platform, evolving its ecosystem and
-        communications in profound new ways.
-        <br /> We work with brand leaders to build motion identities, systems,
-        and applications that deepen their audience relationships, strengthen
-        their brand affinity, and drive their long-term growth.
+        <br />
+         We are experts in providing the best mobile app
+        development services and creating successful business stories. Every
+        customer is important to us, as we believe in taking everyone who
+        approaches us to the next level. So, no matter what kind of app you
+        desire; we can build anything for you from scratch. Our team of
+        developers and designers use their years of experience to provide
+        engaging navigation, user-friendly UI/UX, high definition UI/UX, and
+        other features of the iOS and android app.
       </p>
       <div className={classNames(styles.learnBtn, "")}>
         <button className={styles.btn}>Learn More About Our Approach</button>
       </div>
- {/* {data.map(item => (<ImgTextComponent src={item.image} />))     } */}
+      {/* {data.map(item => (<ImgTextComponent src={item.image} />))     } */}
     </div>
   );
 };

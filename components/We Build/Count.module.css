@@ -1,53 +1,55 @@
 .name{
-    font-size: 15px;
+    font-size: 1vw;
     /* text-align: center; */
     /* font-weight: 700; */
-    margin-left: 4px;
+    /* margin-left: 1vw; */
     font-family:"TT Interphases Pro Trial DemiBold"
     /* background-color: red; */
 }
 .nameCount{
-    margin-top: 70px;
+    margin-top: 5vw;
+    /* margin-bottom: -3vw; */
    
 }
 .count{
-    font-size: 60px;
+    font-size: 5vw;
     /* font-weight: 800; */
-    margin-top: -15px;
+    margin-top: -1vw;
     text-align: left;
     /* letter-spacing: 1px; */
     /* background-color: yellow; */
-    width: 150px;
+    width: 50%;
     font-family:"TT Interphases Pro Trial ExtraBold";
 
 }
 .weBuild{
-    font-size: 16px;
+    font-size: 1vw;
     color:  rgba(179, 50, 212, 1);
     /* margin-bottom: 500px; */
     font-family:"TT Interphases Pro Trial Medium";
     /* margin-bottom: 30px; */
-    width:150px;
-    line-height: 20px;
+    width:70%;
+    line-height: 1.5vw;
 
     /* height: 500px; */
     /* background-color: blue; */
 }
 .aMotion{
-    font-size: 45px;
-    font-weight: 800;
-    width: 680px;
-    line-height: 48px;
+    font-size: 2.5vw;
+    /* font-weight: 800; */
+    width: 80%;
+    line-height: 2.5vw;
+    /* background-color: blue; */
     font-family:"TT Interphases Pro Trial ExtraBold";
 }
 .paragraph{
-    width: 550px;
-    margin-top: 40px;
+    width: 65%;
+    margin-top: 3vw;
+    margin-bottom: 3vw;
     color: rgba(0, 0, 0, .5);
-    height: 55%;
-    /* background-color: blue; */
-    font-size: 17px;
-    line-height: 23px;
+    /* height: 55%; */
+    font-size: 1.5vw;
+    line-height: 1.9vw;
     font-family:"TT Interphases Pro Trial Regular";
 
 
@@ -79,185 +81,40 @@
 
 
 @media only screen and (max-width: 1199px) {
-    .name{
-        font-size: 13px;
-        
-    }
-    .nameCount{
-        margin-top: 55px;
-       
-    }
-    .count{
-        font-size: 58px;
-      
-    }
-    .weBuild{
-        font-size: 14px;
-        width:150px;
-       
-    }
-    .aMotion{
-        font-size: 39px;
-        width: 600px;
-        line-height: 42px;
-
-    }
-    .paragraph{
-        width: 480px;
-        font-size: 15px;
-        /* background-color: yellow; */
-    
-    
-    }
-    .learnBtn{
-        /* padding: 13px;
-        font-size: 13px;
-      
-        width: 260px; */
-        
-       }
+   
    
 }
 
 
 
 @media only screen and (max-width: 991px) {
-    .name{
-        font-size: 12px;
-        
-    }
-    .nameCount{
-        margin-top: 35px;
-       
-    }
-    .count{
-        font-size: 53px;
-      
-    }
-    .weBuild{
-        font-size: 13px;
-        line-height: 17px;
-        width:120px;
-       
-    }
-    .aMotion{
-        font-size: 31px;
-        width: 480px;
-        line-height: 35px;
-
-    }
-    .paragraph{
-        width: 420px;
-        font-size: 13px;
-        line-height: 20px;
-        margin-top: 24px;
-
-    
-    
-    }
-    .learnBtn{
-        padding: 11px;
-        font-size: 11px;
-        margin-top: 16px;
-        width: 220px;
-       }
+   
    
 }
 
 @media only screen and (max-width: 767px) {
-    .name{
-        font-size: 8px;
-        
-    }
+   
     .nameCount{
-        margin-top: 18px;
+        margin-top: 4vw;
        
     }
-    .count{
-        font-size: 43px;
-      
-    }
-    .weBuild{
-        font-size: 10px;
-        line-height: 12px;
-        width:100px;
-       
-    }
-    .aMotion{
-        font-size: 23px;
-        width: 360px;
-        line-height: 25px;
-
-    }
-    .paragraph{
-        width: 300px;
-        font-size: 9px;
-        line-height: 15px;
-        margin-top: 15px;
-
-    
-    
-    }
-    .learnBtn{
-        padding: 9px;
-        font-size: 9px;
-        margin-top: 15px;
-        width: 190px;
-       }
+ 
+   
    
 }
 
-@media only screen and (max-width: 575px) {
-    .name{
-        font-size: 1.3vw;
-        /* width: 20px; */
-        
-    }
+@media only screen and (max-width: 650px) {
     .nameCount{
-        margin-top: 1vw;
-        margin-bottom: 3vw;
-        /* background-color: #fff; */
-        height: 20%;
-        
+        margin-top: 3vw;
        
     }
-    .count{
-        font-size: 6vw;
-        margin-top: -2.5vw;
-      
-    }
-    .weBuild{
-        font-size: 1.5vw;
-        line-height: 2vw;
-        width:80%;
-       
-    }
-    .aMotion{
-        font-size: 3vw;
-        width: 80%;
-        line-height: 3.3vw;
-        padding-top: 5px;
-
-    }
-    .paragraph{
-        width: 70%;
-        font-size: 1.6vw;
-        line-height: 2vw;
-        margin-top: 2.5vw;
-
-    
-    
-    }
-    .learnBtn{
-        padding: 1.2vw;
-        font-size: 1vw;
-        margin-top: -1.5vw;
-        width: 37%;
-       }
    
 }
-@media only screen and (max-width: 528px) {
-   
+@media only screen and (max-width: 500px) {
+    .nameCount{
+        margin-top: 2vw;
+       
+    }
    
 }
 @media only screen and (max-width: 457px) {

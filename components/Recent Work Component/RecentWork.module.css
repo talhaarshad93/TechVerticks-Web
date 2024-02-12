@@ -17,6 +17,7 @@
 
     /* background-color: yellow; */
 }
+
 .recent2ImgDiv{
     display: flex;
     align-items: center;
@@ -75,6 +76,7 @@
 }
 .img{
     border-radius: 2vw;
+    
 }
 .ourCherish{
     font-size: 4.5vw;

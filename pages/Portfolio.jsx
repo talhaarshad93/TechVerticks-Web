@@ -1,9 +1,9 @@
 import GetInTouch from '@/components/GetinTouch/GetinTouch/GetinTouch';
 import Heading from '@/components/Heading Component/Heading';
 import Testimonials from '@/components/Testimonials/Testimonials';
-import mobGif from '../assets/images/mob gif1.gif'
-import mobGif2 from '../assets/images/mob gif2.gif'
-import ltopGif from '../assets/images/web gif.gif'
+import mobGif from '../assets/images/mobgif1.gif'
+import mobGif2 from '../assets/images/mobgif2.gif'
+import ltopGif from '../assets/images/webgif.gif'
 import React from 'react';
 import ImgandBtn from '@/components/Recent Work Component/ImgandBtn';
 import style from './allPages.module.css'

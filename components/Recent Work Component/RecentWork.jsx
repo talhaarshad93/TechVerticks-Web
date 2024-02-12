@@ -1,7 +1,7 @@
 import React from 'react'
 import ImgandBtn from './ImgandBtn'
 // import mobGif from '../../assets/images/mob gif1.gif'
-import mobGif from '../../assets/images/kate.png'
+import mobGif from '../../assets/images/Geelink1.gif';
 import mobGif2 from '../../assets/images/mob gif2.gif'
 import ltopGif from '../../assets/images/web gif.gif'
 import styles from './../We Build/Count.module.css'

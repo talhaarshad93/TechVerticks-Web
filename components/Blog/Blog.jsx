@@ -43,7 +43,7 @@ const data=[
     },
     {   id: 6,
         heading:"How to Plan a Web Development Project Without Breaking the Budget",
-        img:InsightImages5,
+        img:InsightImages6,
         islarge:false,
     },
     {   id: 7,

@@ -54,19 +54,25 @@
 
 }
 .learnBtn{
-    padding: 15px;
+    /* padding: 15px;
     font-size: 15px;
     border: 1px solid black;
     width: 300px;
     text-align: center;
     border-radius: 45px;
-    margin-top: 10px;
+    margin-top: 10px; */
+   
 }
 .btn{
-    border: none;
+    padding: 1vw;
+    font-size: 1.5vw;
+    font-weight: 800;
+    border: 1px solid black;
+    width: 27vw;
+    /* height: 5vw; */
+    text-align: center;
+    border-radius: 35px;
     background-color: white;
-    /* font-weight: 700; */
-    font-size: 17px;
     
     font-family:"TT Interphases Pro Trial DemiBold"
 }
@@ -99,14 +105,16 @@
     .paragraph{
         width: 480px;
         font-size: 15px;
+        /* background-color: yellow; */
     
     
     }
     .learnBtn{
-        padding: 13px;
+        /* padding: 13px;
         font-size: 13px;
       
-        width: 260px;
+        width: 260px; */
+        
        }
    
 }
@@ -233,7 +241,7 @@
     }
     .paragraph{
         width: 70%;
-        font-size: 1.3vw;
+        font-size: 1.6vw;
         line-height: 2vw;
         margin-top: 2.5vw;
 

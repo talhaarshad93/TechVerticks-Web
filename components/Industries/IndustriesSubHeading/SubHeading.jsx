@@ -49,13 +49,15 @@ const SubHeading = ({ data, handleClick, addingCss, hideHr }) => {
             [style.font]: addingCss,
           })}
           // style={{ fontSize: fontsize }}
-          onClick={handleClick}
+          // onClick={handleClick}
+          onMouseEnter={handleClick} 
+      onMouseLeave={handleClick}
         >
           {heading}
         </button>
         { isClicked && (
           <>
-            <div className={style.text}>{text}</div>
+            <div className={style.text}> {text}</div>
             <div className={style.details}>Discover Industries Details</div>
           </>
         )}

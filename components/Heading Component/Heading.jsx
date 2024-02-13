@@ -22,7 +22,9 @@ const Heading = ({SpanHeading,bigHeading,description,ServicePage_Css,BlogPage_Cs
         <div className={classNames( styles.bigHeading,'mt-1')}
          style={{
           ...(BlogPage_Css && {fontWeight:900,width:"55vw",fontSize:"8vw"}),
-        ...(AboutPage_Css && {fontWeight:900,width:"90vw",fontSize:"8vw", }), 
+        ...(AboutPage_Css && {fontWeight:900,width:"90vw",fontSize:"8vw", }),
+        ...(ServicePage_Css && {fontSize:"5vw",lineHeight: "5vw"}),
+
         ...(Portfolio_Css && {fontWeight:800,width:"55vw",fontSize:"7.4vw",lineHeight:"7.4vw",letterSpacing:"-0.1vw",paddingRight:"12vw", }), 
         ...(SolutionPage_Css && {fontWeight:900,width:"93vw",fontSize:"8vw",letterSpacing:"0vw",paddingRight:"12vw", }), 
         ...(ContentUs_Css && {fontWeight:900,width:"56vw",fontSize:"8.6vw",lineHeight:"9vw",letterSpacing:"-0.1vw",paddingRight:"12vw", }), 

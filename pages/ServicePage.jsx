@@ -24,25 +24,25 @@ const sectionsDataArray = [
     listData: [
       {
         heading: "IOS Development",
-        text: "  Creating cutting-edge mobile solutions for efficient content management, readable course material and secure online fee collection, Learning management systems,Communication interfaces include messaging, video conferencing, file sharing, gamification, knowledge base integration, and assessment engines. ",
+        text: "iOS Development services include consulting, product strategy, UI/UX development, testing & technical delivery ",
         image: sports,
         isClicked: false,
       },
       {
         heading: "Android App Development",
-        text: "  Creating cutting-edge mobile solutions for efficient content management, readable course material and secure online fee collection, Learning management systems,Communication interfaces include messaging, video conferencing, file sharing, gamification, knowledge base integration, and assessment engines. ",
+        text: "Android App features include back-end system, API development, app security, development consultations, user experience & interface design",
         image: sportsNew,
         isClicked: false,
       },
       {
-        heading: "React Native App Development",
-        text: "  Creating cutting-edge mobile solutions for efficient content management, readable course material and secure online fee collection, Learning management systems,Communication interfaces include messaging, video conferencing, file sharing, gamification, knowledge base integration, and assessment engines. ",
+        heading: "React Native Development",
+        text: "Our React Native app development delivers cross-platform solutions with speed and efficiency",
         image: sports,
         isClicked: false,
       },
       {
         heading: "Hybrid App Development",
-        text: "  Creating cutting-edge mobile solutions for efficient content management, readable course material and secure online fee collection, Learning management systems,Communication interfaces include messaging, video conferencing, file sharing, gamification, knowledge base integration, and assessment engines. ",
+        text: "Provide a seamless and impeccable user experience across Android and iOS mobile platforms, ensure fast data display and hassle-free data streaming",
         image: sports,
         isClicked: false,
       },
@@ -54,19 +54,19 @@ const sectionsDataArray = [
     listData: [
       {
         heading: "PHP Development",
-        text: "  Creating cutting-edge mobile solutions for efficient content management, readable course material and secure online fee collection, Learning management systems,Communication interfaces include messaging, video conferencing, file sharing, gamification, knowledge base integration, and assessment engines. ",
+        text: "Our PHP development unleashes the potential of dynamic web solutions, tailored to meet your unique business needs",
         image: sports,
         isClicked: false,
       },
       {
         heading: "Custom CMS Development",
-        text: "  Creating cutting-edge mobile solutions for efficient content management, readable course material and secure online fee collection, Learning management systems,Communication interfaces include messaging, video conferencing, file sharing, gamification, knowledge base integration, and assessment engines. ",
+        text: "Customized design and layout to update the content on your own without any hassle that includes WordPress, Drupal, Magento & Joomla",
         image: sportsNew,
         isClicked: false,
       },
       {
         heading: "Ecommerce Website Development",
-        text: "  Creating cutting-edge mobile solutions for efficient content management, readable course material and secure online fee collection, Learning management systems,Communication interfaces include messaging, video conferencing, file sharing, gamification, knowledge base integration, and assessment engines. ",
+        text: "Providing a complete suite of an e-commerce website that starts with research, product personalization, purchases & sales growth",
         image: sports,
         isClicked: false,
       },
@@ -78,31 +78,26 @@ const sectionsDataArray = [
     listData: [
       {
         heading: "UI/UX Design",
-        text: "  Creating cutting-edge mobile solutions for efficient content management, readable course material and secure online fee collection, Learning management systems,Communication interfaces include messaging, video conferencing, file sharing, gamification, knowledge base integration, and assessment engines. ",
+        text: "Our UI/UX design focuses on user-centric design principles and create interfaces that elevate brands and delight users.",
         image: sports,
         isClicked: false,
       },
       {
         heading: "App Design",
-        text: "  Creating cutting-edge mobile solutions for efficient content management, readable course material and secure online fee collection, Learning management systems,Communication interfaces include messaging, video conferencing, file sharing, gamification, knowledge base integration, and assessment engines. ",
+        text: "Elevate user experiences with our expert app design services, blending aesthetic appeal with intuitive functionality to create captivating digital solutions.",
         image: sportsNew,
         isClicked: false,
       },
-      {
-        heading: "Mobile App Prototyping",
-        text: "  Creating cutting-edge mobile solutions for efficient content management, readable course material and secure online fee collection, Learning management systems,Communication interfaces include messaging, video conferencing, file sharing, gamification, knowledge base integration, and assessment engines. ",
-        image: sports,
-        isClicked: false,
-      },
+      
       {
         heading: "Logo & Brouchure Design",
-        text: "  Creating cutting-edge mobile solutions for efficient content management, readable course material and secure online fee collection, Learning management systems,Communication interfaces include messaging, video conferencing, file sharing, gamification, knowledge base integration, and assessment engines. ",
+        text: "Crafting diversified logos such as Iconic, Typography, Illustrative &  Animated logo design",
         image: sports,
         isClicked: false,
       },
       {
         heading: "Social Media Design",
-        text: "  Creating cutting-edge mobile solutions for efficient content management, readable course material and secure online fee collection, Learning management systems,Communication interfaces include messaging, video conferencing, file sharing, gamification, knowledge base integration, and assessment engines. ",
+        text: "Elevate your social media presence with captivating post designs tailored to engage and resonate with your audience",
         image: sports,
         isClicked: false,
       },
@@ -168,25 +163,25 @@ const sectionsDataArray = [
     listData: [
       {
         heading: "Social Media Marketing",
-        text: "  Creating cutting-edge mobile solutions for efficient content management, readable course material and secure online fee collection, Learning management systems,Communication interfaces include messaging, video conferencing, file sharing, gamification, knowledge base integration, and assessment engines. ",
+        text: "Create a prominent online presence, customer engagement, brand awareness & increased retention ratio",
         image: sports,
         isClicked: false,
       },
       {
         heading: " Pay Per Click (PPC)",
-        text: "  Creating cutting-edge mobile solutions for efficient content management, readable course material and secure online fee collection, Learning management systems,Communication interfaces include messaging, video conferencing, file sharing, gamification, knowledge base integration, and assessment engines. ",
+        text: "Plan entire budget and campaigns that reap the benefits of improved brand visibility & higher traffic with reduced costs",
         image: sportsNew,
         isClicked: false,
       },
       {
         heading: "Search Engine Optimization",
-        text: "  Creating cutting-edge mobile solutions for efficient content management, readable course material and secure online fee collection, Learning management systems,Communication interfaces include messaging, video conferencing, file sharing, gamification, knowledge base integration, and assessment engines. ",
+        text: "Choose the right medium to showcase your products or services on an online platform to increase your web visibility, leads & retention ratio",
         image: sports,
         isClicked: false,
       },
       {
         heading: "Content Writing",
-        text: "  Creating cutting-edge mobile solutions for efficient content management, readable course material and secure online fee collection, Learning management systems,Communication interfaces include messaging, video conferencing, file sharing, gamification, knowledge base integration, and assessment engines. ",
+        text: "Strategic and a customized marketing approach that focuses on creating consistent & valuable content for a clearly defined audience ",
         image: sports,
         isClicked: false,
       },
@@ -195,9 +190,9 @@ const sectionsDataArray = [
 ];
 
 const SpanHeading = "GENERATE YOUR VISION";
-const bigHeading = "Elevate experiences and activate growth";
+const bigHeading = "Unlocking Innovation: Transformative Mobile Apps, Web Development, and Design Solutions for the Modern Digital Era!";
 const description =
-  "From bold new ideas to innovative platforms and branding solutions, we’ve got you covered. Our team works closely with you to strategize the next move and build custom solutions that unlock your full potential.";
+  "At TechVerticks, we specialize in offering comprehensive services in mobile app development, web development, and design. Our team of experts is dedicated to unlocking innovation and transforming businesses for the modern digital era.";
 const xAxis = {
   dots: false, // Disable dots navigation
   infinite: true,

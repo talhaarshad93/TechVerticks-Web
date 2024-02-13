@@ -4,7 +4,7 @@ import SubHeading from "./IndustriesSubHeading/SubHeading";
 import Education from "../../assets/images/Education.png";
 import Legal from "../../assets/images/Legal.png";
 import Health from "../../assets/images/Health.png";
-import Sports from "../../assets/images/Sports.png";
+import Sports from "../../assets/images/sports.png"
 import Fitness from "../../assets/images/Fitness.png";
 import Learning from "../../assets/images/Learning.png";
 import style from "../Industries/IndustriesSubHeading/SubHeading.module.css";

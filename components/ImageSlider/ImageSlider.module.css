@@ -3,15 +3,17 @@
     width: 90%;
     /* height: 5vw; */
     margin: auto;
-    /* background-color: yellow; */
+    /* display: flex; */
   }
   
   .slide  {
-    /* width: 10%;
-    height: 100%; */
+    /* position:inherit; */
+    /* position:sticky ;
+    z-index: 000; */
+    /* width: 60%; */
+    /* height: 80vw; */
     /* margin-right: -20px; */
     padding: 2vw;
-    /* background-color: blue; */
   }
   .image{
     width: 100%;

@@ -109,6 +109,18 @@
     /* background-color: blue; */
 
 }
+.SPD_topHeading_CSS{
+    font-family:"TT Interphases Pro Trial Black";
+    font-size: 6.2vw;
+    line-height: 6vw;
+}
+.SPD_ParaCSS{
+    font-family:"TT Interphases Pro Trial Medium";
+    font-size: 1.7vw;
+    width: 43vw;
+    line-height: 2.3vw;
+    margin-top: 2vw;
+}
 @media(max-width:768px){
     .customStyle{
         width: 65%;

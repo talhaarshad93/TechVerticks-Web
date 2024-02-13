@@ -26,7 +26,6 @@
 }
 .serail{
     color: #B332D4;
-    font-family: Arial,;
     padding-top: 1vw;
     padding-left: 1.3vw;
     font-weight: 300;
@@ -48,13 +47,13 @@
 }
 .Img_heading{
     color: #000000;
-    font-family: Arial,;
+    font-family: "TT Interphases Pro Trial DemiBold";
     font-size: 1.3vw;
     font-weight: 500;
     width: 10.37vw;
     text-align: center;
     /* justify-content: center; */
     margin-left: 5vw;   
-    margin-top: 1.5vw;
+    margin-top: 1vw;
     
 }

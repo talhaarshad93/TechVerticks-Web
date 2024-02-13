@@ -1,35 +1,33 @@
-.main{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* width: 85%;
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* width: 85%;
     height: 50%; */
-    /* margin-left: 6vw; */
-    margin-top: 4.5vw;
-    /* margin-bottom: 5.5vw; */
-    margin-bottom: 3vw;
-    
+  /* margin-left: 6vw; */
+  margin-top: 4.5vw;
+  /* margin-bottom: 5.5vw; */
+  margin-bottom: 3vw;
 }
-.PakDiv{
-    padding-top: 2.8vw;
-    padding-left: 4.2vw;
-    width: 46vw;
-    height: 38vw;
-    border-bottom: 1px solid rgb(231, 231, 231);
-    border-left: 1px solid rgb(231, 231, 231);
-    border-top: 1px solid rgb(231, 231, 231);
-    display: flex;
-    flex-direction: column;
+.PakDiv {
+  padding-top: 2.8vw;
+  padding-left: 4.2vw;
+  width: 46vw;
+  height: 38vw;
+  border-bottom: 1px solid rgb(231, 231, 231);
+  border-left: 1px solid rgb(231, 231, 231);
+  border-top: 1px solid rgb(231, 231, 231);
+  display: flex;
+  flex-direction: column;
 }
-.headingDiv{
+.headingDiv {
   width: 35vw;
   height: 15vw;
   display: flex;
   /* color: aqua; */
-  
 }
 
-.USADiv{
+.USADiv {
   padding-top: 2.8vw;
   padding-left: 4.2vw;
   width: 46vw;
@@ -37,72 +35,65 @@
   border: 1px solid rgb(231, 231, 231);
   /* background-color: aqua  ; */
 }
-.USADiv:hover  {
-color: white;
-  background-color: #B332D4;
+.USADiv:hover {
+  color: white;
+  background-color: #b332d4;
 }
 
-.Pakimg{  
- width: 90%;
-  height: 45%;
-object-fit: contain;
-}
-
-.USAimg{
+.Pakimg {
   width: 90%;
   height: 45%;
- background-image: url(../../assets/images/USA.png);  
- /* height:400px;
+  object-fit: contain;
+}
+
+.USAimg {
+  width: 90%;
+  height: 45%;
+  background-image: url(../../assets/images/USA.png);
+  /* height:400px;
  max-width:400px; */
   object-fit: contain;
-/* margin-top: 1vw; */
-background-size: contain;  
-margin-top: -0.5vw;
+  /* margin-top: 1vw; */
+  background-size: contain;
+  margin-top: -0.5vw;
 
-/* background-color: aquamarine; */
-background-position:center;
-background-repeat:no-repeat;
-/* background-size:cover; */
-
-
+  /* background-color: aquamarine; */
+  background-position: center;
+  background-repeat: no-repeat;
+  /* background-size:cover; */
 }
-.USAimg:hover{
- background-image: url(../../assets/images/RiseUpUsa.gif);
- background-size: contain;  
+.USAimg:hover {
+  background-image: url(../../assets/images/RiseUpUsa.gif);
+  background-size: contain;
   width: 110%;
   height: 49%;
   margin-top: -1vw;
   margin-left: -4vw;
- /* height:400px;
+  /* height:400px;
  max-width:400px; */
- object-fit: contain;
-
+  object-fit: contain;
 }
-.imgDiv{
+.imgDiv {
   margin-top: 20px;
   /* background-color: rgb(20, 20, 19); */
   width: 5vw;
   height: 5vw;
-  
+
   margin-left: -2.5vw;
   margin-right: 11vw;
   margin-top: 4vw;
-
-  
 }
-.PakFlag{
+.PakFlag {
   object-fit: contain;
   width: 5vw;
   height: 5vw;
   /* background-color: red; */
-
 }
-.USAFlag{
+.USAFlag {
   object-fit: contain;
   width: 5vw;
   height: 5vw;
   margin-left: -8vw;
   margin-top: -0.5vw;
   /* background-color: red; */
-
 }

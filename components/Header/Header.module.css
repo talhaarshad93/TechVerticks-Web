@@ -16,6 +16,7 @@
 
     position: fixed;
    align-items: center;
+   z-index: 1000;
   }
 .logo{
   width: 100%;
@@ -61,7 +62,7 @@
   font-size: 0.8vw;
   font-family: "TT Interphases Pro Trial Medium";
   display: block;
-  z-index: 000;
+  z-index: 111;
   color: black;
 }
 .navbar ul {
@@ -170,7 +171,7 @@
     background-color: rgba(255, 255, 255, 0.9);
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    z-index: 999;
+    z-index:0;
   }
     /* .navbar nav .menu {
         background-color: aqua;

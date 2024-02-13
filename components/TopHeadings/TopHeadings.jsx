@@ -20,13 +20,16 @@ export default function Topheadings({
   SPD_OP_para,
   SPD_TWU_heading,
   SPD_TWU_Para,
-  Testimonial_heading
+  Testimonial_heading,
+  SPDFirstHeading,
+  SPD_Para,
+  SPD_Tech_Para
 }) {
   return (
     <div>
       <div className={haveIdea ? style1.ideaCustome : style1.titleText}>{title}</div>
       <div
-        className={customStyle? style1.customStyle1: haveIdea? style1.letsBuild: sectionCss? style1.sectionHeading: style1.heading}
+        className={customStyle? style1.customStyle1: haveIdea? style1.letsBuild: sectionCss? style1.sectionHeading: SPDFirstHeading? style1.SPD_topHeading_CSS : style1.heading}
         style={{
         ...{ width: width},...headingStyles,
         //mohsin Css
@@ -35,7 +38,8 @@ export default function Topheadings({
         ...(SPD_OP && { fontSize:"4.1vw",width:"40vw", lineHeight:"1.2" }),
         ...(SPD_OP_WB && { fontSize:"4.1vw",width:"40vw", lineHeight:"1.2", fontWeight:800,fontFamily:"system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif" }),
         ...(SPD_TWU_heading &&{ fontSize:"4.2vw", width:"76vw",fontWeight:800, fontFamily:"system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif"} ),
-        ...(Testimonial_heading &&{ fontSize:"3.6vw",marginTop:"0.3vw", width:"40vw",fontWeight:800,lineHeight:"1.3", fontFamily:"system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif"} ),
+        ...(SPD_Tech_Para &&{ fontSize:"4.2vw", width:"76vw",fontWeight:800, fontFamily:"system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif"} ),
+        ...(Testimonial_heading &&{color:"red", fontSize:"3.6vw",marginTop:"0.3vw", width:"50vw",fontWeight:800,lineHeight:"1.3", fontFamily:"system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif"} ),
         // Add other style properties as needed
       }}
       >
@@ -47,13 +51,15 @@ export default function Topheadings({
           abcClass
             ? style1.customStyle : sectionCss
             ? style1.sectionpara : craftingCss 
-            ? style1.craftingpara : style1.praContainer
+            ? style1.craftingpara : SPDFirstHeading? style1.SPD_ParaCSS : style1.praContainer
         }
             style={{
               ...(VC_Css && { fontWeight:300,width:"70vw",fontSize:"1.8vw",fontFamily:"TT Interphases Pro Trial Medium" }),
               ...(blackColor && { color: "#000000" }),
-              ...(SPD_OP_para && { fontSize:"1.25vw",width:"36vw", color:"#666666", fontWeight:100,marginTop:"2vw" }),
+              ...(SPD_OP_para && { fontSize:"1.4vw",width:"36vw", color:"#666666", fontWeight:100,marginTop:"2vw",fontFamily:"TT Interphases Pro Trial Regular" }),
               ...(SPD_TWU_Para && { fontSize:"1.25vw",width:"46vw", color:"#666", fontSize:"1.4vw", fontWeight:300,marginTop:"2vw",fontFamily:"system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif" }),
+              ...(SPD_Para && {color:"#666",width:"75vw",lineHeight:"1.3", fontSize:"1.4vw",marginTop:"2vw",fontFamily:"TT Interphases Pro Trial Regular"}),
+              ...(SPD_Tech_Para && {color:"#666",width:"45vw",lineHeight:"1.3", fontSize:"1.4vw",marginTop:"2vw",fontFamily:"TT Interphases Pro Trial Regular"}),
             
               // Add other style properties as needed
             }}

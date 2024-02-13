@@ -1,9 +1,9 @@
 import React from "react";
 import ImgandBtn from "./ImgandBtn";
 // import mobGif from '../../assets/images/mobgif1.gif'
-import mobGif from "../../assets/images/Geelink1.gif";
-import mobGif2 from "../../assets/images/mobgif1.gif";
-import ltopGif from "../../assets/images/webgif.gif";
+import mobGif from "../../assets/images/Geelink1.Gif";
+import mobGif2 from "../../assets/images/mobgif1.Gif";
+import ltopGif from "../../assets/images/webgif.Gif";
 import styles from "./../We Build/Count.module.css";
 import classNames from "classnames";
 import style from "./RecentWork.module.css";

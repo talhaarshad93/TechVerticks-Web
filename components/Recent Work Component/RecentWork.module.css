@@ -83,8 +83,9 @@
     height: 95%;
     
 }
+
 .img:hover{
-    border-radius: 2vw;
+    /* border-radius: 2vw; */
     /* object-fit: contain;
      */
      /* width: 100%;

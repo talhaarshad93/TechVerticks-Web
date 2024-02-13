@@ -5,7 +5,7 @@ import styles from "./RecentWork.module.css";
 import classNames from "classnames";
 import { useRouter } from "next/router";
 
-const ImgandBtn = ({ imageUrl, imageHeight, imageWidth, btnTxt, width }) => {
+const ImgandBtn = ({ imageUrl, imageHeight, imageWidth, btnTxt, width ,recent2Css}) => {
   const imageStyles = {
     width: `${imageWidth}%`,
     height: `${imageHeight}%`,
@@ -25,7 +25,7 @@ const ImgandBtn = ({ imageUrl, imageHeight, imageWidth, btnTxt, width }) => {
         // height={1000}
         // style={imageStyles}
         alt="Image"
-        className={classNames(styles.img)}
+        className={ styles.img}
       />
       {btnTxt && (
         <button

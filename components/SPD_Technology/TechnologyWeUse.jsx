@@ -7,7 +7,7 @@ import Andriod from "../../assets/images/Andriod.png";
 import React_Native from "../../assets/images/React_Native.png";
 import Katlin from "../../assets/images/Katlin.png";
 // import Flutter from "../../assets/images/Flutter.png";
-import Flutter from "../../assets/images/Flutter.Png";
+import Flutter from "../../assets/images/Flutter.png";
 import ObjectiveC from "../../assets/images/ObjectiveC.png";
 import Image from "next/image";
 

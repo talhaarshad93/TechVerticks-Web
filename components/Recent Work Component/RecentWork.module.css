@@ -78,6 +78,7 @@
 }
 .img{
     border-radius: 2vw;
+    object-fit: contain;
     
 }
 .ourCherish{

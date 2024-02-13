@@ -47,9 +47,11 @@
 
 }
 .img {
-  width: 90%;
-  height: 30vw;
+  width: 100%;
+  height: 60vw;
   border-radius: 15px;
+  object-fit:contain;
+  /* background-color: yellow; */
 }
 .font{
   font-size: 2vw;

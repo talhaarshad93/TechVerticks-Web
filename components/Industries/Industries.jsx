@@ -1,12 +1,12 @@
 import React, { useState } from "react";
 import Topheadings from "../TopHeadings/TopHeadings";
 import SubHeading from "./IndustriesSubHeading/SubHeading";
-import Education from "../../assets/images/Education.jpg";
-import Legal from "../../assets/images/Legal.jpg";
-import Health from "../../assets/images/Health.jpg";
-import Sports from "../../assets/images/Sports.jpg";
-import Fitness from "../../assets/images/Fitness.jpg";
-import Learning from "../../assets/images/Learning.jpg";
+import Education from "../../assets/images/Education.png";
+import Legal from "../../assets/images/Legal.png";
+import Health from "../../assets/images/Health.png";
+import Sports from "../../assets/images/Sports.png";
+import Fitness from "../../assets/images/Fitness.png";
+import Learning from "../../assets/images/Learning.png";
 import style from "../Industries/IndustriesSubHeading/SubHeading.module.css";
 import classNames from "classnames";
 import Image from "next/image";
@@ -92,15 +92,12 @@ const Industries = () => {
             <Image
               src={sideImage}
               alt={"alt"}
-              className={classNames(style.img, "col-")}
+              className={classNames(style.img)}
             />
           </div>
         )}
       </div>
-      <div>
-        <div></div>
-        <div></div>
-      </div>
+     
     </div>
   );
 };

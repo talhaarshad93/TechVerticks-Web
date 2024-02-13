@@ -5,8 +5,9 @@ import Ionic from "../../assets/images/Ionic.png";
 import IOS from "../../assets/images/IOS.png";
 import Andriod from "../../assets/images/Andriod.png";
 import React_Native from "../../assets/images/React_Native.png";
-import Katlin from "../../assets/images/katlin.png";
-import Flutter from "../../assets/images/Flutter.Png";
+import Katlin from "../../assets/images/Katlin.png";
+// import Flutter from "../../assets/images/Flutter.png";
+import Flutter from "../../assets/images/Flutter.png";
 import ObjectiveC from "../../assets/images/ObjectiveC.png";
 import Image from "next/image";
 

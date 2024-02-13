@@ -23,7 +23,7 @@ const ImgandBtn = ({ imageUrl, imageHeight, imageWidth, btnTxt, width }) => {
         // layout="responsive"
         // width={1000}
         // height={1000}
-        style={imageStyles}
+        // style={imageStyles}
         alt="Image"
         className={classNames(styles.img)}
       />

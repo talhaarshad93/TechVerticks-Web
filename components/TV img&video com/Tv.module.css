@@ -10,9 +10,11 @@
     }
     .video1{
         width: 85vw;
-        height: 38vw;
+        height: 43vw;
         /* margin: auto; */
         margin-left: 7vw;
         /* margin-right: auto; */
         border-radius: 15px;
+        /* background-color: yellow; */
+        object-fit: cover;
     }

@@ -18,15 +18,17 @@ const ImgandBtn = ({ imageUrl, imageHeight, imageWidth, btnTxt, width ,recent2Cs
 
   return (
     <div style={{ width: width }}>
-      <Image
+     <div className={styles.imgBox}> <Image
         src={imageUrl}
         // layout="responsive"
         // width={1000}
         // height={1000}
-        // style={imageStyles}
+        style={imageStyles}
         alt="Image"
         className={ styles.img}
       />
+      <div className={styles.layer}>
+        <button onClick={particularProject}>See Details?</button></div></div>
       {btnTxt && (
         <button
           className={styles.btnDiv1}

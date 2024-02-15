@@ -15,59 +15,60 @@ import CS_Button from '@/components/CS_Buttons/CS_buttons';
 const portfolioArray = [
 
   {
-    imageUrl: mobGif2,
+    imageUrl: "/AppCrops.mp4",
     btnTxt: 'Woo Space App'
   },
   {
-    imageUrl: ltopGif,
+    imageUrl: "/Geelink.mp4",
     btnTxt: 'Meta Software Branding'
   },
   {
-    imageUrl: mobGif,
+    imageUrl: "/SCENE_07.mp4",
     btnTxt: 'Botiga Mobile App'
   },
   {
-    imageUrl: mobGif2,
+    imageUrl: "/CodyJinks.mp4",
     btnTxt: 'Woo Space App'
   },
   {
-    imageUrl: ltopGif,
+    imageUrl: "/SmartPark.mp4",
     btnTxt: 'Meta Software Branding'
   },
   {
-    imageUrl: mobGif,
-    btnTxt: 'Botiga Mobile App'
-  },
-  {
-    imageUrl: mobGif2,
+    imageUrl: "/AppCrops.mp4",
     btnTxt: 'Woo Space App'
   },
   {
-    imageUrl: ltopGif,
+    imageUrl: "/Geelink.mp4",
     btnTxt: 'Meta Software Branding'
   },
   {
-    imageUrl: mobGif,
+    imageUrl: "/SCENE_07.mp4",
     btnTxt: 'Botiga Mobile App'
   },
   {
-    imageUrl: mobGif2,
+    imageUrl: "/muslim.mp4",
     btnTxt: 'Woo Space App'
   },
   {
-    imageUrl: ltopGif,
+    imageUrl: "/SmartPark.mp4",
+    btnTxt: 'Meta Software Branding'
+  },
+
+  {
+    imageUrl: "/AppCrops.mp4",
     btnTxt: 'Meta Software Branding'
   },
   {
-    imageUrl: mobGif,
+    imageUrl: "/design.mp4",
     btnTxt: 'Botiga Mobile App'
   },
   {
-    imageUrl: mobGif2,
+    imageUrl: "/mobile.mp4",
     btnTxt: 'Woo Space App'
   },
   {
-    imageUrl: ltopGif,
+    imageUrl: "/web.mp4",
     btnTxt: 'Meta Software Branding'
   },
 ]

@@ -24,8 +24,8 @@ const RecentWork2 = () => {
         </button>
       </div>
       <div className={style.recent2ImgDiv}>
-        <ImgandBtn imageUrl ={botiga} btnTxt={'Botiga Mobile App'} imageHeight={100} imageWidth={90} recent2Css/>
-        <ImgandBtn imageUrl ={meta} btnTxt={'Meta Software Branding '} imageHeight={100} imageWidth={90} recent2Css/>
+        <ImgandBtn imageUrl ="/CodyJinks.mp4" btnTxt={'Botiga Mobile App'} imageHeight={100} imageWidth={90} recent2Css/>
+        <ImgandBtn imageUrl ="/SmartPark.mp4" btnTxt={'Meta Software Branding '} imageHeight={100} imageWidth={90} recent2Css/>
       </div>
 
     </div>

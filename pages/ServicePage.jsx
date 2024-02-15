@@ -105,60 +105,60 @@ const sectionsDataArray = [
       },
     ],
   },
-  {
-    heading: "Future technology",
-    image: "/future.mp4",
-    listData: [
-      {
-        heading: "IOT Development",
-        text: "  Creating cutting-edge mobile solutions for efficient content management, readable course material and secure online fee collection, Learning management systems,Communication interfaces include messaging, video conferencing, file sharing, gamification, knowledge base integration, and assessment engines. ",
-        image: sports,
-        isClicked: false,
-      },
-      {
-        heading: "VR App Development",
-        text: "  Creating cutting-edge mobile solutions for efficient content management, readable course material and secure online fee collection, Learning management systems,Communication interfaces include messaging, video conferencing, file sharing, gamification, knowledge base integration, and assessment engines. ",
-        image: sportsNew,
-        isClicked: false,
-      },
-    ],
-  },
-  {
-    heading: "Solutions",
-    image: "/solution.mp4",
-    listData: [
-      {
-        heading: "On-Demand App Solutions",
-        text: "  Creating cutting-edge mobile solutions for efficient content management, readable course material and secure online fee collection, Learning management systems,Communication interfaces include messaging, video conferencing, file sharing, gamification, knowledge base integration, and assessment engines. ",
-        image: sports,
-        isClicked: false,
-      },
-      {
-        heading: "Enterprise Solutions",
-        text: "  Creating cutting-edge mobile solutions for efficient content management, readable course material and secure online fee collection, Learning management systems,Communication interfaces include messaging, video conferencing, file sharing, gamification, knowledge base integration, and assessment engines. ",
-        image: sportsNew,
-        isClicked: false,
-      },
-      {
-        heading: "Custom App Development",
-        text: "  Creating cutting-edge mobile solutions for efficient content management, readable course material and secure online fee collection, Learning management systems,Communication interfaces include messaging, video conferencing, file sharing, gamification, knowledge base integration, and assessment engines. ",
-        image: sports,
-        isClicked: false,
-      },
-      {
-        heading: "Enterprise Portal Development",
-        text: "  Creating cutting-edge mobile solutions for efficient content management, readable course material and secure online fee collection, Learning management systems,Communication interfaces include messaging, video conferencing, file sharing, gamification, knowledge base integration, and assessment engines. ",
-        image: sports,
-        isClicked: false,
-      },
-      {
-        heading: "Consulting",
-        text: "  Creating cutting-edge mobile solutions for efficient content management, readable course material and secure online fee collection, Learning management systems,Communication interfaces include messaging, video conferencing, file sharing, gamification, knowledge base integration, and assessment engines. ",
-        image: sports,
-        isClicked: false,
-      },
-    ],
-  },
+  // {
+  //   heading: "Future technology",
+  //   image: "/future.mp4",
+  //   listData: [
+  //     {
+  //       heading: "IOT Development",
+  //       text: "  Creating cutting-edge mobile solutions for efficient content management, readable course material and secure online fee collection, Learning management systems,Communication interfaces include messaging, video conferencing, file sharing, gamification, knowledge base integration, and assessment engines. ",
+  //       image: sports,
+  //       isClicked: false,
+  //     },
+  //     {
+  //       heading: "VR App Development",
+  //       text: "  Creating cutting-edge mobile solutions for efficient content management, readable course material and secure online fee collection, Learning management systems,Communication interfaces include messaging, video conferencing, file sharing, gamification, knowledge base integration, and assessment engines. ",
+  //       image: sportsNew,
+  //       isClicked: false,
+  //     },
+  //   ],
+  // },
+  // {
+  //   heading: "Solutions",
+  //   image: "/solution.mp4",
+  //   listData: [
+  //     {
+  //       heading: "On-Demand App Solutions",
+  //       text: "  Creating cutting-edge mobile solutions for efficient content management, readable course material and secure online fee collection, Learning management systems,Communication interfaces include messaging, video conferencing, file sharing, gamification, knowledge base integration, and assessment engines. ",
+  //       image: sports,
+  //       isClicked: false,
+  //     },
+  //     {
+  //       heading: "Enterprise Solutions",
+  //       text: "  Creating cutting-edge mobile solutions for efficient content management, readable course material and secure online fee collection, Learning management systems,Communication interfaces include messaging, video conferencing, file sharing, gamification, knowledge base integration, and assessment engines. ",
+  //       image: sportsNew,
+  //       isClicked: false,
+  //     },
+  //     {
+  //       heading: "Custom App Development",
+  //       text: "  Creating cutting-edge mobile solutions for efficient content management, readable course material and secure online fee collection, Learning management systems,Communication interfaces include messaging, video conferencing, file sharing, gamification, knowledge base integration, and assessment engines. ",
+  //       image: sports,
+  //       isClicked: false,
+  //     },
+  //     {
+  //       heading: "Enterprise Portal Development",
+  //       text: "  Creating cutting-edge mobile solutions for efficient content management, readable course material and secure online fee collection, Learning management systems,Communication interfaces include messaging, video conferencing, file sharing, gamification, knowledge base integration, and assessment engines. ",
+  //       image: sports,
+  //       isClicked: false,
+  //     },
+  //     {
+  //       heading: "Consulting",
+  //       text: "  Creating cutting-edge mobile solutions for efficient content management, readable course material and secure online fee collection, Learning management systems,Communication interfaces include messaging, video conferencing, file sharing, gamification, knowledge base integration, and assessment engines. ",
+  //       image: sports,
+  //       isClicked: false,
+  //     },
+  //   ],
+  // },
   {
     heading: "Digital Marketing",
     image: "/digital.mp4",

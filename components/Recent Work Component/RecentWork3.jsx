@@ -9,7 +9,7 @@ const RecentWork3 = () => {
   return (
     <div className={style.main}>
           <div className={style.leftDive}>
-    <ImgandBtn imageUrl ={SPD_img1} btnTxt={' Botiga Mobile App'} imageHeight={300} imageWidth={100}/>
+    <ImgandBtn imageUrl ="/SCENE_07.mp4" btnTxt={' Botiga Mobile App'} imageHeight={300} imageWidth={100}/>
   
     <button className={style.seeBtn}>
       See All Projects({num})
@@ -21,7 +21,7 @@ const RecentWork3 = () => {
     heading="Our Andriod App Case Studies" width={"80%"}/>
     </div>
 
-    <ImgandBtn imageUrl ={SPD_img2} btnTxt={'Meta Mobile App'} imageHeight={300} imageWidth={100}/>
+    <ImgandBtn imageUrl ="/Geelink.mp4" btnTxt={'Meta Mobile App'} imageHeight={300} imageWidth={100}/>
 
     {/* <div className={style} >
     <div className={styles.weBuild}>RECENT WORKS</div>

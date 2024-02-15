@@ -1,59 +1,84 @@
-.mainDiv{
+/* OurProcess.module.css */
+.mainDiv {
     display: flex;
     margin-top: 4vw;
-}
-.leftDiv{
+  }
+  
+  .leftDiv {
     width: 44vw;
     height: 30vw;
     margin-top: 8vw;
     margin-left: 8vw;
-}
-.rightDiv{
+  }
+  
+  .rightDiv {
     display: flex;
     flex-direction: row;
     width: 41vw;
     height: 45vw;
     flex-wrap: wrap;
-}
-.container1{
+  }
+  
+  .container1 {
     width: 20vw;
     height: 15vw;
     border: 1px solid rgb(230, 230, 230);
-    display: flex;
-    /* justify-content: center; */
     flex-direction: column;
-    
-}
-.serail{
-    color: #B332D4;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+  }
+ 
+  .OnHover {
+    display: flex;
+    width: 20vw;
+    height: 15vw;
+    top: -100%;
+    left: 0%;
+    background-color: rgb(244, 244, 244);
+    font-family: "TT Interphases Pro Trial Regular";
+    font-size: 1vw;
+    position: absolute;
+    text-align: center;
+    justify-content: center;
+    padding: 1vw;
+    align-items: center;
+    box-sizing: border-box;
+    transition: all 0.5s;
+  }
+  .container1:hover .OnHover{
+    background-color: rgba(248, 248, 248, 0.92);
+    top: 0;
+  }
+  
+  .serail {
+    color: #b332d4;
     padding-top: 1vw;
     padding-left: 1.3vw;
     font-weight: 300;
-}
-.img1{
- display: flex;
- width: 20vw;
- height: 6vw;
- justify-content: center;
- align-items: center;
-}
-.SPD_OP_Img1{
+  }
+  
+  .img1 {
+    display: flex;
+    width: 20vw;
+    height: 6vw;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .SPD_OP_Img1 {
     width: 70%;
     height: 80%;
     object-fit: contain;
-    justify-content: center;
-    /* margin-left: 5vw; */
-    
-}
-.Img_heading{
-    color: #000000;
+  }
+  
+  .Img_heading {
     font-family: "TT Interphases Pro Trial DemiBold";
     font-size: 1.3vw;
-    font-weight: 500;
-    width: 10.37vw;
+    width: 10vw; 
     text-align: center;
-    /* justify-content: center; */
-    margin-left: 5vw;   
     margin-top: 1vw;
-    
-}
+    margin-left: 5vw;
+  }
+  

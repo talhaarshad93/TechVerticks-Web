@@ -1,7 +1,6 @@
 import React, { useEffect, useRef } from "react";
 import style from "./Tv.module.css";
 import Image from "next/image";
-import ReactPlayer from "react-player";
 // import videosrc from '../../assets/images/tvReel.mp4'
 const Tv = ({ img }) => {
 

@@ -15,20 +15,29 @@ const ImgandBtn = ({ imageUrl, imageHeight, imageWidth, btnTxt, width ,recent2Cs
     // Navigate to the contact page when the button is clicked
     router.push("/CaseStudies");
   };
+  
 
   return (
     <div style={{ width: width }}>
-     <div className={styles.imgBox}> <Image
+     <div className={styles.imgBox}>
+       {/* <Image
         src={imageUrl}
-        // layout="responsive"
-        // width={1000}
-        // height={1000}
         style={imageStyles}
         alt="Image"
+        '/webgif.gif'
         className={ styles.img}
-      />
+      /> */}
+       <video  className={styles.img} 
+        style={imageStyles}
+        loop autoPlay muted>
+        <source src={imageUrl} type="video/mp4" />
+        
+       Your browser does not support the video tag. 
+      </video>
       <div className={styles.layer}>
-        <button onClick={particularProject}>See Details?</button></div></div>
+        {/* <button onClick={particularProject}>See Details?</button> */}
+        </div>
+        </div>
       {btnTxt && (
         <button
           className={styles.btnDiv1}

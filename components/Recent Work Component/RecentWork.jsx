@@ -17,7 +17,7 @@ const RecentWork = () => {
     <div className={style.main}>
       <div className={style.left}>
         <ImgandBtn
-          imageUrl={mobGif2}
+          imageUrl="/AppCrops.mp4"
           imageHeight={100}
           imageWidth={100}
           btnTxt={"Botiga Mobile App"}

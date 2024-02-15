@@ -8,19 +8,21 @@ import Testimonials from "@/components/Testimonials/Testimonials";
 import ServiceDetails from "../components/ServiceDetails/ServiceDetails";
 import sports from "../assets/images/sports.png";
 import sportsNew from "../assets/images/mob.png";
-import MB1 from "../assets/Our Services GIF folder/mobile.gif";
-import MB2 from "../assets/Our Services GIF folder/web.gif";
-import MB3 from "../assets/Our Services GIF folder/design.gif";
-import MB4 from "../assets/Our Services GIF folder/future.gif";
-import MB5 from "../assets/Our Services GIF folder/solution.gif";
-import MB6 from "../assets/Our Services GIF folder/digital.gif";
+// import mobGif2 from "/AppCrops.mp4"
+
+// import MB1 from ;
+// import MB2 from ;
+// import MB3 from ;
+// import MB4 from ;
+// import MB5 from ;
+// import MB6 from ;
 import Topheadings from "@/components/TopHeadings/TopHeadings";
 import RecentWork2 from "@/components/Recent Work Component/RecentWork2";
 
 const sectionsDataArray = [
   {
     heading: "Mobile Application Development",
-    image: MB1,
+    image: "/mobile.mp4",
     listData: [
       {
         heading: "IOS Development",
@@ -50,7 +52,7 @@ const sectionsDataArray = [
   },
   {
     heading: "Website Development",
-    image: MB2,
+    image: "/web.mp4",
     listData: [
       {
         heading: "PHP Development",
@@ -65,7 +67,7 @@ const sectionsDataArray = [
         isClicked: false,
       },
       {
-        heading: "Ecommerce Website Development",
+        heading: "E-COM Web Development",
         text: "Providing a complete suite of an e-commerce website that starts with research, product personalization, purchases & sales growth",
         image: sports,
         isClicked: false,
@@ -74,7 +76,7 @@ const sectionsDataArray = [
   },
   {
     heading: "Design & Creativity",
-    image: MB3,
+    image: "/design.mp4",
     listData: [
       {
         heading: "UI/UX Design",
@@ -105,7 +107,7 @@ const sectionsDataArray = [
   },
   {
     heading: "Future technology",
-    image: MB4,
+    image: "/future.mp4",
     listData: [
       {
         heading: "IOT Development",
@@ -123,7 +125,7 @@ const sectionsDataArray = [
   },
   {
     heading: "Solutions",
-    image: MB5,
+    image: "/solution.mp4",
     listData: [
       {
         heading: "On-Demand App Solutions",
@@ -159,7 +161,7 @@ const sectionsDataArray = [
   },
   {
     heading: "Digital Marketing",
-    image: MB6,
+    image: "/digital.mp4",
     listData: [
       {
         heading: "Social Media Marketing",

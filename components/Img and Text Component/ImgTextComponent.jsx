@@ -7,13 +7,21 @@ import styles from "./ImgTextComponent.module.css";
 const ImgTextComponent = ({ src, alt, text }) => {
   return (
     <div className={styles.imgCountDiv}>
-      <Image
+
+<video  className={styles.img} 
+        // style={imageStyles}
+        loop autoPlay muted>
+        <source src={src} type="video/mp4" />
+        
+       Your browser does not support the video tag. 
+      </video>
+     
+
+      {/* <Image
         src={src}
         alt={alt}
         className={classNames(styles.img)}
-        // style={{width:200}}
-        // className={classNames(styles,"p-")}
-      />
+      /> */}
       <p className={classNames(styles.text)}>
        {text}
       </p>

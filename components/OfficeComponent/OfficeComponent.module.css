@@ -149,7 +149,7 @@
     left: 0%;
     display: none;
     transition: all 0.2s;
-    background-color: #B332D4;
+    background-color: #b231d2;
 }
 .mainContainer:hover .USADiv1{
   display: block;

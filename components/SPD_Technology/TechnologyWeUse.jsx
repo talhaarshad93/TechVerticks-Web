@@ -62,7 +62,8 @@ const data = [
 
 export default function TechnologyWeUse({heading}){
     return(
-   <div className={Style.topHeadingDiv}><Topheadings heading = {heading}  SPD_TWU_heading SPD_TWU_Para/>
+   <div className={Style.topHeadingDiv}>
+    <Topheadings heading = {heading}  SPD_TWU_heading SPD_TWU_Para/>
      
      <div className={Style.mainImgDiv}>
      {data?.map((img) => (

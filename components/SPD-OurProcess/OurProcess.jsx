@@ -14,17 +14,6 @@ const title = "Our Process";
 const heading = "Our Mobile App Development Company Process";
 const paragraph = `Discover the way we develop impactful, user-focused mobile applications tailored to different industry sectors, guiding them towards their business goals.`;
 
- const data=[
-    {
-        id:"01",
-        
-    },
-    {
-        id:"02",
-        
-    },
- ]
-
 const Container = [
   {
     Serial: "01",
@@ -80,7 +69,7 @@ export default function OurProcess() {
   />
       </div>
       <div className={Style.rightDiv}>
-        {Container?.map((item, index) => (
+        {Container?.map((item,) => (
           <div key={item?.Serial} className={Style.container1} >
             <div className={Style.containerContent}>
               <div className={Style.serail}>{item?.Serial}</div>

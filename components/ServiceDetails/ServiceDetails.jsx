@@ -9,7 +9,7 @@ const ServiceDetails = ({ newData }) => {
   const taskPress = (heading, type, image) => {
     let newArray = industryData?.map((val, i) => {
       if (val.heading == heading) {
-        return { ...val, isClicked: type };
+        return { ...val, isClicked: type  };
       } else {
         return { ...val, isClicked: false };
       }

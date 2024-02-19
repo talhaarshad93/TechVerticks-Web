@@ -24,6 +24,9 @@ const yAxis = {
   slidesToScroll: 1,
   vertical: true,
   verticalSwiping: true,
+  autoplay: true,
+  initialSlide: 0,
+  pauseOnHover: true,
   centerPadding: "0%",
 };
 

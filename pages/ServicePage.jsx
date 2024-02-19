@@ -202,6 +202,9 @@ const xAxis = {
   slidesToShow: 1,
   slidesToScroll: 1,
   centerMode: true,
+  autoplay: true,
+  initialSlide: 0,
+  pauseOnHover: true,
   // Enable center mode
   centerPadding: "21%", // Adjust the padding based on your design
   // focusOnSelect: true,

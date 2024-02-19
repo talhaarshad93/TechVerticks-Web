@@ -52,6 +52,7 @@ const SubHeading = ({ data, handleClick, addingCss, hideHr }) => {
           // onClick={handleClick}
           onMouseEnter={handleClick} 
       onMouseLeave={handleClick}
+      
         >
           {heading}
         </button>

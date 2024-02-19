@@ -36,9 +36,9 @@
   font-size: 1.8vw;
   font-family: "TT Interphases Pro Trial Medium";
   width: 43vw;
+  /* height: 20vw; */
   padding-left: 4vw;
   text-transform: capitalize;
-  /* background-color: #fff; */
   margin-bottom: 3.5vw;
 }
 .SubMidDiv1 ul li {
@@ -48,18 +48,19 @@
   /* padding-left: 3vw; */
 
   width: 38vw;
-  /* background-color: aqua; */
   cursor: pointer;
 }
 .SubMidDiv1 ul {
   margin-top: -1vw;
-  
+  /* margin: 0; */
 }
 .SubMidDiv1 ul:hover {
   color:blueviolet;
 }
 .SubMidDiv1 ul li::marker {
   font-size: 1.2vw;
+  margin: 0;
+  padding: 0;
 }
 .SubMidDiv2 {
   font-size: 1.3vw;

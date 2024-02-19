@@ -2,7 +2,8 @@
   .mainContainer{
     display: flex;
     /* padding: 2vw; */
-    padding-left: 4vw;
+    padding-left: 7vw;
+    padding-right: 7vw;
     margin-top: -3vw;
     /* margin-top: 3vw; */
     width: 100%;

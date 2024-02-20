@@ -7,10 +7,10 @@ import style from "./OurServices.module.css";
 
 const OurServices = () => {
     const data = [
-        { heading: 'Mobile Application Development', image: "/AppCrops.mp4" ,text: 'Grow your business with a full-fledged, scalable and stable mobile app and get MI development services (iOS, Android and Hybrid mobile ) under a single roof'},
-        { heading: 'UI/UX Design', image:"/design.mp4", text: 'Get visually appealing designs for your projects with our top-rated UI & UX design and development technologies to give an aesthetic user experience' },
-        { heading: 'Web Development', image: "/digital.mp4", text: 'Delivering comprehensive web development services with broad-ranging expertise and technologies that encompasses every corner of the digital web'},
-        { heading: 'Digital Marketing', image:"/future.mp4", text: 'Comprehensive and business-focused solutions for search engine optimization and social media marketing strategies coupled with a decade worth of experience and expert insight.' },
+        { heading: 'Mobile Application Development', image: "/MAD.mp4" ,text: 'Grow your business with a full-fledged, scalable and stable mobile app and get MI development services (iOS, Android and Hybrid mobile ) under a single roof'},
+        { heading: 'UI/UX Design', image:"/UIDesign.mp4", text: 'Get visually appealing designs for your projects with our top-rated UI & UX design and development technologies to give an aesthetic user experience' },
+        { heading: 'Web Development', image: "/WebDev.mp4", text: 'Delivering comprehensive web development services with broad-ranging expertise and technologies that encompasses every corner of the digital web'},
+        { heading: 'Digital Marketing', image:"/Marketing.mp4", text: 'Comprehensive and business-focused solutions for search engine optimization and social media marketing strategies coupled with a decade worth of experience and expert insight.' },
     ];
 
     const [hoveredIndex, setHoveredIndex] = useState(null);

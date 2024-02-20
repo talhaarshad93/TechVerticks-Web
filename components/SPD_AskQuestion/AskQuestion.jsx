@@ -103,10 +103,14 @@ export default function AskQuestion() {
     <div style={{padding:"5vw"}}>
       <div className={style.mainDiv}>
         <div className={style.Heading}>
-       <> Curious about Our Mobile App Development Service?<br/> Let's Answer Your Questions!</>
+        <>Curious about Our Mobile App Development Service?<br />Let&apos;s Answer Your Questions!</>
+
+
         </div>
         <div className={style.ParaDiv}>
-        Whether you have questions about our mobile app development process, pricing, or timeline, we're here to provide answers. Our team is committed to transparency and clear communication, ensuring you have all the information you need to make informed decisions about your project. Don't hesitate to reach out – we're ready to help bring your app idea to life.
+        <>Whether you have questions about our mobile app development process, pricing, or timeline, we&apos;re here to provide answers. Our team is committed to transparency and clear communication, ensuring you have all the information you need to make informed decisions about your project. Don&apos;t hesitate to reach out – we&apos;re ready to help bring your app idea to life.</>
+
+
         </div>
       </div>
 

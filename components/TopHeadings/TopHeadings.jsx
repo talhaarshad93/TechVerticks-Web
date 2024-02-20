@@ -40,6 +40,7 @@ export default function Topheadings({
         ...(TESTIMONIALS && {fontWeight:700,width:"38vw",fontSize:"3.8vw",lineHeight:"1.19" }),
         ...(SPD_OP && { fontSize:"4.1vw",width:"40vw", lineHeight:"1.2" }),
         ...(SPD_OP_WB && { fontSize:"4.1vw",width:"40vw", lineHeight:"1.2", fontWeight:800,fontFamily:"system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif" }),
+        ...(SPD_Para && { fontSize:"4.1vw",width:"80vw", lineHeight:"1.2", fontWeight:800,fontFamily:"TT Interphases Pro Trial ExtraBold"}),
         ...(SPD_TWU_heading &&{ fontSize:"4.2vw", width:"76vw",fontWeight:800, fontFamily:"system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif"} ),
         ...(SPD_Tech_Para &&{ fontSize:"4.2vw", width:"76vw",fontWeight:800, fontFamily:"system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif"} ),
         ...(Testimonial_heading &&{color:"red", fontSize:"3.6vw",marginTop:"0.3vw", width:"50vw",fontWeight:800,lineHeight:"1.3", fontFamily:"system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif"} ),

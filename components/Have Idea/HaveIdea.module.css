@@ -1,17 +1,31 @@
 .seeBtn{
-    padding: 1.5vw;
-    font-size: 2vw;
-    font-weight: 600;
-    border: 1px solid black;    
     width: 30vw;
-    /* height: 5vw; */
-    text-align: center;
-    border-radius: 45px;
-    margin-top: -2vw;
-    /* margin-left: 55px; */
-    background-color: white;
-    font-family:"TT Interphases Pro Trial DemiBold";
+    height: 6.2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.2em 1rem;
+    cursor: pointer;
+    gap: 0.4rem;
+    font-weight: bold;
+    border-radius: 40px;
+    text-shadow: 2px 2px 3px rgb(136 0 136 / 50%);
+    /* background: linear-gradient(15deg, #880088, #880089, #cc3f47, #de6f3d, #ffffff, #de6f3d, #cc3f47, #aa2068, #880088) no-repeat; */
+    background: linear-gradient(15deg, #be66ea, #9f66ea, #551aa2, #8246a4b4, #5c2891, #764ba2, #eac7ffb4, #c769fdb4, #880088) no-repeat;
+    
+    background-size: 300%;
+    color: #fff;
+    font-size: 2vw;
+  font-family: 'TT Interphases Pro Trial Regular';
+    border: none;
+    background-position: left center;
+    box-shadow: 0 30px 10px -20px rgba(0,0,0,.2);
+    transition:all .3s ease;
 
+}
+.seeBtn:hover{
+     background-size: 320%;
+  background-position: right center;
 }
 .main{
     margin-left: 5vw;   

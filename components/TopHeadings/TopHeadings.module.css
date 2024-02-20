@@ -1,133 +1,123 @@
-.titleText{
-    color: #B332D4;
-    font-family:"TT Interphases Pro Trial Medium";
+.titleText {
+  color: #b332d4;
+  font-family: "TT Interphases Pro Trial Medium";
+  font-size: 1.6vw;
+  font-variant-caps: all-petite-caps;
+  font-weight: 500;
+}
+.heading {
+  margin-top: 1vw;
+  width: 54%;
+  font-size: 4vw;
+  font-family: "TT Interphases Pro Trial ExtraBold";
+
+  text-transform: capitalize;
+  /* font-weight: 900; */
+  line-height: 110%;
+  /* background-color: red; */
+  /* margin-left: -2.5vw; */
+}
+.praContainer {
+  margin-top: 3.2vw;
+  /* font-family:Verdana, Geneva, Tahoma, sans-serif; */
+  width: 98%;
+  font-size: 1.6vw;
+  line-height: 130%;
+  margin-bottom: 4vw;
+  /* background-color: blue; */
+  font-family: "TT Interphases Pro Trial Medium";
+}
+.customStyle {
+  margin-top: 1vw;
+  /* font-family:Verdana, Geneva, Tahoma, sans-serif; */
+  width: 20vw;
+  font-size: 1.1vw;
+  line-height: 1.4vw;
+  font-weight: 300;
+  margin-bottom: 4vw;
+  color: #666666;
+  /* background-color: blue; */
+  font-family: "TT Interphases Pro Trial Regular";
+}
+.customStyle1 {
+  margin-top: 1vw;
+  width: 120%;
+  font-size: 6.3vw;
+  text-transform: capitalize;
+  font-family: "TT Interphases Pro Trial ExtraBold";
+
+  line-height: 6.5vw;
+}
+.ideaCustome {
+  font-weight: 900;
+  font-size: 8.3vw;
+  color: #b332d4;
+  margin-bottom: -4vw;
+  /* background-color: red; */
+  width: 80%;
+  font-family: "TT Interphases Pro Trial Black";
+}
+.letsBuild {
+  /* margin-top: 1vw; */
+  width: 100%;
+  font-size: 8.4vw;
+  letter-spacing: -0.1vw;
+  font-weight: 800;
+  /* background-color: blue; */
+  font-family: "TT Interphases Pro Trial Black";
+}
+.sectionpara {
+  margin-top: 1.2vw;
+  /* font-family:Verdana, Geneva, Tahoma, sans-serif; */
+  width: 95%;
+  font-size: 1.4vw;
+  line-height: 1.7vw;
+  color: rgba(0, 0, 0, 0.6);
+  font-family: "TT Interphases Pro Trial Regular";
+
+  /* margin-bottom:4vw; */
+}
+.craftingpara {
+  margin-top: 1.5vw;
+  /* font-family:Verdana, Geneva, Tahoma, sans-serif; */
+  width: 100%;
+  font-size: 1.4vw;
+  line-height: 1.7vw;
+  color: rgba(0, 0, 0, 0.5);
+  margin-bottom: 1.5vw;
+  /* background-color: blue; */
+  font-family: "TT Interphases Pro Trial Regular";
+}
+.sectionHeading {
+  margin-top: 1vw;
+  width: 70%;
+  font-size: 3.4vw;
+  /* text-transform: capitalize; */
+  /* font-weight: 800; */
+  /* line-height: 110%; */
+  font-family: "TT Interphases Pro Trial ExtraBold";
+
+  /* background-color: blue; */
+}
+.SPD_topHeading_CSS {
+  font-family: "TT Interphases Pro Trial Black";
+  font-size: 6.2vw;
+  line-height: 6vw;
+}
+.SPD_ParaCSS {
+  font-family: "TT Interphases Pro Trial Medium";
+  font-size: 1.7vw;
+  width: 43vw;
+  line-height: 2.3vw;
+  margin-top: 2vw;
+}
+@media (max-width: 768px) {
+  .customStyle {
+    width: 65%;
     font-size: 1.6vw;
-    font-variant-caps: all-petite-caps;
-    font-weight: 500;
-    
-}
-.heading{
-    margin-top: 1vw;
-    width: 54%;
-    font-size: 4vw;
-  font-family:"TT Interphases Pro Trial ExtraBold";
-
-    text-transform: capitalize;
-    /* font-weight: 900; */
-    line-height: 110%;
-    /* background-color: red; */
-    /* margin-left: -2.5vw; */
-}
-.praContainer{
-    margin-top: 3.2vw;
-    /* font-family:Verdana, Geneva, Tahoma, sans-serif; */
-    width: 98%;
-    font-size: 1.6vw;
-    line-height: 130%;
-    margin-bottom:4vw;
-    /* background-color: blue; */
-    font-family:"TT Interphases Pro Trial Medium";
-
-
-}
-.customStyle{
-    margin-top: 1vw;
-    /* font-family:Verdana, Geneva, Tahoma, sans-serif; */
-    width: 20vw;
-    font-size: 1.1vw;
-    line-height: 1.4vw;
-    font-weight: 300;
-    margin-bottom:4vw;
-    color: #666666;
-    /* background-color: blue; */
-    font-family:"TT Interphases Pro Trial Regular";
-
-
-}
-.customStyle1{
-    margin-top: 1vw;
-    width: 120%;
-    font-size: 6.3vw;
-    text-transform: capitalize;
-    font-family:"TT Interphases Pro Trial ExtraBold";
-
-    line-height: 6.5vw;
-}
-.ideaCustome{
-    font-weight: 900;
-    font-size: 8.3vw;
-    color: #B332D4;
-    margin-bottom: -4vw;
-    /* background-color: red; */
-    width: 80%;
-    font-family:"TT Interphases Pro Trial Black";
-
-
-}
-.letsBuild{
-    /* margin-top: 1vw; */
-    width: 100%;
-    font-size: 8.4vw;
-    letter-spacing: -0.1vw;
-    font-weight: 800;
-    /* background-color: blue; */
-    font-family:"TT Interphases Pro Trial Black";
-
-}
-.sectionpara{
-    margin-top: 1.2vw;
-    /* font-family:Verdana, Geneva, Tahoma, sans-serif; */
-    width: 95%;
-    font-size: 1.4vw;
-    line-height: 1.7vw;
-    color: rgba(0, 0, 0, 0.6);
-    font-family:"TT Interphases Pro Trial Regular";
-
-    /* margin-bottom:4vw; */
-}
-.craftingpara{
-    margin-top: 1.5vw;
-    /* font-family:Verdana, Geneva, Tahoma, sans-serif; */
-    width: 100%;
-    font-size: 1.4vw;
-    line-height: 1.7vw;
-    color: rgba(0, 0, 0, 0.5);
-    margin-bottom:1.5vw;
-    /* background-color: blue; */
-    font-family:"TT Interphases Pro Trial Regular";
-
-}
-.sectionHeading{
-    margin-top: 1vw;
-    width: 70%;
-    font-size: 3.4vw;
-    /* text-transform: capitalize; */
-    /* font-weight: 800; */
-    /* line-height: 110%; */
-  font-family:"TT Interphases Pro Trial ExtraBold";
-
-    /* background-color: blue; */
-
-}
-.SPD_topHeading_CSS{
-    font-family:"TT Interphases Pro Trial Black";
-    font-size: 6.2vw;
-    line-height: 6vw;
-}
-.SPD_ParaCSS{
-    font-family:"TT Interphases Pro Trial Medium";
-    font-size: 1.7vw;
-    width: 43vw;
-    line-height: 2.3vw;
-    margin-top: 2vw;
-}
-@media(max-width:768px){
-    .customStyle{
-        width: 65%;
-        font-size: 1.6vw;
-    }
-    .titleText{
-        font-size: 2vw;
-        /* font-weight: 600; */
-    }
+  }
+  .titleText {
+    font-size: 2vw;
+    /* font-weight: 600; */
+  }
 }

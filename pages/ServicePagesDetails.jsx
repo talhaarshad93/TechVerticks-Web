@@ -34,31 +34,31 @@ const images = [sliderImg, sliderImg, sliderImg];
 const data = [
   {
     heading: "Flutter Apps",
-    para: "Create mobile applications using the Flutter framework developed by Google",
+    para: "Revolutionize your mobile experience with Flutter & let is craft stunning, high-performance Apps for both iOS and Android",
   },
   {
     heading: "Android App Development",
-    para: "Wide array of software solutions for smartphones, tablets, and other Android-powered devices.",
+    para: "Android App features include back-end system, API development, app security, development consultations, user experience & interface design",
   },
   {
     heading: "IOS Development",
-    para: "Create apps for distribution on the Apple App Store while serving a diverse range of purposes and catering to millions of iOS device users",
+    para: "iOS Development services include consulting, product strategy, UI/UX development, testing & technical delivery",
   },
   {
     heading: "Progressive Web Apps",
-    para: "Hybrid approach that combines the best of web and mobile app technologies, offering a user-friendly, fast, and reliable experience without the need for traditional app installations.",
+    para: "Progressive Web App (PWA) development services empowering businesses to harness the power of cutting-edge web technologies for enhanced user experiences and increased engagement across platforms",
   },
   {
     heading: "Hybrid Apps",
-    para: "Create multiple platforms while providing some access to native device features",
+    para: "Provide a seamless and impeccable user experience across Android and iOS mobile platforms, ensure fast data display and hassle-free data streaming",
   },
   {
     heading: "React Native Apps",
-    para: "A powerful framework to building mobile apps that balances the efficiency and  performance of native apps",
+    para: "Our React Native app development delivers cross-platform solutions with speed and efficiency",
   },
   {
     heading: "Ruby on Rails Development",
-    para: "build a scalable solution, create new functionalities for your existing system, or tackle technical issues with ROR",
+    para: "Harnessing the Power of Agile Development, Scalable Solutions, and Rapid Deployment, We Build Robust Web Applications Tailored to Your Unique Needs",
   },
 ];
 
@@ -105,9 +105,9 @@ const ServicePagesDetails = () => {
       <div className={style.main}>
         <div className={style.top}>
           <Topheadings
-            heading={"When To Consider Our Android App Development Services"}
+            heading={"Comprehensive App Development Services Tailored to Your Needs"}
             paragraph={
-              "We offer comprehensive Android app solutions tailored to the unique needs of businesses including startups to large-scale enterprises. We can engineer and deliver your product in 4 to 6 months"
+              "From Native to Cross-Platform, Gaming to Enterprise, We've Got You Covered!"
             }
             SPD_Para
             craftingCss

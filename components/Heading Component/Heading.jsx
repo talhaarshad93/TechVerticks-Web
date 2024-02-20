@@ -19,11 +19,10 @@ const Heading = ({SpanHeading,bigHeading,description,ServicePage_Css,BlogPage_Cs
             ...(ContentUs_Css && {fontWeight:400,width:"55vw",fontSize:"1.2vw",textTransform:"uppercase"}),
            }}
            >{SpanHeading}</span>
-        <div className={classNames( styles.bigHeading,'mt-1')}
+        <div className={ServicePage_Css ? styles.popOutin: styles.bigHeading}
          style={{
           ...(BlogPage_Css && {fontWeight:900,width:"55vw",fontSize:"8vw" ,lineHeight:"8vw"}),
         ...(AboutPage_Css && {width:"90vw",fontSize:"6vw", lineHeight:"6vw"}),
-        ...(ServicePage_Css && {fontSize:"5vw",lineHeight: "5vw"}),
 
         ...(Portfolio_Css && {fontWeight:800,width:"55vw",fontSize:"7.4vw",lineHeight:"7.4vw",letterSpacing:"-0.1vw",paddingRight:"12vw", }), 
         ...(PortfolioPage_Css && {fontWeight:800,width:"63vw",fontSize:"5.4vw",lineHeight:"5.4vw",letterSpacing:"-0.1vw",paddingRight:"12vw", }), 

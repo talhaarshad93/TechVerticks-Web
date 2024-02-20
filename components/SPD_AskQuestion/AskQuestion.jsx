@@ -10,13 +10,13 @@ const data1 = [
     id: "01",
     heading: "How much does it cost to develop a mobile app?",
     isOpen: false,
-    para: "The cost of mobile app development services varies depending on factors such as app requirements, app complexity, architecture, design, visuals, and testing frameworks. Marketing also plays a significant factor in determining an app’s overall costs",
+    para: "Determining the cost of developing a mobile app depends on various factors, including the complexity of the app, desired features, platform compatibility, and development resources required. Moreover, factors such as design complexity, integration with backend systems, and ongoing maintenance also contribute to the overall cost. It's essential to discuss your specific requirements with a reputable app development company to receive a personalized quote tailored to your needs and budget.",
   },
   {
     id: "02",
     heading: "How long does it take to build a mobile application?",
     isOpen: false,
-    para: "The cost of mobile app development services varies depending on factors such as app requirements, app complexity, architecture, design, visuals, and testing frameworks. Marketing also plays a significant factor in determining an app’s overall costs",
+    para: "The timeline for building a mobile application varies depending on factors such as the complexity of the app, desired features, platform compatibility, and development resources available. Simple apps with basic features can typically be developed in a few weeks to a couple of months, while more complex apps with advanced functionalities may take several months",
   },
   {
     id: "03",
@@ -25,17 +25,18 @@ const data1 = [
     isOpen: false,
     para: "The cost of mobile app development services varies depending on factors such as app requirements, app complexity, architecture, design, visuals, and testing frameworks. Marketing also plays a significant factor in determining an app’s overall costs",
   },
+
   {
     id: "04",
-    heading: "What are the benefits of mobile app development services?",
+    heading: "Are mobile apps profitable?",
     isOpen: false,
-    para: "The cost of mobile app development services varies depending on factors such as app requirements, app complexity, architecture, design, visuals, and testing frameworks. Marketing also plays a significant factor in determining an app’s overall costs",
+    para: "Mobile apps continue to be profitable for many businesses, with the potential to generate significant revenue through various monetization strategies",
   },
   {
     id: "05",
-    heading: "Are mobile apps profitable in 2023?",
+    heading: "????",
     isOpen: false,
-    para: "The cost of mobile app development services varies depending on factors such as app requirements, app complexity, architecture, design, visuals, and testing frameworks. Marketing also plays a significant factor in determining an app’s overall costs",
+    para: "????",
   },
   
 ];
@@ -102,12 +103,10 @@ export default function AskQuestion() {
     <div style={{padding:"5vw"}}>
       <div className={style.mainDiv}>
         <div className={style.Heading}>
-          Ask Any Questions About Our Mobile App Development Services
+       <> Curious about Our Mobile App Development Service?<br/> Let's Answer Your Questions!</>
         </div>
         <div className={style.ParaDiv}>
-          Got some questions on your mind? Here are some frequently asked
-          questions about our Mobile App Development Services that our experts
-          have answered for you.
+        Whether you have questions about our mobile app development process, pricing, or timeline, we're here to provide answers. Our team is committed to transparency and clear communication, ensuring you have all the information you need to make informed decisions about your project. Don't hesitate to reach out – we're ready to help bring your app idea to life.
         </div>
       </div>
 

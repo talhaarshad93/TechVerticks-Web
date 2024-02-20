@@ -34,7 +34,7 @@
     left: 0%;
     display: none;
     transition: all 0.2s;
-    background-color: #B232D3;
+    background-color: #A92BCC;
 }
 .headingDiv {
   width: 35vw;
@@ -149,7 +149,7 @@
     left: 0%;
     display: none;
     transition: all 0.2s;
-    background-color: #b231d2;
+    background-color: #A92BCC;
 }
 .mainContainer:hover .USADiv1{
   display: block;

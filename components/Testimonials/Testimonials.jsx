@@ -9,6 +9,7 @@ import right from "../../assets/images/right.png"
 const Testimonials = () => {
   return (
     <div>
+            
         <hr className={styles.hr} />
     <div className={styles.main} >
         
@@ -49,6 +50,7 @@ const Testimonials = () => {
   
     </div>
     <hr className={styles.hr} />
+
     </div>
   )
 }

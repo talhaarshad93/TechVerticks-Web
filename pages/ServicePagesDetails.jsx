@@ -59,11 +59,25 @@ const data = [
   },
 ];
 
+
 const title = "Technologies We Use";
 const heading = (<>Mobile App Developers:{<br/>} Our Expertise in Mobile Technologies</>)
 const paragraph = 
   `We're not just keeping up with the latest mobile technologies – we're pioneering them. Our commitment to innovation drives us to stay at the forefront of the mobile app development landscape. `;
 
+  const WeBuildHeading="Mobile App Development Company";
+  const WeBuildDescription = <>
+  Scalable and Smart Mobile App Development Solutions
+  <br />
+  <br />
+  Every customer is important to us, as we believe in taking everyone who approaches us to the next level. So, no matter what kind of app you desire; we can build anything for you from scratch. Our team of developers and designers use their years of experience to provide engaging navigation, user-friendly UI/UX, high definition UI/UX, and other features of the iOS and android app
+</>
+const WeBuildName ="Among Top Mobile App Development Companies in 2023 on Rightfirms";
+const WeBuildName1 =<>Top Android App Developers in<br/> Houston by Clutch </>;
+const WeBuildName2 ="Average Google Play Rating";
+const WeBuildCount1 ="3rd";
+const WeBuildCount2 ="4th";
+const WeBuildCount3 ="4.4";
 const ServicePagesDetails = () => {
   return (
     <div>
@@ -71,7 +85,7 @@ const ServicePagesDetails = () => {
         <div className={style.ParaDiv}>
           <Topheadings
             heading="Custom App Development Services & Solutions"
-            paragraph="Tailored mobile app development that captivates your target audience, enhances customer acquisition, and transforms your business into a well-known brand"
+            paragraph="Accelerate your business growth with high performance and scalable mobile apps development services for your business"
             SPDFirstHeading
           />
         </div>
@@ -79,7 +93,11 @@ const ServicePagesDetails = () => {
           <ImageSlider images={images} settings={yAxis} />
         </div>
       </div>
-      <Webuild />
+     
+      { <Webuild heading = {WeBuildHeading} description={WeBuildDescription} 
+      name1={WeBuildName} Count1={WeBuildCount1} Count2={WeBuildCount2} Count3={WeBuildCount3} name2={WeBuildName1}name3={WeBuildName2} weBuildCSS  
+      
+      />}
       <RecentWork3 />
       <div className={style.main}>
         <div className={style.top}>

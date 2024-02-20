@@ -8,16 +8,16 @@ import Description from './Description';
 
 
 
-const Webuild = () => {
+const Webuild = ({heading,description,name1,name2,name3,Count1,Count3,Count2 ,weBuildCSS }) => {
   return (
-    <div className='container-fluid  pt-5 mt-4 d-flex '>
+    <div className='container-fluid  pt-5 ,mt-4 d-flex '>
         <div className="left col-3   offset-1  mt-3 flex-column align-items-center justify-content-center">
-        <div className={classNames(styles.weBuild, 'ml-1')}>WE BUILD DIGITAL PRODUCTS </div>
-<Count name = "TECH PROFESSIONALS" count = {"90"}/>
-<Count name = "YEARS OF EXPERIENCE" count = {"15"}/>
-<Count name = "PROJECTS COMPLETED" count = {"750"}/>
+       {!weBuildCSS && <div className={classNames(styles.weBuild, 'ml-1')}>WE BUILD DIGITAL PRODUCTS </div>}
+<Count name = {name1}  count = {Count1} weBuildCSS = {weBuildCSS} />
+<Count name = {name2} count ={Count2} weBuildCSS = {weBuildCSS} />
+<Count name = {name3}  count ={Count3} weBuildCSS = {weBuildCSS} />
         </div>
-       <Description/>
+       <Description heading = {heading} description={description} weBuildCSS = {weBuildCSS}/>
     </div>
   )
 }

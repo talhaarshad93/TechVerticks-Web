@@ -1,15 +1,17 @@
-import React from 'react'
-import styles from './Count.module.css'
-import classNames from 'classnames';
+import React from 'react';
+import styles from './Count.module.css';
 
 
 
-const Count = ({name,count}) => {
+const Count = ({name,count,weBuildCSS,nameCount1,count1}) => {
     
   return (
-    <div className={classNames(styles.nameCount,'')} >
-      <span className={classNames(styles.name, )}>{name}</span>
-      <div className={classNames(styles.count,)} ><span>+</span><span >{count}</span></div>
+    <div className={weBuildCSS ? styles.nameCount1 : styles.nameCount} >
+      <div className={weBuildCSS ? styles.weBuildCSS : styles.name}
+      
+      
+      >{name}</div>
+      <div className={weBuildCSS ? styles.count1 : styles.count} ><span></span><span >{count}</span></div>
     </div>
   )
 }

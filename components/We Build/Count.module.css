@@ -1,127 +1,139 @@
-.name{
-    font-size: 1vw;
-    /* text-align: center; */
-    /* font-weight: 700; */
-    /* margin-left: 1vw; */
-    font-family:"TT Interphases Pro Trial DemiBold"
-    /* background-color: red; */
+.name {
+  font-size: 1vw;
+  /* text-align: center; */
+  /* font-weight: 700; */
+  /* margin-left: 1vw; */
+  font-family: "TT Interphases Pro Trial Medium";
+  text-transform: uppercase;
+  /* background-color: red; */
 }
-.nameCount{
-    margin-top: 5vw;
-    /* margin-bottom: -3vw; */
-   
+.weBuildCSS {
+  font-size: 1vw;
+  font-family: "TT Interphases Pro Trial Medium";
+  /* text-transform: uppercase; */
+  width: 20vw;
+  line-height: 1.8vw;
+  padding: 0;
+  /* display: flex; */
+  margin: 0;
 }
-.count{
-    font-size: 5vw;
-    /* font-weight: 800; */
-    margin-top: -1vw;
-    text-align: left;
-    /* letter-spacing: 1px; */
-    /* background-color: yellow; */
-    width: 50%;
-    font-family:"TT Interphases Pro Trial ExtraBold";
+.nameCount {
+  margin-top: 5vw;
+  /* margin-bottom: -3vw; */
+}
+.nameCount1 {
+  padding: 0;
+  margin: 0;
+  margin-top: 5vw;
+  display: flex;
+  height: 7vw;
+  flex-direction: column-reverse;
+}
+.count {
+  font-size: 5vw;
+  /* font-weight: 800; */
+  margin-top: -1vw;
+  text-align: left;
+  /* letter-spacing: 1px; */
+  width: 50%;
+  font-family: "TT Interphases Pro Trial ExtraBold";
+}
+.count1 {
+  margin-bottom: -1vw;
+  text-align: left;
+  font-size: 5vw;
+  width: 50%;
+  height: 7vw;
 
+  font-family: "TT Interphases Pro Trial ExtraBold";
 }
-.weBuild{
-    font-size: 1.2vw;
-    color:  rgba(179, 50, 212, 1);
-    /* margin-bottom: 500px; */
-    font-family:"TT Interphases Pro Trial Medium";
-    /* margin-bottom: 30px; */
-    width:70%;
-    line-height: 1.5vw;
+.weBuild {
+  font-size: 1.2vw;
+  color: rgba(179, 50, 212, 1);
+  /* margin-bottom: 500px; */
+  font-family: "TT Interphases Pro Trial Medium";
+  /* margin-bottom: 30px; */
+  width: 70%;
+  line-height: 1.5vw;
 
-    /* height: 500px; */
-    /* background-color: blue; */
+  /* height: 500px; */
+  /* background-color: blue; */
 }
-.aMotion{
-    font-size: 2.5vw;
-    /* font-weight: 800; */
-    width: 80%;
-    line-height: 2.5vw;
-    /* background-color: blue; */
-    font-family:"TT Interphases Pro Trial ExtraBold";
+.aMotion {
+  font-size: 2.5vw;
+  /* font-weight: 800; */
+  width: 80%;
+  line-height: 2.5vw;
+  /* background-color: blue; */
+  font-family: "TT Interphases Pro Trial ExtraBold";
 }
-.paragraph{
-    width: 65%;
+.paragraph {
+  width: 65%;
+  margin-top: 3vw;
+  margin-bottom: 3vw;
+  color: rgba(0, 0, 0, 0.595);
+  /* background-color: blue; */
+  /* height: 55%; */
+  font-size: 1.3vw;
+  line-height: 1.9vw;
+  font-family: "TT Interphases Pro Trial Regular";
+}
+.paragraph1 {
+    width: 75%;
     margin-top: 3vw;
     margin-bottom: 3vw;
-    color: rgba(0, 0, 0, .5);
+    color: rgba(0, 0, 0, 0.595);
     /* height: 55%; */
-    font-size: 1.5vw;
+    font-size: 1.3vw;
     line-height: 1.9vw;
-    font-family:"TT Interphases Pro Trial Regular";
-
-
-
-}
-.learnBtn{
-    /* padding: 15px;
+    font-family: "TT Interphases Pro Trial Regular";
+  }
+.learnBtn {
+  /* padding: 15px;
     font-size: 15px;
     border: 1px solid black;
     width: 300px;
     text-align: center;
     border-radius: 45px;
     margin-top: 10px; */
-   
 }
-.btn{
-    padding: 1vw;
-    font-size: 1.5vw;
-    font-weight: 800;
-    border: 1px solid black;
-    width: 27vw;
-    /* height: 5vw; */
-    text-align: center;
-    border-radius: 35px;
-    background-color: white;
-    
-    font-family:"TT Interphases Pro Trial DemiBold"
-}
+.btn {
+  padding: 1vw;
+  font-size: 1.5vw;
+  font-weight: 800;
+  border: 1px solid black;
+  width: 27vw;
+  /* height: 5vw; */
+  text-align: center;
+  border-radius: 35px;
+  background-color: white;
 
+  font-family: "TT Interphases Pro Trial DemiBold";
+}
 
 @media only screen and (max-width: 1199px) {
-   
-   
 }
 
-
-
 @media only screen and (max-width: 991px) {
-   
-   
 }
 
 @media only screen and (max-width: 767px) {
-   
-    .nameCount{
-        margin-top: 4vw;
-       
-    }
- 
-   
-   
+  .nameCount {
+    margin-top: 4vw;
+  }
 }
 
 @media only screen and (max-width: 650px) {
-    .nameCount{
-        margin-top: 3vw;
-       
-    }
-   
+  .nameCount {
+    margin-top: 3vw;
+  }
 }
 @media only screen and (max-width: 500px) {
-    .nameCount{
-        margin-top: 2vw;
-       
-    }
-   
+  .nameCount {
+    margin-top: 2vw;
+  }
 }
 @media only screen and (max-width: 457px) {
-   
-    
 }
 @media only screen and (max-width: 347px) {
-   
-   
 }

@@ -80,6 +80,7 @@ const Industries = () => {
             <SubHeading
               key={index}
               data={data}
+              width = "100%"
               handleClick={() =>
                 taskPress(data?.heading, !data?.isClicked, data?.image)
               }
@@ -88,7 +89,7 @@ const Industries = () => {
         </div>
 
         {sideImage && (
-          <div style={{ width: "45%" }}>
+          <div style={{ width: "45%",transition:'2s ' }}>
             <Image
               src={sideImage}
               alt={"alt"}

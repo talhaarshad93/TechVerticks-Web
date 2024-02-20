@@ -52,7 +52,7 @@ const sectionsDataArray = [
   },
   {
     heading: "Website Development",
-    image: "/web.mp4",
+    image: "/WebsiteDevelopment.mp4",
     listData: [
       {
         heading: "PHP Development",
@@ -75,8 +75,8 @@ const sectionsDataArray = [
     ],
   },
   {
-    heading: "Design & Creativity",
-    image: "/design.mp4",
+    heading: <> Design &  <br />Creativity</>,
+    image: "/Design&Creative.mp4",
     listData: [
       {
         heading: "UI/UX Design",
@@ -160,8 +160,8 @@ const sectionsDataArray = [
   //   ],
   // },
   {
-    heading: "Digital Marketing",
-    image: "/digital.mp4",
+    heading: <>Digital <br/>Marketing</>,
+    image: "/DigitalMarketing.mp4",
     listData: [
       {
         heading: "Social Media Marketing",

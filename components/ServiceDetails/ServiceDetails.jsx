@@ -9,7 +9,7 @@ const ServiceDetails = ({ newData }) => {
   const taskPress = (heading, type, image) => {
     let newArray = industryData?.map((val, i) => {
       if (val.heading == heading) {
-        return { ...val, isClicked: type  };
+        return { ...val, isClicked: type };
       } else {
         return { ...val, isClicked: false };
       }
@@ -25,7 +25,7 @@ const ServiceDetails = ({ newData }) => {
         <div className={styles.heading}>
           <div className={styles.topheadDiv}>
             {/* MOBILE APPLICATION DEVELOPMENT */}
-            <Topheadings heading={newData.heading} width="35vw" />
+            <Topheadings serviceCss heading={newData.heading} width="57vw" />
           </div>
           {industryData.map((data, index) => (
             <>

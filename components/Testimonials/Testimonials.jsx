@@ -82,8 +82,8 @@ const Testimonials = () => {
             TESTIMONIALS
           />
         </div>
-        <div className={styles.talha}>
-        <Slider ref={sliderRef} {...settings} className={styles.slider}>
+        <div className={styles.leftDiv}>
+        <Slider ref={sliderRef} {...settings} className={styles.slider} >
           {testimonialsContent.map((slide, index) => (
             <div key={index} className={styles.right}>
               <div>

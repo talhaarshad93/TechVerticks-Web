@@ -37,35 +37,50 @@ import Image from "next/image";
 import style from "./SubHeading.module.css";
 import classNames from "classnames";
 
-const SubHeading = ({ data, handleClick, addingCss, hideHr }) => {
+const SubHeading = ({ data, handleClick, addingCss, hideHr ,width}) => {
   const { heading, text, isClicked } = data;
+  const [fadeIn, setFadeIn] = useState(false);
 
+  // Function to handle the transition
+  const handleTransition = () => {
+    // Apply fade-in effect after a short delay to trigger the transition
+    setTimeout(() => {
+      setFadeIn(isClicked);
+      // console.log('woriidiaidaidiadiaida',isClicked)
+    }, 50); // Adjust delay as needed
+  };
+  console.log('woriidiaidaidiadiaida',isClicked,fadeIn)
+
+  // Trigger the transition when isClicked changes
+  React.useEffect(() => {
+    handleTransition();
+  }, [isClicked]);
   return (
     <div className={classNames(style.mainDiv)}>
       <div className={classNames(style.leftDiv)}>
         <button
           className={classNames(style.bigOne, {
-            [style.clicked]:  isClicked,
+            [style.clicked]: isClicked,
             [style.font]: addingCss,
           })}
           // style={{ fontSize: fontsize }}
           // onClick={handleClick}
-          onMouseEnter={handleClick} 
-      onMouseLeave={handleClick}
-      
+          onMouseEnter={handleClick}
+          // onMouseLeave={handleClick}
         >
           {heading}
         </button>
-        { isClicked && (
-          <>
-            <div className={style.text}> {text}</div>
+        {isClicked && (
+          <div
+            className={classNames(fadeIn? style.fadeIn:style.textContainer)}
+          >
+            <div className={style.text} style={{width: width}}>{text}</div>
             <div className={style.details}>Discover Industries Details</div>
-          </>
+          </div>
         )}
         {/* <hr style={{  width: "47vw" }} /> */}
         {!hideHr && <hr style={{ width: "47vw" }} />}
       </div>
-    
     </div>
   );
 };

@@ -76,7 +76,7 @@ const images = [
 const CaseStudies = () => {
   return (
     <div>
-      <WhyChoose/>
+      {/* <WhyChoose/> */}
       <Heading
         SpanHeading={SpanHeading}
         bigHeading={bigHeading}

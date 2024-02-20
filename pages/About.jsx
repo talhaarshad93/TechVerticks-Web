@@ -17,7 +17,7 @@ const description ="Tech Verticks offers full-cycle design & development service
 
 const About = () => {
   return (
-    <div>
+    <div   >
       <Heading SpanHeading={SpanHeading} bigHeading = {bigHeading} description={description} AboutPage_Css />  
      <ImageLayout/>
      <Webuild/>

@@ -12,6 +12,7 @@
     font-weight: 400;
     text-transform: capitalize;
     padding-right: 2vw;
+    /* padding: 5vw; */
     width: 53vw;
     color: black;
     font-family:"TT Interphases Pro Trial Medium";
@@ -98,7 +99,9 @@
     margin: auto;
 }
 .slider {
-    width: 100%;
+    width: 96%;
+    /* background-color: blue; */
+
     /* height: 5vw; */
     /* margin: auto; */
     /* display: flex; */
@@ -109,6 +112,9 @@
     width: 60%;
     margin-top: 1vw;
     /* background-color: yellow; */
+ }
+ .right{
+   /* padding: 5vw; */
  }
 
 @media (max-width: 576px) {

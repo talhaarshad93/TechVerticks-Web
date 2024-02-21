@@ -62,6 +62,9 @@ const xAxis = {
   slidesToShow: 1,
   slidesToScroll: 1,
   centerMode: true,
+  autoplay: true,
+  initialSlide: 0,
+  pauseOnHover: true,
  
   centerPadding: "21%",
  
@@ -88,7 +91,7 @@ const CaseStudies = () => {
       <HaveIdea />
       <Section heading={challenge}  para={para} image={challengeImg} />
       <TechnologyWeUse heading = 'Technologies We Use'/>
-      <ImageSlider images={images} settings={xAxis} />
+      <ImageSlider images={images} settings={xAxis} CaseStudiesCss  />
      
 
       {/* <Section images = {challengeImg} challenge = {challenge} para={para}/> */}

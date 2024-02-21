@@ -2,6 +2,7 @@ import ImgandBtn from "@/components/Recent Work Component/ImgandBtn";
 import Topheadings from "@/components/TopHeadings/TopHeadings";
 import React from "react";
 import style from "./Section.module.css";
+import Image from "next/image";
 
 
 const Section = ({heading,target,para,image, targetCom}) => {
@@ -15,7 +16,7 @@ const Section = ({heading,target,para,image, targetCom}) => {
       <Topheadings heading={heading} paragraph={para} sectionCss />
       </div>
       <div className={style.imgDiv} >
-      <ImgandBtn imageUrl={image} imageWidth= {100} imageHeight= {100} />
+      <Image src={image} className={style.img} />
       </div>
     </div>
    

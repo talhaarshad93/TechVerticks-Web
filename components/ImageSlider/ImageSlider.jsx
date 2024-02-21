@@ -9,11 +9,13 @@ import styles from './ImageSlider.module.css';
 import Image from "next/image";
 
 
-const ImageSlider = ({ images,settings }) => {
+const ImageSlider = ({ images,settings,CaseStudiesCss }) => {
  
 
   return (
-    <div className={styles.main}>
+    <div className={styles.main}
+    style={{
+      ...(CaseStudiesCss && {marginTop: "12vw"})}}>
 
     <Slider {...settings} className={styles.slider}>
       {images.map((image, index) => (

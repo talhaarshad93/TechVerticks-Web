@@ -15,15 +15,13 @@ const description ="Tech Verticks offers full-cycle design & development service
 const CaseStudiesDetails = () => {
   return (
     <div className={style.container}>
-      <Heading SpanHeading={SpanHeading} bigHeading = {bigHeading} description={description}Portfolio_Css/>  
+      <Heading SpanHeading={SpanHeading} bigHeading = {bigHeading} description={description}CaseStudies_Css/>  
       <div className={style.SubDiv}>
         <Image className={style.img} src={AppStoreGoogleLogo}   
       alt="App Store Logo"/>
         <Image className={style.img} src={AppStoreAppleLogo}   
       alt="App Store Logo"/>
       </div>
-      <HaveIdea/>
-      <GetInTouch/>
     </div>
   )
 }

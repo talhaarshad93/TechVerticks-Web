@@ -10,6 +10,7 @@ import TechnologyWeUse from "@/components/SPD_Technology/TechnologyWeUse";
 import ImageSlider from "@/components/ImageSlider/ImageSlider";
 import sliderImg from '../assets/images/technology.png'
 import WhyChoose from "@/components/SPD-WhyChoose/WhyChoose";
+import CaseStudiesDetails from "./CaseStudiesDetails";
 
 const SpanHeading = "OUR WORKS";
 const bigHeading = "We offer the diversity of skills";
@@ -76,13 +77,13 @@ const images = [
 const CaseStudies = () => {
   return (
     <div>
-      {/* <WhyChoose/> */}
-      <Heading
+      <CaseStudiesDetails/>
+      {/* <Heading
         SpanHeading={SpanHeading}
         bigHeading={bigHeading}
         description={description}
         CaseStudies_Css
-      />
+      />  */}
       <Section heading={goal}  para={para} image={goalImg} />
       <Section heading={target}  para={para} image={targetImg} targetCom />
       <HaveIdea />

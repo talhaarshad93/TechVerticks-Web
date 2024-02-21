@@ -23,6 +23,7 @@ const Heading = ({SpanHeading,bigHeading,description,ServicePage_Css,BlogPage_Cs
          style={{
           ...(BlogPage_Css && {fontWeight:900,width:"55vw",fontSize:"8vw" ,lineHeight:"8vw"}),
         ...(AboutPage_Css && {width:"90vw",fontSize:"6vw", lineHeight:"6vw"}),
+        ...(CaseStudies_Css && {width:"45vw",fontSize:"7.4vw", lineHeight:"7.4vw", fontFamily:"TT Interphases Pro Trial ExtraBold"}),
 
         ...(Portfolio_Css && {fontWeight:800,width:"55vw",fontSize:"7.4vw",lineHeight:"7.4vw",letterSpacing:"-0.1vw",paddingRight:"12vw", }), 
         ...(PortfolioPage_Css && {fontWeight:800,width:"63vw",fontSize:"5.4vw",lineHeight:"5.4vw",letterSpacing:"-0.1vw",paddingRight:"12vw", }), 
@@ -43,7 +44,7 @@ const Heading = ({SpanHeading,bigHeading,description,ServicePage_Css,BlogPage_Cs
         ...(ServicePage_Css && {fontWeight:400,width:"66vw",fontSize:"2.5vw",lineHeight:"3.1vw"}),
         ...(BlogPage_Css && {fontWeight:400,width:"53vw",fontSize:"2.5vw",lineHeight:"3.1vw",letterSpacing:"-0.1vw" }), 
         ...(AboutPage_Css && {fontWeight:400,width:"65vw",fontSize:"2.6vw",lineHeight:"3.1vw",letterSpacing:"-0.1vw",paddingRight:"12vw" }), 
-        ...(CaseStudies_Css && {fontWeight:400,width:"65vw",fontSize:"2.6vw",lineHeight:"3.1vw",letterSpacing:"-0.1vw",paddingRight:"12vw", }), 
+        ...(CaseStudies_Css && {marginLeft:"22vw",width:"82vw",fontSize:"2.4vw",lineHeight:"3.3vw",letterSpacing:"-0.1vw",paddingRight:"12vw",fontFamily:"TT Interphases Pro Trial Regular" }), 
         ...(Portfolio_Css && {fontWeight:400,width:"65vw",fontSize:"2.6vw",lineHeight:"3.1vw",letterSpacing:"-0.1vw",paddingRight:"12vw", }), 
         ...(SolutionPage_Css && {fontWeight:400,width:"65vw",fontSize:"2.6vw",lineHeight:"3.1vw",letterSpacing:"-0.1vw",paddingRight:"2vw", }), 
         ...(PortfolioPage_Css && {fontWeight:400,width:"63vw",fontSize:"2.6vw",lineHeight:"3.1vw",letterSpacing:"-0.1vw",paddingRight:"8vw", }), 

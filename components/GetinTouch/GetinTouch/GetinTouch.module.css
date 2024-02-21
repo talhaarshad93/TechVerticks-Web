@@ -4,8 +4,6 @@
   margin-bottom: 5vw;
   /* border: 1px solid green; */
   padding: 7vw;
-  
-  
 }
 .mainContainer_CU_CSS {
   display: flex;
@@ -18,8 +16,6 @@
   /* width: 90vw; */
   /* border: 1px solid green; */
   padding: 2vw 0vw 0vw 36vw;
-
-  
 }
 
 .mainDiv {
@@ -53,13 +49,13 @@
   border-bottom: 1px solid rgb(219, 219, 219);
   margin-bottom: 4vw;
   margin-right: 2.5vw;
-  font-family:"TT Interphases Pro Trial Regular";
+  font-family: "TT Interphases Pro Trial Regular";
 
   /* font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
 }
-.textarea{
-    width: 53vw;
-    height: 3vw;
+.textarea {
+  width: 53vw;
+  height: 3vw;
   border: none;
   border-bottom: 1px solid rgb(219, 219, 219);
   margin-bottom: 3.1vw;
@@ -67,78 +63,70 @@
   font-size: 1.2vw;
   margin-top: 3vw;
   font-weight: 100;
-  font-family:"TT Interphases Pro Trial Regular";
+  font-family: "TT Interphases Pro Trial Regular";
 
   /* font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
-
 }
-.parag{
+.parag {
   /* font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
   font-size: 1.3vw;
   margin-left: 1vw;
   color: rgb(151, 151, 151);
   font-weight: 100;
-  font-family:"TT Interphases Pro Trial Regular";
-
-} 
+  font-family: "TT Interphases Pro Trial Regular";
+}
 .checkbox {
   width: 1.8vw;
   height: 1.8vw;
   margin-top: -1.2vw;
   /* background-color: aqua; */
 }
-.btn{
+.btn {
   margin-top: 3vw;
   width: 33vw;
   height: 6.5vw;
   border: 1px solid black;
-  border-radius: 5vw 5vw 5vw 5vw ;
+  border-radius: 5vw 5vw 5vw 5vw;
   /* font-family:Verdana, Geneva, Tahoma, sans-serif; */
   font-size: 2.7vw;
   font-weight: 700;
   background-color: white;
 }
-.btn:hover{
+.btn:hover {
   background-color: rgb(249, 249, 249);
   transition: all 1s;
-
 }
 
-@media (max-width:768px){
+@media (max-width: 768px) {
   .mainContainer {
     flex-direction: column;
     align-items: center;
   }
   .inputDiv {
     width: 70vw;
-   padding-top: 2vw;
-    
+    padding-top: 2vw;
   }
   .inputTxt {
     width: 31vw;
     font-size: 2vw;
   }
-  .parag{
+  .parag {
     font-size: 1.9vw;
     font-weight: 100;
-  } 
+  }
   .checkbox {
     width: 3vw;
     height: 3vw;
   }
-  .textarea{
+  .textarea {
     width: 66vw;
     height: 4vw;
-  font-size: 2vw;
-
+    font-size: 2vw;
+  }
+  .mainDiv {
+    width: 73vw;
+  }
+  .btn {
+    margin-top: 0vw;
+  }
 }
-.mainDiv {
-  width: 73vw;
-}
-.btn{
-  margin-top: 0vw;
-}
-
-}
-
-

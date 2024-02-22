@@ -10,7 +10,9 @@ import TechnologyWeUse from "@/components/SPD_Technology/TechnologyWeUse";
 import ImageSlider from "@/components/ImageSlider/ImageSlider";
 import sliderImg from '../assets/images/technology.png'
 import WhyChoose from "@/components/SPD-WhyChoose/WhyChoose";
-import CaseStudiesDetails from "./CaseStudiesDetails";
+import CaseStudiesDetails from "../components/ServicePageDetails/CaseStudiesDetails";
+import GetInTouch from "@/components/GetinTouch/GetinTouch/GetinTouch";
+import Tv from "@/components/TV img&video com/Tv";
 
 const SpanHeading = "OUR WORKS";
 const bigHeading = "We offer the diversity of skills";
@@ -54,6 +56,7 @@ let para = (
 
 let goal = "Project Goal";
 let target = "Target Audience";
+let result = "Results and Impact";
 let challenge = "Project Challenges";
 
 const xAxis = {
@@ -81,19 +84,15 @@ const CaseStudies = () => {
   return (
     <div>
       <CaseStudiesDetails/>
-      {/* <Heading
-        SpanHeading={SpanHeading}
-        bigHeading={bigHeading}
-        description={description}
-        CaseStudies_Css
-      />  */}
+      <Tv video= '/CaseStudies.mp4'/>
       <Section heading={goal}  para={para} image={goalImg} />
       <Section heading={target}  para={para} image={targetImg} targetCom />
       <HaveIdea />
       <Section heading={challenge}  para={para} image={challengeImg} />
       <TechnologyWeUse heading = 'Technologies We Use'/>
       <ImageSlider images={images} settings={xAxis} CaseStudiesCss  />
-     
+      <Section heading={result}  para={para} image={resultImg} targetCom />
+      <GetInTouch/>
 
       {/* <Section images = {challengeImg} challenge = {challenge} para={para}/> */}
     </div>

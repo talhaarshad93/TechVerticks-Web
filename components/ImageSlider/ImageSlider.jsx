@@ -15,7 +15,7 @@ const ImageSlider = ({ images,settings,CaseStudiesCss }) => {
   return (
     <div className={styles.main}
     style={{
-      ...(CaseStudiesCss && {marginTop: "12vw"})}}>
+      ...(CaseStudiesCss && {marginTop: "12vw",marginBottom: "7vw"})}}>
 
     <Slider {...settings} className={styles.slider}>
       {images.map((image, index) => (

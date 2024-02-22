@@ -74,18 +74,16 @@
   line-height: 1.7vw;
   color: rgba(0, 0, 0, 0.6);
   font-family: "TT Interphases Pro Trial Regular";
-
   /* margin-bottom:4vw; */
 }
 .craftingpara {
-  margin-top: 1.5vw;
+  margin-top: 1vw;
   /* font-family:Verdana, Geneva, Tahoma, sans-serif; */
   width: 100%;
-  font-size: 1.4vw;
+  font-size: 1.3vw;
   line-height: 1.7vw;
   color: rgba(0, 0, 0, 0.5);
-  margin-bottom: 1.5vw;
-  /* background-color: blue; */
+  /* margin-bottom: 1.5vw; */
   font-family: "TT Interphases Pro Trial Regular";
 }
 .sectionHeading {
@@ -103,6 +101,8 @@
   font-family: "TT Interphases Pro Trial Black";
   font-size: 6.2vw;
   line-height: 6vw;
+  margin-top: 3vw;
+
 }
 .SPD_ParaCSS {
   font-family: "TT Interphases Pro Trial Medium";

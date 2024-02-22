@@ -60,6 +60,7 @@ export default function GetInTouch({hideComponent,mainContainer_CU_CSS}) {
           className={style.chckB}
         >
           <input type="checkbox" className={style.checkbox} />
+          
           <p className={style.parag}>
             I want to receive a monthly tech newsletter
           </p>

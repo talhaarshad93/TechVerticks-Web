@@ -47,6 +47,7 @@ export default function Topheadings({
         ...(SPD_Tech_Para &&{ fontSize:"4.2vw", width:"76vw",fontWeight:800, fontFamily:"system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif"} ),
         ...(Testimonial_heading &&{color:"red", fontSize:"3.6vw",marginTop:"0.3vw", width:"50vw",fontWeight:800,lineHeight:"1.3", fontFamily:"system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif"} ),
         ...(OfficeHover &&{color:"#fff",width:"2vw",} ),
+        // ...(craftingCss1 &&{color:"#fff",} ),
         // Add other style properties as needed
       }}
       >

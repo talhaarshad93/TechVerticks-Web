@@ -192,7 +192,7 @@ const sectionsDataArray = [
 ];
 
 const SpanHeading = "GENERATE YOUR VISION";
-const bigHeading = "Unlocking Innovation: Transformative Mobile Apps, Web Development, and Design Solutions for the Modern Digital Era!";
+const bigHeading = "Web Development, and Design Solutions for the Modern Digital Era!";
 const description =
   "At TechVerticks, we specialize in offering comprehensive services in mobile app development, web development, and design. Our team of experts is dedicated to unlocking innovation and transforming businesses for the modern digital era.";
 const xAxis = {

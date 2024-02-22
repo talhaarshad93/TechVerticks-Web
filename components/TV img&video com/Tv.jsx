@@ -2,9 +2,10 @@ import React, { useEffect, useRef } from "react";
 import style from "./Tv.module.css";
 import Image from "next/image";
 // import videosrc from '../../assets/images/tvReel.mp4'
-const Tv = ({ img }) => {
 
+//
 
+const Tv = ({ img,video }) => {
   return (
     <div className={style.main}>
       {img && <Image className={style.imgTv} src={img} alt="img" />}
@@ -18,7 +19,7 @@ const Tv = ({ img }) => {
       ></iframe>  */}
 
       <video  className={style.video1} loop autoPlay muted>
-        <source src='/tvReel.mp4' type="video/mp4" />
+        <source src={video} type="video/mp4" />
         
        Your browser does not support the video tag. 
       </video>

@@ -17,7 +17,7 @@ const Description = ({heading,description,weBuildCSS}) => {
   return (
     <div className="right ml-   offset- col-8  mt-1 ">
       <div className={styles.aMotion}
-      style={{...(weBuildCSS && {fontSize:"4vw",width:"62vw", lineHeight:"5vw",marginTop:"4.5vw"})}}>
+      style={{...(weBuildCSS && {fontSize:"4vw",width:"55vw", lineHeight:"5vw",marginTop:"4.5vw"})}}>
        {heading}
       </div>
       <p className={weBuildCSS ? styles.paragraph1 : styles.paragraph}>

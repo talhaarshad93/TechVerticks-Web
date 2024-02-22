@@ -1,15 +1,19 @@
-import React from 'react'
+import React, {useRef} from 'react'
 import styles from './Heading.module.css'
 import classNames from 'classnames';
 import Image from 'next/image';
 import img from "../../assets/images/down.png";
 import GetInTouch from '../GetinTouch/GetinTouch/GetinTouch';
 import Link from 'next/link';
+import RecentWork from '../Recent Work Component/RecentWork';
 // import '../../assets/fonts/TT Interphases Pro';
 
 
 
 const Heading = ({SpanHeading,bigHeading,description,ServicePage_Css,BlogPage_Css,AboutPage_Css,CaseStudies_Css,Portfolio_Css,SolutionPage_Css,PortfolioPage_Css,ContentUs_Css}) => {
+
+
+ 
   return (
     <div className={classNames(styles.MainContainer)}>
       <div>
@@ -35,7 +39,7 @@ const Heading = ({SpanHeading,bigHeading,description,ServicePage_Css,BlogPage_Cs
       </div>
       <div className={classNames(styles.subDiv,)}>
       
-          <Link href="">
+      <Link href="" >
       <Image className={styles.img} src={img} alt='img'/>
         </Link>
       
@@ -44,7 +48,7 @@ const Heading = ({SpanHeading,bigHeading,description,ServicePage_Css,BlogPage_Cs
         ...(ServicePage_Css && {fontWeight:400,width:"66vw",fontSize:"2.5vw",lineHeight:"3.1vw"}),
         ...(BlogPage_Css && {fontWeight:400,width:"53vw",fontSize:"2.5vw",lineHeight:"3.1vw",letterSpacing:"-0.1vw" }), 
         ...(AboutPage_Css && {fontWeight:400,width:"65vw",fontSize:"2.6vw",lineHeight:"3.1vw",letterSpacing:"-0.1vw",paddingRight:"12vw" }), 
-        ...(CaseStudies_Css && {marginLeft:"22vw",width:"82vw",fontSize:"2.4vw",lineHeight:"3.3vw",letterSpacing:"-0.1vw",paddingRight:"12vw",fontFamily:"TT Interphases Pro Trial Regular" }), 
+        ...(CaseStudies_Css && {marginLeft:"26vw",width:"72vw",fontSize:"2.4vw",lineHeight:"3.3vw",letterSpacing:"-0.1vw",paddingRight:"12vw",fontFamily:"TT Interphases Pro Trial Regular" }), 
         ...(Portfolio_Css && {fontWeight:400,width:"65vw",fontSize:"2.6vw",lineHeight:"3.1vw",letterSpacing:"-0.1vw",paddingRight:"12vw", }), 
         ...(SolutionPage_Css && {fontWeight:400,width:"65vw",fontSize:"2.6vw",lineHeight:"3.1vw",letterSpacing:"-0.1vw",paddingRight:"2vw", }), 
         ...(PortfolioPage_Css && {fontWeight:400,width:"63vw",fontSize:"2.6vw",lineHeight:"3.1vw",letterSpacing:"-0.1vw",paddingRight:"8vw", }), 

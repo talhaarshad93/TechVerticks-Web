@@ -23,42 +23,48 @@ import Blog from "@/components/Blog/Blog";
 import ServicePage from "./ServicePage";
 import About from "./About";
 import CaseStudies from "./CaseStudies";
-import CaseStudiesDetails from "./CaseStudiesDetails";
+import CaseStudiesDetails from "../components/ServicePageDetails/CaseStudiesDetails";
 import Solutions from "./Solutions";
 import BlogDetails from "./BlogDetails";
 import BlogPage from "./BlogPage";
 import Tv from "@/components/TV img&video com/Tv";
-import Insight from '@/components/InsightComponent/InsightComponent'
-
+import Insight from "@/components/InsightComponent/InsightComponent";
+import { useRef } from "react";
 
 const inter = Inter({ subsets: ["latin"] });
 
-const SpanHeading ="GENERATE YOUR VISION"
-const bigHeading ="Empowering connections: Where technology unites people!"
-const description ="With extensive experience in digital product development, we know how to create user-friendly and memorable interfaces for leading international brands."
+const SpanHeading = "GENERATE YOUR VISION";
+const bigHeading = "Empowering connections: Where technology unites people!";
+const description =
+  "With extensive experience in digital product development, we know how to create user-friendly and memorable interfaces for leading international brands.";
 export default function Home() {
 
-  const WeBuildHeading = ' Maximize Your Success! Respond to the needs of the users through an aesthetic User Design , User Experience & high-end create a product with a striking effect'
-  const WeBuildDescription = <>Welcome to Tech Verticks — a top software development company
-  established by motivated doers and tech entrepreneurs with a great
-  mission in mind.
-  <br />
-  <br />
-   We are experts in providing the best mobile app
-  development services and creating successful business stories. Every
-  customer is important to us, as we believe in taking everyone who
-  approaches us to the next level. So, no matter what kind of app you
-  desire; we can build anything for you from scratch. Our team of
-  developers and designers use their years of experience to provide
-  engaging navigation, user-friendly UI/UX, high definition UI/UX, and
-  other features of the iOS and android app.</>
-  const WeBuildName ="TECH PROFESSIONALS";
-  const WeBuildName1 ="YEARS OF EXPERIENCE";
-  const WeBuildName2 ="PROJECTS COMPLETED";
-  const WeBuildCount1 ="+90";
-  const WeBuildCount2 ="+15";
-  const WeBuildCount3 ="+750";
+
+  const WeBuildHeading =
+    " Maximize Your Success! Respond to the needs of the users through an aesthetic User Design , User Experience & high-end create a product with a striking effect";
+  const WeBuildDescription = (
+    <>
+      Welcome to Tech Verticks — a top software development company established
+      by motivated doers and tech entrepreneurs with a great mission in mind.
+      <br />
+      <br />
+      We are experts in providing the best mobile app development services and
+      creating successful business stories. Every customer is important to us,
+      as we believe in taking everyone who approaches us to the next level. So,
+      no matter what kind of app you desire; we can build anything for you from
+      scratch. Our team of developers and designers use their years of
+      experience to provide engaging navigation, user-friendly UI/UX, high
+      definition UI/UX, and other features of the iOS and android app.
+    </>
+  );
+  const WeBuildName = "TECH PROFESSIONALS";
+  const WeBuildName1 = "YEARS OF EXPERIENCE";
+  const WeBuildName2 = "PROJECTS COMPLETED";
+  const WeBuildCount1 = "+90";
+  const WeBuildCount2 = "+15";
+  const WeBuildCount3 = "+750";
   return (
+    
     <div>
       {/* <Heading />
       <Image className="imgTv" src={img} />
@@ -73,7 +79,7 @@ export default function Home() {
       <MainPage/>
     <GetInTouch/> */}
 
-    {/* <OverPartner/>
+      {/* <OverPartner/>
 
       <WhyChoose/> */}
       {/* 
@@ -91,25 +97,31 @@ export default function Home() {
       <Heading SpanHeading={SpanHeading} bigHeading = {bigHeading} description={description} />  
       <GetInTouch/>
      */}
-      <Heading SpanHeading={SpanHeading} bigHeading = {bigHeading} description={description} />  
-      <Tv img= {img}/>
-      <Webuild heading = {WeBuildHeading} description={WeBuildDescription} name1={WeBuildName} Count1={WeBuildCount1}name2={WeBuildName1}
-      Count2={WeBuildCount2} Count3={WeBuildCount3} name3={WeBuildName2}
+      <Heading
+        SpanHeading={SpanHeading}
+        bigHeading={bigHeading}
+        description={description}
       />
-      <RecentWork />
+      <Tv img={img} video="/tvReel.mp4" />
+      <Webuild
+        heading={WeBuildHeading}
+        description={WeBuildDescription}
+        name1={WeBuildName}
+        Count1={WeBuildCount1}
+        name2={WeBuildName1}
+        Count2={WeBuildCount2}
+        Count3={WeBuildCount3}
+        name3={WeBuildName2}
+      />
+
+  
+    <RecentWork />
       <OurServices />
-      <Industries/>
-      <Insight/> 
-      <OverPartner/>
-      <GetInTouch/>
-      <OfficeComponent/>
-
-      
-
-
-   
-
-     
+      <Industries />
+      <Insight />
+      <OverPartner />
+      <GetInTouch />
+      <OfficeComponent />
     </div>
   );
 }

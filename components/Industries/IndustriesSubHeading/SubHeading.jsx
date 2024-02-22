@@ -75,7 +75,7 @@ const SubHeading = ({ data, handleClick, addingCss, hideHr ,width}) => {
             className={classNames(fadeIn? style.fadeIn:style.textContainer)}
           >
             <div className={style.text} style={{width: width}}>{text}</div>
-            <div className={style.details}>Discover Industries Details</div>
+            <button className={style.details}>Discover Industries Details</button>
           </div>
         )}
         {/* <hr style={{  width: "47vw" }} /> */}

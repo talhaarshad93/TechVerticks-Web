@@ -14,7 +14,7 @@
         /* margin: auto; */
         margin-left: 7vw;
         /* margin-right: auto; */
-        border-radius: 15px;
-        /* background-color: yellow; */
-        object-fit: cover;
+        border-radius: 3vw !important;
+        background-color: yellow;
+        object-fit:fill;
     }

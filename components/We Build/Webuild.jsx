@@ -12,7 +12,7 @@ const Webuild = ({heading,description,name1,name2,name3,Count1,Count3,Count2 ,we
   return (
     <div className='container-fluid  pt-5 ,mt-4 d-flex '>
         <div className="left col-3   offset-1  mt-3 flex-column align-items-center justify-content-center">
-       {!weBuildCSS && <div className={classNames(styles.weBuild, 'ml-1')}>WE BUILD DIGITAL PRODUCTS </div>}
+       {!weBuildCSS && <div className={classNames(styles.weBuild, 'ml-1')}>WE BUILD DIGITAL <br/> PRODUCTS </div>}
 <Count name = {name1}  count = {Count1} weBuildCSS = {weBuildCSS} />
 <Count name = {name2} count ={Count2} weBuildCSS = {weBuildCSS} />
 <Count name = {name3}  count ={Count3} weBuildCSS = {weBuildCSS} />

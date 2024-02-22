@@ -41,6 +41,8 @@
   margin-bottom: 1.5vw;
   color: rgba(179, 50, 212, 1);
   font-family: "TT Interphases Pro Trial DemiBold";
+  background-color: transparent;
+  border: none;
 }
 .img {
   width: 100%;

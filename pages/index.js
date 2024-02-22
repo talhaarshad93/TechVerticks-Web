@@ -60,41 +60,11 @@ export default function Home() {
   const WeBuildCount3 ="+750";
   return (
     <div>
-      {/* <Heading />
-      <Image className="imgTv" src={img} />
-      <iframe
-        className="video1"
-        src="https://www.youtube.com/embed/2wI_SjklTYQ?si=mZFZDvCAotQo1GGU"
-        title="YouTube video player"
-        frameborder="3s"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        allowfullscreen
-      ></iframe>
-      <MainPage/>
-    <GetInTouch/> */}
-
-    {/* <OverPartner/>
-
-      <WhyChoose/> */}
-      {/* 
-      <OverPartner/> */}
-      {/* <ValueComp/>
-      <GetInTouch/>
-      <AskQuestion/>
-      <Intro/>
-      <TechnologyWeUse/>
-      <ImageLayout/>
-      <RelatedArticle/>
-      <CS_Button/>
-      <OurProcess/>
-      <Insight/>
-      <Heading SpanHeading={SpanHeading} bigHeading = {bigHeading} description={description} />  
-      <GetInTouch/>
-     */}
+    
       <Heading SpanHeading={SpanHeading} bigHeading = {bigHeading} description={description} />  
       <Tv img= {img}/>
       <Webuild heading = {WeBuildHeading} description={WeBuildDescription} name1={WeBuildName} Count1={WeBuildCount1}name2={WeBuildName1}
-      Count2={WeBuildCount2} Count3={WeBuildCount3} name3={WeBuildName2}
+      Count2={WeBuildCount2} Count3={WeBuildCount3} name3={WeBuildName2} counting
       />
       <RecentWork />
       <OurServices />

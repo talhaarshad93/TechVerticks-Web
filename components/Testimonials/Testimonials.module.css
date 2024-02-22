@@ -113,9 +113,7 @@
     margin-top: 1vw;
     /* background-color: yellow; */
  }
- .right{
-   /* padding: 5vw; */
- }
+ 
 
 @media (max-width: 576px) {
     .btnDiv{

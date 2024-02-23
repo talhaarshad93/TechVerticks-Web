@@ -121,7 +121,7 @@ const data = [
   },
 ];
 
-export default function WhyChoose() {
+export default function WhyChoose({WCheading,WCpara}) {
   let [active, setActive] = useState(
     <>
     We are a team of experienced iOS and Android app developers in who
@@ -148,12 +148,11 @@ export default function WhyChoose() {
   return (
     <div>
       <div className={style.SPD_MainDiv}>
-        <div className={style.TopSubDiv1}>
-          Why choose AppCrops for mobile app developement?
+        <div className={WCheading?style.WC_TopSubDiv1:style.TopSubDiv1}>
+        {WCheading}
         </div>
         <div className={style.TopSubDiv2}>
-          Our certified app developers and designers create awe-inspiring apps
-          for our clients. Our custom mobile app development services encompass:
+          {WCpara}
         </div>
 
         <div className={style.MidDiv}>

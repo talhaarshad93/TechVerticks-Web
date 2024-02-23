@@ -15,6 +15,24 @@ import OurProcess from "@/components/SPD-OurProcess/OurProcess";
 import Industries from "@/components/Industries/Industries";
 import AskQuestion from "@/components/SPD_AskQuestion/AskQuestion";
 import OverPartner from "@/components/OverPartnerComp/OverPartner";
+import Angular from "../assets/images/Angular.png"
+import Apache from "../assets/images/Apache.png"
+import Css from "../assets/images/Css.png"
+import Git from "../assets/images/Git.png"
+import Html from "../assets/images/Html.png"
+import JavaScript from "../assets/images/JavaScript.png"
+import Java from "../assets/images/Java.png"
+import MongoDB from "../assets/images/MongoDB.png"
+import MySQL from "../assets/images/MySQL.png"
+import Nginx from "../assets/images/Nginx.png"
+import NodeJS from "../assets/images/NodeJS.png"
+import PHP from "../assets/images/PHP.png"
+import PostgreSQL from "../assets/images/PostgreSQL.png"
+import Python from "../assets/images/Python.png"
+import ReactJS from "../assets/images/ReactJS.png"
+import Ruby from "../assets/images/Ruby.png"
+import SQL_lite from "../assets/images/SQLlite.png"
+import VueJS from "../assets/images/VueJS.png"
 
 const yAxis = {
   dots: false,
@@ -62,7 +80,100 @@ const data = [
   },
 
 ];
+const imageData = [
+  {
+    id: 1,
+    image: Angular,
+    alt: "Angular",
+  },
+  {
+    id: 2,
+    image: Apache,
+    alt: "Apache",
+  },
+  {
+    id: 3,
+    image: Css,
+    alt: "CSS",
+  },
+  {
+    id: 4,
+    image: Git,
+    alt: "Git",
+  },
+  {
+    id: 5,
+    image: Html,
+    alt: "HTML",
+  },
+  {
+    id: 6,
+    image: JavaScript,
+    alt: "Java Script",
+  },
+  {
+    id: 7,
+    image: Java,
+    alt: "Java",
+  },
+  {
+    id: 8,
+    image: MongoDB,
+    alt: "Mongo DB",
+  },
+  {
+    id: 9,
+    image: MySQL,
+    alt: "MySQL",
+  },
+  {
+    id: 10,
+    image: Nginx,
+    alt: "Nginx",
+  },
+  {
+    id: 11,
+    image: NodeJS,
+    alt: "Node JS",
+  },
+  {
+    id: 12,
+    image: PHP,
+    alt: "PHP",
+  },
+  {
+    id: 13,
+    image: PostgreSQL,
+    alt: "Postgre SQL",
+  },
+  {
+    id: 14,
+    image: Python,
+    alt: "Python",
+  },
+  {
+    id: 15,
+    image: ReactJS,
+    alt: "React JS",
+  },
+  {
+    id: 16,
+    image: Ruby,
+    alt: "Ruby",
+  },
+  {
+    id: 17,
+    image: SQL_lite,
+    alt: "SQL Lite",
+  },
+  {
+    id: 18,
+    image: VueJS,
+    alt: "Vue JS",
+  },
 
+];
+ 
 
 const title = "Technologies We Use";
 const heading = (<>Key Tools and Technologies in Web Development</>)
@@ -143,8 +254,9 @@ const ServicePagesDetails = () => {
       <Topheadings SPD_Tech_Para title={title} heading={heading} paragraph={paragraph}
       />
       </div>
-      <TechnologyWeUse/>
-      <WhyChoose/>
+     
+      <TechnologyWeUse image={imageData}WebDevCSS/>
+      <WhyChoose WCheading={"Why Choose Tech Verticks For Website Design & Development Services"} WCpara={"Our professional website developers app developers and designers create awe-inspiring apps for our clients. Our custom mobile app development services encompass"}/>
       <OurProcess/>
       <Industries/>
       <AskQuestion/>

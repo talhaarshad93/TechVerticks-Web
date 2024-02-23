@@ -16,6 +16,15 @@ import OurProcess from "@/components/SPD-OurProcess/OurProcess";
 import Industries from "@/components/Industries/Industries";
 import AskQuestion from "@/components/SPD_AskQuestion/AskQuestion";
 import OverPartner from "@/components/OverPartnerComp/OverPartner";
+import Swift from "../assets/images/Swift.png";
+import Ionic from "../assets/images/Ionic.png";
+import IOS from "../assets/images/IOS.png";
+import Andriod from "../assets/images/Android.png";
+import React_Native from "../assets/images/React_Native.png";
+import Katlin from "../assets/images/Katlin.png";
+// import Flutter from "../../assets/images/Flutter.png";
+import Flutter from "../assets/images/Flutter.png";
+import ObjectiveC from "../assets/images/ObjectiveC.png";
 
 const yAxis = {
   dots: false,
@@ -61,7 +70,51 @@ const data = [
     para: "Harnessing the Power of Agile Development, Scalable Solutions, and Rapid Deployment, We Build Robust Web Applications Tailored to Your Unique Needs",
   },
 ];
+const ImageData = [
+  {
+    id: 1,
+    image: Swift,
+    alt: "Swift",
+  },
+  {
+    id: 2,
+    image: Ionic,
+    alt: "Ionic",
+  },
+  {
+    id: 3,
+    image: IOS,
+    alt: "iOS",
+  },
+  {
+    id: 4,
+    image: Andriod,
+    alt: "Andriod",
+  },
+  {
+    id: 5,
+    image: React_Native,
+    alt: "React Native",
+  },
+  {
+    id: 6,
+    image: Katlin,
+    alt: "Kotlin",
+  },
+  {
+    id: 7,
+    image: Flutter,
+    alt: "Flutter",
+  },
+  {
+    id: 8,
+    image: ObjectiveC,
+    alt: "Objective-c",
+  },
+];
 
+const WC_headings="Why choose AppCrops for mobile app developement?";
+const WC_para="Our certified app developers and designers create awe-inspiring apps for our clients. Our custom mobile app development services";
 
 const title = "Technologies We Use";
 const heading = (<>Mobile App Developers:{<br/>} Our Expertise in Mobile Technologies</>)
@@ -81,7 +134,7 @@ const WeBuildName2 ="Average Google Play Rating";
 const WeBuildCount1 ="3rd";
 const WeBuildCount2 ="4th";
 const WeBuildCount3 ="4.4";
-const ServicePagesDetails = () => {
+const ServicePagesDetails = (WC_heading) => {
   return (
     <div>
       <div className={style.mainContainer}>
@@ -142,8 +195,8 @@ const ServicePagesDetails = () => {
       <Topheadings SPD_Tech_Para title={title} heading={heading} paragraph={paragraph}
       />
       </div>
-      <TechnologyWeUse/>
-      <WhyChoose/>
+      <TechnologyWeUse image={ImageData}/>
+      <WhyChoose WCheading={WC_headings} WCpara={WC_para}/>
       <OurProcess/>
       <Industries/>
       <AskQuestion/>

@@ -12,6 +12,15 @@
   width: 60%;
   padding-left: 3vw;
 }
+.WC_TopSubDiv1 {
+  font-size: 4vw;
+  font-family:"TT Interphases Pro Trial ExtraBold";
+  line-height: 4.3vw;
+  text-transform: capitalize;
+  width: 90%;
+  padding-left: 3vw;
+  /* background-color: aquamarine; */
+}
 .TopSubDiv{
   font-size: 3.7vw;
   font-family:"TT Interphases Pro Trial ExtraBold";

@@ -12,6 +12,7 @@ const SpanHeading ="PORTFOLIO"
 const bigHeading ="Botiga Mobile App"
 const description ="Tech Verticks offers full-cycle design & development services to clients in digitizing their business idea into a successful launch."
 
+
 const CaseStudiesDetails = () => {
   return (
     <div className={style.container}>

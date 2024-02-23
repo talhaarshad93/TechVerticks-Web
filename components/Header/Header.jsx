@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Image from "next/image";
-import img from "../../assets/images/Logo.png";
+import img from "../../assets/images/Logo.svg";
 import "bootstrap/dist/css/bootstrap.min.css";
 import style from './Header.module.css'
 import classNames from "classnames";

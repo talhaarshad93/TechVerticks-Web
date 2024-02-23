@@ -1,6 +1,6 @@
 import FooterCard from "./FooterCard";
 import img from "../../assets/images/Vector.png";
-import img1 from "../../assets/images/Logo.png";
+import img1 from "../../assets/images/Logo.svg";
 import classNames from "classnames";
 import style from "./Footer.module.css";
 

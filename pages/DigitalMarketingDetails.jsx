@@ -370,8 +370,8 @@ const ServicePagesDetails = () => {
       </div>
       <TechnologyWeUse image={ImageData} />
       <WhyChoose WCheading={WC_headings} WCpara={WC_para} data={DM_data} SPD_listData={WC_ListData}/>
-      <OurProcess />
-      <Industries />
+      <OurProcess OP_title = {["hg","sdss","cscsc","hg","sdss","cscsc"]}  hoverPara = {["hg","sdss","cscsc","hg","sdss","cscsc"]} />
+      <Industries  />
       <AskQuestion />
       <OverPartner />
       <GetInTouch />

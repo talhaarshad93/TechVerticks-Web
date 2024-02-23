@@ -112,10 +112,10 @@ const WD_data = [
     title: "Customizations & Integrations",
     content: (
       <>
-      If your project demands extensive customization or integration with third-party services or APIs, we meticulously consider these aspects when determining the project's pricing. 
+      If your project demands extensive customization or integration with third-party services or APIs, we meticulously consider these aspects when determining the project&apos;s pricing. 
       <br/>
       <br/>
-      With our team's expertise and experience, we proficiently handle complex customizations and integrations, ensuring smooth functionality and seamless integration with external systems.
+      With our team&apos;s expertise and experience, we proficiently handle complex customizations and integrations, ensuring smooth functionality and seamless integration with external systems.
     </>
     ),
   },
@@ -258,7 +258,7 @@ const paragraph =
   `We're not just keeping up with the latest web technologies – we're pioneering them. Our commitment to innovation drives us to stay at the forefront of the website development landscape. `;
   const AQ_heading=  <>Curious about Our Website Design and Development Service?<br />Let&apos;s Address Your Queries!</>;
         
-  const AQ_Para=<>Whether you have inquiries about our website design and development process, pricing, or timeline, we're here to provide comprehensive responses. Our team is committed to transparency and open communication, ensuring you're equipped with all the necessary details to make informed decisions about your project. <br/><br/>Don't hesitate to get in touch – we're prepared to help bring your website vision to fruition </>;
+  const AQ_Para=<>Whether you have inquiries about our website design and development process, pricing, or timeline, we&apos;re here to provide comprehensive responses. Our team is committed to transparency and open communication, ensuring you&apos;re equipped with all the necessary details to make informed decisions about your project. <br/><br/>Don&apos;t hesitate to get in touch – we&apos;re prepared to help bring your website vision to fruition </>;
 
 
   const WeBuildHeading="Website Design & Development Company";

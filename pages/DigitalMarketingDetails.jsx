@@ -172,7 +172,7 @@ const WeBuildCount1 = "3rd";
 const WeBuildCount2 = "4th";
 const WeBuildCount3 = "4.4";
 
-const WC_ListData =["Minimalistic Design","50% Faster Development","Enterprise-Ready App","Compliance-Oriented App","Seamless Back-End Integration","Smooth Deployment","Rigorous Quality Assurance","Post-Deployment Support"]
+const WC_ListData =["Strategic Campaign Planning","Targeted Audience Engagement","Content Creation and Optimization","Data-Driven Insights","Multi-Channel Marketing","Continuous Performance Monitoring","Conversion Optimization","Social Media Management","Track Records & Reports"]
 
 const DM_data = [
   {
@@ -180,115 +180,57 @@ const DM_data = [
     title: "Performance Track & Record:",
     content: (
       <>
-      We are a team of experienced iOS and Android app developers in who
-      <br />
-      <br />
-      leverage cutting-edge technologies to create mobile applications. Whether it&apos;s Android,
-      iOS, hybrid, or native app development, we handle all forms of mobile
-      application development.
-      Our specialization extends to cross-platform apps, native apps, flutter
-      apps, and progressive web apps. We take ownership of your project from the initial
-      mobile app planning phase through to post-launch support, ensuring timely
-      delivery of all commitments.
+    Our digital marketing service is backed by a robust performance tracking and recording system. We meticulously monitor key metrics, analyze campaign data, and record progress to ensure transparency and accountability. <br/> Through detailed performance reports, we provide clients with valuable insights into the effectiveness of their digital marketing strategies.<br/> Our goal is to continuously optimize campaigns, drive results, and deliver measurable ROI for our clients.
     </>
     ),
   },
   {
     id: "2",
-    title: "Enterprise app development",
+    title: "Industry Knowledge and Expertise:",
     content: (
       <>
-      We are a team of experienced iOS and Android app developers in who
-      leverage cutting-edge technologies to create mobile applications. Whether it&apos;s Android,
-      iOS, hybrid, or native app development, we handle all forms of mobile
-      application development.
-      Our specialization extends to cross-platform apps, native apps, flutter
-      apps, and progressive web apps. We take ownership of your project from the initial
-      mobile app planning phase through to post-launch support, ensuring timely
-      <br />
-      <br />
-      delivery of all commitments.
+    With a deep-seated understanding of various industries, our digital marketing service boasts unparalleled industry expertise and knowledge. We tailor our strategies to suit the unique needs  of each sector, ensuring targeted and effective campaigns.<br/> Our team of digital marketers stays  alongside of industry trends, regulations, and consumer behaviors, enabling us to craft innovative and impactful marketing solutions.<br/> Trust in our industry specific expertise to propel your brand forward and stay ahead of the competition in today&apos;s dynamic marketplace.
     </>
     ),
   },
   {
     id: "3",
-    title: "M-commerce app development",
+    title: "Comprehensive Services: ",
     content: (
       <>
-      We are a team of experienced iOS and Android app developers in who
-      leverage cutting-edge technologies to create mobile applications. Whether it&apos;s Android,
-      <br />
-      <br />
-      iOS, hybrid, or native app development, we handle all forms of mobile
-      application development.
-
-      Our specialization extends to cross-platform apps, native apps, flutter
-      apps, and progressive web apps. We take ownership of your project from the initial
-      mobile app planning phase through to post-launch support, ensuring timely
-      delivery of all commitments.
+    Our digital marketing service offers a comprehensive suite of solutions tailored to meet your diverse needs. From search engine optimization (SEO) to social media marketing, content creation, email campaigns, and beyond, we provide end-to-end support to elevate your online presence.<br/> With our holistic approach, you can consolidate your marketing efforts under one roof, streamlining processes and maximizing efficiency.<br/> Whether you&apos;re aiming to increase brand awareness, drive website traffic, or boost conversions, our comprehensive digital marketing services have you covered at every stage of your digital journey.
     </>
     ),
   },
   {
     id: "4",
-    title: "Mobile app maintenance",
+    title: "Transparency and Communication:",
     content: (
       <>
-      We are a team of experienced iOS and Android app developers in who
-      leverage cutting-edge technologies to create mobile applications. Whether it&apos;s Android,
-      iOS, hybrid, or native app development, we handle all forms of mobile
-      application development.
-      Our specialization extends to cross-platform apps, native apps, flutter
-      apps, and progressive web apps. We take ownership of your project from the initial
-      <br />
-      <br />
-      mobile app planning phase through to post-launch support, ensuring timely
-      delivery of all commitments.
+     Transparency and communication are the cornerstones of our digital marketing service. We believe in fostering open and honest dialogue with our clients, providing regular updates, reports, and insights throughout the project lifecycle.<br/> Our dedicated team is readily available to address any questions or concerns you may have, ensuring a seamless and collaborative experience.<br/> With transparent processes and clear communication channels in place, you can trust that you are always kept informed and empowered to make informed decisions about your digital marketing strategy.
     </>
     ),
   },
   {
     id: "5",
-    title: "Mobile application consultation",
+    title: "ROI and Performance Metrics: ",
     content: (
       <>
-      We are a team of experienced iOS and Android app developers in who
-      leverage cutting-edge technologies to create mobile applications.
-      <br />
-    <br /> Whether it&apos;s Android,
-      iOS, hybrid, or native app development, we handle all forms of mobile
-      application development.
-      <br />
-      <br />
-      Our specialization extends to cross-platform apps, native apps, flutter
-      apps, and progressive web apps. We take ownership of your project from the initial
-      mobile app planning phase through to post-launch support, ensuring timely
-      delivery of all commitments.
+     In our digital marketing service, we prioritize ROI and performance metrics to ensure measurable results. We meticulously track key indicators such as website traffic, conversion rates, lead generation, and ultimately, return on investment.<br/> By setting clear objectives and defining KPIs aligned with your business goals, we deliver transparent reports and insights to gauge the effectiveness of your campaigns. Our focus on data-driven decision-making empowers you to optimize strategies and maximize your digital marketing ROI.<br/> With our dedication to measurable success, trust us to drive tangible results for your business.
     </>
     ),
   },
   {
     id: "6",
-    title: "iPad and tablet software development",
+    title: "Digital Marketing Tools:",
     content: (
       <>
-      We are a team of experienced iOS and Android app developers in who
-      <br />
-      <br />
-      leverage cutting-edge technologies to create mobile applications. Whether it&apos;s Android,
-      iOS, hybrid, or native app development, we handle all forms of mobile
-      application development.
-      <br />
-    <br />
-      Our specialization extends to cross-platform apps, native apps, flutter
-      apps, and progressive web apps. We take ownership of your project from the initial
-      mobile app planning phase through to post-launch support, ensuring timely
-      delivery of all commitments.
+    Our digital marketing service leverages cutting-edge technology and tools to optimize campaign performance and drive results.<br/> With our of digital marketing tools, we streamline processes, gain valuable insights, and stay ahead of the curve in a rapidly evolving digital landscape.<br/> Rest assured, we harness the power of technology to deliver impactful solutions tailored to your specific needs and objectives
     </>
     ),
   },
 ];
+const OP_heading = "Our Digital MarketingCompany Process";
 
 const ServicePagesDetails = () => {
   return (
@@ -370,7 +312,7 @@ const ServicePagesDetails = () => {
       </div>
       <TechnologyWeUse image={ImageData} />
       <WhyChoose WCheading={WC_headings} WCpara={WC_para} data={DM_data} SPD_listData={WC_ListData}/>
-      <OurProcess OP_title = {["hg","sdss","cscsc","hg","sdss","cscsc"]}  hoverPara = {["hg","sdss","cscsc","hg","sdss","cscsc"]} />
+      <OurProcess OP_heading={"Our Digital MarketingCompany Process"} OP_title = {["hg","sdss","cscsc","hg","sdss","cscsc"]}  hoverPara = {["hg","sdss","cscsc","hg","sdss","cscsc"]} />
       <Industries  />
       <AskQuestion />
       <OverPartner />

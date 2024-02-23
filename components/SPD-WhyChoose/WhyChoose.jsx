@@ -65,8 +65,8 @@ Our specialization extends to cross-platform apps, native apps, flutter apps, an
           <div className={style.SubFoterDiv2}>
             <div className={style.TopSubDiv}>What You Get?</div>
             <div className={style.SubFoterLink}>
-              {SPD_listData?.map((item) => (
-                <ul>
+              {SPD_listData?.map((item,index) => (
+                <ul key={index}>
                   <li>{item}</li>
                 </ul>
               ))}

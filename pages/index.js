@@ -60,9 +60,9 @@ export default function Home() {
   const WeBuildName = "TECH PROFESSIONALS";
   const WeBuildName1 = "YEARS OF EXPERIENCE";
   const WeBuildName2 = "PROJECTS COMPLETED";
-  const WeBuildCount1 = "+90";
-  const WeBuildCount2 = "+15";
-  const WeBuildCount3 = "+750";
+  const WeBuildCount1 = "90";
+  const WeBuildCount2 = "15";
+  const WeBuildCount3 = "750";
   return (
     
     <div>
@@ -104,13 +104,14 @@ export default function Home() {
       />
       <Tv img={img} video="/tvReel.mp4" />
       <Webuild
+      showPlus
         heading={WeBuildHeading}
         description={WeBuildDescription}
         name1={WeBuildName}
         Count1={WeBuildCount1}
         name2={WeBuildName1}
         Count2={WeBuildCount2}
-        Count3={WeBuildCount3}
+        Count3={`+${WeBuildCount3}`}
         name3={WeBuildName2}
       />
 

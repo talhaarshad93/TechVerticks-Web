@@ -161,12 +161,13 @@
     padding-left: 0vw;
     display: none;
     flex-direction: column;
-    width: 25%;
+    width: 30%;
+    height: 30vw;
     /* margin-bottom: 0.5vw; */
     position: fixed;
     /* text-align: center; */
     top: 6.2vw;  
-    left: 80vw; 
+    left: 75vw; 
     text-align: left;
     /* justify-content: center ; */
     background-color: rgba(255, 255, 255, 0.9);
@@ -211,5 +212,8 @@
 
   .navbar nav ul a li {
     margin: 0.4vw 1vw;
+    font-size: 2vw;
+
+    /* background-color: blue; */
   }
 }

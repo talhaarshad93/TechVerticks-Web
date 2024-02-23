@@ -2,7 +2,10 @@ import Heading from "@/components/Heading Component/Heading";
 import GetInTouch from "@/components/GetinTouch/GetinTouch/GetinTouch";
 import ImageSlider from "@/components/ImageSlider/ImageSlider";
 import React from "react";
-import sliderImg from "./../assets/images/sliderImage.png";
+import mobSlide from "./../assets/images/mobSlide.png";
+import webSlide from "./../assets/images/webSlide.png";
+import brandSlide from "./../assets/images/brandSlide.png";
+import digitalSlide from "./../assets/images/digitalSlide.png";
 import HaveIdea from "@/components/Have Idea/HaveIdea";
 import Testimonials from "@/components/Testimonials/Testimonials";
 import ServiceDetails from "../components/ServiceDetails/ServiceDetails";
@@ -215,9 +218,11 @@ const xAxis = {
   // verticalSwiping: true,
 };
 const images = [
-  sliderImg,
-  sliderImg,
-  sliderImg,
+  mobSlide,
+  webSlide,
+  brandSlide,
+  digitalSlide
+
   // Add more image paths as needed
 ];
 const ServicePage = () => {

@@ -18,7 +18,7 @@ const ImgandBtn = ({ imageUrl, imageHeight, imageWidth, btnTxt, width ,recent2Cs
   
 
   return (
-    <div style={{ width: width }}>
+    <div style={{ width: width, }}>
      <div className={styles.imgBox}>
        {/* <Image
         src={imageUrl}

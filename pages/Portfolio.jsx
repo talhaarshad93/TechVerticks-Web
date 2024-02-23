@@ -19,15 +19,15 @@ const portfolioArray = [
     btnTxt: 'Woo Space App'
   },
   {
-    imageUrl: "/Geelink.mp4",
+    imageUrl: "/Potrait Video 1.mp4",
     btnTxt: 'Meta Software Branding'
   },
   {
-    imageUrl: "/SCENE_07.mp4",
+    imageUrl: "/Geelink.mp4",
     btnTxt: 'Botiga Mobile App'
   },
   {
-    imageUrl: "/CodyJinks.mp4",
+    imageUrl: "/Potrait Video 3.mp4",
     btnTxt: 'Woo Space App'
   },
   {
@@ -39,39 +39,43 @@ const portfolioArray = [
     btnTxt: 'Woo Space App'
   },
   {
-    imageUrl: "/Geelink.mp4",
+    imageUrl: "/Potrait Video 2.mp4",
+
     btnTxt: 'Meta Software Branding'
   },
+
+]
+const portfolioArray2 = [
   {
-    imageUrl: "/SCENE_07.mp4",
+    imageUrl: "/Potrait Video 2.mp4",
     btnTxt: 'Botiga Mobile App'
   },
   {
-    imageUrl: "/muslim.mp4",
+    imageUrl: "/SmartPark.mp4",
     btnTxt: 'Woo Space App'
   },
   {
-    imageUrl: "/SmartPark.mp4",
+    imageUrl: "/muslim.mp4",
     btnTxt: 'Meta Software Branding'
   },
 
   {
-    imageUrl: "/AppCrops.mp4",
+    imageUrl: "/design.mp4",
     btnTxt: 'Meta Software Branding'
   },
   {
-    imageUrl: "/design.mp4",
+    imageUrl: "/Potrait Video 3.mp4",
     btnTxt: 'Botiga Mobile App'
   },
   {
-    imageUrl: "/mobile.mp4",
+    imageUrl: "/Potrait Video 1.mp4",
     btnTxt: 'Woo Space App'
   },
   {
     imageUrl: "/web.mp4",
     btnTxt: 'Meta Software Branding'
   },
-]
+ ]
 const SpanHeading ="OUR Works"
 const bigHeading ="We offer the diversity of skills"
 const description ="Tech Verticks offers full-cycle design & development services to clients in digitizing their business idea into a successful launch."
@@ -81,11 +85,23 @@ const Portfolio = () => {
     <div>
       <Heading SpanHeading={SpanHeading} bigHeading = {bigHeading} description={description} PortfolioPage_Css/> 
       <CS_Button/>
-      <div className={style.portfolioDiv}>
+      <div className={style.portfolioDivMain}>
+        <div className={style.portfolioDiv}>
       {portfolioArray.map((newData, index) => (
-        <ImgandBtn key={index} imageUrl={newData.imageUrl} width={"45%"} imageHeight={100} imageWidth={100} btnTxt={newData.btnTxt} />
-      ))}
+        <ImgandBtn key={index} imageUrl={newData.imageUrl} width={"100%"} imageHeight={100} imageWidth={100} btnTxt={newData.btnTxt} />
+        ))}
       </div>
+
+
+        <div className={style.portfolioDiv1}>
+  
+      {portfolioArray2.map((newData, index) => (
+        <ImgandBtn key={index} imageUrl={newData.imageUrl} width={"100%"} imageHeight={100} imageWidth={100} btnTxt={newData.btnTxt} />
+        ))}
+      </div>
+
+
+        </div>
       <Testimonials/> 
       <GetInTouch/>
     </div>

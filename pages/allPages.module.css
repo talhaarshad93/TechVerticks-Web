@@ -1,11 +1,29 @@
 
 .portfolioDiv{
+    width: 50%;
+    /* margin-bottom: 5vw;
+    margin-top: 5vw; */
+    /* background-color: blue; */
+    margin: 0;
+    padding: 0;
+}
+.portfolioDiv1{
+    width: 50%;
+    margin: 0;
+    padding: 0;
+    /* background-color: aqua; */
+    margin-left: 3vw;
+}
+.portfolioDivMain{
     display: flex;
-    flex-wrap: wrap;
-    align-items: center;
+    /* flex-direction: row; */
+    /* flex-wrap: wrap; */
+    /* align-items: center; */
     justify-content: space-evenly;
-    width: 100%;
+    /* width: 100vw; */
     margin-bottom: 5vw;
     margin-top: 5vw;
+    padding: 4vw;
     /* background-color: yellow; */
+
 }

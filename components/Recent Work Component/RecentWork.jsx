@@ -24,7 +24,7 @@ const RecentWork = () => {
         />
 
         <ImgandBtn
-          imageUrl="/Geelink.mp4"
+          imageUrl="/Potrait Video 2.mp4"
           imageHeight={100}
           imageWidth={100}
           btnTxt={"Woo Space App"}
@@ -39,7 +39,7 @@ const RecentWork = () => {
           </div>
         </div>
         <ImgandBtn
-          imageUrl="/SCENE_07.mp4"
+          imageUrl="/Potrait Video 1.mp4"
           imageHeight={90}
           imageWidth={100}
           btnTxt={"Meta Software Branding "}

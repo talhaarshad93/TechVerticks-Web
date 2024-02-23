@@ -256,7 +256,7 @@ const title = "Technologies We Use";
 const heading = (<>Key Tools and Technologies in Web Development</>)
 const paragraph = 
   `We're not just keeping up with the latest web technologies – we're pioneering them. Our commitment to innovation drives us to stay at the forefront of the website development landscape. `;
-  const _heading=  <>Curious about Our Website Design and Development Service.?<br />Let&apos;s Address Your Queries!</>;
+  const AQ_heading=  <>Curious about Our Website Design and Development Service?<br />Let&apos;s Address Your Queries!</>;
         
   const AQ_Para=<>Whether you have inquiries about our website design and development process, pricing, or timeline, we're here to provide comprehensive responses. Our team is committed to transparency and open communication, ensuring you're equipped with all the necessary details to make informed decisions about your project. <br/><br/>Don't hesitate to get in touch – we're prepared to help bring your website vision to fruition </>;
 

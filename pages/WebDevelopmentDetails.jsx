@@ -46,7 +46,80 @@ const yAxis = {
   pauseOnHover: true,
   centerPadding: "0%",
 };
-
+const WD_data = [
+  {
+    id: "1",
+    title: "Website Design & Development",
+    content: (
+      <>
+      Are you aiming to rejuvenate your brand with a complete website overhaul, or simply seeking some final touches to refine its appearance?
+      <br/>
+      <br/>
+       Whichever path you choose, our skilled team of website developers at Tech Verticks embarks on a meticulous design and development journey, considering every brand element to craft a cohesive masterpiece.
+    </>
+    ),
+  },
+  {
+    id: "2",
+    title: "Migration Services",
+    content: (
+      <>
+      Seeking accelerated business expansion? Look no further than our eCommerce migration solutions, designed to transform your online marketplace into a technically sophisticated yet easily navigable platform.
+      <br/>
+      <br/>
+       Our team of web developers specializes in seamlessly transferring your data to any virtual environment, ensuring a hassle-free experience and providing expert support whenever necessary
+    </>
+    ),
+  },
+  {
+    id: "3",
+    title: "Website Design & Consultancy",
+    content: (
+      <>
+    Our team of web developers invest time in understanding your business, industry, and clientele, ensuring accurate identification of your business needs.
+    <br/>
+      <br/>
+     Subsequently, we craft a marketing and branding strategy tailored to help you reach your objectives and company milestones effectively
+    </>
+    ),
+  },
+  {
+    id: "4",
+    title: "Affordable Web Design Service",
+    content: (
+      <>
+     Our website development services stand out for their exceptional value, providing top-tier expertise and cutting-edge technology at prices unmatched by our competitors. 
+     <br/>
+      <br/>
+     Collaborating with us ensures access to experienced professionals, skilled web developers, and innovative solutions—all bundled into one cost-effective package
+    </>
+    ),
+  },
+  {
+    id: "5",
+    title: "Modern Approach",
+    content: (
+      <>
+    Leveraging outcome-driven, adaptable web solutions, we integrate automation, platforms, and seamless tasking solutions to handle large delivery volumes with precision.
+    <br/>
+      <br/>
+     Our unparalleled expertise in web developement ensures we excel in our field.
+    </>
+    ),
+  },
+  {
+    id: "6",
+    title: "Customizations & Integrations",
+    content: (
+      <>
+      If your project demands extensive customization or integration with third-party services or APIs, we meticulously consider these aspects when determining the project's pricing. 
+      <br/>
+      <br/>
+      With our team's expertise and experience, we proficiently handle complex customizations and integrations, ensuring smooth functionality and seamless integration with external systems.
+    </>
+    ),
+  },
+];
 const images = [sliderImg, sliderImg, sliderImg];
 const data = [
   {
@@ -173,12 +246,20 @@ const imageData = [
   },
 
 ];
- 
+const WD_ListData =["Faster Web Development","Expertise and Experience","Customized Solutions","Scalability and Flexibility","Time and Cost Efficiency","Seamless Back-End Integration","Smooth Deployment","Rigorous Quality Assurance","Ongoing Support and Maintenance"]
 
+const hoverPara= ["Engaging in in-depth discussions with clients to grasp their vision, objectives, and specifications for the website & delving into aspects such as target demographics, desired functionalities, technical requirements, and budgetary consideration","Conducting focused brainstorming sessionsto outline key elements of the website's development strategy. It  involves defining the website's unique selling points, identifying market opportunities, analyzing competitors, and mapping out the project's overall roadmap","Leveraging user research, wireframing, and prototyping techniques to refine design concepts and establish an intuitive flow and navigation structure for the website design","Utilizing an agile methodology featuring iterative development cycles to guarantee flexibility and responsiveness in accommodating evolving project needs","Thoroughly evaluating the website's functionality, performance, and security to uphold a seamless user experience and maintain high standards of quality","Offering ongoing support and maintenance services to uphold the website's performance and reliability, ensuring its continued optimal operation.",]
+const WD_title=["Project Discussion","Strategic Planning","User Interface Design","Website Development","Quality Assurance","Support and Maintenance",];
+
+const WD_heading = "Our Web Design & Web Development Process";
 const title = "Technologies We Use";
 const heading = (<>Key Tools and Technologies in Web Development</>)
 const paragraph = 
   `We're not just keeping up with the latest web technologies – we're pioneering them. Our commitment to innovation drives us to stay at the forefront of the website development landscape. `;
+  const _heading=  <>Curious about Our Website Design and Development Service.?<br />Let&apos;s Address Your Queries!</>;
+        
+  const AQ_Para=<>Whether you have inquiries about our website design and development process, pricing, or timeline, we're here to provide comprehensive responses. Our team is committed to transparency and open communication, ensuring you're equipped with all the necessary details to make informed decisions about your project. <br/><br/>Don't hesitate to get in touch – we're prepared to help bring your website vision to fruition </>;
+
 
   const WeBuildHeading="Website Design & Development Company";
   const WeBuildDescription = <>
@@ -256,10 +337,11 @@ const ServicePagesDetails = () => {
       </div>
      
       <TechnologyWeUse image={imageData}WebDevCSS/>
-      <WhyChoose WCheading={"Why Choose Tech Verticks For Website Design & Development Services"} WCpara={"Our professional website developers app developers and designers create awe-inspiring apps for our clients. Our custom mobile app development services encompass"}/>
-      <OurProcess/>
+      <WhyChoose WCheading={"Why Choose Tech Verticks For Website Design & Development Services"} WCpara={"Our professional website developers app developers and designers create awe-inspiring apps for our clients. Our custom mobile app development services encompass"} data={WD_data} SPD_listData={WD_ListData} />
+      <OurProcess OP_heading={WD_heading} hoverPara={hoverPara} OP_title={WD_title}/>
       <Industries/>
-      <AskQuestion/>
+      <AskQuestion AQ_heading={AQ_heading} AQ_Para={AQ_Para}/>
+
       <OverPartner/>
     <GetInTouch />
     </div>

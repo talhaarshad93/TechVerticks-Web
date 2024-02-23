@@ -38,6 +38,123 @@ const yAxis = {
   pauseOnHover: true,
   centerPadding: "0%",
 };
+const WC_ListData =["Minimalistic Design","50% Faster Development","Enterprise-Ready App","Compliance-Oriented App","Seamless Back-End Integration","Smooth Deployment","Rigorous Quality Assurance","Post-Deployment Support"]
+
+const SP_data = [
+  {
+    id: "1",
+    title: "Mobile app design",
+    content: (
+      <>
+      We are a team of experienced iOS and Android app developers in who
+      <br />
+      <br />
+      leverage cutting-edge technologies to create mobile applications. Whether it&apos;s Android,
+      iOS, hybrid, or native app development, we handle all forms of mobile
+      application development.
+      Our specialization extends to cross-platform apps, native apps, flutter
+      apps, and progressive web apps. We take ownership of your project from the initial
+      mobile app planning phase through to post-launch support, ensuring timely
+      delivery of all commitments.
+    </>
+    ),
+  },
+  {
+    id: "2",
+    title: "Enterprise app development",
+    content: (
+      <>
+      We are a team of experienced iOS and Android app developers in who
+      leverage cutting-edge technologies to create mobile applications. Whether it&apos;s Android,
+      iOS, hybrid, or native app development, we handle all forms of mobile
+      application development.
+      Our specialization extends to cross-platform apps, native apps, flutter
+      apps, and progressive web apps. We take ownership of your project from the initial
+      mobile app planning phase through to post-launch support, ensuring timely
+      <br />
+      <br />
+      delivery of all commitments.
+    </>
+    ),
+  },
+  {
+    id: "3",
+    title: "M-commerce app development",
+    content: (
+      <>
+      We are a team of experienced iOS and Android app developers in who
+      leverage cutting-edge technologies to create mobile applications. Whether it&apos;s Android,
+      <br />
+      <br />
+      iOS, hybrid, or native app development, we handle all forms of mobile
+      application development.
+
+      Our specialization extends to cross-platform apps, native apps, flutter
+      apps, and progressive web apps. We take ownership of your project from the initial
+      mobile app planning phase through to post-launch support, ensuring timely
+      delivery of all commitments.
+    </>
+    ),
+  },
+  {
+    id: "4",
+    title: "Mobile app maintenance",
+    content: (
+      <>
+      We are a team of experienced iOS and Android app developers in who
+      leverage cutting-edge technologies to create mobile applications. Whether it&apos;s Android,
+      iOS, hybrid, or native app development, we handle all forms of mobile
+      application development.
+      Our specialization extends to cross-platform apps, native apps, flutter
+      apps, and progressive web apps. We take ownership of your project from the initial
+      <br />
+      <br />
+      mobile app planning phase through to post-launch support, ensuring timely
+      delivery of all commitments.
+    </>
+    ),
+  },
+  {
+    id: "5",
+    title: "Mobile application consultation",
+    content: (
+      <>
+      We are a team of experienced iOS and Android app developers in who
+      leverage cutting-edge technologies to create mobile applications.
+      <br />
+    <br /> Whether it&apos;s Android,
+      iOS, hybrid, or native app development, we handle all forms of mobile
+      application development.
+      <br />
+      <br />
+      Our specialization extends to cross-platform apps, native apps, flutter
+      apps, and progressive web apps. We take ownership of your project from the initial
+      mobile app planning phase through to post-launch support, ensuring timely
+      delivery of all commitments.
+    </>
+    ),
+  },
+  {
+    id: "6",
+    title: "iPad and tablet software development",
+    content: (
+      <>
+      We are a team of experienced iOS and Android app developers in who
+      <br />
+      <br />
+      leverage cutting-edge technologies to create mobile applications. Whether it&apos;s Android,
+      iOS, hybrid, or native app development, we handle all forms of mobile
+      application development.
+      <br />
+    <br />
+      Our specialization extends to cross-platform apps, native apps, flutter
+      apps, and progressive web apps. We take ownership of your project from the initial
+      mobile app planning phase through to post-launch support, ensuring timely
+      delivery of all commitments.
+    </>
+    ),
+  },
+];
 
 const images = [sliderImg, sliderImg, sliderImg];
 const data = [
@@ -112,7 +229,14 @@ const ImageData = [
     alt: "Objective-c",
   },
 ];
+   const hoverPara= ["A comprehensive discussions with our clients to understand their vision, goals, and requirements for the app. We explore factors such as target audience, desired features, technical specifications, and budget constraints","Conducting  intensive brainstorming sessions & strategic discussions to define key aspects of the app's development strategy. It includes outlining the app's unique value proposition, identifying market opportunities, analyzing competitor landscape, & defining the overall project roadmap","User research, wireframing, and prototyping, we iterate on design concepts to create a seamless flow and navigation structure","Ensureing flexibility and responsiveness with iterative cycles for quick adaptation to changing needs","Assessing the app's functionality, performance, and security to ensure a seamless user experience","User research, wireframing, and prototyping, we iterate on design concepts to create a seamless flow and navigation structure",]
+    const SPD_title=["Project Discussion","Rapid Strategy Workshop","User interfaces & experiences","Agile Development","Testing & quality assurance","Support & maintenance",];
 
+       
+        const AQ_heading=  <>Curious about Our Mobile App Development Service?<br />Let&apos;s Answer Your Questions!</>;
+        
+        const AQ_Para=<>Whether you have questions about our mobile app development process, pricing, or timeline, we&apos;re here to provide answers. Our team is committed to transparency and clear communication, ensuring you have all the information you need to make informed decisions about your project. Don&apos;t hesitate to reach out – we&apos;re ready to help bring your app idea to life.</>;
+const OP_heading = "Our Mobile App Development Company Process";
 const WC_headings="Why choose AppCrops for mobile app developement?";
 const WC_para="Our certified app developers and designers create awe-inspiring apps for our clients. Our custom mobile app development services";
 
@@ -196,10 +320,10 @@ const ServicePagesDetails = (WC_heading) => {
       />
       </div>
       <TechnologyWeUse image={ImageData}/>
-      <WhyChoose WCheading={WC_headings} WCpara={WC_para}/>
-      <OurProcess/>
+      <WhyChoose WCheading={WC_headings} WCpara={WC_para} data={SP_data} SPD_listData={WC_ListData}/>
+      <OurProcess OP_heading={OP_heading} hoverPara={hoverPara} OP_title={SPD_title}/>
       <Industries/>
-      <AskQuestion/>
+      <AskQuestion AQ_heading={AQ_heading} AQ_Para={AQ_Para}/>
       <OverPartner/>
     <GetInTouch />
     </div>

@@ -74,7 +74,7 @@ const data2 = [
   },
 ]
 
-export default function AskQuestion() {
+export default function AskQuestion({AQ_heading,AQ_Para}) {
   const [listData1, setListData1] = useState(data1);
   const [listData2, setListData2] = useState(data2);
 
@@ -103,13 +103,11 @@ export default function AskQuestion() {
     <div style={{padding:"5vw"}}>
       <div className={style.mainDiv}>
         <div className={style.Heading}>
-        <>Curious about Our Mobile App Development Service?<br />Let&apos;s Answer Your Questions!</>
-
+        {AQ_heading}
 
         </div>
         <div className={style.ParaDiv}>
-        <>Whether you have questions about our mobile app development process, pricing, or timeline, we&apos;re here to provide answers. Our team is committed to transparency and clear communication, ensuring you have all the information you need to make informed decisions about your project. Don&apos;t hesitate to reach out – we&apos;re ready to help bring your app idea to life.</>
-
+        {AQ_Para}
 
         </div>
       </div>

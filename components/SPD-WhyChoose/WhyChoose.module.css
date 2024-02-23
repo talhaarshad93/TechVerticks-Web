@@ -55,7 +55,7 @@
   margin-top: 1.6vw;
   text-indent: 1vw;
   /* padding-left: 3vw; */
-
+  
   width: 38vw;
   cursor: pointer;
 }
@@ -75,9 +75,11 @@
   font-size: 1.3vw;
   font-family: "TT Interphases Pro Trial Regular";
   width: 40vw;
+  padding-top: 2vw;
   line-height: 1.4;
   font-weight: 100;
   color: rgb(107, 107, 107);
+
 }
 .FoterDiv {
   display: flex;
@@ -97,13 +99,14 @@
 .SubFoterDiv2 {
   width: 39.6vw;
   height: 44vw;
-  margin-top: 3vw;
+  /* margin-top: 1vw; */
   margin-bottom: 3vw;
   margin-left: 5vw;
   padding-top: 4vw;
 }
 .SubFoterLink ul {
-  margin-top: 2vw;
+  margin-top: 0vw;
+
 }
 .SubFoterLink ul li {
   margin-left: -2vw;

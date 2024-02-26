@@ -5,76 +5,9 @@ import SPD_PlusIcon from "../../assets/images/SPD_PlusIcon.png";
 import SPD_MinusIcon from "../../assets/images/SPD_MinusIcon.png";
 import { useState } from "react";
 
-const data1 = [
-  {
-    id: "01",
-    heading: "How much does it cost to develop a mobile app?",
-    isOpen: false,
-    para: "Determining the cost of developing a mobile app depends on various factors, including the complexity of the app, desired features, platform compatibility, and development resources required. Moreover, factors such as design complexity, integration with backend systems, and ongoing maintenance also contribute to the overall cost. It's essential to discuss your specific requirements with a reputable app development company to receive a personalized quote tailored to your needs and budget.",
-  },
-  {
-    id: "02",
-    heading: "How long does it take to build a mobile application?",
-    isOpen: false,
-    para: "The timeline for building a mobile application varies depending on factors such as the complexity of the app, desired features, platform compatibility, and development resources available. Simple apps with basic features can typically be developed in a few weeks to a couple of months, while more complex apps with advanced functionalities may take several months",
-  },
-  {
-    id: "03",
-    heading:
-      "Should I hire a mobile app development company vs. a freelancer: Which one is better?",
-    isOpen: false,
-    para: "The cost of mobile app development services varies depending on factors such as app requirements, app complexity, architecture, design, visuals, and testing frameworks. Marketing also plays a significant factor in determining an app’s overall costs",
-  },
 
-  {
-    id: "04",
-    heading: "Are mobile apps profitable?",
-    isOpen: false,
-    para: "Mobile apps continue to be profitable for many businesses, with the potential to generate significant revenue through various monetization strategies",
-  },
-  {
-    id: "05",
-    heading: "????",
-    isOpen: false,
-    para: "????",
-  },
-  
-];
-const data2 = [
-  {
-    id: "06",
-    heading: "How much does it cost to develop a mobile app?",
-    isOpen: false,
-    para: "The cost of mobile app development services varies depending on factors such as app requirements, app complexity, architecture, design, visuals, and testing frameworks. Marketing also plays a significant factor in determining an app’s overall costs",
-  },
-  {
-    id: "07",
-    heading: "How long does it take to build a mobile application?",
-    isOpen: false,
-    para: "The cost of mobile app development services varies depending on factors such as app requirements, app complexity, architecture, design, visuals, and testing frameworks. Marketing also plays a significant factor in determining an app’s overall costs",
-  },
-  {
-    id: "08",
-    heading:
-      "Should I hire a mobile app development company vs. a freelancer: Which one is better?",
-    isOpen: false,
-    para: "The cost of mobile app development services varies depending on factors such as app requirements, app complexity, architecture, design, visuals, and testing frameworks. Marketing also plays a significant factor in determining an app’s overall costs",
-  },
-  {
-    id: "09",
-    heading: "What are the benefits of mobile app development services?",
-    isOpen: false,
-    para: "The cost of mobile app development services varies depending on factors such as app requirements, app complexity, architecture, design, visuals, and testing frameworks. Marketing also plays a significant factor in determining an app’s overall costs",
-  },
-  {
-    id: "10",
-    heading: "Are mobile apps profitable in 2023?",
-    isOpen: false,
-    para: "The cost of mobile app development services varies depending on factors such as app requirements, app complexity, architecture, design, visuals, and testing frameworks. Marketing also plays a significant factor in determining an app’s overall costs",
-  },
-]
 
-export default function AskQuestion({AQ_heading,AQ_Para}) {
+export default function AskQuestion({AQ_heading,AQ_Para, data1,data2}) {
   const [listData1, setListData1] = useState(data1);
   const [listData2, setListData2] = useState(data2);
 

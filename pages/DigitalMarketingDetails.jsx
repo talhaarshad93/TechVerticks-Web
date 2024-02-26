@@ -159,18 +159,7 @@ const WeBuildDescription = (
     Scalable and Smart Mobile App Development Solutions
   </>
 );
-const WeBuildName =
-  "Among Top Mobile App Development Companies in 2023 on Rightfirms";
-const WeBuildName1 = (
-  <>
-    Top Android App Developers in
-    <br /> Houston by Clutch{" "}
-  </>
-);
-const WeBuildName2 = "Average Google Play Rating";
-const WeBuildCount1 = "3rd";
-const WeBuildCount2 = "4th";
-const WeBuildCount3 = "4.4";
+
 
 const WC_ListData =["Strategic Campaign Planning","Targeted Audience Engagement","Content Creation and Optimization","Data-Driven Insights","Multi-Channel Marketing","Continuous Performance Monitoring","Conversion Optimization","Social Media Management","Track Records & Reports"]
 
@@ -230,7 +219,75 @@ const DM_data = [
     ),
   },
 ];
-const OP_heading = "Our Digital MarketingCompany Process";
+
+const data1 = [
+  {
+    id: "01",
+    heading: "What is digital marketing, and why is it important for businesses?",
+    isOpen: false,
+    para: "Digital marketing encompasses various online strategies and channels used to promote products or services. It's crucial for businesses as it allows them to reach a wider audience, engage with customers directly, and drive conversions more effectively in today's digital age.",
+  },
+  {
+    id: "02",
+    heading: "What types of services are included in digital marketing?",
+    isOpen: false,
+    para: "Digital marketing services encompass a wide range of strategies, including search engine optimization (SEO), pay-per-click (PPC) advertising, social media marketing, content marketing, email marketing, and more.",
+  },
+  {
+    id: "03",
+    heading:
+      "How can digital marketing help my business grow?",
+    isOpen: false,
+    para: "We can help your business grow by increasing brand visibility, driving website traffic, generating leads, and ultimately, boosting sales and revenue.",
+  },
+
+  {
+    id: "04",
+    heading: "How do I know which digital marketing strategies are right for my business?",
+    isOpen: false,
+    para: "The right digital marketing strategies for your business depend on factors such as your industry, target audience, budget, and objectives.At Tech Verticks, we help you assess your needs and recommend tailored strategies to achieve your goals.",
+  },
+  {
+    id: "05",
+    heading: "What is the typical process for working with Tech Verticks?",
+    isOpen: false,
+    para: "The process typically involves an initial consultation to discuss your goals and needs, followed by strategy development, implementation of digital marketing campaigns, ongoing monitoring and optimization, and regular reporting on performance metrics.",
+  },
+  
+];
+const data2 = [
+  {
+    id: "06",
+    heading: "How long does it take to see results from digital marketing efforts?",
+    isOpen: false,
+    para: "The timeframe for seeing results can vary depending on factors such as the competitiveness of your industry, the effectiveness of your strategies, and your budget. While some results may be seen quickly, such as increased website traffic, it often takes several months to see significant improvements in rankings, leads, and conversions.",
+  },
+  {
+    id: "07",
+    heading: "How can I measure success?",
+    isOpen: false,
+    para: "Digital marketing agencies measure success through various key performance indicators (KPIs) such as website traffic, search engine rankings, conversion rates, return on investment (ROI), and engagement metrics on social media platforms.",
+  },
+  {
+    id: "08",
+    heading:
+      "What is the cost of digital marketing services?",
+    isOpen: false,
+    para: "The cost of digital marketing services varies depending on factors such as the scope of work, the complexity of the strategies, and the level of service provided by the agency. Feel free to contact us and explore more.",
+  },
+  {
+    id: "09",
+    heading: "How often should I update my digital marketing strategies?",
+    isOpen: false,
+    para: "Digital marketing strategies should be regularly reviewed and updated to adapt to changes in the market, technology, and consumer behavior. It's recommended to conduct regular audits of your strategies and adjust them as needed to stay competitive and achieve your goals.",
+  },
+  {
+    id: "10",
+    heading: "Why should I hire Tech Verticks for Digital Marketing service?",
+    isOpen: false,
+    para: "Tech Verticks offers comprehensive digital marketing services tailored to your specific business needs, ensuring targeted strategies that drive results. With a team of experienced professionals and a track record of success, Tech Verticks is dedicated to maximizing your online visibility, engagement, and conversions.",
+  },
+]
 
 const ServicePagesDetails = () => {
   return (
@@ -255,12 +312,15 @@ const ServicePagesDetails = () => {
         <Webuild
           heading={WeBuildHeading}
           description={WeBuildDescription}
-          name1={WeBuildName}
-          Count1={WeBuildCount1}
-          Count2={WeBuildCount2}
-          Count3={WeBuildCount3}
-          name2={WeBuildName1}
-          name3={WeBuildName2}
+          name1={"Among Top Mobile App Development Companies in 2023 on Rightfirms"}
+          Count1={"3rd"}
+          Count2={"4th"}
+          Count3={"4.4"}
+          name2={<>
+            Top Android App Developers in
+            <br /> Houston by Clutch{" "}
+          </>}
+          name3={"Average Google Play Rating"}
           weBuildCSS
         />
       }
@@ -312,9 +372,10 @@ const ServicePagesDetails = () => {
       </div>
       <TechnologyWeUse image={ImageData} />
       <WhyChoose WCheading={WC_headings} WCpara={WC_para} data={DM_data} SPD_listData={WC_ListData}/>
-      <OurProcess OP_heading={"Our Digital MarketingCompany Process"} OP_title = {["hg","sdss","cscsc","hg","sdss","cscsc"]}  hoverPara = {["hg","sdss","cscsc","hg","sdss","cscsc"]} />
+      <OurProcess OP_heading={"Our Digital MarketingCompany Process"} OP_title = {["Client Consultation","Strategic Planning and Market Analysis","User Experience Design","Website Development and Implementation","Performance Tracking and Optimization","Performance & Maintenance"]}  hoverPara = {["Engaging in comprehensive discussions with clients to understand their digital marketing objectives, target audience demographics, desired functionalities, and budget considerations","Conducting strategic brainstorming sessions to outline the digital marketing strategy. This includes defining unique selling points, identifying market opportunities, analyzing competitors, and mapping out the overall project roadmap.","Leveraging user research, wireframing, and prototyping techniques to craft compelling digital experiences. This involves refining design concepts and establishing an intuitive flow and navigation structure for optimal user engagement.","Employing agile methodologies for iterative development cycles to ensure flexibility and responsiveness in meeting evolving project needs. This includes building and implementing digital assets, landing pages, and conversion-focused elements."
+      ,"Conducting thorough evaluations of digital marketing campaign performance, including website functionality, traffic, engagement metrics, and conversions. This ensures the maintenance of a seamless user experience and adherence to high-quality standards."," Providing ongoing support and maintenance services to sustain the digital marketing efforts. This includes monitoring website performance, resolving technical issues, and implementing updates to optimize performance and reliability"]} />
       <Industries  />
-      <AskQuestion />
+      <AskQuestion AQ_heading={<>Curious about Our Digital Marketing Service?<br />Let&apos;s Address Your Queries!</>} AQ_Para={"Whether you're seeking insights into our digital marketing services, including SEO, PPC or any other marketing service, our team is dedicated to providing thorough answers. We prioritize transparency and open communication, equipping you with the information needed to make informed decisions about your digital project. Reach out today, and let us help bring your digital vision to life."  } data1 = {data1} data2 = {data2}/>
       <OverPartner />
       <GetInTouch />
     </div>

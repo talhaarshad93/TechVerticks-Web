@@ -24,7 +24,7 @@
     overflow: hidden;
   }
   .TechCSS:hover{
-    box-shadow:  0px 0px 15px #b332d4;
+    /* box-shadow:  0px 0px 15px #b332d4; */
 
   }
   .lable {
@@ -54,8 +54,8 @@
       bottom: 0;
       height: 4px;
       width: 100%;
-      border-bottom: 4px solid transparent;
-      border-left: 4px solid transparent;
+      border-bottom: 3px solid transparent;
+      border-left: 3px solid transparent;
       box-sizing: border-box;
       transform: translateX(100%);
     
@@ -68,8 +68,8 @@
   left: 0;
       height: 4px;
       width: 100%;
-      border-top: 4px solid transparent;
-      border-right: 4px solid transparent;
+      border-top: 3px solid transparent;
+      border-right: 3px solid transparent;
       box-sizing: border-box;
       transform: translateX(-100%);
   }
@@ -87,7 +87,7 @@
     border-color: #b332d4;
     height: 100%;
     transform: translateX(0);
-  transition: .3s transform linear, .3s height linear .5s;
+  transition: .3s transform linear, .3s height linear .3s;
   }
   
   .lableImg {

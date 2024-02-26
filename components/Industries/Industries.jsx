@@ -10,7 +10,6 @@ import Learning from "../../assets/images/Learning.svg";
 import style from "../Industries/IndustriesSubHeading/SubHeading.module.css";
 import classNames from "classnames";
 import Image from "next/image";
-import { data } from "jquery";
 
 // Example Data
 const sectionsData = [
@@ -56,7 +55,7 @@ const Industries = () => {
   const title = "INDUSTRIES WE SERVE";
   const heading = " Our Industry Expertise";
   const [industryData, setIndustryData] = useState(sectionsData);
-  const [sideImage, setSideImage] = useState(null);
+  const [sideImage, setSideImage] = useState(sectionsData[0].image);
 
   const taskPress = (heading, type, image) => {
     setSideImage(image);

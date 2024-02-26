@@ -13,17 +13,18 @@ const OurServices = () => {
         { heading: 'Digital Marketing', image:"/Marketing.mp4", text: 'Comprehensive and business-focused solutions for search engine optimization and social media marketing strategies coupled with a decade worth of experience and expert insight.' },
     ];
 
-    const [hoveredIndex, setHoveredIndex] = useState(null);
+    let [hoveredIndex, setHoveredIndex] = useState(0);
 
     const handleHeadingHover = (index) => {
+        console.log(data[index])
         setHoveredIndex(index);
 
     };
 
-    const handleHeadingLeave = () => {
-        setHoveredIndex(null);
-    };
+    let handleHeadingLeave = () => {
+        setHoveredIndex(null)
 
+    };
     return (
         <div>
             <div className={classNames(style.headDiv)}>
@@ -38,7 +39,7 @@ const OurServices = () => {
                         <div className={style.main}>
                             <ImgTextComponent
                                 src={data[hoveredIndex].image}
-                                alt={`${data[hoveredIndex].heading} Image`}
+                                // alt={`${data[hoveredIndex].heading} Image`}
                                 text={data[hoveredIndex].text}
                             />
                         </div>

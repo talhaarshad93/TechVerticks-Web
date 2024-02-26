@@ -7,13 +7,13 @@
   padding-left: 5vw;
   display: flex;
 }
-.weBuild{
+.weBuild {
   font-size: 1.3vw;
-  color:  rgba(179, 50, 212, 1);
+  color: rgba(179, 50, 212, 1);
   /* margin-bottom: 500px; */
-  font-family:"TT Interphases Pro Trial Medium";
+  font-family: "TT Interphases Pro Trial Medium";
   /* margin-bottom: 30px; */
-  width:70%;
+  width: 70%;
   line-height: 1.5vw;
 }
 .working {
@@ -23,8 +23,7 @@
   color: rgba(0, 0, 0, 0.5);
   /* font-weight: 600; */
   margin-top: 2.5vw;
-  font-family: 'TT Interphases Pro Trial Regular'
-  
+  font-family: "TT Interphases Pro Trial Regular";
 }
 .headings {
   font-size: 5.1vw;
@@ -34,7 +33,7 @@
   /* padding-top: 1.5vw; */
   color: rgba(0, 0, 0, 0.1);
   /* color: gray; */
-  font-family:"TT Interphases Pro Trial ExtraBold";
+  font-family: "TT Interphases Pro Trial ExtraBold";
   width: 50vw;
   /* height: 8vw;  */
   margin-top: 4vw;
@@ -46,39 +45,32 @@
   transition: display 0.3s;
   border: 2px solid red;
 } */
-
-
-
-.mainContainer{
+.mainContainer {
   width: 95vw;
   height: 45vw;
   display: flex;
   justify-content: space-between;
 }
-.leftDiv{
+.leftDiv {
   width: 40vw;
   height: 35vw;
   margin-top: 2vw;
   /* position: relative; */
   transform: scaleY(1.2);
 }
-.rightDiv{
+.rightDiv {
   width: 58vw;
   height: 40vw;
 }
-.headings:hover{
+.headings:hover {
   color: black;
 }
-.main{
+.main {
   width: 90%;
 }
-.imgDiv{
+.imgDiv {
   /* background-color: rgb(89, 0, 255); */
   width: 40vw;
   height: 100%;
   /* background-color: blue; */
-
-
 }
-
-   

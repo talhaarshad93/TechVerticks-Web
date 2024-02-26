@@ -18,6 +18,7 @@
   align-self: flex-start;
   border: none;
   background-color: white;
+  color: black;
   font-family: "TT Interphases Pro Trial ExtraBold";
 }
 
@@ -38,6 +39,7 @@
   font-size: 1.2vw;
   font-weight: 700;
   margin-top: 1vw;
+  color: black;
   margin-bottom: 1.5vw;
   color: rgba(179, 50, 212, 1);
   font-family: "TT Interphases Pro Trial DemiBold";

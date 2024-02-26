@@ -238,7 +238,7 @@ const AQ_Para=<>Whether you have questions about our mobile app development proc
 const data1 = [
   {
     id: "01",
-    heading: "How much does it cost to develop a mobile app?What is digital marketing, and why is it important for businesses?",
+    heading: "How much does it cost to develop a mobile app?",
     isOpen: false,
     para: "Determining the cost of developing a mobile app depends on various factors, including the complexity of the app, desired features, platform compatibility, and development resources required. Moreover, factors such as design complexity, integration with backend systems, and ongoing maintenance also contribute to the overall cost. It's essential to discuss your specific requirements with a reputable app development company to receive a personalized quote tailored to your needs and budget.",
   },

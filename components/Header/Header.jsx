@@ -54,6 +54,18 @@ const Header = () => {
           <Link href={"/ContactUs"}><li
                   className={
                     router.pathname === "/ContactUs" ? style.active : ""}>Contact Us</li></Link>
+          <Link href={"/ServicePagesDetails"}><li
+                  className={
+                    router.pathname === "/ContactUs" ? style.active : ""}>App Deve</li></Link>
+          <Link href={"/WebDevelopmentDetails"}><li
+                  className={
+                    router.pathname === "/ContactUs" ? style.active : ""}>Web Deve</li></Link>
+          <Link href={"/DigitalMarketingDetails"}><li
+                  className={
+                    router.pathname === "/ContactUs" ? style.active : ""}>Digital</li></Link>
+          <Link href={"/Branding&Creatives"}><li
+                  className={
+                    router.pathname === "/ContactUs" ? style.active : ""}>Branding</li></Link>
         </ul>
           </nav>
       </div>

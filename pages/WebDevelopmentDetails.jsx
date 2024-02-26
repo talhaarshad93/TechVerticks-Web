@@ -259,7 +259,74 @@ const paragraph =
   const AQ_heading=  <>Curious about Our Website Design and Development Service?<br />Let&apos;s Address Your Queries!</>;
         
   const AQ_Para=<>Whether you have inquiries about our website design and development process, pricing, or timeline, we&apos;re here to provide comprehensive responses. Our team is committed to transparency and open communication, ensuring you&apos;re equipped with all the necessary details to make informed decisions about your project. <br/><br/>Don&apos;t hesitate to get in touch – we&apos;re prepared to help bring your website vision to fruition </>;
-
+  const data1 = [
+    {
+      id: "01",
+      heading: "How long does it take to build a website?",
+      isOpen: false,
+      para: "If you've selected a professional website development company, the process typically spans from 1 to 4 months, beginning from inception to completion, particularly for basic informational websites with minimal functionality.",
+    },
+    {
+      id: "02",
+      heading: "On which platform do you build your websites?",
+      isOpen: false,
+      para: "We excel in building websites on platforms such as WordPress, Magento, Laravel, Joomla, and CodeIgniter. Depending on your needs, we recommend the most suitable platform",
+    },
+    {
+      id: "03",
+      heading:
+        "Can you assist me in crafting content for my website?",
+      isOpen: false,
+      para: "Absolutely! Our team of copywriters can create professional content for your website by comprehending your requirements and business objectives.",
+    },
+  
+    {
+      id: "04",
+      heading: "Will I have a dedicated full-time web developer?",
+      isOpen: false,
+      para: "Yes, we can allocate a dedicated full-time website developer. Having a full-time dedicated web developer overseeing the construction, maintenance, and updates of your website can lead to more productive outcomes",
+    },
+    {
+      id: "05",
+      heading: "Can you help me improve my website's visibility on Google?",
+      isOpen: false,
+      para: "Yes! We can do it for you. Scroll through our Digital Marketing Page.",
+    },
+    
+  ];
+  const data2 = [
+    {
+      id: "06",
+      heading: "How many pages will my website include?",
+      isOpen: false,
+      para: "We can tailor the number of pages to your specifications. However, we recommend developing a website with a few pages to facilitate future search engine optimization",
+    },
+    {
+      id: "07",
+      heading: "I wish to include an email signup form on my website. How can I achieve this?",
+      isOpen: false,
+      para: "Embedding a signup form on your website is an excellent method to generate more leads. You can integrate a signup form using popular email marketing platforms like MailChimp, SendinBlue, or ActiveCampaign. Ensure the widget is visually appealing and easily noticeable to visitors",
+    },
+    {
+      id: "08",
+      heading:
+        "If I simply require a makeover for my existing website?",
+      isOpen: false,
+      para: "We cater to all client needs, whether it involves crafting a new website design or revitalizing an existing one. Our dedication remains steadfast in meeting the unique needs of each client",
+    },
+    {
+      id: "09",
+      heading: "I already own a domain name. Can I use it for my website?",
+      isOpen: false,
+      para: "That's fantastic! If you already have one that aligns with your business, we can certainly proceed with it.",
+    },
+    {
+      id: "10",
+      heading: "Will my website be compatible with both Android iOS devices?",
+      isOpen: false,
+      para: "Yes, we ensure that our websites are responsive and optimized for viewing on both Android & iOS devices, ensuring a seamless user experience across all devices and products.",
+    },
+  ]
 
   const WeBuildHeading="Website Design & Development Company";
   const WeBuildDescription = <>
@@ -340,7 +407,7 @@ const ServicePagesDetails = () => {
       <WhyChoose WCheading={"Why Choose Tech Verticks For Website Design & Development Services"} WCpara={"Our professional website developers app developers and designers create awe-inspiring apps for our clients. Our custom mobile app development services encompass"} data={WD_data} SPD_listData={WD_ListData} />
       <OurProcess OP_heading={WD_heading} hoverPara={hoverPara} OP_title={WD_title}/>
       <Industries/>
-      <AskQuestion AQ_heading={AQ_heading} AQ_Para={AQ_Para}/>
+      <AskQuestion AQ_heading={AQ_heading} AQ_Para={AQ_Para} data1={data1} data2={data2}/>
 
       <OverPartner/>
     <GetInTouch />

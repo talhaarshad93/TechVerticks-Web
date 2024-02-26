@@ -233,9 +233,76 @@ const ImageData = [
     const SPD_title=["Project Discussion","Rapid Strategy Workshop","User interfaces & experiences","Agile Development","Testing & quality assurance","Support & maintenance",];
 
        
-        const AQ_heading=  <>Curious about Our Mobile App Development Service?<br />Let&apos;s Answer Your Questions!</>;
-        
-        const AQ_Para=<>Whether you have questions about our mobile app development process, pricing, or timeline, we&apos;re here to provide answers. Our team is committed to transparency and clear communication, ensuring you have all the information you need to make informed decisions about your project. Don&apos;t hesitate to reach out – we&apos;re ready to help bring your app idea to life.</>;
+const AQ_heading=  <>Curious about Our Mobile App Development Service?<br />Let&apos;s Answer Your Questions!</>;
+const AQ_Para=<>Whether you have questions about our mobile app development process, pricing, or timeline, we&apos;re here to provide answers. Our team is committed to transparency and clear communication, ensuring you have all the information you need to make informed decisions about your project. Don&apos;t hesitate to reach out – we&apos;re ready to help bring your app idea to life.</>;
+const data1 = [
+  {
+    id: "01",
+    heading: "How much does it cost to develop a mobile app?What is digital marketing, and why is it important for businesses?",
+    isOpen: false,
+    para: "Determining the cost of developing a mobile app depends on various factors, including the complexity of the app, desired features, platform compatibility, and development resources required. Moreover, factors such as design complexity, integration with backend systems, and ongoing maintenance also contribute to the overall cost. It's essential to discuss your specific requirements with a reputable app development company to receive a personalized quote tailored to your needs and budget.",
+  },
+  {
+    id: "02",
+    heading: "How long does it take to build a mobile application?",
+    isOpen: false,
+    para: "The timeline for building a mobile application varies depending on factors such as the complexity of the app, desired features, platform compatibility, and development resources available. Simple apps with basic features can typically be developed in a few weeks to a couple of months, while more complex apps with advanced functionalities may take several months",
+  },
+  {
+    id: "03",
+    heading:
+      "What are the benefits of mobile app development services?",
+    isOpen: false,
+    para: "Mobile app development services offer a multitude of benefits for businesses seeking to establish a strong digital presence such as enabling enhanced user engagement, providing a personalized channel for interaction, fostering stronger connections and brand loyalty.",
+  },
+
+  {
+    id: "04",
+    heading: "Are mobile apps profitable?",
+    isOpen: false,
+    para: "Mobile apps continue to be profitable for many businesses, with the potential to generate significant revenue through various monetization strategies.",
+  },
+  {
+    id: "05",
+    heading: "How do you ensure that the mobile app meets our specific business needs?",
+    isOpen: false,
+    para: "We start by conducting a thorough analysis of your business requirements, target audience, and goals. We then work closely with you throughout the development process, incorporating your feedback and making adjustments as needed to ensure that the final app meets your specific needs and expectations.",
+  },
+  
+];
+const data2 = [
+  {
+    id: "06",
+    heading: "How do you handle data security and privacy in mobile app development?",
+    isOpen: false,
+    para: "Data security and privacy are top priorities for us in mobile app development. We implement industry-standard security measures such as encryption, secure authentication, and data protection protocols to safeguard user data and ensure compliance with relevant regulations.",
+  },
+  {
+    id: "07",
+    heading: "Can you provide ongoing support and maintenance for the mobile app after it's launched?",
+    isOpen: false,
+    para: "Yes, we offer ongoing support and maintenance services to ensure that your mobile app remains up-to-date, secure, and functioning smoothly. This includes addressing any issues that may arise, implementing updates and enhancements, and providing technical assistance as needed.",
+  },
+  {
+    id: "08",
+    heading:
+      "How do you approach user experience (UX) design in mobile app development?",
+    isOpen: false,
+    para: "User experience (UX) design is a critical aspect of our mobile app development process. We conduct user research, create wireframes and prototypes, and prioritize intuitive navigation and usability to ensure that the app delivers a seamless and engaging experience for users.",
+  },
+  {
+    id: "09",
+    heading: "Can you explain the testing process for mobile apps?",
+    isOpen: false,
+    para: "We conduct thorough testing throughout the development lifecycle to identify and address any issues or bugs. This includes functional testing, usability testing, performance testing, and compatibility testing across different devices and platforms to ensure that the app meets quality standards and delivers a positive user experience.",
+  },
+  {
+    id: "10",
+    heading: "How do you stay updated with the latest trends and technologies in mobile app development?",
+    isOpen: false,
+    para: "Our team of developers and designers actively monitors industry trends and emerging technologies in mobile app development. We regularly attend conferences, participate in workshops, and engage in continuous learning to stay aheadt of the latest developments and incorporate them into our projects.",
+  },
+]
 const OP_heading = "Our Mobile App Development Company Process";
 const WC_headings="Why choose AppCrops for mobile app developement?";
 const WC_para="Our certified app developers and designers create awe-inspiring apps for our clients. Our custom mobile app development services";
@@ -323,7 +390,7 @@ const ServicePagesDetails = (WC_heading) => {
       <WhyChoose WCheading={WC_headings} WCpara={WC_para} data={SP_data} SPD_listData={WC_ListData}/>
       <OurProcess OP_heading={OP_heading} hoverPara={hoverPara} OP_title={SPD_title}/>
       <Industries/>
-      <AskQuestion AQ_heading={AQ_heading} AQ_Para={AQ_Para}/>
+      <AskQuestion AQ_heading={AQ_heading} AQ_Para={AQ_Para} data1={data1} data2={data2}/>
       <OverPartner/>
     <GetInTouch />
     </div>

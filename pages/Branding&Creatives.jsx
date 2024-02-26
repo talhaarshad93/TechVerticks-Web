@@ -14,18 +14,18 @@ import OurProcess from "@/components/SPD-OurProcess/OurProcess";
 import Industries from "@/components/Industries/Industries";
 import AskQuestion from "@/components/SPD_AskQuestion/AskQuestion";
 import OverPartner from "@/components/OverPartnerComp/OverPartner";
-import Ahrefs from "../assets/SVG/Ahrefs.svg";
-import Alexa from "../assets/SVG/Alexa.svg";
-import GoogleAds from "../assets/SVG/Google Ads.svg";
+import AfterEffect from "../assets/SVG/After Effect.svg";
+import Canva from "../assets/SVG/Canva.svg";
+import Filmora from "../assets/SVG/Filmora.svg";
 import Grammarly from "../assets/SVG/Grammarly.svg";
-import HotJar from "../assets/SVG/Hot Jar.svg";
+import Illustrator from "../assets/SVG/Illustrator.svg";
 import HubSpot1 from "../assets/SVG/Hub Spot-1.svg";
 import HubSpot from "../assets/SVG/Hub Spot.svg";
 import MailChimp from "../assets/SVG/Mail Chimp.svg";
-import Monday from "../assets/SVG/Monday.svg";
-import OpenAI from "../assets/SVG/Open AI.svg";
+import Marvel from "../assets/SVG/Marvel.svg";
+import Premiere from "../assets/SVG/Premiere.svg";
 import Piktochart from "../assets/SVG/Piktochart.svg";
-import Semrush from "../assets/SVG/Semrush.svg";
+import Zeplin from "../assets/SVG/Zeplin.svg";
 
 
 const yAxis = {
@@ -44,50 +44,50 @@ const yAxis = {
 const images = [sliderImg, sliderImg, sliderImg];
 const data = [
   {
-    heading: "Search Engine Optimization:",
-    para: " Increase your website's visibility on search engine results pages and drive organic traffic with our proven SEO strategies. Our team of SEO experts will optimize your website's content, meta tags, and backlink profile to help you rank higher and attract more qualified leads.",
+    heading: "Custom Logo Design:",
+    para: " Elevate your brand's identity with our custom logo design services. Our team of skilled logo designers crafts unique and memorable logos tailored to reflect your brand's personality and values.",
   },
   {
-    heading: "Pay-Per-Click Advertising:",
-    para: "Reach your target audience instantly and drive immediate results with our PPC advertising services. Whether you're looking to increase website traffic, generate leads, or boost sales, our team will create and manage highly targeted PPC campaigns to maximize your return on investment.",
+    heading: "Brand Identity Development:",
+    para: "Crafting cohesive brand identities, including color schemes, typography, and visual elements.",
   },
   {
-    heading: "Social Media Marketing:",
-    para: " Engage with your audience, build brand awareness, and drive conversions with our social media marketing services. From creating compelling content to managing ad campaigns, we'll help you leverage the power of social media platforms like Facebook, Instagram, Twitter, and LinkedIn to grow your business.",
+    heading: "UI/UX Design:",
+    para: " Discover seamless digital experiences with our UI/UX design expertise. We specialize in creating intuitive interfaces that prioritize user satisfaction and engagement. Elevate your online presence with our thoughtful and user-centric design solutions.",
   },
   {
-    heading: "Content Marketing:",
-    para: "Establish your brand as an authority in your industry and attract and retain customers with valuable, relevant content. Our content marketing services include content creation, blog writing, email marketing, and more to help you connect with your audience and drive meaningful interactions.",
+    heading: "Brand Strategy Consulting:",
+    para: "Developing strategic plans to enhance brand positioning and market differentiation. Providing detailed guidelines to ensure consistent brand representation across all platforms and mediums.",
   },
-  // {
-  //   heading: "Hybrid Apps",
-  //   para: "Provide a seamless and impeccable user experience across Android and iOS mobile platforms, ensure fast data display and hassle-free data streaming",
-  // },
-  // {
-  //   heading: "React Native Apps",
-  //   para: "Our React Native app development delivers cross-platform solutions with speed and efficiency",
-  // },
-  // {
-  //   heading: "Ruby on Rails Development",
-  //   para: "Harnessing the Power of Agile Development, Scalable Solutions, and Rapid Deployment, We Build Robust Web Applications Tailored to Your Unique Needs",
-  // },
+  {
+    heading: "Social Media Designs:",
+    para: "From eye-catching visuals to stunning marketing materials, we bring your ideas to life with creativity and precision for multiple social media platforms.",
+  },
+  {
+    heading: "Website Design:",
+    para: "Transform your online presence with our responsive and visually appealing website designs tailored to your brand's unique needs.",
+  },
+  {
+    heading: "Brand Identity Design",
+    para: "Craft a distinct and memorable brand image through our comprehensive brand identity design services, including logo design, color palette selection, and visual elements creation.",
+  },
 ];
 
 const ImageData = [
   {
     id: 1,
-    image: Ahrefs,
-    alt: "Ahrefs",
+    image: AfterEffect,
+    alt: "After Effect",
   },
   {
     id: 2,
-    image: Alexa,
-    alt: "Alexa",
+    image: Canva,
+    alt: "Canva",
   },
   {
     id: 3,
-    image: GoogleAds,
-    alt: "Google Ads",
+    image: Filmora,
+    alt: "Filmora",
   },
   {
     id: 4,
@@ -96,8 +96,8 @@ const ImageData = [
   },
   {
     id: 5,
-    image: HotJar,
-    alt: "Hot Jar",
+    image: Illustrator,
+    alt: "Illustrator",
   },
   {
     id: 6,
@@ -116,13 +116,13 @@ const ImageData = [
   },
   {
     id: 9,
-    image: Monday,
-    alt: "Monday",
+    image: Marvel,
+    alt: "Marvel",
   },
   {
     id: 10,
-    image: OpenAI,
-    alt: "Open AI",
+    image: Premiere,
+    alt: "Premiere",
   },
   {
     id: 11,
@@ -131,91 +131,94 @@ const ImageData = [
   },
   {
     id: 12,
-    image: Semrush,
-    alt: "Semrush",
+    image: Zeplin,
+    alt: "Zeplin",
   },
 ];
-const WC_headings="Why choose Tech Verticks for Digital Marketing?";
-const WC_para="Our skilled digital marketing team ensures our services go beyond ordinary market standards, propelling your brand to a competitive edge";
+const WC_headings="Why choose Tech Verticks for Branding?";
+const WC_para="Our skilled digital marketing team ensures our services go beyond ordinary market standards, propelling your brand to a competitive edge.";
 
 const title = "Technologies We Use";
 const heading = (
-  <>Digital Marketers:{<br />} Our Expertise in Digital Marketing</>
+  <>Brand Designs:{<br />} Our Expertise in Design & Creatives</>
 );
-const paragraph = `By leveraging these digital marketing technologies and tools, businesses can enhance their marketing efforts, improve targeting and personalization, and ultimately achieve their business goals in the digital space `;
+const paragraph = `By utilizing these design technologies and tools, businesses can elevate their branding and design strategies, refine audience targeting, and deliver personalized experiences, ultimately achieving their business goals in the digital space`;
 
-const WeBuildHeading = "Elevate Your Brand with Digital Marketing ";
+const WeBuildHeading = "Ascend Your Brand with Expert Branding and Design Solutions ";
 const WeBuildDescription = (
   <>
-    No matter how visually captivating your site or exceptional your offerings,
-    without a robust digital presence, you risk being overlooked. Understanding
-    the varied needs of businesses, Tech Verticks implements a unique, fully
-    integrated digital marketing strategy to drive your success, establishing a
-    significant online presence and capturing a greater market share.
+  No matter how visually striking your design or exceptional your brand offerings, without a robust digital presence, you risk being overlooked. At Tech Verticks, we understand the unique needs of businesses and implement a tailored, fully-integrated branding and design strategy to drive your success, establishing a significant online presence and capturing a greater market share.
     <br />
     <br />
-    Our successful marketing initiatives begin with defining clear objectives
-    for social engagement, customer interaction, retention, and conversions.
-    Scalable and Smart Mobile App Development Solutions
+    From captivating logos to cohesive brand strategies, we craft visual narratives that resonate with your audience and leave a lasting impression.
   </>
 );
 
 
-const WC_ListData =["Strategic Campaign Planning","Targeted Audience Engagement","Content Creation and Optimization","Data-Driven Insights","Multi-Channel Marketing","Continuous Performance Monitoring","Conversion Optimization","Social Media Management","Track Records & Reports"]
+const WC_ListData =["Design Solutions Tailored to Your Brand","Utilizing Cutting-Edge Design Tools","Innovative Design Strategies","Impactful Branding","Optimizing Design Workflow Efficiency","Enhanced Brand Identity","Visual Communication Strategies","Innovation and Fresh Perspective","Continued Support and Maintenance","Ensure Design Success"]
 
 const DM_data = [
   {
     id: "1",
-    title: "Performance Track & Record:",
-    content: (
-      <>
-    Our digital marketing service is backed by a robust performance tracking and recording system. We meticulously monitor key metrics, analyze campaign data, and record progress to ensure transparency and accountability. <br/> Through detailed performance reports, we provide clients with valuable insights into the effectiveness of their digital marketing strategies.<br/> Our goal is to continuously optimize campaigns, drive results, and deliver measurable ROI for our clients.
-    </>
-    ),
+    title: "Expertise and Experience:",
+    content: 
+      
+  "  Drawing from years of industry experience, Tech Verticks is a  professional branding and design agencies that possess the knowledge and skills needed to deliver exceptional results that resonate with your target audience."
+    
+    ,
   },
   {
     id: "2",
-    title: "Industry Knowledge and Expertise:",
+    title: "Creative Vision:",
     content: (
-      <>
-    With a deep-seated understanding of various industries, our digital marketing service boasts unparalleled industry expertise and knowledge. We tailor our strategies to suit the unique needs  of each sector, ensuring targeted and effective campaigns.<br/> Our team of digital marketers stays  alongside of industry trends, regulations, and consumer behaviors, enabling us to craft innovative and impactful marketing solutions.<br/> Trust in our industry specific expertise to propel your brand forward and stay ahead of the competition in today&apos;s dynamic marketplace.
-    </>
+    
+  "  We offer a fresh and innovative approach to branding and design, infusing creativity into every aspect of your visual identity to ensure your brand stands out in a digitally crowded market."
+   
     ),
   },
   {
     id: "3",
-    title: "Comprehensive Services: ",
+    title: "Consistency and Cohesion: ",
     content: (
-      <>
-    Our digital marketing service offers a comprehensive suite of solutions tailored to meet your diverse needs. From search engine optimization (SEO) to social media marketing, content creation, email campaigns, and beyond, we provide end-to-end support to elevate your online presence.<br/> With our holistic approach, you can consolidate your marketing efforts under one roof, streamlining processes and maximizing efficiency.<br/> Whether you&apos;re aiming to increase brand awareness, drive website traffic, or boost conversions, our comprehensive digital marketing services have you covered at every stage of your digital journey.
-    </>
+    
+   " By entrusting your branding and design needs to us, ywe ensure that every element of your brand—from logos to marketing materials—is aligned, creating a cohesive and memorable brand experience for your customers."
+   
     ),
   },
   {
     id: "4",
-    title: "Transparency and Communication:",
+    title: "Strategic Approach:",
     content: (
-      <>
-     Transparency and communication are the cornerstones of our digital marketing service. We believe in fostering open and honest dialogue with our clients, providing regular updates, reports, and insights throughout the project lifecycle.<br/> Our dedicated team is readily available to address any questions or concerns you may have, ensuring a seamless and collaborative experience.<br/> With transparent processes and clear communication channels in place, you can trust that you are always kept informed and empowered to make informed decisions about your digital marketing strategy.
-    </>
+     
+    " At Tech Verticks, we take a strategic approach to branding and design, developing tailored solutions that effectively communicate your brand's unique value proposition and resonate with your target audience, ultimately driving business growth."
+   
     ),
   },
   {
     id: "5",
-    title: "ROI and Performance Metrics: ",
+    title: "Time and Resource Efficiency: ",
     content: (
-      <>
-     In our digital marketing service, we prioritize ROI and performance metrics to ensure measurable results. We meticulously track key indicators such as website traffic, conversion rates, lead generation, and ultimately, return on investment.<br/> By setting clear objectives and defining KPIs aligned with your business goals, we deliver transparent reports and insights to gauge the effectiveness of your campaigns. Our focus on data-driven decision-making empowers you to optimize strategies and maximize your digital marketing ROI.<br/> With our dedication to measurable success, trust us to drive tangible results for your business.
-    </>
+  
+    " We let you save valuable time and resources, as brand experts we handle all aspects of your branding and design requirements, freeing you up to focus on other areas of your business."
+   
     ),
   },
   {
     id: "6",
-    title: "Digital Marketing Tools:",
+    title: "Scalability and Adaptability:",
     content: (
-      <>
-    Our digital marketing service leverages cutting-edge technology and tools to optimize campaign performance and drive results.<br/> With our of digital marketing tools, we streamline processes, gain valuable insights, and stay ahead of the curve in a rapidly evolving digital landscape.<br/> Rest assured, we harness the power of technology to deliver impactful solutions tailored to your specific needs and objectives
-    </>
+      
+  "We are a professional brand agency and we  have the resources and capabilities to scale our services according to your business needs, ensuring your brand remains adaptable and competitive in today's ever-evolving market landscape."
+  
+    ),
+  },
+  {
+    id: "7",
+    title: "Design Tools:",
+    content: (
+     
+"In our design service, we harness state-of-the-art technology and tools to enhance design effectiveness and achieve brand outcomes. Utilizing an array of design tools, we streamline workflows, blend creativity, and remain at the forefront of innovation in the design real."
+   
     ),
   },
 ];
@@ -295,8 +298,8 @@ const ServicePagesDetails = () => {
       <div className={style.mainContainer}>
         <div className={style.ParaDiv}>
           <Topheadings
-            heading="Innovative Strategies for Lasting Branding Experiences"
-            paragraph="Unlock the full potential of your online presence with our comprehensive digital marketing services. From strategic planning to targeted campaigns, we specialize in maximizing your visibility, engagement, and conversions across various digital platforms"
+            heading="Strategies for Lasting Branding Experiences"
+            paragraph="Elevate your brand with our innovative solutions and creative expertise. We specialize in crafting captivating branding strategies that resonate with your audience. Let us bring your vision to life and leave a lasting impression in the digital landscape."
             SPDFirstHeading
           />
         </div>
@@ -326,7 +329,7 @@ const ServicePagesDetails = () => {
         <div className={style.top}>
           <Topheadings
             heading={
-              "Comprehensive Digital Marketing Services Tailored to Your Needs"
+              "Comprehensive Branding & Design Services Tailored to Your Needs"
             }
             paragraph={
               "At Tech Verticks, we understand that a strong online presence is crucial for business success. That's why we offer a range of expert digital marketing solutions designed to enhance your brand visibility, drive traffic to your website, and increase conversions."

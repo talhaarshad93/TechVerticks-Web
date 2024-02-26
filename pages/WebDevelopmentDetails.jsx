@@ -247,6 +247,7 @@ const imageData = [
 
 ];
 const WD_ListData =["Faster Web Development","Expertise and Experience","Customized Solutions","Scalability and Flexibility","Time and Cost Efficiency","Seamless Back-End Integration","Smooth Deployment","Rigorous Quality Assurance","Ongoing Support and Maintenance"]
+const OP_paragraph = `Discover the way we develop impactful, user-focused mobile applications tailored to different industry sectors, guiding them towards their business goals.`;
 
 const hoverPara= ["Engaging in in-depth discussions with clients to grasp their vision, objectives, and specifications for the website & delving into aspects such as target demographics, desired functionalities, technical requirements, and budgetary consideration","Conducting focused brainstorming sessionsto outline key elements of the website's development strategy. It  involves defining the website's unique selling points, identifying market opportunities, analyzing competitors, and mapping out the project's overall roadmap","Leveraging user research, wireframing, and prototyping techniques to refine design concepts and establish an intuitive flow and navigation structure for the website design","Utilizing an agile methodology featuring iterative development cycles to guarantee flexibility and responsiveness in accommodating evolving project needs","Thoroughly evaluating the website's functionality, performance, and security to uphold a seamless user experience and maintain high standards of quality","Offering ongoing support and maintenance services to uphold the website's performance and reliability, ensuring its continued optimal operation.",]
 const WD_title=["Project Discussion","Strategic Planning","User Interface Design","Website Development","Quality Assurance","Support and Maintenance",];
@@ -405,7 +406,7 @@ const ServicePagesDetails = () => {
      
       <TechnologyWeUse image={imageData}WebDevCSS/>
       <WhyChoose WCheading={"Why Choose Tech Verticks For Website Design & Development Services"} WCpara={"Our professional website developers app developers and designers create awe-inspiring apps for our clients. Our custom mobile app development services encompass"} data={WD_data} SPD_listData={WD_ListData} />
-      <OurProcess OP_heading={WD_heading} hoverPara={hoverPara} OP_title={WD_title}/>
+      <OurProcess OP_heading={WD_heading} hoverPara={hoverPara} OP_Paragraph={OP_paragraph} OP_title={WD_title}/>
       <Industries/>
       <AskQuestion AQ_heading={AQ_heading} AQ_Para={AQ_Para} data1={data1} data2={data2}/>
 

@@ -304,6 +304,8 @@ const data2 = [
   },
 ]
 const OP_heading = "Our Mobile App Development Company Process";
+const OP_paragraph = `Discover the way we develop impactful, user-focused mobile applications tailored to different industry sectors, guiding them towards their business goals.`;
+
 const WC_headings="Why choose AppCrops for mobile app developement?";
 const WC_para="Our certified app developers and designers create awe-inspiring apps for our clients. Our custom mobile app development services";
 
@@ -388,7 +390,7 @@ const ServicePagesDetails = (WC_heading) => {
       </div>
       <TechnologyWeUse image={ImageData}/>
       <WhyChoose WCheading={WC_headings} WCpara={WC_para} data={SP_data} SPD_listData={WC_ListData}/>
-      <OurProcess OP_heading={OP_heading} hoverPara={hoverPara} OP_title={SPD_title}/>
+      <OurProcess OP_heading={OP_heading} hoverPara={hoverPara} OP_title={SPD_title} OP_Paragraph={OP_paragraph}/>
       <Industries/>
       <AskQuestion AQ_heading={AQ_heading} AQ_Para={AQ_Para} data1={data1} data2={data2}/>
       <OverPartner/>

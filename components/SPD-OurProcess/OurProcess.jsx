@@ -16,7 +16,7 @@ const paragraph = `Discover the way we develop impactful, user-focused mobile ap
 
 
 
-export default function OurProcess({OP_heading, hoverPara,OP_title}) {
+export default function OurProcess({OP_heading,OP_Paragraph, hoverPara,OP_title}) {
   const Container = [
     {
       Serial: "01",
@@ -66,7 +66,7 @@ export default function OurProcess({OP_heading, hoverPara,OP_title}) {
   return (
     <div className={Style.mainDiv}>
       <div className={Style.leftDiv}>
-        <Topheadings title={title} heading={OP_heading} paragraph={paragraph} SPD_OP
+        <Topheadings title={title} heading={OP_heading} paragraph={OP_Paragraph} SPD_OP
   />
       </div>
       <div className={Style.rightDiv}>

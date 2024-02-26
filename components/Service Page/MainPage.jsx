@@ -4,7 +4,7 @@ import styles from "./MainPage.module.css";
 import sliderImg from "../../assets/images/sliderImage.png";
 import ImageSlider from "../ImageSlider/ImageSlider";
 import ServiceDetails from "../ServiceDetails/ServiceDetails";
-import sports from "../../assets/images/sports.png";
+import sports from "../../assets/images/mob.png";
 import sportsNew from "../../assets/images/mob.png";
 import MB1 from "../../assets/images/serviceImg.png";
 import MB2 from "../../assets/images/web.png";

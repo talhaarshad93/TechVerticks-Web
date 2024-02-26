@@ -9,7 +9,7 @@ import digitalSlide from "./../assets/images/digitalSlide.png";
 import HaveIdea from "@/components/Have Idea/HaveIdea";
 import Testimonials from "@/components/Testimonials/Testimonials";
 import ServiceDetails from "../components/ServiceDetails/ServiceDetails";
-import sports from "../assets/images/sports.png";
+import sports from "../assets/images/mob.png";
 import sportsNew from "../assets/images/mob.png";
 // import mobGif2 from "/AppCrops.mp4"
 

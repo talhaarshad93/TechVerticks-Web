@@ -26,6 +26,7 @@ import Monday from "../assets/SVG/Monday.svg";
 import OpenAI from "../assets/SVG/Open AI.svg";
 import Piktochart from "../assets/SVG/Piktochart.svg";
 import Semrush from "../assets/SVG/Semrush.svg";
+import Link from "next/link";
 
 
 const yAxis = {
@@ -223,69 +224,69 @@ const DM_data = [
 const data1 = [
   {
     id: "01",
-    heading: "What is digital marketing, and why is it important for businesses?",
+    heading: "What is branding, and why is it important for my business?",
     isOpen: false,
-    para: "Digital marketing encompasses various online strategies and channels used to promote products or services. It's crucial for businesses as it allows them to reach a wider audience, engage with customers directly, and drive conversions more effectively in today's digital age.",
+    para: "Branding encompasses the visual and emotional elements that define your company's identity and differentiate it from competitors.",
   },
   {
     id: "02",
-    heading: "What types of services are included in digital marketing?",
+    heading: "How can your professional branding services benefit my business?",
     isOpen: false,
-    para: "Digital marketing services encompass a wide range of strategies, including search engine optimization (SEO), pay-per-click (PPC) advertising, social media marketing, content marketing, email marketing, and more.",
+    para: "We are professional branding service providers and we  help you create a cohesive and memorable brand identity that resonates with your target audience, communicates your values, and sets you apart in the market",
   },
   {
     id: "03",
     heading:
-      "How can digital marketing help my business grow?",
+      "What does the branding process involve?",
     isOpen: false,
-    para: "We can help your business grow by increasing brand visibility, driving website traffic, generating leads, and ultimately, boosting sales and revenue.",
+    para: "Our branding process typically includes research, strategy development, design creation, and implementation across various touchpoints to ensure consistency and effectiveness",
   },
 
   {
     id: "04",
-    heading: "How do I know which digital marketing strategies are right for my business?",
+    heading: "What types of design services do you offer?",
     isOpen: false,
-    para: "The right digital marketing strategies for your business depend on factors such as your industry, target audience, budget, and objectives.At Tech Verticks, we help you assess your needs and recommend tailored strategies to achieve your goals.",
+    para: "We offer a range of design services, including logo design, brand identity development, website design, packaging design, marketing collateral design, and more",
   },
   {
     id: "05",
-    heading: "What is the typical process for working with Tech Verticks?",
+    heading: "How do you ensure that my branding and design align with my business goals?",
     isOpen: false,
-    para: "The process typically involves an initial consultation to discuss your goals and needs, followed by strategy development, implementation of digital marketing campaigns, ongoing monitoring and optimization, and regular reporting on performance metrics.",
+    para: " We begin by understanding your business objectives, target audience, and competitive landscape. Then, we develop tailored branding and design solutions that support your goals and resonate with your audience.",
   },
   
 ];
 const data2 = [
   {
     id: "06",
-    heading: "How long does it take to see results from digital marketing efforts?",
+    heading: "What happens if I need additional design services beyond the scope of the package?",
     isOpen: false,
-    para: "The timeframe for seeing results can vary depending on factors such as the competitiveness of your industry, the effectiveness of your strategies, and your budget. While some results may be seen quickly, such as increased website traffic, it often takes several months to see significant improvements in rankings, leads, and conversions.",
+    para: "We can discuss options for adding extra services to your package or creating a custom solution to meet your needs.",
   },
   {
     id: "07",
-    heading: "How can I measure success?",
+    heading: "Can you provide examples of your previous branding and design work?",
     isOpen: false,
-    para: "Digital marketing agencies measure success through various key performance indicators (KPIs) such as website traffic, search engine rankings, conversion rates, return on investment (ROI), and engagement metrics on social media platforms.",
+    para: <>Yes, we have a portfolio showcasing our past projects to give you a sense of our design style, creativity, and quality of work.<Link href={"/Portfolio"}>  Portfolio</Link> </>
   },
   {
     id: "08",
     heading:
-      "What is the cost of digital marketing services?",
+      "Can I customize the design package to suit my specific needs?",
     isOpen: false,
-    para: "The cost of digital marketing services varies depending on factors such as the scope of work, the complexity of the strategies, and the level of service provided by the agency. Feel free to contact us and explore more.",
+    para: "Yes, we offer flexibility to tailor our design packages to your unique requirements. We can discuss your preferences and adjust the package accordingly",
   },
   {
     id: "09",
-    heading: "How often should I update my digital marketing strategies?",
+    heading: "How do you determine which design package is right for my business?",
     isOpen: false,
-    para: "Digital marketing strategies should be regularly reviewed and updated to adapt to changes in the market, technology, and consumer behavior. It's recommended to conduct regular audits of your strategies and adjust them as needed to stay competitive and achieve your goals.",
+    para: "We assess factors such as your business goals, target audience, budget, and scope of work to recommend the most suitable design package for your needs",
   },
   {
     id: "10",
-    heading: "Why should I hire Tech Verticks for Digital Marketing service?",
+    heading: "How can I get started with your branding and design services?",
     isOpen: false,
-    para: "Tech Verticks offers comprehensive digital marketing services tailored to your specific business needs, ensuring targeted strategies that drive results. With a team of experienced professionals and a track record of success, Tech Verticks is dedicated to maximizing your online visibility, engagement, and conversions.",
+    para: "Simply reach out to us through our contact page or schedule a consultation to discuss your project needs, goals, and timeline. We'll work with you to create a customized solution that meets your requirements and exceeds your expectations",
   },
 ]
 
@@ -369,10 +370,10 @@ const ServicePagesDetails = () => {
       </div>
       <TechnologyWeUse image={ImageData} />
       <WhyChoose WCheading={WC_headings} WCpara={WC_para} data={DM_data} SPD_listData={WC_ListData}/>
-      <OurProcess OP_heading={"Our Digital MarketingCompany Process"} OP_title = {["Client Consultation","Strategic Planning and Market Analysis","User Experience Design","Website Development and Implementation","Performance Tracking and Optimization","Performance & Maintenance"]}  hoverPara = {["Engaging in comprehensive discussions with clients to understand their digital marketing objectives, target audience demographics, desired functionalities, and budget considerations","Conducting strategic brainstorming sessions to outline the digital marketing strategy. This includes defining unique selling points, identifying market opportunities, analyzing competitors, and mapping out the overall project roadmap.","Leveraging user research, wireframing, and prototyping techniques to craft compelling digital experiences. This involves refining design concepts and establishing an intuitive flow and navigation structure for optimal user engagement.","Employing agile methodologies for iterative development cycles to ensure flexibility and responsiveness in meeting evolving project needs. This includes building and implementing digital assets, landing pages, and conversion-focused elements."
-      ,"Conducting thorough evaluations of digital marketing campaign performance, including website functionality, traffic, engagement metrics, and conversions. This ensures the maintenance of a seamless user experience and adherence to high-quality standards."," Providing ongoing support and maintenance services to sustain the digital marketing efforts. This includes monitoring website performance, resolving technical issues, and implementing updates to optimize performance and reliability"]} />
+      <OurProcess OP_heading={"Our Design Process"} OP_Paragraph={"In our design service process, we meticulously analyze client objectives and target audiences to craft tailored design strategies. Through strategic planning and execution, we optimize designs for maximum impact and engagement"} OP_title = {["Project Discussion","Strategic Planning","User Interface Design","Website Development","Quality Assurance","Support and Maintenance"]}  hoverPara = {["Engaging in in-depth discussions with clients to grasp their vision, objectives, and specifications for the website & delving into aspects such as target demographics, desired functionalities, technical requirements, and budgetary consideration","Brainstorming and generating ideas based on the research findings to develop concepts and design solutions that address the project goals","Transforming the selected concepts into tangible designs through sketching, wireframing, prototyping, and refining visual elements and layouts","Presenting the designs to stakeholders and obtaining feedback to refine and improve the designs based on user insights and client preferences"
+      ,"Converting the finalized designs into functional products or deliverables, which may involve coding, printing, or posting, depending on the project requirements","Testing the implemented designs for usability, effectiveness, and user satisfaction, and incorporating feedback to make iterative improvements for continuous refinement"]} />
       <Industries  />
-      <AskQuestion AQ_heading={<>Curious about Our Digital Marketing Service?<br />Let&apos;s Address Your Queries!</>} AQ_Para={"Whether you're seeking insights into our digital marketing services, including SEO, PPC or any other marketing service, our team is dedicated to providing thorough answers. We prioritize transparency and open communication, equipping you with the information needed to make informed decisions about your digital project. Reach out today, and let us help bring your digital vision to life."  } data1 = {data1} data2 = {data2}/>
+      <AskQuestion AQ_heading={<>Curious about Our Digital Marketing Service?<br />Let&apos;s Address Your Queries!</>} AQ_Para={"Whether you're seeking insights into our design services, including logo, social media design or brand identity service,  our team is dedicated to providing thorough answers. We prioritize transparency and open communication, equipping you with the information needed to make informed decisions about your design project."  } data1 = {data1} data2 = {data2}/>
       <OverPartner />
       <GetInTouch />
     </div>

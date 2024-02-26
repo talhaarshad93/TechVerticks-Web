@@ -5,6 +5,8 @@ import service from "../../assets/images/serviceImg.png";
 import styles from "./ImgTextComponent.module.css";
 
 const ImgTextComponent = ({ src, alt, text }) => {
+
+
   return (
     <div className={styles.imgCountDiv}>
 

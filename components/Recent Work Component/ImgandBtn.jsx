@@ -29,7 +29,7 @@ const ImgandBtn = ({ imageUrl, imageHeight, imageWidth, btnTxt, width ,recent2Cs
       /> */}
        <video  className={styles.img} 
         style={imageStyles}
-        loop autoPlay muted playsInline>
+        loop autoPlay muted >
         <source src={imageUrl} type="video/mp4" />
         
        Your browser does not support the video tag. 

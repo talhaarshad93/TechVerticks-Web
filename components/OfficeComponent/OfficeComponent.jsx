@@ -105,7 +105,7 @@ export default function OfficeComponent() {
           </div>
 
           <Image className={style.USAimg} src={USA} alt="Pakistan" />
-          <video ref={videoRef2} className={style.USAimgColor} loop muted playsInline>
+          <video ref={videoRef2} className={style.USAimgColor} loop muted >
             <source src="/UsaWhiteWipes.mp4" type="video/mp4" />
             Your browser does not support the video tag.
           </video>

@@ -9,13 +9,13 @@
     
     margin-top: -100px;
     }
-    .video1{
+.video1{
         width: 85vw;
         height: 43vw;
         /* margin: auto; */
         margin-left: 7vw;
         /* margin-right: auto; */
-        border-radius: 3vw !important;
+        border-radius: 3vw;
         /* background-color: yellow; */
         object-fit:fill;
     }

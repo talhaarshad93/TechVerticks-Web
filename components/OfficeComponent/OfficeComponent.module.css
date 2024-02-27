@@ -41,6 +41,7 @@
   display: flex;
   /* color: aqua; */
   color: black;
+  /* background-color: #a92bcc; */
 }
 .mainContainer {
   position: relative;
@@ -96,6 +97,7 @@
   width: 46vw;
   height: 38vw;
   border: 1px solid rgb(231, 231, 231);
+
 }
 
 /* .Pakimg1 {
@@ -132,7 +134,6 @@
   margin-top: 20px;
   width: 5vw;
   height: 5vw;
-
   margin-left: -2.5vw;
   margin-right: 11vw;
   margin-top: 4vw;
@@ -186,6 +187,7 @@
   display: flex;
   margin-left: 4vw;
   /* color: aqua; */
+
 }
 
 .USAFlag1 {

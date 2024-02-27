@@ -30,7 +30,7 @@
 .customStyle {
   margin-top: 1vw;
   /* font-family:Verdana, Geneva, Tahoma, sans-serif; */
-  width: 20vw;
+  width: 25vw;
   font-size: 1.1vw;
   line-height: 1.1vw;
   font-weight: 300;
@@ -45,7 +45,6 @@
   font-size: 6.3vw;
   text-transform: capitalize;
   font-family: "TT Interphases Pro Trial ExtraBold";
-
   line-height: 6.5vw;
 }
 .ideaCustome {
@@ -114,7 +113,7 @@
 @media (max-width: 768px) {
   .customStyle {
     width: 65%;
-    font-size: 1.6vw;
+    font-size: 1.1vw;
   }
   .titleText {
     font-size: 2vw;

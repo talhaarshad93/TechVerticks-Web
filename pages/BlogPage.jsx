@@ -9,7 +9,8 @@ const description ="Keep up to date with the latest tech insights, business guid
 function BlogPage() {
   return (
     <div>
-      <Heading bigHeading = {bigHeading} description={description}BlogPage_Css/>  
+      <Heading bigHeading = {bigHeading} description={description}BlogPage_Css
+      scroll= "#blog"/>  
         <Blog/>
 
     </div>

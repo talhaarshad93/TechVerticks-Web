@@ -31,7 +31,7 @@ const data = [
 
 const Crafting = () => {
   return (
-    <div className={style.main}>
+    <div id="crafting" className={style.main}>
       <div className={style.top}>
         <Topheadings
           heading={"Crafting ROI-Centric Solutions Right!"}

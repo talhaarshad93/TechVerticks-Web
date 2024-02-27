@@ -9,7 +9,8 @@ const description ="Start a conversation around new product ideas, business oppo
 const ContactUs = () => {
   return (
     <div>
-      <Heading SpanHeading={SpanHeading} bigHeading = {bigHeading} description={description} ContentUs_Css/> 
+      <Heading SpanHeading={SpanHeading} bigHeading = {bigHeading} description={description} ContentUs_Css
+      scroll= "#office"/> 
       <GetInTouch hideComponent={true} mainContainer_CU_CSS/>
       <OfficeComponent/>
 

@@ -14,7 +14,7 @@ import style from "./RecentWork.module.css";
 const RecentWork = () => {
   let num = 10;
   return (
-    <div className={style.main}>
+    <div id="recentWork" className={style.main}>
       <div className={style.left}>
         <ImgandBtn
           imageUrl="/AppCrops.mp4"

@@ -6,7 +6,6 @@
     height: 50%; */
   /* margin-left: 6vw; */
   margin-top: 4.5vw;
-  /* margin-bottom: 5.5vw; */
   margin-bottom: 3vw;
 }
 .PakDiv {
@@ -80,7 +79,6 @@
   width: 80%;
   height: 43%;
   margin-top: 2.4vw;
-
   object-fit: contain;
   transition: all 1sec ease-in-out;
 }
@@ -121,8 +119,6 @@
   object-fit: contain;
   margin-top: -0.5vw;
   display: none;
-  /* border: 2px solid yellow; */
-
 }
 .USADiv:hover .USAimg {
   display: none;
@@ -134,7 +130,6 @@
 }
 .imgDiv {
   margin-top: 20px;
-  /* background-color: rgb(20, 20, 19); */
   width: 5vw;
   height: 5vw;
 
@@ -146,16 +141,12 @@
   object-fit: contain;
   width: 5vw;
   height: 5vw;
-  /* background-color: red; */
 }
 .PakFlag1 {
   object-fit: contain;
   width: 5vw;
   height: 5vw;
-  /* margin-left: -2vw; */
   margin-top: 0.2vw;
-
-  /* background-color: red; */
 }
 .USAFlag {
   object-fit: contain;
@@ -163,18 +154,15 @@
   height: 5vw;
   margin-left: -8vw;
   margin-top: -0.5vw;
-  /* background-color: red; */
 }
 /* ------>>>>> */
 
 .USADiv1 {
   position: absolute;
   padding-top: 2.8vw;
-  /* padding-left: 4.2vw; */
   width: 46vw;
   height: 38vw;
   border: 1px solid rgb(231, 231, 231);
-  /* background-color: aqua  ; */
   box-sizing: border-box;
   bottom: 0%;
   left: 0%;

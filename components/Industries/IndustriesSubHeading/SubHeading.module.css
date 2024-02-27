@@ -11,7 +11,6 @@
   /* padding-left: 2vw; */
 }
 .main {
-  background-color: aqua;
   margin: 0;
   padding: 0;
 }
@@ -85,8 +84,11 @@
     margin: 1vw;
   }
   .text{
-  margin-left: 1.5vw;
-  margin-bottom: -2.5vw;
+  margin-left: 1.8vw;
+  margin-bottom: -3vw;
 
+  }
+  .bigOne{
+    margin-left: -1vw;
   }
 };

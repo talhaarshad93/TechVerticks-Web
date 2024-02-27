@@ -11,6 +11,7 @@ function BlogPage() {
     <div>
       <Heading bigHeading = {bigHeading} description={description}BlogPage_Css
       scroll= "#blog"/>  
+
         <Blog/>
 
     </div>

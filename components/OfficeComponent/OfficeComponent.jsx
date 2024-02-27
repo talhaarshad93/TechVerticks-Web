@@ -37,7 +37,7 @@ export default function OfficeComponent() {
               abcClass
               heading={"Pakistan"}
               paragraph={
-                "First floor, A-190, Block 3 Gulshan-e-Iqbal, Karachi City, Sindh 75300.+92 346 3008534"
+                "C-21, Moon Street, Block 5, Gulshan-e-Iqbal, Karachi City, Sindh 75300.+92 346 3008534"
               }
               blackColor
             />
@@ -105,7 +105,7 @@ export default function OfficeComponent() {
           </div>
 
           <Image className={style.USAimg} src={USA} alt="Pakistan" />
-          <video ref={videoRef2} className={style.USAimgColor} loop muted>
+          <video ref={videoRef2} className={style.USAimgColor} loop muted >
             <source src="/UsaWhiteWipes.mp4" type="video/mp4" />
             Your browser does not support the video tag.
           </video>

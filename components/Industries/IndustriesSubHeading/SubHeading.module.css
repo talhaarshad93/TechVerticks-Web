@@ -1,16 +1,20 @@
 .mainDiv {
   display: flex;
-  /* background-color: yellow; */
   width: 70%;
 }
 .container {
   padding: 5vw;
+  /* background-color: red; */
 }
 .leftDiv {
+  /* width: 100%; */
   /* padding-left: 2vw; */
-  /* background-color: blue; */
 }
-
+.main {
+  background-color: aqua;
+  margin: 0;
+  padding: 0;
+}
 .bigOne {
   font-size: 3.5vw;
   font-weight: 900;
@@ -21,7 +25,6 @@
   color: black;
   font-family: "TT Interphases Pro Trial ExtraBold";
 }
-
 .bigOne.clicked {
   color: rgba(179, 50, 212, 1);
   text-decoration: underline;
@@ -29,7 +32,9 @@
   transition: 1s;
 }
 .text {
-  width: 100%;
+  width: 90%;
+  /* height: 10vw; */
+  margin-left: 0.5vw;
   color: rgba(0, 0, 0, 0.6);
   font-size: 1.1vw;
   margin-top: 0.5vw;
@@ -40,7 +45,7 @@
   font-weight: 700;
   margin-top: 1vw;
   color: black;
-  margin-bottom: 1.5vw;
+  /* margin-bottom: 1.5vw; */
   color: rgba(179, 50, 212, 1);
   font-family: "TT Interphases Pro Trial DemiBold";
   background-color: transparent;
@@ -51,7 +56,7 @@
   height: 60vw;
   border-radius: 15px;
   object-fit: contain;
- 
+
   /* background-color: yellow; */
 }
 .font {
@@ -69,9 +74,19 @@
   opacity: 1;
   transition: opacity 1s; /* Adjust duration and easing as needed */
   /* border: 1px solid red; */
-}
+};
 
 .textContainer {
   opacity: 0;
   /* margin-top: 2vw; */
 }
+@media (max-width: 600px) {
+  .hr {
+    margin: 1vw;
+  }
+  .text{
+  margin-left: 1.5vw;
+  margin-bottom: -2.5vw;
+
+  }
+};

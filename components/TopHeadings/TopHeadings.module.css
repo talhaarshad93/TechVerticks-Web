@@ -22,7 +22,7 @@
   /* font-family:Verdana, Geneva, Tahoma, sans-serif; */
   width: 98%;
   font-size: 1.6vw;
-  line-height: 130%;
+  line-height: 1.6vw;
   margin-bottom: 4vw;
   /* background-color: blue; */
   font-family: "TT Interphases Pro Trial Medium";
@@ -30,10 +30,9 @@
 .customStyle {
   margin-top: 1vw;
   /* font-family:Verdana, Geneva, Tahoma, sans-serif; */
-  width: 20vw;
+  width: 25vw;
   font-size: 1.1vw;
-  line-height: 1.4vw;
-  font-weight: 300;
+  line-height: 1.1vw;
   margin-bottom: 4vw;
   color: #666666;
   /* background-color: blue; */
@@ -45,7 +44,6 @@
   font-size: 6.3vw;
   text-transform: capitalize;
   font-family: "TT Interphases Pro Trial ExtraBold";
-
   line-height: 6.5vw;
 }
 .ideaCustome {
@@ -71,7 +69,7 @@
   /* font-family:Verdana, Geneva, Tahoma, sans-serif; */
   width: 95%;
   font-size: 1.4vw;
-  line-height: 1.7vw;
+  line-height: 1.4vw;
   color: rgba(0, 0, 0, 0.6);
   font-family: "TT Interphases Pro Trial Regular";
   /* margin-bottom:4vw; */
@@ -114,7 +112,7 @@
 @media (max-width: 768px) {
   .customStyle {
     width: 65%;
-    font-size: 1.6vw;
+    font-size: 1.1vw;
   }
   .titleText {
     font-size: 2vw;

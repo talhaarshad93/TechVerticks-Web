@@ -6,7 +6,7 @@
 
 .TopSubDiv1 {
   font-size: 3.7vw;
-  font-family:"TT Interphases Pro Trial ExtraBold";
+  font-family: "TT Interphases Pro Trial ExtraBold";
   line-height: 5vw;
   text-transform: capitalize;
   width: 60%;
@@ -14,16 +14,16 @@
 }
 .WC_TopSubDiv1 {
   font-size: 4vw;
-  font-family:"TT Interphases Pro Trial ExtraBold";
+  font-family: "TT Interphases Pro Trial ExtraBold";
   line-height: 4.3vw;
   text-transform: capitalize;
   width: 90%;
   padding-left: 3vw;
   /* background-color: aquamarine; */
 }
-.TopSubDiv{
+.TopSubDiv {
   font-size: 3.7vw;
-  font-family:"TT Interphases Pro Trial ExtraBold";
+  font-family: "TT Interphases Pro Trial ExtraBold";
   text-transform: capitalize;
   width: 69%;
 }
@@ -45,7 +45,7 @@
   font-size: 1.8vw;
   font-family: "TT Interphases Pro Trial Medium";
   width: 43vw;
-  /* height: 20vw; */
+  /* height: 30vw; */
   padding-left: 4vw;
   text-transform: capitalize;
   margin-bottom: 3.5vw;
@@ -55,7 +55,6 @@
   margin-top: 1.6vw;
   text-indent: 1vw;
   /* padding-left: 3vw; */
-  
   width: 38vw;
   cursor: pointer;
 }
@@ -64,7 +63,7 @@
   /* margin: 0; */
 }
 .SubMidDiv1 ul:hover {
-  color:blueviolet;
+  color: blueviolet;
 }
 .SubMidDiv1 ul li::marker {
   font-size: 1.2vw;
@@ -79,7 +78,6 @@
   line-height: 1.4;
   font-weight: 100;
   color: rgb(107, 107, 107);
-
 }
 .FoterDiv {
   display: flex;
@@ -106,7 +104,6 @@
 }
 .SubFoterLink ul {
   margin-top: 0vw;
-
 }
 .SubFoterLink ul li {
   margin-left: -2vw;
@@ -136,4 +133,15 @@
   font-size: 1.3vw;
   color: rgb(105, 105, 105);
   line-height: 1.5;
+}
+@media (max-width: 650px) {
+  .SubMidDiv1 ul li {
+    height: 1vw;
+    margin-left: -5vw;
+  }
+  .SubFoterLink ul li {
+    margin-left: -5vw;
+
+    height: 1vw;
+  }
 }

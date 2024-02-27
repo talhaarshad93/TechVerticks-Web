@@ -74,12 +74,12 @@ const SubHeading = ({ data, handleClick, addingCss, hideHr ,width}) => {
           <div
             className={classNames(fadeIn? style.fadeIn:style.textContainer)}
           >
-            <div className={style.text} style={{width: width}}>{text}</div>
+            <div className={style.text}>{text}</div>
             <button className={style.details}>Discover Industries Details</button>
           </div>
         )}
         {/* <hr style={{  width: "47vw" }} /> */}
-        {!hideHr && <hr style={{ width: "47vw" }} />}
+        {!hideHr && <hr className={style.hr} style={{ width: "47vw",}} />}
       </div>
     </div>
   );

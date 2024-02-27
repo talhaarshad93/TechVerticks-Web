@@ -6,7 +6,7 @@
   align-items: center;
   padding: 1.2em 1rem;
   cursor: pointer;
-  gap: 0.4rem;
+  /* gap: 0.4rem; */
   font-weight: bold;
   border-radius: 40px;
   text-shadow: 2px 2px 3px rgb(136 0 136 / 50%);
@@ -26,7 +26,7 @@
     no-repeat;
   background-size: 300%;
   color: #fff;
-  font-size: 2vw;
+  font-size: 1.8vw;
   font-family: "TT Interphases Pro Trial Regular";
   border: none;
   background-position: left center;

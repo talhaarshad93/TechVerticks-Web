@@ -46,6 +46,7 @@ const Solutions = () => {
         bigHeading={bigHeading}
         description={description}
         SolutionPage_Css
+        scroll="#crafting"
       />
       <ImageSlider images={images} settings={xAxis} />
       <Crafting />

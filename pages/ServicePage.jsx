@@ -233,6 +233,7 @@ const ServicePage = () => {
         bigHeading={bigHeading}
         description={description}
         ServicePage_Css
+        scroll = "#recent2"
       />
       <ImageSlider images={images} settings={xAxis} />
       {sectionsDataArray.map((newData, index) => (

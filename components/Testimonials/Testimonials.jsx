@@ -71,7 +71,7 @@ const Testimonials = () => {
   };
 
   return (
-    <div>
+    <div id="testimonials">
       <hr className={styles.hr} />
       <div className={styles.main}>
         <div className={styles.left}>

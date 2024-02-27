@@ -2,7 +2,7 @@ import React, {useRef} from 'react'
 import styles from './Heading.module.css'
 import classNames from 'classnames';
 import Image from 'next/image';
-import img from "../../assets/images/down.png";
+import downImg from "../../assets/images/down.png";
 import GetInTouch from '../GetinTouch/GetinTouch/GetinTouch';
 import Link from 'next/link';
 import RecentWork from '../Recent Work Component/RecentWork';
@@ -10,7 +10,7 @@ import RecentWork from '../Recent Work Component/RecentWork';
 
 
 
-const Heading = ({SpanHeading,bigHeading,description,ServicePage_Css,BlogPage_Css,AboutPage_Css,CaseStudies_Css,Portfolio_Css,SolutionPage_Css,PortfolioPage_Css,ContentUs_Css}) => {
+const Heading = ({SpanHeading,bigHeading,description,ServicePage_Css,BlogPage_Css,AboutPage_Css,CaseStudies_Css,Portfolio_Css,SolutionPage_Css,PortfolioPage_Css,ContentUs_Css,handleScrollToRecentWork,scroll}) => {
 
 
  
@@ -39,9 +39,9 @@ const Heading = ({SpanHeading,bigHeading,description,ServicePage_Css,BlogPage_Cs
       </div>
       <div className={classNames(styles.subDiv,)}>
       
-      <Link href="" >
-      <Image className={styles.img} src={img} alt='img'/>
-        </Link>
+    {scroll &&  <Link  href={scroll} >
+      <Image className={styles.img} src={downImg} alt='img'/>
+        </Link>}
       
       <div className={classNames(styles.description,)}
       style={{

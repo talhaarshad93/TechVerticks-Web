@@ -62,7 +62,7 @@ export default function Blog(){
         // router.push(`/BlogDetails/${itemId}`);
       };
     return(
-        <div>
+        <div id="blog">
 
         <div className={style.main}>
             <div className={style.mainDiv}>

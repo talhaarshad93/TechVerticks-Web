@@ -83,7 +83,8 @@ const description ="Tech Verticks offers full-cycle design & development service
 const Portfolio = () => {
   return (
     <div>
-      <Heading SpanHeading={SpanHeading} bigHeading = {bigHeading} description={description} PortfolioPage_Css/> 
+      <Heading SpanHeading={SpanHeading} bigHeading = {bigHeading} description={description} PortfolioPage_Css
+      scroll="#testimonials"/> 
       <CS_Button/>
       <div className={style.portfolioDivMain}>
         <div className={style.portfolioDiv}>

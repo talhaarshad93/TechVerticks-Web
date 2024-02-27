@@ -44,7 +44,9 @@ const WeBuildHeading =
 const About = () => {
   return (
     <div   >
-      <Heading SpanHeading={SpanHeading} bigHeading = {bigHeading} description={description} AboutPage_Css />  
+      <Heading SpanHeading={SpanHeading} bigHeading = {bigHeading} description={description} AboutPage_Css
+        scroll= "#weBuild"
+        />  
      <ImageLayout/>
      <Webuild
        heading={WeBuildHeading}

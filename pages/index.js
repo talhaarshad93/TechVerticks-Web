@@ -31,13 +31,32 @@ import Tv from "@/components/TV img&video com/Tv";
 import Insight from "@/components/InsightComponent/InsightComponent";
 import { useRef } from "react";
 
+
+
 const inter = Inter({ subsets: ["latin"] });
+
+const scrollToRef = (ref) => {
+  if (ref && ref.current) { // Check if ref and ref.current exist
+    window.scrollTo(0, ref.current.offsetTop);
+  }
+};
 
 const SpanHeading = "GENERATE YOUR VISION";
 const bigHeading = "Empowering connections: Where technology unites people!";
 const description =
   "With extensive experience in digital product development, we know how to create user-friendly and memorable interfaces for leading international brands.";
 export default function Home() {
+  const recentWorkRef = useRef(null);
+
+  const handleScrollToRecentWork = () => {
+    if (recentWorkRef.current) {
+      window.scrollTo({
+        top: recentWorkRef.current.offsetTop,
+        behavior: 'smooth'
+      });
+      console.log("talhaaa");
+    }
+  };
 
 
   const WeBuildHeading ="Seamless Solutions, Seamless Experience: Dive into Our Mobile App Solutions";
@@ -100,6 +119,8 @@ export default function Home() {
         SpanHeading={SpanHeading}
         bigHeading={bigHeading}
         description={description}
+        // handleScrollToRecentWork={handleScrollToRecentWork}
+        scroll= "#recentWork"
       />
       <Tv img={img} video="/tvReel.mp4" />
       <Webuild

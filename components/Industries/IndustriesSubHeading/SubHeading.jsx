@@ -49,7 +49,7 @@ const SubHeading = ({ data, handleClick, addingCss, hideHr ,width}) => {
       // console.log('woriidiaidaidiadiaida',isClicked)
     }, 50); // Adjust delay as needed
   };
-  console.log('woriidiaidaidiadiaida',isClicked,fadeIn)
+  // console.log('woriidiaidaidiadiaida',isClicked,fadeIn)
 
   // Trigger the transition when isClicked changes
   React.useEffect(() => {

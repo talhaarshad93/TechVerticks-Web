@@ -24,7 +24,7 @@ export default function OfficeComponent() {
   };
 
   return (
-    <div className={style.main}>
+    <div id="office" className={style.main}>
       <div className={style.mainContainer1}>
         <div
           className={style.PakDiv}

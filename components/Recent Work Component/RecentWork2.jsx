@@ -10,7 +10,7 @@ let num = 10
 
 const RecentWork2 = () => {
   return (
-    <div className={style.recent2Main}>
+    <div id='recent2' className={style.recent2Main}>
         <div className={style.recent2}>
         <Topheadings title="RECENT WORKS"
         heading="Our Cherished Case Studies" width={"70%"}/>

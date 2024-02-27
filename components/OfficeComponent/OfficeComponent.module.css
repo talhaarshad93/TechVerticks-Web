@@ -41,6 +41,7 @@
   height: 15vw;
   display: flex;
   /* color: aqua; */
+  color: black;
 }
 .mainContainer {
   position: relative;

@@ -37,7 +37,7 @@ export default function OfficeComponent() {
               abcClass
               heading={"Pakistan"}
               paragraph={
-                "First floor, A-190, Block 3 Gulshan-e-Iqbal, Karachi City, Sindh 75300.+92 346 3008534"
+                "C-21, Moon Street, Block 5, Gulshan-e-Iqbal, Karachi City, Sindh 75300.+92 346 3008534"
               }
               blackColor
             />

@@ -40,8 +40,7 @@ const description =
 export default function Home() {
 
 
-  const WeBuildHeading =
-    " Maximize Your Success! Respond to the needs of the users through an aesthetic User Design , User Experience & high-end create a product with a striking effect";
+  const WeBuildHeading ="Seamless Solutions, Seamless Experience: Dive into Our Mobile App Solutions";
   const WeBuildDescription = (
     <>
       Welcome to Tech Verticks — a top software development company established
@@ -105,7 +104,12 @@ export default function Home() {
       <Tv img={img} video="/tvReel.mp4" />
       <Webuild
       showPlus
-        heading={WeBuildHeading}
+      heading={
+        <div>
+         <div style={{fontFamily: "TT Interphases Pro Trial Bold", fontSize: '2.8vw', color: 'rgba(179, 50, 212, 1)', display:'inline' }}>Maximize Your Success!</div> {WeBuildHeading}
+          
+        </div>
+      } 
         description={WeBuildDescription}
         name1={WeBuildName}
         Count1={WeBuildCount1}

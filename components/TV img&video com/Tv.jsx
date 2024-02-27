@@ -18,7 +18,7 @@ const Tv = ({ img,video }) => {
         allowfullscreen
       ></iframe>  */}
 
-      <video  className={style.video1} loop autoPlay muted playsInline>
+      <video  className={style.video1} loop autoPlay muted>
         <source src={video} type="video/mp4" />
         
        Your browser does not support the video tag. 

@@ -88,7 +88,11 @@
   margin-bottom: -2vw;
 
   }
-  .bigOne{
-    margin-left: 0vw;
-  }
+
 };
+@media (max-width: 350px){
+
+  .bigOne{
+    margin-left: -2vw;
+  }
+}

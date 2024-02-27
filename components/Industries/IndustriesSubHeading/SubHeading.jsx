@@ -79,7 +79,7 @@ const SubHeading = ({ data, handleClick, addingCss, hideHr ,width}) => {
           </div>
         )}
         {/* <hr style={{  width: "47vw" }} /> */}
-        {!hideHr && <hr style={{ width: "47vw" }} />}
+        {!hideHr && <hr className={style.hr} style={{ width: "47vw",}} />}
       </div>
     </div>
   );

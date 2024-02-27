@@ -137,3 +137,8 @@
     margin-top: 0vw;
   }
 }
+@media (max-width: 350px) {
+  .checkbox {
+    margin-top: -5.2vw;
+
+}}

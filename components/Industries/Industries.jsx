@@ -72,9 +72,9 @@ const Industries = () => {
 
   return (
     <div className={style.container}>
-      <Topheadings className="" title={title} heading={heading} />
+      <Topheadings title={title} heading={heading} />
       <div style={{ display: "flex", justifyContent: "space-between" }}>
-        <div style={{ width: "50%" }}>
+        <div style={{ width: "50%", }} className="">
           {industryData.map((data, index) => (
             <SubHeading
               key={index}

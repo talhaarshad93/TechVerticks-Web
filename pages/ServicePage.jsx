@@ -201,21 +201,16 @@ const description =
 const xAxis = {
   dots: false, // Disable dots navigation
   infinite: true,
-  speed: 500,
+  speed: 5000,
   slidesToShow: 1,
-  slidesToScroll: 1,
+  slidesToScroll: 4,
   centerMode: true,
   autoplay: true,
-  initialSlide: 0,
-  pauseOnHover: true,
-  // Enable center mode
-  centerPadding: "21%", // Adjust the padding based on your design
-  // focusOnSelect: true,
-  // Click on the slide to navigate
+  initialSlide: 1,
+  autoplaySpeed: 1000,
+  // pauseOnHover: true,
+  centerPadding: "21%", 
 
-  // Set vertical to true
-  //    vertical: true,
-  // verticalSwiping: true,
 };
 const images = [
   mobSlide,
@@ -235,6 +230,7 @@ const ServicePage = () => {
         ServicePage_Css
         scroll = "#recent2"
       />
+    
       <ImageSlider images={images} settings={xAxis} />
       {sectionsDataArray.map((newData, index) => (
         <ServiceDetails key={index} newData={newData} />

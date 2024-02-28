@@ -29,16 +29,21 @@ import Semrush from "../assets/SVG/Semrush.svg";
 
 
 const yAxis = {
-  dots: false,
-  infinite: true,
-  speed: 500,
-  slidesToScroll: 1,
+  dots: false, // Disable dots navigation
+  // infinite: true,
+  speed: 10000,
+  autoplay: true,
+  arrows: false,
+  autoplaySpeed: 0,
+  cssEase: 'linear',
+  slidesToShow: 1,
+  slidesToScroll: 4,
+  centerMode: true,
+  // Enable center mode
+  centerPadding: "21%", // Adjust the padding based on your design
+  // focusOnSelect: true,
   vertical: true,
   verticalSwiping: true,
-  autoplay: true,
-  initialSlide: 0,
-  pauseOnHover: true,
-  centerPadding: "0%",
 };
 
 const images = [sliderImg, sliderImg, sliderImg];

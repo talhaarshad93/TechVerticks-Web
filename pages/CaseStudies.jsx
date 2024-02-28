@@ -13,6 +13,15 @@ import WhyChoose from "@/components/SPD-WhyChoose/WhyChoose";
 import CaseStudiesDetails from "../components/ServicePageDetails/CaseStudiesDetails";
 import GetInTouch from "@/components/GetinTouch/GetinTouch/GetinTouch";
 import Tv from "@/components/TV img&video com/Tv";
+import Swift from "../assets/images/Swift.png";
+import Ionic from "../assets/images/Ionic.png";
+import IOS from "../assets/images/IOS.png";
+import Andriod from "../assets/images/Android.png";
+import React_Native from "../assets/images/React_Native.png";
+import Katlin from "../assets/images/Katlin.png";
+// import Flutter from "../../assets/images/Flutter.png";
+import Flutter from "../assets/images/Flutter.png";
+import ObjectiveC from "../assets/images/ObjectiveC.png";
 
 const SpanHeading = "OUR WORKS";
 const bigHeading = "We offer the diversity of skills";
@@ -60,17 +69,19 @@ let result = "Results and Impact";
 let challenge = "Project Challenges";
 
 const xAxis = {
-  dots: false, 
-  infinite: true,
-  speed: 500,
-  slidesToShow: 1,
-  slidesToScroll: 1,
-  centerMode: true,
+  dots: false, // Disable dots navigation
+  // infinite: true,
+  speed: 10000,
   autoplay: true,
-  initialSlide: 0,
-  pauseOnHover: true,
- 
-  centerPadding: "21%",
+  arrows: false,
+  autoplaySpeed: 0,
+  cssEase: 'linear',
+  slidesToShow: 1,
+  slidesToScroll: 4,
+  centerMode: true,
+  // Enable center mode
+  centerPadding: "21%", // Adjust the padding based on your design
+  // focusOnSelect: true,
  
 };
 const images = [
@@ -78,6 +89,48 @@ const images = [
   sliderImg,
   sliderImg,
   // Add more image paths as needed
+];
+const ImageData = [
+  {
+    id: 1,
+    image: Swift,
+    alt: "Swift",
+  },
+  {
+    id: 2,
+    image: Ionic,
+    alt: "Ionic",
+  },
+  {
+    id: 3,
+    image: IOS,
+    alt: "iOS",
+  },
+  {
+    id: 4,
+    image: Andriod,
+    alt: "Andriod",
+  },
+  {
+    id: 5,
+    image: React_Native,
+    alt: "React Native",
+  },
+  {
+    id: 6,
+    image: Katlin,
+    alt: "Kotlin",
+  },
+  {
+    id: 7,
+    image: Flutter,
+    alt: "Flutter",
+  },
+  {
+    id: 8,
+    image: ObjectiveC,
+    alt: "Objective-c",
+  },
 ];
 
 const CaseStudies = () => {
@@ -89,7 +142,7 @@ const CaseStudies = () => {
       <Section heading={target}  para={para} image={targetImg} targetCom />
       <HaveIdea />
       <Section heading={challenge}  para={para} image={challengeImg} />
-      <TechnologyWeUse heading = 'Technologies We Use'/>
+      <TechnologyWeUse image={ImageData} heading = 'Technologies We Use'/>
       <ImageSlider images={images} settings={xAxis} CaseStudiesCss  />
       <Section heading={result}  para={para} image={resultImg} targetCom />
       <GetInTouch/>

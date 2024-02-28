@@ -27,16 +27,21 @@ import Flutter from "../assets/images/Flutter.png";
 import ObjectiveC from "../assets/images/ObjectiveC.png";
 
 const yAxis = {
-  dots: false,
-  infinite: true,
-  speed: 500,
-  slidesToScroll: 1,
+  dots: false, // Disable dots navigation
+  // infinite: true,
+  speed: 10000,
+  autoplay: true,
+  arrows: false,
+  autoplaySpeed: 0,
+  cssEase: 'linear',
+  slidesToShow: 1,
+  slidesToScroll: 4,
+  centerMode: true,
+  // Enable center mode
+  centerPadding: "21%", // Adjust the padding based on your design
+  // focusOnSelect: true,
   vertical: true,
   verticalSwiping: true,
-  autoplay: true,
-  initialSlide: 0,
-  pauseOnHover: true,
-  centerPadding: "0%",
 };
 const WC_ListData =["Minimalistic Design","50% Faster Development","Enterprise-Ready App","Compliance-Oriented App","Seamless Back-End Integration","Smooth Deployment","Rigorous Quality Assurance","Post-Deployment Support"]
 

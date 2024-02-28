@@ -74,6 +74,10 @@ const Header = () => {
           <Link href={"/Branding&Creatives"}><li
                   className={
                     router.pathname === "/ContactUs" ? style.active : ""}>Branding</li></Link>
+   
+          <Link href={"/CaseStudies"}><li
+                  className={
+                    router.pathname === "/ContactUs" ? style.active : ""}>CaseStudies</li></Link>
         </ul>
           </nav>
       </div>

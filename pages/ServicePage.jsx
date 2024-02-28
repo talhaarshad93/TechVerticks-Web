@@ -200,16 +200,18 @@ const description =
   "At TechVerticks, we specialize in offering comprehensive services in mobile app development, web development, and design. Our team of experts is dedicated to unlocking innovation and transforming businesses for the modern digital era.";
 const xAxis = {
   dots: false, // Disable dots navigation
-  infinite: true,
-  speed: 5000,
+  // infinite: true,
+  speed: 10000,
+  autoplay: true,
+  arrows: false,
+  autoplaySpeed: 0,
+  cssEase: 'linear',
   slidesToShow: 1,
   slidesToScroll: 4,
   centerMode: true,
-  autoplay: true,
-  initialSlide: 1,
-  autoplaySpeed: 1000,
-  // pauseOnHover: true,
-  centerPadding: "21%", 
+  // Enable center mode
+  centerPadding: "21%", // Adjust the padding based on your design
+  // focusOnSelect: true,
 
 };
 const images = [

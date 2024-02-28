@@ -2,8 +2,7 @@ import GetInTouch from "@/components/GetinTouch/GetinTouch/GetinTouch";
 import HaveIdea from "@/components/Have Idea/HaveIdea";
 import Heading from "@/components/Heading Component/Heading";
 import ImageSlider from "@/components/ImageSlider/ImageSlider";
-import sliderImg from "./../assets/images/IntroImage.png";
-
+import sliderImg from "./../assets/images/brandSlide.png";
 import React from "react";
 import Crafting from "@/components/Solution/Crafting/Crafting";
 import Industries from "@/components/Industries/Industries";
@@ -12,10 +11,14 @@ import Testimonials from "@/components/Testimonials/Testimonials";
 import RecentWork2 from "@/components/Recent Work Component/RecentWork2";
 const xAxis = {
   dots: false, // Disable dots navigation
-  infinite: true,
-  speed: 500,
+  // infinite: true,
+  speed: 10000,
+  autoplay: true,
+  arrows: false,
+  autoplaySpeed: 0,
+  cssEase: 'linear',
   slidesToShow: 1,
-  slidesToScroll: 1,
+  slidesToScroll: 4,
   centerMode: true,
   // Enable center mode
   centerPadding: "21%", // Adjust the padding based on your design

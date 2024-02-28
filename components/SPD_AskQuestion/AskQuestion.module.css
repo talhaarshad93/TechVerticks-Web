@@ -71,19 +71,19 @@
 .btn {
   
   border: none;
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   margin-left: 7.8vw;
   object-fit: contain;
- 
-
-
+  width: 2vw;
+  height: 2vw;
 }
 .btn_img {
   border-radius: 18px 18px 18px 18px;
   cursor: pointer;
-  width: 1vw;
-  height: 1vw;
-  /* background-color: aqua; */
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+
 }
 .SubPara {
   font-family: "TT Interphases Pro Trial Regular";
@@ -101,22 +101,40 @@
 
   /* border-bottom: 1px solid gray; */
 }
-@media (max-width: 650px) {
-  .btn {
-    margin-top: -2vw;
-    /* width: 2vw;
-  height: 2vw; */
+@media (max-width: 1150px) {
+  .btn{
+
+  width: 2.5vw;
+  height: 2vw;
+
   }
 }
-@media (max-width: 350px) {
-  .btn {
-    margin-top: -3vw;
-    width: 5vw;
-  height: 5vw;
-  /* background-color: yellow; */
+@media (max-width: 850px) {
+  .btn{
+
+  width: 2.5vw;
+  height: 2.5vw;
+  margin-top: -1vw;
+
   }
-  .btn_img {
-    width: 1.5vw;
-    height: 1.5vw;
+}
+@media (max-width: 650px) {
+  .btn {
+    width: 3vw;
+    height: 3vw;
+    margin-top: -2vw;
+  }
+}
+@media (max-width: 550px) {
+  .btn {
+    width: 4vw;
+    height: 4vw;
+  }
+}
+@media (max-width: 450px) {
+  .btn {
+    margin-top: -2vw;
+    width: 4.5vw;
+    height: 4.5vw;
   }
 }

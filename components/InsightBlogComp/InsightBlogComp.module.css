@@ -184,3 +184,11 @@
     cursor: pointer;
     
 }
+@media (max-width: 576px) {
+    .img1{
+        width: 6vw;
+        height: 6vw;
+        /* margin-right: 8vw; */
+        
+    }
+}

@@ -156,7 +156,7 @@ const WeBuildDescription = (
 );
 
 
-const WC_ListData =["Design Solutions Tailored to Your Brand","Utilizing Cutting-Edge Design Tools","Innovative Design Strategies","Impactful Branding","Optimizing Design Workflow Efficiency","Enhanced Brand Identity","Visual Communication Strategies","Innovation and Fresh Perspective","Continued Support and Maintenance","Ensure Design Success"]
+const WC_ListData =["Design Solutions Tailored to Your Brand","Utilizing Cutting-Edge Design Tools","Innovative Design Strategies","Impactful Branding","Optimizing Design Workflow Efficiency","Enhanced Brand Identity","Visual Communication Strategies","Continued Support and Maintenance"]
 
 const DM_data = [
   {

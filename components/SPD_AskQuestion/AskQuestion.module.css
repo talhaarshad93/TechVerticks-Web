@@ -69,17 +69,18 @@
   /* background-color: aquamarine; */
 }
 .btn {
-  width: 2vw;
-  height: 2vw;
+  
   border: none;
   background-color: white;
   margin-left: 7.8vw;
+  object-fit: contain;
+ 
+
 
 }
 .btn_img {
   border-radius: 18px 18px 18px 18px;
   cursor: pointer;
-  object-fit: contain;
   width: 1vw;
   height: 1vw;
   /* background-color: aqua; */
@@ -100,4 +101,22 @@
 
   /* border-bottom: 1px solid gray; */
 }
-
+@media (max-width: 650px) {
+  .btn {
+    margin-top: -2vw;
+    /* width: 2vw;
+  height: 2vw; */
+  }
+}
+@media (max-width: 350px) {
+  .btn {
+    margin-top: -3vw;
+    width: 5vw;
+  height: 5vw;
+  /* background-color: yellow; */
+  }
+  .btn_img {
+    width: 1.5vw;
+    height: 1.5vw;
+  }
+}

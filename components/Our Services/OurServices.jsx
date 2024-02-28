@@ -42,7 +42,7 @@ const OurServices = () => {
     showVideoTimer.current = setTimeout(() => setHoveredIndex(index), 0);
   };
   return (
-    <div>
+    <div  className={style.main}>
       <div className={classNames(style.headDiv)}>
         <div className={classNames(style.weBuild)}>OUR SERVICES</div>
         <p className={classNames(style.working)}>

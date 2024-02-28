@@ -25,7 +25,7 @@ const Heading = ({SpanHeading,bigHeading,description,ServicePage_Css,BlogPage_Cs
            >{SpanHeading}</span>
         <div className={ServicePage_Css ? styles.popOutin: styles.bigHeading}
          style={{
-          ...(BlogPage_Css && {fontWeight:900,width:"55vw",fontSize:"8vw" ,lineHeight:"8vw"}),
+          ...(BlogPage_Css && {fontWeight:900,width:"55vw",fontSize:"7vw" ,lineHeight:"7vw"}),
         ...(AboutPage_Css && {width:"90vw",fontSize:"6vw", lineHeight:"6vw"}),
         ...(CaseStudies_Css && {width:"45vw",fontSize:"7.4vw", lineHeight:"7.4vw", fontFamily:"TT Interphases Pro Trial ExtraBold"}),
 

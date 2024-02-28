@@ -68,11 +68,11 @@ export default function Blog(){
             <div className={style.mainDiv}>
             <button className={style.btn1}style={{width:"5vw"}}>All</button>
             <button className={style.btn1} style={{width:"6vw"}}> Blog</button>
-            <button className={style.btn1}> Business  </button>
+            <button className={style.btn1}style={{width:"8vw"}}> Business  </button>
             <button className={style.btn1} style={{width:"7vw"}}>  Mobile</button>
             <button className={style.btn1} style={{width:"8vw"}}>   Product</button>
             <button className={style.btn1} style={{width:"15vw"}}> Machine Learning   </button>
-            <button className={style.btn1}>Game</button>
+            <button className={style.btn1}style={{width:"6vw"}}>Game</button>
             <button className={style.btn1}>Management</button>
             </div>
             <hr className={style.hr}/>

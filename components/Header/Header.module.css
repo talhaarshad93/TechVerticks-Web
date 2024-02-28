@@ -94,7 +94,7 @@
   left: 0;
   width: 100%;
   height: 2px;
-  background-color: purple;
+  /* background-color: purple; */
   transform: scaleX(0);
 }
 
@@ -107,7 +107,7 @@
   /* font-weight: 900; */
   font-family: "TT Interphases Pro Trial DemiBold";
 
-  color: rgb(162, 1, 162);
+  color: #B232D3;
 }
 
 .navbar nav .menu {
@@ -128,7 +128,25 @@
   background-color: rgb(0, 0, 0);
   border-radius: 1vw;
 }
+.menuIconImg{
+    display: none;
+}
+
+
+
 @media (max-width: 900px) {
+  .menuIconImg{
+    display: inline;
+    width: 15%;
+    height: 15%;
+    padding: 2vw;
+  filter: grayscale(100%);
+
+}  .menuIconImg:hover{
+  width: 15%;
+  height: 15%;
+  filter: grayscale(0%);
+}
   .logoImg {
     width: 40%;
     height: 40%;
@@ -209,7 +227,7 @@
   .navbar nav ul a li {
     margin-bottom: 3vw;
     font-size: 2.8vw;
-    /* border-bottom: 1px solid rgb(226, 226, 226); */
+    border-bottom: 1px solid rgb(243, 243, 243);
   font-family: "TT Interphases Pro Trial DemiBold";
 
     /* background-color: blue; */

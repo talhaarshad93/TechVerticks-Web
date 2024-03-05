@@ -42,7 +42,7 @@ const scrollToRef = (ref) => {
 };
 
 const SpanHeading = "GENERATE YOUR VISION";
-const bigHeading = "Empowering connections: Where technology unites people!";
+// const bigHeading = "";
 const description =
   "With extensive experience in digital product development, we know how to create user-friendly and memorable interfaces for leading international brands.";
 export default function Home() {
@@ -114,13 +114,22 @@ export default function Home() {
       <Insight/>
       <Heading SpanHeading={SpanHeading} bigHeading = {bigHeading} description={description} />  
       <GetInTouch/>
+      
      */}
       <Heading
         SpanHeading={SpanHeading}
-        bigHeading={bigHeading}
+        bigHeading="Empowering Connections!"
+        heading2="Where technology unites people!"
+        // bigHeading={
+        //   <div>
+        //    <div style={{fontFamily: "TT Interphases Pro Trial Bold", fontSize: '5.4vw', color: 'rgba(179, 50, 212, 1)', display:'inline' }}>Empowering Connections!</div> {bigHeading}
+            
+        //   </div>
+        // }
         description={description}
         // handleScrollToRecentWork={handleScrollToRecentWork}
         scroll= "#recentWork"
+        ServicePage_Css
       />
       <Tv img={img} video="/tvReel.mp4" />
       <Webuild

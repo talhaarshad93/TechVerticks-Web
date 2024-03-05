@@ -5,7 +5,7 @@
   /* width: 85%;
     height: 50%; */
   /* margin-left: 6vw; */
-  margin-top: 4.5vw;
+  margin-top: -4.5vw;
   margin-bottom: 3vw;
 }
 .PakDiv {
@@ -64,6 +64,7 @@
   object-fit: contain;
   margin-top: 2.4vw;
   /* position: relative; */
+  margin-left: 1.5vw;
   transition: all 1sec ease-in-out;
 }
 .PakimgColor {
@@ -80,6 +81,8 @@
   width: 80%;
   height: 43%;
   margin-top: 2.4vw;
+  margin-left: 1.5vw;
+
   object-fit: contain;
   transition: all 1sec ease-in-out;
 }
@@ -113,6 +116,8 @@
   transition: all 1sec ease-in-out;
   object-fit: contain;
   margin-top: -0.5vw;
+  margin-left: 1.7vw;
+
 }
 .USAimgColor {
   width: 80%;
@@ -121,6 +126,8 @@
   object-fit: contain;
   margin-top: -0.5vw;
   display: none;
+  margin-left: 1.7vw;
+
 }
 .USADiv:hover .USAimg {
   display: none;
@@ -134,9 +141,10 @@
   margin-top: 20px;
   width: 5vw;
   height: 5vw;
-  margin-left: -2.5vw;
+  margin-left: 9.5vw;
   margin-right: 11vw;
-  margin-top: 4vw;
+  margin-top: 3.8vw;
+  /* background-color: yellow; */
 }
 .PakFlag {
   object-fit: contain;
@@ -153,7 +161,7 @@
   object-fit: contain;
   width: 5vw;
   height: 5vw;
-  margin-left: -8vw;
+  /* margin-left: -8vw; */
   margin-top: -0.5vw;
 }
 /* ------>>>>> */
@@ -197,4 +205,10 @@
   margin-left: -8vw;
   margin-top: -0.5vw;
   /* background-color: aqua; */
+}
+@media (max-width: 576px){
+  .main{
+  margin-top: 0
+
+  }
 }

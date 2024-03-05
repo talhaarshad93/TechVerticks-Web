@@ -1,7 +1,7 @@
 .titleText {
   color: #b332d4;
   font-family: "TT Interphases Pro Trial Medium";
-  font-size: 1.6vw;
+  font-size: 1.7vw;
   font-variant-caps: all-petite-caps;
   font-weight: 500;
 }
@@ -32,7 +32,7 @@
   /* font-family:Verdana, Geneva, Tahoma, sans-serif; */
   width: 25vw;
   font-size: 1.1vw;
-  line-height: 1.1vw;
+  line-height: 1.3vw;
   margin-bottom: 4vw;
   color: #666666;
   /* background-color: blue; */
@@ -41,7 +41,7 @@
 .customStyle1 {
   margin-top: 1vw;
   width: 120%;
-  font-size: 6.3vw;
+  font-size: 6vw;
   text-transform: capitalize;
   font-family: "TT Interphases Pro Trial ExtraBold";
   line-height: 6.5vw;

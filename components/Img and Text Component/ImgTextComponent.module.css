@@ -8,13 +8,15 @@
 }
 
 .text {
-  width: 30vw;
+  width:30vw;
   margin-top: 1vw;
   /* height: 80%; */
   /* margin: auto; */
   /* background-color: beige; */
   font-size: 1.2vw;
   line-height: 1.5vw;
+  text-align: left;
+  color: rgba(0, 0, 0, 0.6) ;
   font-family: "TT Interphases Pro Trial Medium";
 }
 .imgCountDiv {

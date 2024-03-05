@@ -77,13 +77,13 @@ const portfolioArray2 = [
   },
  ]
 const SpanHeading ="OUR Works"
-const bigHeading ="We offer the diversity of skills"
+const bigHeading ="We Offer!! "
 const description ="Tech Verticks offers full-cycle design & development services to clients in digitizing their business idea into a successful launch."
 
 const Portfolio = () => {
   return (
     <div>
-      <Heading SpanHeading={SpanHeading} bigHeading = {bigHeading} description={description} PortfolioPage_Css
+      <Heading SpanHeading={SpanHeading} heading2={<>The diversity <br /> of skills</>} bigHeading = {bigHeading} description={description} PortfolioPage_Css
       scroll="#testimonials"/> 
       <CS_Button/>
       <div className={style.portfolioDivMain}>

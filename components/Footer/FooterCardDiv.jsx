@@ -35,8 +35,8 @@ function FooterCardDiv() {
     { text: "Twitter", path: "/" },  
   ]
   return (
-    <div className="container-fluid" style={{ backgroundColor: "#f8f9fa " }}>
-      <div className="container-fluid ml-md-5 justify-content-between  p-4">
+    <div className="container-fluid " style={{ backgroundColor: "#f8f9fa " }}>
+      <div className="container-fluid ml-md-5 justify-content-between mt-n5 p-4">
         <div className="row pt-3">
           <div className="col-md-4 mb-4">
             <div className="flex-md-column align-items-center row">
@@ -77,7 +77,7 @@ function FooterCardDiv() {
           </div>
         </div>
       </div>
-      <hr className="mx-auto" style={{ width: "95%" }} />
+      <hr className={classNames(style.hr, "mx-auto")}  />
 
       <div
         className={classNames(

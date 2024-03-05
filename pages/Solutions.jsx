@@ -37,7 +37,7 @@ const images = [
 ];
 
 const SpanHeading = "Our Solutions";
-const bigHeading = "Innovative solutions that catalyze transformation";
+const bigHeading = "Innovative Solutions..!!";
 const description =
   "We are dedicated to delivering transformative software and app development solutions that evolve and adapt to meet the unique requirements of our clients, propelling their digital evolution and catalyzing profound transformations.";
 
@@ -46,6 +46,7 @@ const Solutions = () => {
     <div>
       <Heading
         SpanHeading={SpanHeading}
+        heading2={<>That catalyze <br />transformation</>}
         bigHeading={bigHeading}
         description={description}
         SolutionPage_Css

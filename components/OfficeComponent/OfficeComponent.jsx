@@ -37,8 +37,11 @@ export default function OfficeComponent() {
               abcClass
               heading={"Pakistan"}
               paragraph={
-              <>
-                C-21, Moon Street, Block 5, Gulshan-e-Iqbal, Karachi City, Sindh 75300.+92 346 3008534</>
+                <>
+                  Address: C-21, Moon Street, Block 5, Gulshan-e-Iqbal, Karachi
+                  City, Sindh 75300. <br />
+                  Contact No. +92 346 3008534
+                </>
               }
               blackColor
             />
@@ -48,11 +51,13 @@ export default function OfficeComponent() {
           </div>
 
           <Image className={style.Pakimg} src={Pakistan} alt="Pakistan" />
+          
 
           <video ref={videoRef1} className={style.PakimgColor} loop muted>
             <source src="/KarachiWhiteWipes.mp4" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
+         
         </div>
 
         {/* ------>>>>>> douplicate for hover*/}
@@ -96,7 +101,11 @@ export default function OfficeComponent() {
               abcClass
               heading={"USA"}
               paragraph={
-                "8403 Pines Blvd, Ste 217, Pembroke Pnes, Fl 33024.+1 (312) - 500 4798"
+                <>
+                  Address: 8403 Pines Blvd, Ste 217, Pembroke Pnes, Fl 33024.
+                  <br />
+                  Contact No. +1 (312) - 500 4798
+                </>
               }
               blackColor
             />
@@ -106,7 +115,7 @@ export default function OfficeComponent() {
           </div>
 
           <Image className={style.USAimg} src={USA} alt="Pakistan" />
-          <video ref={videoRef2} className={style.USAimgColor} loop muted >
+          <video ref={videoRef2} className={style.USAimgColor} loop muted>
             <source src="/UsaWhiteWipes.mp4" type="video/mp4" />
             Your browser does not support the video tag.
           </video>

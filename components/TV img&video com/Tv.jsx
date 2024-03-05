@@ -18,12 +18,12 @@ const Tv = ({ img,video }) => {
         allowfullscreen
       ></iframe>  */}
 
-      <div>
+    
       <video  className={style.video1} loop autoPlay muted playsInline={true}>
         <source src={video} type="video/mp4" />
        Your browser does not support the video tag. 
       </video>
-      </div>
+      
       {/* <iframe src="https://player.vimeo.com/video/912954027" className={style.video1} frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe> */}
       {/* <iframe
   src="https://player.vimeo.com/video/912954027?autoplay=1&controls=0&loop=1"

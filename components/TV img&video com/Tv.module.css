@@ -1,21 +1,23 @@
 .main{
     margin-top: 5vw;
     margin-bottom: 5vw;
+    width: 100%;
 }
 .imgTv{
     width: 80%;
     height: 80%;
     margin-left: 10vw;
     
-    margin-top: -100px;
+    margin-top: -15vw;
     }
 .video1{
-        width: 85vw;
-        height: 43vw;
+        width: 100%;
+        height: 38vw;
         /* margin: auto; */
-        margin-left: 7vw;
+        /* margin-left: 10vw; */
         /* margin-right: auto; */
-        border-radius: 3vw;
+        /* border-radius: 3vw; */
+        /* margin: auto; */
         /* background-color: yellow; */
         object-fit:fill;
     }

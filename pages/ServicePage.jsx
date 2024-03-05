@@ -227,9 +227,16 @@ const ServicePage = () => {
     <div>
       <Heading
         SpanHeading={SpanHeading}
-        bigHeading={bigHeading}
+        bigHeading="We Serve Our Services!"
+        heading2="In Mobile Apps, Web Development, and Design Solutions for the Modern Digital Era!"
         description={description}
         ServicePage_Css
+        customStyles={{
+          // width: "90vw",
+          fontSize: "4vw",
+          lineHeight: "4vw",
+
+        }}
         scroll = "#recent2"
       />
     

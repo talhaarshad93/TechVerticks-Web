@@ -34,7 +34,7 @@
 }
 .lable {
   width: 17vw;
-  height: 15vw;
+  height: 12.5vw;
   border: 1px solid #dfdfdf;
   display: flex;
   align-items: center;
@@ -48,8 +48,8 @@
 }
 
 .lableImg {
-  width: 50%;
-  height: 40%;
+  width: 40%;
+  height: 35%;
   object-fit: contain;
   /* background-color: yellow; */
 filter: grayscale(100%);

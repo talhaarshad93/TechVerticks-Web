@@ -28,13 +28,51 @@
     width: 50%;
     /* height: 100%; */
     margin-right: 0.8vw;
+  animation: 2s box1 ease-out;
+
 }
+@keyframes box1  {
+    0% {
+      opacity: 0;
+      transform: translateY(80%);
+    }
+    20% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }
 .box2{
     width: 25%;
     /* height: 100%; */
     margin-right: 0.8vw;
+  animation: 2s box2 ease-out;
+
 
 }
+@keyframes box2  {
+    0% {
+      opacity: 0;
+      transform: translateY(-80%);
+    }
+    20% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }
 .box3{
     width: 25%;
     /* height: 100%; */

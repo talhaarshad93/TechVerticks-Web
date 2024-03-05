@@ -109,15 +109,23 @@
   padding: 1vw;
   font-size: 1.5vw;
   font-weight: 800;
-  border: 1px solid black;
+  border: 0.2vw solid #B232D3;
   width: 27vw;
   /* height: 5vw; */
   text-align: center;
   border-radius: 35px;
-  color: black;
   background-color: white;
-
+  color: #B232D3;
   font-family: "TT Interphases Pro Trial DemiBold";
+  transition: all 0.4s ease-in-out;
+  box-shadow:  0.5vw 0.5vw 0.5vw #c5c5c5, -1vw -1vw 2vw #ffffff;
+  
+}
+.btn:hover {
+  background-color: #B232D3;
+  color: #ffffff;
+
+
 }
 
 @media only screen and (max-width: 1199px) {

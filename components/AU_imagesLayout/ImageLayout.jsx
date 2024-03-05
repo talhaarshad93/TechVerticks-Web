@@ -1,12 +1,12 @@
 import { useState, useEffect } from 'react';
 import Image from 'next/image';
 import style from './ImageLayout.module.css';
-import ImageLayout1 from '../../assets/images/ImageLayout1.png';
-import ImageLayout2 from '../../assets/images/ImageLayout2.png';
-import ImageLayout3 from '../../assets/images/ImageLayout3.png';
-import ImageLayout4 from '../../assets/images/ImageLayout4.png';
-import ImageLayout5 from '../../assets/images/ImageLayout5.png';
-import ImageLayout6 from '../../assets/images/ImageLayout6.png';
+import ImageLayout1 from '../../assets/images/ImageLayout3.svg';
+import ImageLayout2 from '../../assets/images/ImageLayout5.svg';
+import ImageLayout3 from '../../assets/images/ImageLayout2.svg';
+import ImageLayout4 from '../../assets/images/ImageLayout1.svg';
+import ImageLayout5 from '../../assets/images/ImageLayout6.svg';
+import ImageLayout6 from '../../assets/images/ImageLayout4.svg';
 
 const imageListDivOne = [
   {

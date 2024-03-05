@@ -62,6 +62,8 @@ const About = () => {
         help <br/> in Businesses drive</>}
         scroll="#weBuild"
       />
+      <ImageLayout />
+
       <Webuild
         heading={WeBuildHeading}
         description={WeBuildDescription}
@@ -75,7 +77,6 @@ const About = () => {
       />
       <Tv video="/tvReel.mp4" />
       <ValueComp />
-      <ImageLayout />
 
       <OverPartner />
       <Insight />

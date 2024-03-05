@@ -72,6 +72,12 @@
   /* margin-left: 23px; */
   font-family: "TT Interphases Pro Trial DemiBold";
   color: black;
+  transition: all 0.2s ease-in-out;
+}
+.btnTxt:hover {
+  color: #B232D3;
+
+
 }
 .imgBox .img {
   border-radius: 2vw;
@@ -210,7 +216,7 @@
   padding: 0.5vw;
   font-size: 3vw;
   /* font-weight: 800; */
-  border: 1px solid black;
+  border: 0.3vw solid #B232D3;
   width: 40vw;
   /* height: 5vw; */
   text-align: center;
@@ -219,10 +225,16 @@
   /* margin-left: 55px; */
   /* background-color: blue; */
   background-color: white;
-  color: black;
-  font-family: "TT Interphases Pro Trial Bold";
+  color: #B232D3;
+  transition: all 0.3s ease-in-out;
+  box-shadow:  0.5vw 0.7vw 0.5vw #c5c5c5, -1vw -1vw 2vw #ffffff;
 
+  font-family: "TT Interphases Pro Trial Bold";
   /* border: none; */
+}
+.seeBtn:hover {
+  background-color: #B232D3;
+  color: white;
 }
 
 /* 

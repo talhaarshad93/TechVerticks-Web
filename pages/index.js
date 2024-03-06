@@ -30,6 +30,8 @@ import BlogPage from "./BlogPage";
 import Tv from "@/components/TV img&video com/Tv";
 import Insight from "@/components/InsightComponent/InsightComponent";
 import { useRef } from "react";
+import style from "../pages/allPages.module.css";
+
 
 
 
@@ -84,6 +86,8 @@ export default function Home() {
   return (
     
     <div>
+      
+ 
       {/* <Heading />
       <Image className="imgTv" src={img} />
       <iframe

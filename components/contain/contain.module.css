@@ -3,6 +3,7 @@
   flex-direction: column;
   margin-bottom: 5vw;
   padding: 1vw;
+  transition: all 0.7s ease-out;
   /* background-color: yellow; */
 }
 .main:hover .mainDiv1 .heading1{
@@ -18,9 +19,9 @@
   
 }
 .main:hover{
-  transform: scale(1.05);
+  /* transform: scale(1.05); */
   /* transition: transform 40s ease; */
-  cursor:grab;
+  /* cursor:grab; */
   /* border: 1px solid ; */
   background-color: rgba(179, 50, 212, 1);
 }

@@ -12,13 +12,11 @@ function BlogPage() {
       <Heading
         bigHeading={bigHeading}
         description={description}
-        // BlogPage_Css
-      
         scroll="#blog"
         heading2='and Blog post'
       />
 
-      <Blog />
+      <Blog/>
     </div>
   );
 }

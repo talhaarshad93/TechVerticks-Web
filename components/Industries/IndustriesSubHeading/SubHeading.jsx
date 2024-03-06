@@ -70,10 +70,12 @@ const SubHeading = ({ data, handleClick, addingCss, hideHr ,width}) => {
         >
           {heading}
         </button>
-        {isClicked && (
+        { (
           <div
-            className={classNames(fadeIn? style.fadeIn:style.textContainer)}
+            className={style.OnHover}
+            // classNames(fadeIn? style.fadeIn:style.textContainer)
           >
+
             <div className={style.text}>{text}</div>
             <button className={style.details}>Discover Industries Details</button>
           </div>

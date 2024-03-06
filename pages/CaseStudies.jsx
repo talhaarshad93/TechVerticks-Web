@@ -22,6 +22,7 @@ import Katlin from "../assets/images/Katlin.png";
 // import Flutter from "../../assets/images/Flutter.png";
 import Flutter from "../assets/images/Flutter.png";
 import ObjectiveC from "../assets/images/ObjectiveC.png";
+import { useRouter } from "next/router";
 
 const SpanHeading = "OUR WORKS";
 const bigHeading = "We offer the diversity of skills";
@@ -134,9 +135,14 @@ const ImageData = [
 ];
 
 const CaseStudies = () => {
+  const router = useRouter()
+  const { btnTxt } = router?.query;
+
+  console.log('cehdksajkdjaskjjdksakdhsakjda',btnTxt)
+
   return (
     <div>
-      <CaseStudiesDetails/>
+      <CaseStudiesDetails btnTxt={btnTxt}/>
       <Tv video= '/CaseStudies.mp4'/>
       <Section heading={goal}  para={para} image={goalImg} />
       <Section heading={target}  para={para} image={targetImg} targetCom />

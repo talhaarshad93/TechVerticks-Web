@@ -1,6 +1,5 @@
-import { useState, useEffect } from 'react';
-import Image from 'next/image';
-import style from './ImageLayout.module.css';
+import Image from "next/image";
+import style from "./ImageLayout.module.css";
 import ImageLayout1 from '../../assets/images/ImageLayout3.svg';
 import ImageLayout2 from '../../assets/images/ImageLayout5.svg';
 import ImageLayout3 from '../../assets/images/ImageLayout2.svg';
@@ -10,17 +9,17 @@ import ImageLayout6 from '../../assets/images/ImageLayout4.svg';
 
 const imageListDivOne = [
   {
-    id: '01',
+    id: "01",
     img: ImageLayout1,
     isLarge: true,
   },
   {
-    id: '02',
+    id: "02",
     img: ImageLayout2,
     isLarge: false,
   },
   {
-    id: '03',
+    id: "03",
     img: ImageLayout3,
     isLarge: false,
   },
@@ -28,17 +27,17 @@ const imageListDivOne = [
 
 const imageListDivTwo = [
   {
-    id: '04',
+    id: "04",
     img: ImageLayout4,
     isLarge: false,
   },
   {
-    id: '05',
+    id: "05",
     img: ImageLayout5,
     isLarge: true,
   },
   {
-    id: '06',
+    id: "06",
     img: ImageLayout6,
     isLarge: false,
   },
@@ -53,26 +52,8 @@ const ImageComp = ({ imageArray }) => {
 };
 
 export default function ImageLayout() {
-  const [isAnimated, setIsAnimated] = useState(false);
-
-  useEffect(() => {
-    const handleScroll = () => {
-      const element = document.getElementById("mainDiv");
-      if (!element) return;
-
-      const elementOffset = element.offsetTop;
-      const scrollPosition = window.scrollY + window.innerHeight;
-      if (scrollPosition >= elementOffset && !isAnimated) {
-        setIsAnimated(true);
-      }
-    };
-
-    window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, [isAnimated]);
-
   return (
-    <div id="mainDiv" className={style.mainDiv}>
+    <div className={style.mainDiv}>
       <div className={style.SubDiv1}>
         <ImageComp imageArray={imageListDivOne} />
       </div>

@@ -13,7 +13,11 @@ const ImgandBtn = ({ imageUrl, imageHeight, imageWidth, btnTxt, width ,recent2Cs
   const router = useRouter();
   const particularProject = () => {
     // Navigate to the contact page when the button is clicked
-    router.push("/CaseStudies");
+    // router.push("/CaseStudies");
+    router.push({
+      pathname: '/CaseStudies',
+      query: { btnTxt }
+    });
   };
   
 

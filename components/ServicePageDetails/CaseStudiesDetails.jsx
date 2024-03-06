@@ -13,10 +13,10 @@ const bigHeading ="Botiga Mobile App"
 const description ="Tech Verticks offers full-cycle design & development services to clients in digitizing their business idea into a successful launch."
 
 
-const CaseStudiesDetails = () => {
+const CaseStudiesDetails = ({btnTxt}) => {
   return (
     <div className={style.container}>
-      <Heading SpanHeading={SpanHeading} bigHeading = {bigHeading} description={description}CaseStudies_Css/>  
+      <Heading SpanHeading={SpanHeading} bigHeading = {btnTxt} description={description}CaseStudies_Css btnTxt={btnTxt}/>  
       <div className={style.SubDiv}>
         <Image className={style.img} src={AppStoreGoogleLogo}   
       alt="App Store Logo"/>

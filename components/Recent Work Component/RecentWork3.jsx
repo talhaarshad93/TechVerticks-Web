@@ -21,7 +21,7 @@ const RecentWork3 = () => {
     heading="Our Andriod App Case Studies" width={"80%"}/>
     </div>
 
-    <ImgandBtn imageUrl ="/Geelink.mp4" btnTxt={'Meta Mobile App'} imageHeight={300} imageWidth={100}/>
+    <ImgandBtn imageUrl ="/Geelink.mp4" btnTxt={'The Geelink'} imageHeight={300} imageWidth={100}/>
 
     {/* <div className={style} >
     <div className={styles.weBuild}>RECENT WORKS</div>

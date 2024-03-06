@@ -20,14 +20,14 @@ const RecentWork = () => {
           imageUrl="/AppCrops.mp4"
           imageHeight={100}
           imageWidth={100}
-          btnTxt={"Botiga Mobile App"}
+          btnTxt={"App Crops"}
         />
 
         <ImgandBtn
           imageUrl="/Potrait Video 2.mp4"
           imageHeight={100}
           imageWidth={100}
-          btnTxt={"Woo Space App"}
+          btnTxt={"Muslim Me"}
         />
         {/* <ImgandBtn imageUrl = "../../assets/images/l.t.png" imageHeight={20} imageWidth={30}/> */}
       </div>
@@ -42,7 +42,7 @@ const RecentWork = () => {
           imageUrl="/Potrait Video 1.mp4"
           imageHeight={90}
           imageWidth={100}
-          btnTxt={"Meta Software Branding "}
+          btnTxt={"The Stryde "}
         />
         <button className={classNames(style.seeBtn, "")}>
           See all projects ({num})

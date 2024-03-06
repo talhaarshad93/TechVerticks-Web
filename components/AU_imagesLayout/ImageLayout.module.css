@@ -16,25 +16,46 @@
     height: 50%;
     display: flex;
     flex-direction: row;
+  animation: 5s SubDiv1 ease-out;
+
+
 }
 .SubDiv2{
     height: 50%;
     display: flex;
     flex-direction: row;
     margin-top: 1.5vw;
+  animation: 5s SubDiv2 ease-out;
+
 }
 
 .box1{
     width: 50%;
     /* height: 100%; */
     margin-right: 0.8vw;
-  animation: 2s box1 ease-out;
 
 }
-@keyframes box1  {
+@keyframes SubDiv1  {
     0% {
       opacity: 0;
-      transform: translateY(80%);
+      transform: translateX(-280%);
+    }
+    20% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }
+  @keyframes SubDiv2  {
+    0% {
+      opacity: 0;
+      transform: translateX(280%);
     }
     20% {
       opacity: 0;
@@ -52,7 +73,6 @@
     width: 25%;
     /* height: 100%; */
     margin-right: 0.8vw;
-  animation: 2s box2 ease-out;
 
 
 }

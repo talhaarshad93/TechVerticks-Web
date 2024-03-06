@@ -176,7 +176,10 @@
 }
 .img {
   width: 4.6vw;
-  margin-left: 0.5vw;
+  /* margin-left: 0.5vw; */
   height: 4.6vw;
-  /* background-color: yellow; */
+  margin-top: 3vw;
+  object-fit: contain;
+ position: relative;
 }
+

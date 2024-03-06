@@ -5,10 +5,12 @@ import MB2 from "../../assets/images/kate.png";
 
 import classNames from "classnames";
 import ImgTextComponent from "../Img and Text Component/ImgTextComponent";
+import { useRouter } from "next/router";
 
 
 
 const Description = ({heading,description,weBuildCSS}) => {
+  const router = useRouter();
   // const data = [
   //   { heading: "Mobile Application Development", image: MB1 },
   //   { heading: "Website Development", image: MB2 },
@@ -24,8 +26,8 @@ const Description = ({heading,description,weBuildCSS}) => {
         {description}
         
       </p>
-      <div className={classNames(styles.learnBtn, "")}>
-        <button className={styles.btn}>Learn More About Our Approach</button>
+      <div className={classNames(styles.learnBtn,)}>
+        <button onClick={()=>{router.push('/About')}} className={styles.btn}>Learn More About Our Approach</button>
       </div>
       {/* {data.map(item => (<ImgTextComponent src={item.image} />))     } */}
     </div>

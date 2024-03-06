@@ -27,3 +27,33 @@
     /* background-color: yellow; */
 
 }
+/* .main{
+    display: flex;
+    position: fixed;
+} */
+
+.cursor{
+   width: 2vw;
+   height: 2vw;
+   border: 1px solid #b65ecb;
+   background-color: transparent;
+   border-radius: 50%;
+   position: fixed;
+   top: 0;
+   left: 0;
+   pointer-events: none;
+    z-index: 1;
+    
+}
+.small{
+    width: 5px;
+    height: 5px;
+    /* border: 1px solid #B232D3; */
+    background-color: #B232D3;
+    border-radius: 50%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+     z-index: 2;
+ }

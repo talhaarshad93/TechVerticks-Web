@@ -56,6 +56,8 @@ const SubHeading = ({ data, handleClick, addingCss, hideHr ,width}) => {
     handleTransition();
   }, [isClicked]);
   return (
+    <div>
+
     <div className={classNames(style.mainDiv)}>
       <div className={classNames(style.leftDiv)}>
         <button
@@ -67,13 +69,13 @@ const SubHeading = ({ data, handleClick, addingCss, hideHr ,width}) => {
           // onClick={handleClick}
           onMouseEnter={handleClick}
           // onMouseLeave={handleClick}
-        >
+          >
           {heading}
         </button>
         { (
           <div
-            className={style.OnHover}
-            // classNames(fadeIn? style.fadeIn:style.textContainer)
+          className={style.OnHover}
+          // classNames(fadeIn? style.fadeIn:style.textContainer)
           >
 
             <div className={style.text}>{text}</div>
@@ -84,6 +86,7 @@ const SubHeading = ({ data, handleClick, addingCss, hideHr ,width}) => {
         {!hideHr && <hr className={style.hr} style={{ width: "47vw",}} />}
       </div>
     </div>
+        </div>
   );
 };
 

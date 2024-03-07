@@ -5,7 +5,7 @@ import styles from "./ServiceDetails.module.css";
 import Topheadings from "../TopHeadings/TopHeadings";
 
 const ServiceDetails = ({ newData }) => {
-  const [industryData, setIndustryData] = useState(newData?.listData||[]);
+  const [industryData, setIndustryData] = useState(newData?.listData || []);
   const taskPress = (heading, type, image) => {
     let newArray = industryData?.map((val, i) => {
       if (val.heading == heading) {
@@ -23,10 +23,8 @@ const ServiceDetails = ({ newData }) => {
       <hr className={styles.hr} />
       <div className={styles.mainDiv}>
         <div className={styles.heading}>
-          <div className={styles.topheadDiv}>
             {/* MOBILE APPLICATION DEVELOPMENT */}
             <Topheadings serviceCss heading={newData.heading} width="57vw" />
-          </div>
           {industryData.map((data, index) => (
             <>
               <SubHeading
@@ -37,10 +35,10 @@ const ServiceDetails = ({ newData }) => {
                 handleClick={() =>
                   taskPress(data?.heading, !data?.isClicked, data?.image)
                 }
-              />
+                />
             </>
           ))}
-        </div>
+          </div>
         <div className={styles.img}>
           <ImgTextComponent src={newData.image} alt="Image not Show" />
         </div>

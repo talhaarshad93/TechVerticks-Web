@@ -118,7 +118,7 @@
   color: #B232D3;
   font-family: "TT Interphases Pro Trial DemiBold";
   transition: all 0.4s ease-in-out;
-  box-shadow:  0.5vw 0.5vw 0.5vw #c5c5c5, -1vw -1vw 2vw #ffffff;
+  box-shadow:  0.2vw 0.2vw 0.5vw #c5c5c5, -1vw -1vw 2vw #ffffff;
   
 }
 .btn:hover {

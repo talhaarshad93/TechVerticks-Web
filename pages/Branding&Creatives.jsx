@@ -2,7 +2,7 @@
 import ImageSlider from "@/components/ImageSlider/ImageSlider";
 import Topheadings from "@/components/TopHeadings/TopHeadings";
 import React from "react";
-import sliderImg from "./../assets/images/sliderImage.png";
+import sliderImg from "./../assets/images/SliderImg1.png";
 import style from "./ServicePagesDetails.module.css";
 import GetInTouch from "@/components/GetinTouch/GetinTouch/GetinTouch";
 import HaveIdea from "@/components/Have Idea/HaveIdea";

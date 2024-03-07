@@ -2,10 +2,14 @@ import Heading from "@/components/Heading Component/Heading";
 import GetInTouch from "@/components/GetinTouch/GetinTouch/GetinTouch";
 import ImageSlider from "@/components/ImageSlider/ImageSlider";
 import React from "react";
-import mobSlide from "./../assets/images/mobSlide.png";
-import webSlide from "./../assets/images/webSlide.png";
-import brandSlide from "./../assets/images/brandSlide.png";
-import digitalSlide from "./../assets/images/digitalSlide.png";
+import SliderImg1 from "../assets/images/SliderImg1.png";
+import SliderImg2 from "../assets/images/SliderImg2.png";
+import SliderImg3 from "../assets/images/SliderImg3.png";
+import SliderImg4 from "../assets/images/SliderImg4.png";
+import SliderImg5 from "../assets/images/SliderImg5.png";
+import SliderImg6 from "../assets/images/SliderImg6.png";
+import SliderImg7 from "../assets/images/SliderImg7.png";
+import SliderImg8 from "../assets/images/SliderImg8.png";
 import HaveIdea from "@/components/Have Idea/HaveIdea";
 import Testimonials from "@/components/Testimonials/Testimonials";
 import ServiceDetails from "../components/ServiceDetails/ServiceDetails";
@@ -201,13 +205,13 @@ const description =
 const xAxis = {
   dots: false, // Disable dots navigation
   // infinite: true,
-  speed: 10000,
+  speed: 8000,
   autoplay: true,
   arrows: false,
-  autoplaySpeed: 0,
+  autoplaySpeed: 10,
   cssEase: 'linear',
   slidesToShow: 1,
-  slidesToScroll: 4,
+  slidesToScroll: 8,
   centerMode: true,
   // Enable center mode
   centerPadding: "21%", // Adjust the padding based on your design
@@ -215,10 +219,15 @@ const xAxis = {
 
 };
 const images = [
-  mobSlide,
-  webSlide,
-  brandSlide,
-  digitalSlide
+  SliderImg1,
+  SliderImg2,
+  SliderImg3,
+  SliderImg4,
+  SliderImg5,
+  SliderImg6,
+  SliderImg7,
+  SliderImg8,
+
 
   // Add more image paths as needed
 ];

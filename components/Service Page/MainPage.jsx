@@ -1,7 +1,7 @@
 // YourComponent.js
 import React from "react";
 import styles from "./MainPage.module.css";
-import sliderImg from "../../assets/images/sliderImage.png";
+import sliderImg from "../../assets/images/SliderImg1.png";
 import ImageSlider from "../ImageSlider/ImageSlider";
 import ServiceDetails from "../ServiceDetails/ServiceDetails";
 import sports from "../../assets/images/mob.png";

@@ -1,6 +1,8 @@
 .mainDiv {
   display: flex;
   width: 70%;
+  
+  
 }
 .container {
   padding: 5vw;
@@ -13,7 +15,6 @@
 }
 .bigOne {
   font-size: 3.5vw;
-  font-weight: 900;
   margin-bottom: 1vw;
   align-self: flex-start;
   border: none;
@@ -28,13 +29,13 @@
   transition: 1s;
 }
 .text {
-  /* width: 90%; */
+  width: 40vw;
   /* height: 10vw; */
   margin-left: 0.3vw;
   color: rgba(0, 0, 0, 0.6);
   font-size: 1.1vw;
   margin-top: 0.5vw;
-  /* background-color: yellow; */
+  padding-bottom: 2vw;
   font-family: "TT Interphases Pro Trial Regular";
 }
 /* .text:hover{
@@ -49,9 +50,7 @@
 } */
 .details {
   font-size: 1.2vw;
-  font-weight: 700;
-  margin-top: 1vw;
-  color: black;
+  margin-left: -0.2vw;
   color: rgba(179, 50, 212, 1);
   font-family: "TT Interphases Pro Trial DemiBold";
   background-color: transparent;
@@ -68,7 +67,6 @@
 }
 .font {
   font-size: 2vw;
-  font-weight: 700;
   padding: 0vw;
   margin: 0vw;
   /* margin-bottom: -20vw; */
@@ -88,14 +86,14 @@
   /* margin-top: 2vw; */
 }
 .leftDiv {
-  width: 500px;
+  width: 60vw;
   /* height: 300px; */
-  /* padding-left: 2vw; */
+  padding-left: 2vw;
   cursor: pointer;
   position: relative;
   overflow: hidden;
+  margin-top: 1vw;
   /* display: flex; */
-  /* background-color: yellow; */
 
 }
 .OnHover {
@@ -115,12 +113,12 @@
     /* padding: 1vw; */
     /* align-items: center; */
     box-sizing: border-box;
-    /* transition: all 0s ease-in;  */
+    /* transition: all 0.5s ease-in;  */
   }
   .leftDiv:hover .OnHover{
     display: block;  
     position: relative;
-    transition: all 0.8s ease-out;
+    transition: all 0.7s ease-out;
 
     /* width: 500px;
   height: 200px; */
@@ -130,6 +128,9 @@
 @media (max-width: 600px) {
   .hr {
     margin: 1vw;
+  }
+  .leftDiv{
+    margin-top: -1vw;
   }
   .text{
   margin-left: 1.2vw;

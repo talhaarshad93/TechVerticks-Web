@@ -1,59 +1,56 @@
-
-.portfolioDiv{
-    width: 50%;
-    /* margin-bottom: 5vw;
+.portfolioDiv {
+  width: 50%;
+  /* margin-bottom: 5vw;
     margin-top: 5vw; */
-    /* background-color: blue; */
-    margin: 0;
-    padding: 0;
+  /* background-color: blue; */
+  margin: 0;
+  padding: 0;
 }
-.portfolioDiv1{
-    width: 50%;
-    margin: 0;
-    padding: 0;
-    /* background-color: aqua; */
-    margin-left: 3vw;
+.portfolioDiv1 {
+  width: 50%;
+  margin: 0;
+  padding: 0;
+  /* background-color: aqua; */
+  margin-left: 3vw;
 }
-.portfolioDivMain{
-    display: flex;
-    /* flex-direction: row; */
-    /* flex-wrap: wrap; */
-    /* align-items: center; */
-    justify-content: space-evenly;
-    /* width: 100vw; */
-    margin-bottom: 5vw;
-    margin-top: 5vw;
-    padding: 4vw;
-    /* background-color: yellow; */
-
+.portfolioDivMain {
+  display: flex;
+  /* flex-direction: row; */
+  /* flex-wrap: wrap; */
+  /* align-items: center; */
+  justify-content: space-evenly;
+  /* width: 100vw; */
+  margin-bottom: 5vw;
+  margin-top: 5vw;
+  padding: 4vw;
+  /* background-color: yellow; */
 }
 /* .main{
     display: flex;
     position: fixed;
 } */
 
-.cursor{
-   width: 2vw;
-   height: 2vw;
-   border: 1px solid #b65ecb;
-   background-color: transparent;
-   border-radius: 50%;
-   position: fixed;
-   top: 0;
-   left: 0;
-   pointer-events: none;
-    z-index: 1;
-    
+.cursor {
+  width: 2vw;
+  height: 2vw;
+  border: 1px solid #b65ecb;
+  background-color: transparent;
+  border-radius: 50%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  z-index: 1;
 }
-.small{
-    width: 5px;
-    height: 5px;
-    /* border: 1px solid #B232D3; */
-    background-color: #B232D3;
-    border-radius: 50%;
-    position: fixed;
-    top: 0;
-    left: 0;
-    pointer-events: none;
-     z-index: 2;
- }
+.small {
+  width: 0.4vw;
+  height: 0.4vw;
+  /* border: 1px solid #B232D3; */
+  background-color: #b232d3;
+  border-radius: 50%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  z-index: 2;
+}

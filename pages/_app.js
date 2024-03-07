@@ -69,7 +69,7 @@ export default function App({ Component, pageProps }) {
         // animate="default1"
         animate={{
           x: smallPosition.x -2,
-          y: smallPosition.y -2,
+          y: smallPosition.y -3,
           transition: { type: "spring", mass: 0.1 },
         }}
       ></motion.div>

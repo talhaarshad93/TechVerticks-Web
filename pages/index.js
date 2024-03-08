@@ -153,7 +153,7 @@ export default function Home() {
         name3={WeBuildName2}
       />
 
-  
+  {/* <MainPage/> */}
     <RecentWork />
       <OurServices />
       <Industries />

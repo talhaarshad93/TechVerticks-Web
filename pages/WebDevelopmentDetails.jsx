@@ -2,7 +2,18 @@
 import ImageSlider from "@/components/ImageSlider/ImageSlider";
 import Topheadings from "@/components/TopHeadings/TopHeadings";
 import React from "react";
-import sliderImg from "./../assets/images/sliderImage.png";
+// import sliderImg from "./../assets/images/sliderImage.png";
+import SliderImg1 from "../assets/images/SliderImg1.png";
+import SliderImg2 from "../assets/images/SliderImg2.png";
+import SliderImg3 from "../assets/images/SliderImg3.png";
+import SliderImg4 from "../assets/images/SliderImg4.png";
+import SliderImg5 from "../assets/images/SliderImg5.png";
+import SliderImg6 from "../assets/images/SliderImg6.png";
+import SliderImg7 from "../assets/images/SliderImg7.png";
+import SliderImg8 from "../assets/images/SliderImg8.png";
+
+
+
 import style from "./ServicePagesDetails.module.css";
 import styles from "./WebDevelopmentDetail.module.css";
 import GetInTouch from "@/components/GetinTouch/GetinTouch/GetinTouch";
@@ -37,13 +48,13 @@ import VueJS from "../assets/images/VueJS.png"
 const yAxis = {
   dots: false, // Disable dots navigation
   // infinite: true,
-  speed: 10000,
+  speed: 5000,
   autoplay: true,
   arrows: false,
   autoplaySpeed: 0,
   cssEase: 'linear',
   slidesToShow: 1,
-  slidesToScroll: 4,
+  slidesToScroll: 8,
   centerMode: true,
   // Enable center mode
   centerPadding: "21%", // Adjust the padding based on your design
@@ -125,7 +136,17 @@ const WD_data = [
     ),
   },
 ];
-const images = [sliderImg, sliderImg, sliderImg];
+const images = [
+  SliderImg1,
+  SliderImg2,
+  SliderImg3,
+  SliderImg4,
+  SliderImg5,
+  SliderImg6,
+  SliderImg7,
+  SliderImg8,
+  
+  ];
 const data = [
   {
     heading: "E-commerce Web Development",

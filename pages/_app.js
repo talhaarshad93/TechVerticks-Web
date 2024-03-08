@@ -17,7 +17,7 @@ export default function App({ Component, pageProps }) {
       })
       .catch((err) => {
         // Handle error while loading Bootstrap
-        console.error("Error loading Bootstrap:", err);
+      
       });
   }, []);
 

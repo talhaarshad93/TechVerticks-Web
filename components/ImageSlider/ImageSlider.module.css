@@ -1,9 +1,12 @@
 /* ImageSlider.module.css */
 .slider {
-    width: 90%;
+padding-top: 3vw;
+    /* width: 90%; */
     /* height: 5vw; */
     margin: auto;
+    /* object-fit: contain; */
     /* display: flex; */
+    margin-bottom: 4vw;
   }
   
   .slide  {
@@ -13,11 +16,13 @@
     /* width: 60%; */
     /* height: 80vw; */
     /* margin-right: -20px; */
-    padding: 2vw;
+    /* object-fit: contain; */
+    padding: 1vw;
   }
   .image{
     width: 100%;
     height: 90%;
+    object-fit:cover;
     border-radius: 1vw;
   }
   .main{

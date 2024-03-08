@@ -40,7 +40,7 @@ const ServiceDetails = ({ newData }) => {
           ))}
           </div>
         <div className={styles.img}>
-          <ImgTextComponent src={newData.image} alt="Image not Show" />
+          <ImgTextComponent src={newData.image} alt="Image not Show"/>
         </div>
       </div>
     </div>

@@ -33,6 +33,7 @@
 .cursor {
   width: 2vw;
   height: 2vw;
+  content: "dsdad";
   border: 1px solid #b65ecb;
   background-color: transparent;
   border-radius: 50%;

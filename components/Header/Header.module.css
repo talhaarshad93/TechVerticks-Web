@@ -38,9 +38,10 @@
   padding: 0;
 } */
 .navbar {
-  width: 70%;
+  /* width: 70%; */
   /* height: 14vw; */
   background-color: transparent;
+  /* background-color: antiquewhite; */
   /* position: fixed;  */
   /* align-items: center; */
   /* top: 3vw; */
@@ -55,6 +56,8 @@
   /* padding: 0.2vw; */
   /* margin-top: 2vw; */
   margin-right: 1.1vw;
+  text-wrap: nowrap;
+  /* width: auto; */
   /* background-color: #B232D3; */
   text-decoration: none;
   text-transform: uppercase;
@@ -68,11 +71,11 @@
   display: flex;
   
   flex-direction: row;
-  padding: 5vw;
+  /* padding: 4vw; */
+  /* background-color: aqua; */
   /* justify-content:space-evenly;   */
   /* align-items: center; */
-  /* width: 4vw; */
-  /* background-color: blueviolet; */
+  /* width: 7vw; */
   /* justify-content: center; */
 }
 .navbar ul li {
@@ -168,7 +171,7 @@ ul.subMenu{
   width: 100%;
   height: 100%;
   background-color: white;
-  margin-top: 1.5vw;
+  margin-top: 0.7vw;
 }
 ul.subMenu >.subMenuDiv li{
   width: 13vw;
@@ -183,7 +186,9 @@ ul li:hover ul.subMenu{
 .dropDown{
   width: 1vw;
   height: 1vw;
-  display: inline;
+  margin-left: 0.3vw;
+  object-fit: contain;
+  /* display: inline; */
 /* background-color: yellow; */
 }
 /* li#drop{

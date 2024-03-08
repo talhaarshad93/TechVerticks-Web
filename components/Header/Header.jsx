@@ -62,8 +62,8 @@ const Header = () => {
                   <Link href={"/ServicePage"}>
                 <Image src={Services} className={style.menuIconImg} alt="img"/>
                 Services
-            </Link>
                 <Image src={dropDown} className={style.dropDown} />
+            </Link>
 
                 <ul className={style.subMenu}>
                   <div className={style.subMenuDiv}>

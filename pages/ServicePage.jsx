@@ -29,7 +29,7 @@ import RecentWork2 from "@/components/Recent Work Component/RecentWork2";
 const sectionsDataArray = [
   {
     heading: "Mobile Application Development",
-    image: "/mobile.mp4",
+    image: "/MAD.mp4",
     listData: [
       {
         heading: "IOS Development",
@@ -59,7 +59,7 @@ const sectionsDataArray = [
   },
   {
     heading: "Website Development",
-    image: "/WebsiteDevelopment.mp4",
+    image: "/WebDev.mp4",
     listData: [
       {
         heading: "PHP Development",
@@ -83,7 +83,7 @@ const sectionsDataArray = [
   },
   {
     heading: <> Design &  <br />Creativity</>,
-    image: "/Design&Creative.mp4",
+    image: '/UIDesign.mp4',
     listData: [
       {
         heading: "UI/UX Design",
@@ -168,7 +168,7 @@ const sectionsDataArray = [
   // },
   {
     heading: <>Digital <br/>Marketing</>,
-    image: "/DigitalMarketing.mp4",
+    image: "/Marketing.mp4",
     listData: [
       {
         heading: "Social Media Marketing",

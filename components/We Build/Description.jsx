@@ -1,7 +1,5 @@
 import React from "react";
 import styles from "./Count.module.css";
-import MB1 from "../../assets/images/serviceImg.png";
-import MB2 from "../../assets/images/kate.png";
 
 import classNames from "classnames";
 import ImgTextComponent from "../Img and Text Component/ImgTextComponent";

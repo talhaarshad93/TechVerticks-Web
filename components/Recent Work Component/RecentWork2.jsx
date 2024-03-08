@@ -2,9 +2,6 @@ import React from 'react'
 import style from "./RecentWork.module.css";
 import ImgandBtn from './ImgandBtn';
 import Topheadings from '../TopHeadings/TopHeadings';
-import styles from './../We Build/Count.module.css'
-import botiga from '../../assets/images/botiga.png'
-import meta from '../../assets/images/meta.png'
 
 let num = 10
 

@@ -8,7 +8,6 @@ import OurServices from "@/components/Our Services/OurServices";
 import Industries from "@/components/Industries/Industries";
 import OverPartner from "@/components/OverPartnerComp/OverPartner";
 import GetInTouch from "@/components/GetinTouch/GetinTouch/GetinTouch";
-import MainPage from "@/components/Service Page/MainPage";
 import WhyChoose from "@/components/SPD-WhyChoose/WhyChoose";
 import ValueComp from "@/components/valueComponent/ValueComp";
 import OfficeComponent from "@/components/OfficeComponent/OfficeComponent";

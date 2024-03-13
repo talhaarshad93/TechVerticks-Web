@@ -59,10 +59,14 @@ const Header = () => {
                   router.pathname === "/ServicePage" ? style.active : ""
                 }
               >
-                  <Link href={"/ServicePage"}>
+                  <Link href={"/ServicePage"} >
+                    {/* <li> */}
                 <Image src={Services} className={style.menuIconImg} alt="img"/>
-                Services
+               <div className={style.ServiceDiv}>
+               Services
+                </div> 
                 <Image src={dropDown} className={style.dropDown} />
+                    {/* </li> */}
             </Link>
 
                 <ul className={style.subMenu}>
